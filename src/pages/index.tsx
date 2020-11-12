@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
       <Layout>
         <h1>Hello fellows</h1>
+        <p> Hello cats</p>
       </Layout>
     </div>
   );
