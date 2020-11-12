@@ -1,0 +1,194 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": {
+        "pl": "Pelargonia",
+        "lat": "Pelargonium species"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 2,
+      "name": {
+        "pl": "Dracena",
+        "lat": "Dracaena spp."
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 3,
+      "name": {
+        "pl": "Begonia królewska",
+        "lat": "Begonia rex"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 4,
+      "name": {
+        "pl": "Chamedora wytworna",
+        "lat": "Chamaedorea elegans"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 5,
+      "name": {
+        "pl": "Fiołek afrykański",
+        "lat": "Saintpaulia ionantha"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 6,
+      "name": {
+        "pl": "Fiołek alpejski",
+        "lat": "Viola alpina"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 7,
+      "name": {
+        "pl": "Guzmania języczkowata",
+        "lat": "Guzmania lingulata"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100",
+      "source": ""
+    },
+    {
+      "id": 8,
+      "name": {
+        "pl": "Maranta białounerwiona",
+        "lat": "Maranta leuconeura"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 9,
+      "name": {
+        "pl": "Nefrolepis wyniosły",
+        "lat": "Nephrolepis exaltata"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 10,
+      "name": {
+        "pl": "Nolina wygięta",
+        "lat": "Beaucarnea recurvata"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 11,
+      "name": {
+        "pl": "Storczyk falenopsis ",
+        "lat": "Phalaenopsis sp."
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 12,
+      "name": {
+        "pl": "Szlumbergera",
+        "lat": "Schlumbergera bridgesii"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 13,
+      "name": {
+        "pl": "Zielistka Sternberga",
+        "lat": "Chlorophytum comosum"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 14,
+      "name": {
+        "pl": "Aspidistra",
+        "lat": "Aspidistra elatior"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 15,
+      "name": {
+        "pl": "Paproć Zanokcica",
+        "lat": "Asplenium Parvati"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 16,
+      "name": {
+        "pl": "Fikus lirolistny",
+        "lat": "Ficus lyrate"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 17,
+      "name": {
+        "pl": "Monstera dziurawa",
+        "lat": "Monstera deliciosa"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 18,
+      "name": {
+        "pl": "Palma Chamedora",
+        "lat": "Chamaedorea elegans"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 19,
+      "name": {
+        "pl": "Palma Areka",
+        "lat": "Dypsis lutescens"
+      },
+      "isSafe": true,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 20,
+      "name": {
+        "pl": "Strelicja królewska",
+        "lat": "Strelitzia reginae"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    },
+    {
+      "id": 21,
+      "name": {
+        "pl": "Aloes",
+        "lat": "Aloe vera"
+      },
+      "isSafe": false,
+      "img": "https://picsum.photos/100"
+    }
+  ]
+}
