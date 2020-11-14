@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Layout from '../components/Layout/Layout';
 import Navigation from '../components/Navigation';
 import PlantList from '../components/Plants/PlantList';
 import fs from 'fs';
@@ -9,15 +8,14 @@ export default function Home({ plants }) {
   return (
     <div>
       <Head>
-        <title>Cats</title>
+        <title>Hello cats</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <Layout>
-        <h1>Hello fellows</h1>
-        <p> Hello cats</p>
+      <div className="max-w-4xl mx-auto">
+        <p className="text-xl text-green-500 mb-4">Hello cats</p>
         <PlantList plants={plants} />
-      </Layout>
+      </div>
     </div>
   );
 }

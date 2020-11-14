@@ -1,15 +1,8 @@
-type PlantType = {
-  slug: string;
-  name: {
-    pl: string;
-    lat: string;
-  };
-  isSafe: boolean;
-  img: string;
-};
+import Plant from './Plant';
+import type PlantType from './Plant';
 
 type PlantGroupType = {
-  [key: string]: PlantType;
+  [key: string]: typeof PlantType;
 };
 
 export default function PlantList({ plants }: PlantGroupType) {
@@ -17,9 +10,7 @@ export default function PlantList({ plants }: PlantGroupType) {
   return (
     <>
       {plants.map((plant, index) => (
-        <div key={index}>
-          {plant.name.pl} - {plant.isSafe ? 'is safe' : 'is toxic'}
-        </div>
+        <Plant key={index} plant={plant} />
       ))}
     </>
   );
