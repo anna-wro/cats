@@ -1,18 +1,15 @@
 export type PlantType = {
-    slug: string;
-    name: {
-      pl: string;
-      lat: string;
-    };
-    isSafe: boolean;
-    img: string;
+  name: {
+    pl: string;
+    lat: string;
   };
-  
-  export default function PlantList({plant} : {plant: PlantType}) {
-    return (
-          <div className="pb-3">
-            {plant.name.pl} {plant.isSafe ? '✅' : '🍄'}
-          </div>
-    );
-  }
-  
+  isSafe: boolean;
+};
+
+export default function PlantList({ plant }: { plant: PlantType }) {
+  return (
+    <div className="pb-3">
+      {plant.name.pl} {plant.isSafe ? '✅' : '🍄'}
+    </div>
+  );
+}
