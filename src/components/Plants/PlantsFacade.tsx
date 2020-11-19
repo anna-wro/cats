@@ -5,8 +5,8 @@ import { shuffleArray } from '../../utils/shuffleArray';
 
 export default function PlantsFacade() {
   const plants = [...safe, ...toxic];
-  shuffleArray(plants);
+  const shuffledPlants = shuffleArray(plants);
 
 //   FIXME: types
-  return <PlantList plants={plants} />;
+  return <PlantList plants={shuffledPlants} />;
 }
