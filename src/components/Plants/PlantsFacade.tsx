@@ -7,6 +7,5 @@ export default function PlantsFacade() {
   const plants = [...safe, ...toxic];
   const shuffledPlants = shuffleArray(plants);
 
-//   FIXME: types
   return <PlantList plants={shuffledPlants} />;
 }
