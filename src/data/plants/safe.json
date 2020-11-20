@@ -60,7 +60,7 @@
   },
   {
     "name": {
-      "pl": ["szlumbergera", "zygokaktus", "kaktus bożonarodzeniowy"],
+      "pl": ["szlumbergera", "zygokaktus", "kaktus bożonarodzeniowy", "grudnik"],
       "lat": "schlumbergera bridgesii"
     },
     "isSafe": true
@@ -98,6 +98,34 @@
     "name": {
       "pl": ["palma areka"],
       "lat": "dypsis lutescens"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["stefanotis bukietowy"],
+      "lat": "stephanotis floribunda"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk cymbidium"],
+      "lat": "cymbidium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk dendrobium"],
+      "lat": "dendrobium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk oncidium", "motylnik"],
+      "lat": "oncidium"
     },
     "isSafe": true
   }

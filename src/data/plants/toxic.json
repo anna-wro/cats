@@ -61,5 +61,33 @@
       "lat": "aloe vera"
     },
     "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["anturium", "kitnia"],
+      "lat": "anthurium sp."
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["gwiazda betlejemska", "wilczomlecz nadobny", "poinsecja"],
+      "lat": "euphorbia pulcherrima"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["rododendron", "różanecznik", "poinsecja"],
+      "lat": "rhododendron spp"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["azalia indyjska"],
+      "lat": "rhododendron simsii"
+    },
+    "isSafe": false
   }
 ]
