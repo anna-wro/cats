@@ -1,0 +1,94 @@
+[
+  {
+    "name": {
+      "pl": "Chamedora wytworna",
+      "lat": "Chamaedorea elegans"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Fiołek afrykański",
+      "lat": "Saintpaulia ionantha"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Guzmania języczkowata",
+      "lat": "Guzmania lingulata"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Maranta białounerwiona",
+      "lat": "Maranta leuconeura"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Nefrolepis wyniosły",
+      "lat": "Nephrolepis exaltata"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Nolina wygięta",
+      "lat": "Beaucarnea recurvata"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Storczyk falenopsis ",
+      "lat": "Phalaenopsis sp."
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Szlumbergera",
+      "lat": "Schlumbergera bridgesii"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Zielistka Sternberga",
+      "lat": "Chlorophytum comosum"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Aspidistra",
+      "lat": "Aspidistra elatior"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Paproć Zanokcica",
+      "lat": "Asplenium Parvati"
+    },
+    "isSafe": true
+  },
+
+  {
+    "name": {
+      "pl": "Palma Chamedora",
+      "lat": "Chamaedorea elegans"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": "Palma Areka",
+      "lat": "Dypsis lutescens"
+    },
+    "isSafe": true
+  }
+]

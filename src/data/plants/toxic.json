@@ -1,0 +1,58 @@
+[
+  {
+    "name": {
+      "pl": "Pelargonia",
+      "lat": "Pelargonium species"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Dracena",
+      "lat": "Dracaena spp."
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Begonia królewska",
+      "lat": "Begonia rex"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Fiołek alpejski",
+      "lat": "Viola alpina"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Fikus lirolistny",
+      "lat": "Ficus lyrate"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Monstera dziurawa",
+      "lat": "Monstera deliciosa"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Strelicja królewska",
+      "lat": "Strelitzia reginae"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": "Aloes",
+      "lat": "Aloe vera"
+    },
+    "isSafe": false
+  }
+]
