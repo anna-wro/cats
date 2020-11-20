@@ -78,15 +78,8 @@
   },
   {
     "name": {
-      "pl": ["rododendron", "różanecznik", "poinsecja"],
+      "pl": ["azalia", "rododendron", "różanecznik", "poinsecja"],
       "lat": "rhododendron spp"
-    },
-    "isSafe": false
-  },
-  {
-    "name": {
-      "pl": ["azalia indyjska"],
-      "lat": "rhododendron simsii"
     },
     "isSafe": false
   }
