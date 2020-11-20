@@ -128,5 +128,12 @@
       "lat": "oncidium"
     },
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["peperomia"],
+      "lat": "piperaceae"
+    },
+    "isSafe": true
   }
 ]

@@ -82,5 +82,26 @@
       "lat": "rhododendron spp"
     },
     "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["trzykrotka", "tradeskancja"],
+      "lat": "tradescantia flumeninsis"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["kalanchoe", "żyworódka"],
+      "lat": "kalanchoe spp"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["skrzydłokwiat", "skrzydłolist"],
+      "lat": "spathiphyllum"
+    },
+    "isSafe": false
   }
 ]
