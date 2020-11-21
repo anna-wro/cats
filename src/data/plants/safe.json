@@ -135,5 +135,82 @@
       "lat": "piperaceae"
     },
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["bromelia doniczkowa"],
+      "lat": "bromelia"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["neoregelia"],
+      "lat": "neoregalia spp"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["kalatea", "ostrzeszyn"],
+      "lat": "calathea"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["pokoślin baldaszkowaty"],
+      "lat": "eriogonium umbellatum"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
+      "lat": "platycerium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["ciemnotka okrągłolistna"],
+      "lat": "pellaea rotundifolia"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["gerbera"],
+      "lat": "gerbera jamesonii"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["słonecznik"],
+      "lat": "helianthus spp."
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["lwia paszcza", "wyżlin większy"],
+      "lat": "antirrhinum majus"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["frezja"],
+      "lat": "freesia corymbosa"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["limonium", "zatrwian"],
+      "lat": "limonium"
+    },
+    "isSafe": true
   }
 ]

@@ -103,5 +103,47 @@
       "lat": "spathiphyllum"
     },
     "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["kaladium", "obraźnica"],
+      "lat": "caladium hortulanum"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["alokazja", "zakleśń"],
+      "lat": "alocasia"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["cibora zmienna", "cyperus"],
+      "lat": "cyperus"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["kordylina krzewiasta", "kordylina paciorecznikolistna"],
+      "lat": "cordyline terminalis"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["kordylina australijska"],
+      "lat": "cordyline australis"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["kroton", "trójskrzyn"],
+      "lat": "codiaeum"
+    },
+    "isSafe": false
   }
 ]
