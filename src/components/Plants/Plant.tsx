@@ -1,6 +1,6 @@
 export type PlantType = {
   name: {
-    pl: string;
+    pl: string[];
     lat: string;
   };
   isSafe: boolean;
@@ -9,7 +9,7 @@ export type PlantType = {
 export default function Plant({ plant }: { plant: PlantType }) {
   return (
     <div className="pb-3">
-      {plant.name.pl} {plant.isSafe ? '✅' : '🍄'}
+      {plant.name.pl[0]} {plant.isSafe ? '✅' : '🍄'}
     </div>
   );
 }

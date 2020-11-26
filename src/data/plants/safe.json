@@ -1,93 +1,215 @@
 [
   {
     "name": {
-      "pl": "Chamedora wytworna",
-      "lat": "Chamaedorea elegans"
+      "pl": ["chamedora wytworna", "chamedora wyniosła", "palma koralowa"],
+      "lat": "chamaedorea elegans"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Fiołek afrykański",
-      "lat": "Saintpaulia ionantha"
+      "pl": ["fiołek afrykański", "sępolia", "saintpaulia"],
+      "lat": "saintpaulia ionantha"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Guzmania języczkowata",
-      "lat": "Guzmania lingulata"
+      "pl": ["guzmania języczkowata"],
+      "lat": "guzmania lingulata"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Maranta białounerwiona",
-      "lat": "Maranta leuconeura"
+      "pl": ["maranta białounerwiona"],
+      "lat": "maranta leuconeura"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Nefrolepis wyniosły",
-      "lat": "Nephrolepis exaltata"
+      "pl": [
+        "nefrolepis wyniosły",
+        "nefrolepis wysoki",
+        "nerczyłusk wyniosły",
+        "paprotka"
+      ],
+      "lat": "nephrolepis exaltata"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Nolina wygięta",
-      "lat": "Beaucarnea recurvata"
+      "pl": [
+        "nolina wygięta",
+        "beukarnea wygięta",
+        "bokarnea odgięta",
+        "noga słonia"
+      ],
+      "lat": "beaucarnea recurvata"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Storczyk falenopsis ",
-      "lat": "Phalaenopsis sp."
+      "pl": ["storczyk phalaenopsis", "falenopsis"],
+      "lat": "phalaenopsis sp."
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Szlumbergera",
-      "lat": "Schlumbergera bridgesii"
+      "pl": ["szlumbergera", "zygokaktus", "kaktus bożonarodzeniowy", "grudnik"],
+      "lat": "schlumbergera bridgesii"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Zielistka Sternberga",
-      "lat": "Chlorophytum comosum"
+      "pl": ["zielistka Sternberga", "zielistka czubiasta"],
+      "lat": "chlorophytum comosum"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Aspidistra",
-      "lat": "Aspidistra elatior"
+      "pl": ["aspidistra wyniosła", "żelazny liść"],
+      "lat": "aspidistra elatior"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Paproć Zanokcica",
-      "lat": "Asplenium Parvati"
+      "pl": ["asplenium", "zanokcica"],
+      "lat": "asplenium bulbiferum"
     },
     "isSafe": true
   },
 
   {
     "name": {
-      "pl": "Palma Chamedora",
-      "lat": "Chamaedorea elegans"
+      "pl": ["chamedora wytworna", "palma koralowa"],
+      "lat": "chamaedorea elegans"
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": "Palma Areka",
-      "lat": "Dypsis lutescens"
+      "pl": ["palma areka"],
+      "lat": "dypsis lutescens"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["stefanotis bukietowy"],
+      "lat": "stephanotis floribunda"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk cymbidium"],
+      "lat": "cymbidium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk dendrobium"],
+      "lat": "dendrobium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["storczyk oncidium", "motylnik"],
+      "lat": "oncidium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["peperomia"],
+      "lat": "piperaceae"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["bromelia doniczkowa"],
+      "lat": "bromelia"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["neoregelia"],
+      "lat": "neoregalia spp"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["kalatea", "ostrzeszyn"],
+      "lat": "calathea"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["pokoślin baldaszkowaty"],
+      "lat": "eriogonium umbellatum"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
+      "lat": "platycerium"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["ciemnotka okrągłolistna"],
+      "lat": "pellaea rotundifolia"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["gerbera"],
+      "lat": "gerbera jamesonii"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["słonecznik"],
+      "lat": "helianthus spp."
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["lwia paszcza", "wyżlin większy"],
+      "lat": "antirrhinum majus"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["frezja"],
+      "lat": "freesia corymbosa"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["limonium", "zatrwian"],
+      "lat": "limonium"
     },
     "isSafe": true
   }
