@@ -2,6 +2,7 @@
   {
     "name": {
       "pl": ["chamedora wytworna", "chamedora wyniosła", "palma koralowa"],
+      "en": [""],
       "lat": "chamaedorea elegans"
     },
     "isSafe": true
@@ -9,6 +10,7 @@
   {
     "name": {
       "pl": ["fiołek afrykański", "sępolia", "saintpaulia"],
+      "en": [""],
       "lat": "saintpaulia ionantha"
     },
     "isSafe": true
@@ -16,6 +18,7 @@
   {
     "name": {
       "pl": ["guzmania języczkowata"],
+      "en": [""],
       "lat": "guzmania lingulata"
     },
     "isSafe": true
@@ -23,6 +26,7 @@
   {
     "name": {
       "pl": ["maranta białounerwiona"],
+      "en": [""],
       "lat": "maranta leuconeura"
     },
     "isSafe": true
@@ -35,6 +39,7 @@
         "nerczyłusk wyniosły",
         "paprotka"
       ],
+      "en": [""],
       "lat": "nephrolepis exaltata"
     },
     "isSafe": true
@@ -47,6 +52,7 @@
         "bokarnea odgięta",
         "noga słonia"
       ],
+      "en": [""],
       "lat": "beaucarnea recurvata"
     },
     "isSafe": true
@@ -54,13 +60,20 @@
   {
     "name": {
       "pl": ["storczyk phalaenopsis", "falenopsis"],
+      "en": [""],
       "lat": "phalaenopsis sp."
     },
     "isSafe": true
   },
   {
     "name": {
-      "pl": ["szlumbergera", "zygokaktus", "kaktus bożonarodzeniowy", "grudnik"],
+      "pl": [
+        "szlumbergera",
+        "zygokaktus",
+        "kaktus bożonarodzeniowy",
+        "grudnik"
+      ],
+      "en": [""],
       "lat": "schlumbergera bridgesii"
     },
     "isSafe": true
@@ -68,6 +81,7 @@
   {
     "name": {
       "pl": ["zielistka Sternberga", "zielistka czubiasta"],
+      "en": [""],
       "lat": "chlorophytum comosum"
     },
     "isSafe": true
@@ -75,6 +89,7 @@
   {
     "name": {
       "pl": ["aspidistra wyniosła", "żelazny liść"],
+      "en": [""],
       "lat": "aspidistra elatior"
     },
     "isSafe": true
@@ -82,6 +97,7 @@
   {
     "name": {
       "pl": ["asplenium", "zanokcica"],
+      "en": [""],
       "lat": "asplenium bulbiferum"
     },
     "isSafe": true
@@ -90,6 +106,7 @@
   {
     "name": {
       "pl": ["chamedora wytworna", "palma koralowa"],
+      "en": [""],
       "lat": "chamaedorea elegans"
     },
     "isSafe": true
@@ -97,6 +114,7 @@
   {
     "name": {
       "pl": ["palma areka"],
+      "en": [""],
       "lat": "dypsis lutescens"
     },
     "isSafe": true
@@ -104,6 +122,7 @@
   {
     "name": {
       "pl": ["stefanotis bukietowy"],
+      "en": [""],
       "lat": "stephanotis floribunda"
     },
     "isSafe": true
@@ -111,6 +130,7 @@
   {
     "name": {
       "pl": ["storczyk cymbidium"],
+      "en": [""],
       "lat": "cymbidium"
     },
     "isSafe": true
@@ -118,6 +138,7 @@
   {
     "name": {
       "pl": ["storczyk dendrobium"],
+      "en": [""],
       "lat": "dendrobium"
     },
     "isSafe": true
@@ -125,6 +146,7 @@
   {
     "name": {
       "pl": ["storczyk oncidium", "motylnik"],
+      "en": [""],
       "lat": "oncidium"
     },
     "isSafe": true
@@ -132,6 +154,7 @@
   {
     "name": {
       "pl": ["peperomia"],
+      "en": [""],
       "lat": "piperaceae"
     },
     "isSafe": true
@@ -139,6 +162,7 @@
   {
     "name": {
       "pl": ["bromelia doniczkowa"],
+      "en": [""],
       "lat": "bromelia"
     },
     "isSafe": true
@@ -146,6 +170,7 @@
   {
     "name": {
       "pl": ["neoregelia"],
+      "en": [""],
       "lat": "neoregalia spp"
     },
     "isSafe": true
@@ -153,6 +178,7 @@
   {
     "name": {
       "pl": ["kalatea", "ostrzeszyn"],
+      "en": [""],
       "lat": "calathea"
     },
     "isSafe": true
@@ -160,6 +186,7 @@
   {
     "name": {
       "pl": ["pokoślin baldaszkowaty"],
+      "en": [""],
       "lat": "eriogonium umbellatum"
     },
     "isSafe": true
@@ -167,6 +194,7 @@
   {
     "name": {
       "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
+      "en": [""],
       "lat": "platycerium"
     },
     "isSafe": true
@@ -174,6 +202,7 @@
   {
     "name": {
       "pl": ["ciemnotka okrągłolistna"],
+      "en": [""],
       "lat": "pellaea rotundifolia"
     },
     "isSafe": true
@@ -181,6 +210,7 @@
   {
     "name": {
       "pl": ["gerbera"],
+      "en": [""],
       "lat": "gerbera jamesonii"
     },
     "isSafe": true
@@ -188,6 +218,7 @@
   {
     "name": {
       "pl": ["słonecznik"],
+      "en": [""],
       "lat": "helianthus spp."
     },
     "isSafe": true
@@ -195,6 +226,7 @@
   {
     "name": {
       "pl": ["lwia paszcza", "wyżlin większy"],
+      "en": [""],
       "lat": "antirrhinum majus"
     },
     "isSafe": true
@@ -202,6 +234,7 @@
   {
     "name": {
       "pl": ["frezja"],
+      "en": [""],
       "lat": "freesia corymbosa"
     },
     "isSafe": true
@@ -209,6 +242,7 @@
   {
     "name": {
       "pl": ["limonium", "zatrwian"],
+      "en": [""],
       "lat": "limonium"
     },
     "isSafe": true

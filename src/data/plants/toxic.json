@@ -2,6 +2,7 @@
   {
     "name": {
       "pl": ["pelargonia", "geranium", "anginka", "anginowiec", "ruzyndla"],
+      "en": [""],
       "lat": "pelargonium sp."
     },
     "isSafe": false
@@ -9,6 +10,7 @@
   {
     "name": {
       "pl": ["dracena"],
+      "en": [""],
       "lat": "dracaena spp."
     },
     "isSafe": false
@@ -16,6 +18,7 @@
   {
     "name": {
       "pl": ["begonia", "ukośnica"],
+      "en": [""],
       "lat": "begonia spp."
     },
     "isSafe": false
@@ -23,6 +26,7 @@
   {
     "name": {
       "pl": ["fiołek alpejski", "cyklamen perski"],
+      "en": [""],
       "lat": "viola alpina"
     },
     "isSafe": false
@@ -30,6 +34,7 @@
   {
     "name": {
       "pl": ["fikus lirolistny", "figowiec dębolistny"],
+      "en": [""],
       "lat": "ficus lyrata"
     },
     "isSafe": false
@@ -37,6 +42,7 @@
   {
     "name": {
       "pl": ["monstera dziurawa"],
+      "en": [""],
       "lat": "monstera deliciosa"
     },
     "isSafe": false
@@ -44,6 +50,7 @@
   {
     "name": {
       "pl": ["filodendron"],
+      "en": [""],
       "lat": "philodendron sp."
     },
     "isSafe": false
@@ -51,6 +58,7 @@
   {
     "name": {
       "pl": ["strelicja królewska"],
+      "en": [""],
       "lat": "strelitzia reginae"
     },
     "isSafe": false
@@ -58,6 +66,7 @@
   {
     "name": {
       "pl": ["aloes"],
+      "en": [""],
       "lat": "aloe vera"
     },
     "isSafe": false
@@ -65,6 +74,7 @@
   {
     "name": {
       "pl": ["anturium", "kitnia"],
+      "en": [""],
       "lat": "anthurium sp."
     },
     "isSafe": false
@@ -72,6 +82,7 @@
   {
     "name": {
       "pl": ["gwiazda betlejemska", "wilczomlecz nadobny", "poinsecja"],
+      "en": [""],
       "lat": "euphorbia pulcherrima"
     },
     "isSafe": false
@@ -79,6 +90,7 @@
   {
     "name": {
       "pl": ["azalia", "rododendron", "różanecznik"],
+      "en": [""],
       "lat": "rhododendron spp"
     },
     "isSafe": false
@@ -86,6 +98,7 @@
   {
     "name": {
       "pl": ["trzykrotka", "tradeskancja"],
+      "en": [""],
       "lat": "tradescantia flumeninsis"
     },
     "isSafe": false
@@ -93,6 +106,7 @@
   {
     "name": {
       "pl": ["kalanchoe", "żyworódka"],
+      "en": [""],
       "lat": "kalanchoe spp"
     },
     "isSafe": false
@@ -100,6 +114,7 @@
   {
     "name": {
       "pl": ["skrzydłokwiat", "skrzydłolist"],
+      "en": [""],
       "lat": "spathiphyllum"
     },
     "isSafe": false
@@ -107,6 +122,7 @@
   {
     "name": {
       "pl": ["kaladium", "obraźnica"],
+      "en": [""],
       "lat": "caladium hortulanum"
     },
     "isSafe": false
@@ -114,6 +130,7 @@
   {
     "name": {
       "pl": ["alokazja", "zakleśń"],
+      "en": [""],
       "lat": "alocasia"
     },
     "isSafe": false
@@ -121,6 +138,7 @@
   {
     "name": {
       "pl": ["cibora zmienna", "cyperus"],
+      "en": [""],
       "lat": "cyperus"
     },
     "isSafe": false
@@ -128,6 +146,7 @@
   {
     "name": {
       "pl": ["kordylina krzewiasta", "kordylina paciorecznikolistna"],
+      "en": [""],
       "lat": "cordyline terminalis"
     },
     "isSafe": false
@@ -135,6 +154,7 @@
   {
     "name": {
       "pl": ["kordylina australijska"],
+      "en": [""],
       "lat": "cordyline australis"
     },
     "isSafe": false
@@ -142,6 +162,7 @@
   {
     "name": {
       "pl": ["kroton", "trójskrzyn"],
+      "en": [""],
       "lat": "codiaeum"
     },
     "isSafe": false

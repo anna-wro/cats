@@ -1,6 +1,7 @@
 export type PlantType = {
   name: {
     pl: string[];
+    en: string[];
     lat: string;
   };
   isSafe: boolean;
