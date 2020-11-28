@@ -5,9 +5,11 @@ const API_URL =
   'https://www.flickr.com/services/rest/?method=flickr.photos.search&format=json&nojsoncallback=1';
 const API_KEY = process.env.NEXT_PUBLIC_FLICKR_API_KEY;
 
+// TODO add return type
 export default function usePlantPics(name: string) {
   let [photos, setPhotos] = useState([]);
 
+  // TODO: use fetch instead?
   useEffect(() => {
     axios
       .get(

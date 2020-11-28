@@ -1,4 +1,5 @@
 import usePlantPics from './usePlantPics';
+import { getPhotosUrls } from '../../utils/flickr';
 
 export type PlantType = {
   name: {
@@ -9,13 +10,21 @@ export type PlantType = {
   isSafe: boolean;
 };
 
+const PHOTOS_TO_DISPLAY = 5;
+
 export default function Plant({ plant }: { plant: PlantType }) {
-  const photos = usePlantPics(plant.name.en[0]);
-  console.log(photos);
+  const photos = usePlantPics(plant.name.lat);
+  const urls = getPhotosUrls(photos.slice(0, PHOTOS_TO_DISPLAY));
 
   return (
     <div className="pb-3">
       {plant.name.pl[0]} {plant.isSafe ? '✅' : '🍄'}
+      <div className="flex pt-2 pb-3">
+        {urls.map((url, index) => (
+          // TODO: redirect on click to full size image
+          <img src={url} alt={plant.name.lat} key={index} />
+        ))}
+      </div>
     </div>
   );
 }
