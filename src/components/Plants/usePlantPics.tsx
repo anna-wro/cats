@@ -3,9 +3,7 @@ import axios from 'axios';
 
 const API_URL =
   'https://www.flickr.com/services/rest/?method=flickr.photos.search&format=json&nojsoncallback=1';
-
-  // TODO: put it somewhere safe
-const API_KEY = 'abc';
+const API_KEY = process.env.NEXT_PUBLIC_FLICKR_API_KEY;
 
 export default function usePlantPics(name: string) {
   let [photos, setPhotos] = useState([]);
