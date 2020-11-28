@@ -2,6 +2,7 @@
   {
     "name": {
       "pl": ["pelargonia", "geranium", "anginka", "anginowiec", "ruzyndla"],
+      "en": ["pelargonium", "geranium", "storksbill"],
       "lat": "pelargonium sp."
     },
     "isSafe": false
@@ -9,6 +10,13 @@
   {
     "name": {
       "pl": ["dracena"],
+      "en": [
+        "dracaena",
+        "corn plant",
+        "cornstalk plant",
+        "dragon tree",
+        "ribbon plant"
+      ],
       "lat": "dracaena spp."
     },
     "isSafe": false
@@ -16,6 +24,7 @@
   {
     "name": {
       "pl": ["begonia", "ukośnica"],
+      "en": ["begonia"],
       "lat": "begonia spp."
     },
     "isSafe": false
@@ -23,6 +32,7 @@
   {
     "name": {
       "pl": ["fiołek alpejski", "cyklamen perski"],
+      "en": ["viola alpina"],
       "lat": "viola alpina"
     },
     "isSafe": false
@@ -30,13 +40,39 @@
   {
     "name": {
       "pl": ["fikus lirolistny", "figowiec dębolistny"],
+      "en": ["fiddle leaf fig"],
       "lat": "ficus lyrata"
     },
     "isSafe": false
   },
   {
     "name": {
+      "pl": ["fikus benjamina", "figowiec benjamina"],
+      "en": ["weeping fig", "fig"],
+      "lat": "ficus benjamina"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["fikus sprężysty", "figowiec sprężysty"],
+      "en": ["rubber fig", "indian rubber plant"],
+      "lat": "ficus elastica"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
       "pl": ["monstera dziurawa"],
+      "en": [
+        "cutleaf philodendron",
+        "hurricane plant",
+        "swiss cheese plant",
+        "ceriman",
+        "Mexican breadfruit",
+        "split-leaf philodendron",
+        "window leaf plant"
+      ],
       "lat": "monstera deliciosa"
     },
     "isSafe": false
@@ -44,6 +80,16 @@
   {
     "name": {
       "pl": ["filodendron"],
+      "en": [
+        "philodendron",
+        "cordatum",
+        "fiddle-leaf",
+        "panda plant",
+        "fruit salad plant",
+        "red emerald",
+        "red princess",
+        "saddle leaf"
+      ],
       "lat": "philodendron sp."
     },
     "isSafe": false
@@ -51,6 +97,7 @@
   {
     "name": {
       "pl": ["strelicja królewska"],
+      "en": ["bird of paradise flower", "crane flower", "bird's tongue flower"],
       "lat": "strelitzia reginae"
     },
     "isSafe": false
@@ -58,6 +105,7 @@
   {
     "name": {
       "pl": ["aloes"],
+      "en": ["aloe vera"],
       "lat": "aloe vera"
     },
     "isSafe": false
@@ -65,6 +113,15 @@
   {
     "name": {
       "pl": ["anturium", "kitnia"],
+      "en": [
+        "laceleaf",
+        "anturium",
+        "tailflower",
+        "flamingo flower",
+        "flamingo lily",
+        "oilcloth flower",
+        "pigtail plant"
+      ],
       "lat": "anthurium sp."
     },
     "isSafe": false
@@ -72,6 +129,7 @@
   {
     "name": {
       "pl": ["gwiazda betlejemska", "wilczomlecz nadobny", "poinsecja"],
+      "en": ["poinsettia"],
       "lat": "euphorbia pulcherrima"
     },
     "isSafe": false
@@ -79,6 +137,7 @@
   {
     "name": {
       "pl": ["azalia", "rododendron", "różanecznik"],
+      "en": ["rhododendron", "rosebay", "azalea"],
       "lat": "rhododendron spp"
     },
     "isSafe": false
@@ -86,6 +145,7 @@
   {
     "name": {
       "pl": ["trzykrotka", "tradeskancja"],
+      "en": ["wandering Jew", "speedy Henry", "variegated wandering Jew"],
       "lat": "tradescantia flumeninsis"
     },
     "isSafe": false
@@ -93,6 +153,13 @@
   {
     "name": {
       "pl": ["kalanchoe", "żyworódka"],
+      "en": [
+        "kalanchoe",
+        "mother-in-law-plant",
+        "devils backbone",
+        "chandelier plant",
+        "mother of millions"
+      ],
       "lat": "kalanchoe spp"
     },
     "isSafe": false
@@ -100,6 +167,7 @@
   {
     "name": {
       "pl": ["skrzydłokwiat", "skrzydłolist"],
+      "en": ["peace lily", "mauna loa peace lily"],
       "lat": "spathiphyllum"
     },
     "isSafe": false
@@ -107,6 +175,20 @@
   {
     "name": {
       "pl": ["kaladium", "obraźnica"],
+      "en": [
+        "caladium",
+        "malanga",
+        "elephant's ears",
+        "stoplight",
+        "seagull",
+        "mother-in-law plant",
+        "pink cloud",
+        "texas wonder",
+        "angel-wings",
+        "exposition",
+        "candidum",
+        "fancy-leaved caladium"
+      ],
       "lat": "caladium hortulanum"
     },
     "isSafe": false
@@ -114,6 +196,7 @@
   {
     "name": {
       "pl": ["alokazja", "zakleśń"],
+      "en": ["alocasia", "elephant's ear"],
       "lat": "alocasia"
     },
     "isSafe": false
@@ -121,6 +204,7 @@
   {
     "name": {
       "pl": ["cibora zmienna", "cyperus"],
+      "en": ["cibora", "nutsedges"],
       "lat": "cyperus"
     },
     "isSafe": false
@@ -128,6 +212,7 @@
   {
     "name": {
       "pl": ["kordylina krzewiasta", "kordylina paciorecznikolistna"],
+      "en": ["ti plant"],
       "lat": "cordyline terminalis"
     },
     "isSafe": false
@@ -135,6 +220,7 @@
   {
     "name": {
       "pl": ["kordylina australijska"],
+      "en": ["cabbage tree", "cabbage palm"],
       "lat": "cordyline australis"
     },
     "isSafe": false
@@ -142,6 +228,7 @@
   {
     "name": {
       "pl": ["kroton", "trójskrzyn"],
+      "en": ["croton"],
       "lat": "codiaeum"
     },
     "isSafe": false
