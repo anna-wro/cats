@@ -2,7 +2,12 @@
   {
     "name": {
       "pl": ["chamedora wytworna", "chamedora wyniosła", "palma koralowa"],
-      "en": [""],
+      "en": [
+        "chamaedorea",
+        "neanthe bella palm",
+        "parlor palm",
+        "good luck palm"
+      ],
       "lat": "chamaedorea elegans"
     },
     "isSafe": true
@@ -10,15 +15,23 @@
   {
     "name": {
       "pl": ["fiołek afrykański", "sępolia", "saintpaulia"],
-      "en": [""],
+      "en": ["African violet"],
       "lat": "saintpaulia ionantha"
     },
     "isSafe": true
   },
   {
     "name": {
+      "pl": ["dimorfoteka gruczołowata"],
+      "en": ["African daisy", "cape marigold"],
+      "lat": "dimorphotheca pluvialis"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
       "pl": ["guzmania języczkowata"],
-      "en": [""],
+      "en": ["guzmania lingulata", "droophead tufted airplant", "scarlet star"],
       "lat": "guzmania lingulata"
     },
     "isSafe": true
@@ -26,7 +39,7 @@
   {
     "name": {
       "pl": ["maranta białounerwiona"],
-      "en": [""],
+      "en": ["maranta leuconeura"],
       "lat": "maranta leuconeura"
     },
     "isSafe": true
@@ -39,7 +52,7 @@
         "nerczyłusk wyniosły",
         "paprotka"
       ],
-      "en": [""],
+      "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
     },
     "isSafe": true
@@ -52,7 +65,7 @@
         "bokarnea odgięta",
         "noga słonia"
       ],
-      "en": [""],
+      "en": ["bottle palm", "elephant's foot", "ponytail palm"],
       "lat": "beaucarnea recurvata"
     },
     "isSafe": true
@@ -60,7 +73,7 @@
   {
     "name": {
       "pl": ["storczyk phalaenopsis", "falenopsis"],
-      "en": [""],
+      "en": ["phalaenopsis orchid", "moth orchid", "moon orchid"],
       "lat": "phalaenopsis sp."
     },
     "isSafe": true
@@ -73,7 +86,7 @@
         "kaktus bożonarodzeniowy",
         "grudnik"
       ],
-      "en": [""],
+      "en": ["Christmas cactus"],
       "lat": "schlumbergera bridgesii"
     },
     "isSafe": true
@@ -81,7 +94,7 @@
   {
     "name": {
       "pl": ["zielistka Sternberga", "zielistka czubiasta"],
-      "en": [""],
+      "en": ["anthericum", "walking anthericum", "spider ivy", "spider plant"],
       "lat": "chlorophytum comosum"
     },
     "isSafe": true
@@ -89,7 +102,7 @@
   {
     "name": {
       "pl": ["aspidistra wyniosła", "żelazny liść"],
-      "en": [""],
+      "en": ["cast iron plant", "bar room plant", "iron plant"],
       "lat": "aspidistra elatior"
     },
     "isSafe": true
@@ -97,24 +110,21 @@
   {
     "name": {
       "pl": ["asplenium", "zanokcica"],
-      "en": [""],
+      "en": [
+        "mother fern",
+        "spleenwort",
+        "king and queen fern",
+        "parsley fern",
+        "hen and chicken fern"
+      ],
       "lat": "asplenium bulbiferum"
-    },
-    "isSafe": true
-  },
-
-  {
-    "name": {
-      "pl": ["chamedora wytworna", "palma koralowa"],
-      "en": [""],
-      "lat": "chamaedorea elegans"
     },
     "isSafe": true
   },
   {
     "name": {
       "pl": ["palma areka"],
-      "en": [""],
+      "en": ["areca palm", "golden cane palm", "yellow palm", "butterfly palm"],
       "lat": "dypsis lutescens"
     },
     "isSafe": true
@@ -122,7 +132,12 @@
   {
     "name": {
       "pl": ["stefanotis bukietowy"],
-      "en": [""],
+      "en": [
+        "Madagascar jasmine",
+        "waxflower",
+        "Hawaiian wedding flower",
+        "bridal wreath"
+      ],
       "lat": "stephanotis floribunda"
     },
     "isSafe": true
@@ -130,7 +145,7 @@
   {
     "name": {
       "pl": ["storczyk cymbidium"],
-      "en": [""],
+      "en": ["boat orchid", "cymbidium orchid"],
       "lat": "cymbidium"
     },
     "isSafe": true
@@ -138,7 +153,7 @@
   {
     "name": {
       "pl": ["storczyk dendrobium"],
-      "en": [""],
+      "en": ["dendrobium orchid"],
       "lat": "dendrobium"
     },
     "isSafe": true
@@ -146,7 +161,7 @@
   {
     "name": {
       "pl": ["storczyk oncidium", "motylnik"],
-      "en": [""],
+      "en": ["dancing lady orchid", "dancing doll orchid"],
       "lat": "oncidium"
     },
     "isSafe": true
@@ -154,7 +169,7 @@
   {
     "name": {
       "pl": ["peperomia"],
-      "en": [""],
+      "en": ["peperomia"],
       "lat": "piperaceae"
     },
     "isSafe": true
@@ -162,7 +177,7 @@
   {
     "name": {
       "pl": ["bromelia doniczkowa"],
-      "en": [""],
+      "en": ["bromeliad"],
       "lat": "bromelia"
     },
     "isSafe": true
@@ -170,7 +185,15 @@
   {
     "name": {
       "pl": ["neoregelia"],
-      "en": [""],
+      "en": [
+        "neoregelia",
+        "crimson cup",
+        "marbled fingernail",
+        "blushing bromeliad",
+        "ossifragi vase",
+        "miniature marble plant",
+        "aregelia"
+      ],
       "lat": "neoregalia spp"
     },
     "isSafe": true
@@ -178,7 +201,14 @@
   {
     "name": {
       "pl": ["kalatea", "ostrzeszyn"],
-      "en": [""],
+      "en": [
+        "calathea",
+        "prayer plant",
+        "peacock plant",
+        "rattle snake plant",
+        "red veined prayer",
+        "zebra plant"
+      ],
       "lat": "calathea"
     },
     "isSafe": true
@@ -186,7 +216,7 @@
   {
     "name": {
       "pl": ["pokoślin baldaszkowaty"],
-      "en": [""],
+      "en": ["umbrella plant", "sulfur flower", "sulphur flower buckwheat"],
       "lat": "eriogonium umbellatum"
     },
     "isSafe": true
@@ -194,7 +224,7 @@
   {
     "name": {
       "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
-      "en": [""],
+      "en": ["staghorn fern", "elkhorn fern"],
       "lat": "platycerium"
     },
     "isSafe": true
@@ -202,7 +232,7 @@
   {
     "name": {
       "pl": ["ciemnotka okrągłolistna"],
-      "en": [""],
+      "en": ["button fern"],
       "lat": "pellaea rotundifolia"
     },
     "isSafe": true
@@ -210,7 +240,13 @@
   {
     "name": {
       "pl": ["gerbera"],
-      "en": [""],
+      "en": [
+        "gerber daisy",
+        "barberton daisy",
+        "transvaal daisy",
+        "African daisy",
+        "veldt daisy"
+      ],
       "lat": "gerbera jamesonii"
     },
     "isSafe": true
@@ -218,7 +254,7 @@
   {
     "name": {
       "pl": ["słonecznik"],
-      "en": [""],
+      "en": ["sunflower"],
       "lat": "helianthus spp."
     },
     "isSafe": true
@@ -226,7 +262,7 @@
   {
     "name": {
       "pl": ["lwia paszcza", "wyżlin większy"],
-      "en": [""],
+      "en": ["snapdragon", "dragon flowers"],
       "lat": "antirrhinum majus"
     },
     "isSafe": true
@@ -234,7 +270,7 @@
   {
     "name": {
       "pl": ["frezja"],
-      "en": [""],
+      "en": ["freesia"],
       "lat": "freesia corymbosa"
     },
     "isSafe": true
@@ -242,7 +278,7 @@
   {
     "name": {
       "pl": ["limonium", "zatrwian"],
-      "en": [""],
+      "en": ["sea lavender", "statice", "caspia", "marsh-rosemary"],
       "lat": "limonium"
     },
     "isSafe": true
