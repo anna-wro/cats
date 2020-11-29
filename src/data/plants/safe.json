@@ -273,7 +273,7 @@
       "en": ["freesia"],
       "lat": "freesia corymbosa"
     },
-    "query": ["freesia"],
+    "query": "freesia",
     "isSafe": true
   },
   {
