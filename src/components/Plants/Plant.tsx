@@ -22,7 +22,12 @@ export default function Plant({ plant }: { plant: PlantType }) {
       <div className="flex pt-2 pb-3">
         {urls.map((url, index) => (
           // TODO: redirect on click to full size image
-          <img className="rounded-lg mr-2 shadow-md" src={url} alt={plant.name.lat} key={index} />
+          <img
+            className="rounded-lg mr-2 shadow-md"
+            src={url}
+            alt={plant.name.lat}
+            key={index}
+          />
         ))}
       </div>
     </div>
