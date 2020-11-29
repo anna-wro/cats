@@ -1,5 +1,5 @@
 import base58 from 'base58';
-import type { PlantPhotosType } from '../components/Plants/usePlantPics';
+import type { PlantPhotosType } from 'components/Plants/usePlantPics';
 
 type PlantUrlType = {
   thumbnail: string;

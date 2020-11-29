@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { setMultipleParams } from '../../utils/url';
+import { setMultipleParams } from 'utils/url';
 
 export type PlantPhotosType = {
   farm: number;

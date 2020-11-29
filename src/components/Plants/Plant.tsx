@@ -1,5 +1,5 @@
 import usePlantPics from './usePlantPics';
-import { getPhotosUrls } from '../../utils/flickr';
+import { getPhotosUrls } from 'utils/flickr';
 
 export type PlantType = {
   name: {
