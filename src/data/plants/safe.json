@@ -55,6 +55,7 @@
       "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
     },
+    "query": "nephrolepis",
     "isSafe": true
   },
   {
@@ -169,8 +170,8 @@
   {
     "name": {
       "pl": ["peperomia"],
-      "en": ["peperomia"],
-      "lat": "piperaceae"
+      "en": ["radiator plants", "peperomia"],
+      "lat": "peperomia"
     },
     "isSafe": true
   },
@@ -216,9 +217,10 @@
   {
     "name": {
       "pl": ["pokoślin baldaszkowaty"],
-      "en": ["umbrella plant", "sulfur flower", "sulphur flower buckwheat"],
+      "en": ["sulphur flower", "sulphurflower buckwheat"],
       "lat": "eriogonium umbellatum"
     },
+    "query": "sulphurflower buckwheat",
     "isSafe": true
   },
   {
@@ -265,6 +267,7 @@
       "en": ["snapdragon", "dragon flowers"],
       "lat": "antirrhinum majus"
     },
+    "query": "snapdragon plant",
     "isSafe": true
   },
   {
@@ -282,7 +285,7 @@
       "en": ["sea lavender", "statice", "caspia", "marsh-rosemary"],
       "lat": "limonium"
     },
-    "query": "statice",
+    "query": "marsh-rosemary",
     "isSafe": true
   }
 ]
