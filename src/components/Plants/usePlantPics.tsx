@@ -40,7 +40,6 @@ const SETTINGS = {
 
 export default function usePlantPics(text: string): PlantPhotosType[] {
   let [photos, setPhotos] = useState([]);
-  // TODO: If release planned, check all plants and add custom query if needed
   const finalTags = [...BASE_TAGS, text];
   const finalParams = { ...SETTINGS, text, tags: finalTags.toString() };
   const url = setMultipleParams(finalParams, API_URL);
