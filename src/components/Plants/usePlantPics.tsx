@@ -40,8 +40,7 @@ const SETTINGS = {
 
 export default function usePlantPics(name: string): PlantPhotosType[] {
   let [photos, setPhotos] = useState([]);
-  // TODO: If release planned, add tags with EN names and values to exclude
-  // (look at limonium, benjamin ficus)
+  // TODO: If release planned, check all plants and add custom query if needed
   const finalTags = [...BASE_TAGS, name];
   const finalParams = { ...SETTINGS, text: name, tags: finalTags.toString() };
   const url = setMultipleParams(finalParams, API_URL);
