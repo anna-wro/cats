@@ -13,7 +13,7 @@ export default function usePlantPics(name: string) {
   useEffect(() => {
     axios
       .get(
-        `${API_URL}&api_key=${API_KEY}&sort=relevance&text=${name}&per_page=12`,
+        `${API_URL}&api_key=${API_KEY}&sort=relevance&text=${name}&license=1,2,3,4,5,6,9,10&per_page=12`,
       )
       .then((response) => {
         setPhotos(response.data.photos.photo);
