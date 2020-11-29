@@ -194,7 +194,7 @@
         "miniature marble plant",
         "aregelia"
       ],
-      "lat": "neoregalia spp"
+      "lat": "neoregelia"
     },
     "isSafe": true
   },
@@ -255,7 +255,7 @@
     "name": {
       "pl": ["słonecznik"],
       "en": ["sunflower"],
-      "lat": "helianthus spp."
+      "lat": "helianthus"
     },
     "isSafe": true
   },
@@ -282,6 +282,7 @@
       "en": ["sea lavender", "statice", "caspia", "marsh-rosemary"],
       "lat": "limonium"
     },
+    "query": "statice",
     "isSafe": true
   }
 ]
