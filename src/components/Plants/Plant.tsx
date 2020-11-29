@@ -26,7 +26,7 @@ export default function Plant({ plant }: { plant: PlantType }) {
             src={url.thumbnail}
             alt={plant.name.lat}
             key={index}
-            onClick={() => (window.location.href = url.full)}
+            onClick={() => (window.open(url.full))}
           />
         ))}
       </div>
