@@ -10,7 +10,7 @@ export function setMultipleParams(params, url) {
 
   Object.entries(params).forEach(
     ([key, value]) =>
-      (urlWithParams = setQueryParam(key, value.toString(), urlWithParams)),
+      (urlWithParams = setQueryParam(key, "" + value, urlWithParams)),
   );
 
   return urlWithParams;
