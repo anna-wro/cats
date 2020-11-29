@@ -21,12 +21,12 @@ export default function Plant({ plant }: { plant: PlantType }) {
       {plant.name.pl[0]} {plant.isSafe ? '✅' : '🍄'}
       <div className="flex pt-2 pb-3">
         {urls.map((url, index) => (
-          // TODO: redirect on click to full size image
           <img
-            className="rounded-lg mr-2 shadow-md"
-            src={url}
+            className="rounded-lg mr-2 shadow-md cursor-pointer"
+            src={url.thumbnail}
             alt={plant.name.lat}
             key={index}
+            onClick={() => (window.location.href = url.full)}
           />
         ))}
       </div>
