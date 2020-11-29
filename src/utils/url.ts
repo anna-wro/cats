@@ -8,10 +8,10 @@ function setQueryParam(key: string, value: string, url: string) {
 export function setMultipleParams(params, url) {
   let urlWithParams = url;
 
-  Object.entries(params).forEach(([key, value]) => {
-    //   FIXME ts: Argument of type 'unknown' is not assignable to parameter of type 'string'
-    urlWithParams = setQueryParam(key, value, urlWithParams);
-  });
+  Object.entries(params).forEach(
+    ([key, value]) =>
+      (urlWithParams = setQueryParam(key, value.toString(), urlWithParams)),
+  );
 
   return urlWithParams;
 }
