@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from '../../utils/url';
-import axios from 'axios';
 
 export type PlantPhotosType = {
   farm: number;
@@ -54,9 +53,11 @@ export default function usePlantPics(name: string): PlantPhotosType[] {
   const url = setMultipleParams(finalParams, API_URL);
 
   useEffect(() => {
-    axios.get(url).then((response) => {
-      setPhotos(response.data.photos.photo);
-    });
+    try {
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => setPhotos(data.photos.photo));
+    } catch {}
   }, []);
 
   return photos;
