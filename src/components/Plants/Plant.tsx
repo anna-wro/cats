@@ -21,12 +21,12 @@ export default function Plant({ plant }: { plant: PlantType }) {
     <div className="pb-3">
       {plant.name.pl[0]} {plant.isSafe ? '✅' : '🍄'}
       <div className="flex pt-2 pb-3">
-        {urls.map((url, index) => (
+        {urls.map((url) => (
           <img
             className="rounded-lg mr-2 shadow-md cursor-pointer"
             src={url.thumbnail}
             alt={plant.name.lat}
-            key={index}
+            key={url.full}
             onClick={() => (window.open(url.full))}
           />
         ))}
