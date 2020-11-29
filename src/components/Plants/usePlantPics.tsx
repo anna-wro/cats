@@ -17,7 +17,24 @@ export type PlantPhotosType = {
 const API_URL = 'https://www.flickr.com/services/rest/';
 const API_KEY = process.env.NEXT_PUBLIC_FLICKR_API_KEY;
 
-const settings = {
+const TAGS = [
+  'plant',
+  'plants',
+  'flower',
+  'floral',
+  'green',
+  'fern',
+  'botanical',
+  'botanics',
+  'wildflowers',
+  'orchids',
+  'nature',
+  'ethnobotany',
+  'botany',
+  'flora',
+];
+
+const SETTINGS = {
   method: 'flickr.photos.search',
   format: 'json',
   nojsoncallback: 1,
@@ -30,11 +47,14 @@ const settings = {
 
 export default function usePlantPics(name: string): PlantPhotosType[] {
   let [photos, setPhotos] = useState([]);
-  const url = setMultipleParams(settings, API_URL);
+  // TODO: If release planned, add tags with EN names and values to exclude
+  // (look at limonium, benjamin ficus)
+  const finalTags = [...TAGS, name];
+  const finalParams = { ...SETTINGS, text: name, tags: finalTags.toString() };
+  const url = setMultipleParams(finalParams, API_URL);
 
-  // TODO: use fetch instead?
   useEffect(() => {
-    axios.get(`${url}&text=${name}`).then((response) => {
+    axios.get(url).then((response) => {
       setPhotos(response.data.photos.photo);
     });
   }, []);
