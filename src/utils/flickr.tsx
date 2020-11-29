@@ -1,7 +1,12 @@
 import base58 from 'base58';
+import type { PlantPhotosType } from '../components/Plants/usePlantPics';
 
-// TODO ADD TYPE
-export function getPhotosUrls(photos) {
+type PlantUrlType = {
+  thumbnail: string;
+  full: string;
+};
+
+export function getPhotosUrls(photos: PlantPhotosType[]): PlantUrlType[] {
   return photos.map((photo) => {
     const { farm, server, id, secret } = photo;
 
