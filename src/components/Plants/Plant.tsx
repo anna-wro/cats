@@ -7,13 +7,14 @@ export type PlantType = {
     en: string[];
     lat: string;
   };
+  query?: string,
   isSafe: boolean;
 };
 
 const PHOTOS_TO_DISPLAY = 5;
 
 export default function Plant({ plant }: { plant: PlantType }) {
-  const photos = usePlantPics(plant.name.lat);
+  const photos = usePlantPics(plant.query ?? plant.name.lat);
   const urls = getPhotosUrls(photos.slice(0, PHOTOS_TO_DISPLAY));
 
   return (

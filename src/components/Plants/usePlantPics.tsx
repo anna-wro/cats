@@ -16,19 +16,13 @@ export type PlantPhotosType = {
 const API_URL = 'https://www.flickr.com/services/rest/';
 const API_KEY = process.env.NEXT_PUBLIC_FLICKR_API_KEY;
 
-const TAGS = [
+const BASE_TAGS = [
   'plant',
   'plants',
   'flower',
   'floral',
-  'green',
-  'fern',
-  'botanical',
   'botanics',
-  'wildflowers',
-  'orchids',
   'nature',
-  'ethnobotany',
   'botany',
   'flora',
 ];
@@ -48,7 +42,7 @@ export default function usePlantPics(name: string): PlantPhotosType[] {
   let [photos, setPhotos] = useState([]);
   // TODO: If release planned, add tags with EN names and values to exclude
   // (look at limonium, benjamin ficus)
-  const finalTags = [...TAGS, name];
+  const finalTags = [...BASE_TAGS, name];
   const finalParams = { ...SETTINGS, text: name, tags: finalTags.toString() };
   const url = setMultipleParams(finalParams, API_URL);
 
