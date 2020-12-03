@@ -3,7 +3,7 @@
     "name": {
       "pl": ["pelargonia", "geranium", "anginka", "anginowiec", "ruzyndla"],
       "en": ["pelargonium", "geranium", "storksbill"],
-      "lat": "pelargonium sp."
+      "lat": "pelargonium"
     },
     "isSafe": false
   },
@@ -17,64 +17,69 @@
         "dragon tree",
         "ribbon plant"
       ],
-      "lat": "dracaena spp."
+      "lat": "dracaena"
     },
+    "query": "dracaena fragrans",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["begonia", "ukośnica"],
       "en": ["begonia"],
-      "lat": "begonia spp."
+      "lat": "begonia"
     },
     "isSafe": false
   },
   {
     "name": {
       "pl": ["fiołek alpejski", "cyklamen perski"],
-      "en": ["viola alpina"],
+      "en": ["cyclamen", "viola alpina", "alpine violet"],
       "lat": "viola alpina"
     },
+    "query": "cyclamen", 
     "isSafe": false
   },
   {
     "name": {
       "pl": ["fikus lirolistny", "figowiec dębolistny"],
-      "en": ["fiddle leaf fig"],
+      "en": ["fiddle-leaf fig"],
       "lat": "ficus lyrata"
     },
+    "query": "fiddle-leaf fig",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["fikus benjamina", "figowiec benjamina"],
-      "en": ["weeping fig", "fig"],
+      "en": ["weeping fig", "benjamin fig", "ficus tree"],
       "lat": "ficus benjamina"
     },
+    "query": "benjamin ficus",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["fikus sprężysty", "figowiec sprężysty"],
-      "en": ["rubber fig", "indian rubber plant"],
+      "en": ["rubber fig", "rubber plant"],
       "lat": "ficus elastica"
     },
+    "query": "ficus elastica -tree",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["monstera dziurawa"],
       "en": [
+        "swiss cheese plant",
         "cutleaf philodendron",
         "hurricane plant",
-        "swiss cheese plant",
-        "ceriman",
         "Mexican breadfruit",
         "split-leaf philodendron",
         "window leaf plant"
       ],
       "lat": "monstera deliciosa"
     },
+    "query": "mexican breadfruit",
     "isSafe": false
   },
   {
@@ -83,14 +88,9 @@
       "en": [
         "philodendron",
         "cordatum",
-        "fiddle-leaf",
-        "panda plant",
-        "fruit salad plant",
-        "red emerald",
-        "red princess",
         "saddle leaf"
       ],
-      "lat": "philodendron sp."
+      "lat": "philodendron"
     },
     "isSafe": false
   },
@@ -108,6 +108,7 @@
       "en": ["aloe vera"],
       "lat": "aloe vera"
     },
+    "query": "aloe vera leaves",
     "isSafe": false
   },
   {
@@ -122,7 +123,7 @@
         "oilcloth flower",
         "pigtail plant"
       ],
-      "lat": "anthurium sp."
+      "lat": "anthurium"
     },
     "isSafe": false
   },
@@ -132,13 +133,14 @@
       "en": ["poinsettia"],
       "lat": "euphorbia pulcherrima"
     },
+    "query": "poinsettia",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["azalia", "rododendron", "różanecznik"],
       "en": ["rhododendron", "rosebay", "azalea"],
-      "lat": "rhododendron spp"
+      "lat": "rhododendron"
     },
     "isSafe": false
   },
@@ -148,6 +150,7 @@
       "en": ["wandering Jew", "speedy Henry", "variegated wandering Jew"],
       "lat": "tradescantia flumeninsis"
     },
+    "query": "tradescantia",
     "isSafe": false
   },
   {
@@ -160,7 +163,7 @@
         "chandelier plant",
         "mother of millions"
       ],
-      "lat": "kalanchoe spp"
+      "lat": "kalanchoe"
     },
     "isSafe": false
   },
@@ -175,22 +178,10 @@
   {
     "name": {
       "pl": ["kaladium", "obraźnica"],
-      "en": [
-        "caladium",
-        "malanga",
-        "elephant's ears",
-        "stoplight",
-        "seagull",
-        "mother-in-law plant",
-        "pink cloud",
-        "texas wonder",
-        "angel-wings",
-        "exposition",
-        "candidum",
-        "fancy-leaved caladium"
-      ],
+      "en": ["caladium", "elephant's ears", "heart of Jesus", "angel wings"],
       "lat": "caladium hortulanum"
     },
+    "query": "caladium",
     "isSafe": false
   },
   {
@@ -207,6 +198,7 @@
       "en": ["cibora", "nutsedges"],
       "lat": "cyperus"
     },
+    "query": "nutsedges",
     "isSafe": false
   },
   {
