@@ -9,5 +9,4 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
-          github-token: ${{ secrets.GITHUB }}
           vercel-project-id: ${{ secrets.PROJECT_ID}} 
