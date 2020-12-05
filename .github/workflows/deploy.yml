@@ -1,4 +1,4 @@
-name: deploy website
+name: Continuous Deployment
 on:
   push:
     branches: [master]
