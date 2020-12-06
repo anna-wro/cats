@@ -36,7 +36,7 @@
       "en": ["cyclamen", "viola alpina", "alpine violet"],
       "lat": "viola alpina"
     },
-    "query": "cyclamen", 
+    "query": "cyclamen",
     "isSafe": false
   },
   {
@@ -85,11 +85,7 @@
   {
     "name": {
       "pl": ["filodendron"],
-      "en": [
-        "philodendron",
-        "cordatum",
-        "saddle leaf"
-      ],
+      "en": ["philodendron", "cordatum", "saddle leaf"],
       "lat": "philodendron"
     },
     "isSafe": false
@@ -222,6 +218,94 @@
       "pl": ["kroton", "trójskrzyn"],
       "en": ["croton"],
       "lat": "codiaeum"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["ciemiernik"],
+      "en": ["hellebore", "Christmas rose", "lenten rose", "Easter rose"],
+      "lat": "helleborus"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["bluszcz pospolity"],
+      "en": ["common ivy"],
+      "lat": "hedera helix"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["bluszcz kanaryjski"],
+      "en": ["Canary Island ivy", "Canarian ivy", "Algerian ivy"],
+      "lat": "hedera canariensis"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["ostrokrzew amerykański"],
+      "en": ["American holly"],
+      "lat": "ilex opaca"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["ostrokrzew kolczasty"],
+      "en": ["common holly"],
+      "lat": "ilex aquifolium"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["ostrokrzew bukszpanowy"],
+      "en": ["Japanese holly"],
+      "lat": "ilex crenata"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["jemioła", "strzęśla"],
+      "en": ["mistletoe"],
+      "lat": "viscum"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["oleander pospolity"],
+      "en": ["oleander", "nerium"],
+      "lat": "nerium oleander"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["sosna zwyczajna"],
+      "en": ["scots pine"],
+      "lat": "pinus sylvestris"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["cis pospolity"],
+      "en": ["English Yew"],
+      "lat": "taxus baccata"
+    },
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["jodła zwyczajna", "jodła biała"],
+      "en": ["silver fir"],
+      "lat": "abies alba"
     },
     "isSafe": false
   }

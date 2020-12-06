@@ -287,5 +287,29 @@
     },
     "query": "marsh-rosemary",
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["świerk"],
+      "en": ["spruce"],
+      "lat": "picea"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["oliwnik"],
+      "en": ["autumn olive", "silver berry"],
+      "lat": "eleagnus"
+    },
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["rozmaryn"],
+      "en": ["rosemary"],
+      "lat": "salvia rosmarinus"
+    },
+    "isSafe": true
   }
 ]
