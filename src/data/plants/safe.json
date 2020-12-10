@@ -55,7 +55,7 @@
       "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
     },
-    "query": "nephrolepis",
+    "queryImage": "nephrolepis",
     "isSafe": true
   },
   {
@@ -220,7 +220,7 @@
       "en": ["sulphur flower", "sulphurflower buckwheat"],
       "lat": "eriogonium umbellatum"
     },
-    "query": "sulphurflower buckwheat",
+    "queryImage": "sulphurflower buckwheat",
     "isSafe": true
   },
   {
@@ -267,7 +267,7 @@
       "en": ["snapdragon", "dragon flowers"],
       "lat": "antirrhinum majus"
     },
-    "query": "snapdragon plant",
+    "queryImage": "snapdragon plant",
     "isSafe": true
   },
   {
@@ -276,7 +276,7 @@
       "en": ["freesia"],
       "lat": "freesia corymbosa"
     },
-    "query": "freesia",
+    "queryImage": "freesia",
     "isSafe": true
   },
   {
@@ -285,7 +285,7 @@
       "en": ["sea lavender", "statice", "caspia", "marsh-rosemary"],
       "lat": "limonium"
     },
-    "query": "marsh-rosemary",
+    "queryImage": "marsh-rosemary",
     "isSafe": true
   },
   {

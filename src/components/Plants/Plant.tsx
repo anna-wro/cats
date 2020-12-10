@@ -7,7 +7,7 @@ export type PlantType = {
     en: string[];
     lat: string;
   };
-  query?: string;
+  queryImage?: string;
   isSafe: boolean;
 };
 
@@ -18,7 +18,7 @@ type PlantProps = Readonly<{
 const PHOTOS_TO_DISPLAY = 5;
 
 export default function Plant({ plant }: PlantProps) {
-  const photos = usePlantPics(plant.query ?? plant.name.lat);
+  const photos = usePlantPics(plant.queryImage ?? plant.name.lat);
   const urls = getPhotosUrls(photos.slice(0, PHOTOS_TO_DISPLAY));
 
   return (
