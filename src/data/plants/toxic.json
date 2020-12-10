@@ -19,7 +19,7 @@
       ],
       "lat": "dracaena"
     },
-    "query": "dracaena fragrans",
+    "queryImage": "dracaena fragrans",
     "isSafe": false
   },
   {
@@ -36,7 +36,7 @@
       "en": ["cyclamen", "viola alpina", "alpine violet"],
       "lat": "viola alpina"
     },
-    "query": "cyclamen",
+    "queryImage": "cyclamen",
     "isSafe": false
   },
   {
@@ -45,7 +45,7 @@
       "en": ["fiddle-leaf fig"],
       "lat": "ficus lyrata"
     },
-    "query": "fiddle-leaf fig",
+    "queryImage": "fiddle-leaf fig",
     "isSafe": false
   },
   {
@@ -54,7 +54,7 @@
       "en": ["weeping fig", "benjamin fig", "ficus tree"],
       "lat": "ficus benjamina"
     },
-    "query": "benjamin ficus",
+    "queryImage": "benjamin ficus",
     "isSafe": false
   },
   {
@@ -63,7 +63,7 @@
       "en": ["rubber fig", "rubber plant"],
       "lat": "ficus elastica"
     },
-    "query": "ficus elastica -tree",
+    "queryImage": "ficus elastica -tree",
     "isSafe": false
   },
   {
@@ -79,7 +79,7 @@
       ],
       "lat": "monstera deliciosa"
     },
-    "query": "mexican breadfruit",
+    "queryImage": "mexican breadfruit",
     "isSafe": false
   },
   {
@@ -104,7 +104,7 @@
       "en": ["aloe vera"],
       "lat": "aloe vera"
     },
-    "query": "aloe vera leaves",
+    "queryImage": "aloe vera leaves",
     "isSafe": false
   },
   {
@@ -129,7 +129,7 @@
       "en": ["poinsettia"],
       "lat": "euphorbia pulcherrima"
     },
-    "query": "poinsettia",
+    "queryImage": "poinsettia",
     "isSafe": false
   },
   {
@@ -146,7 +146,7 @@
       "en": ["wandering Jew", "speedy Henry", "variegated wandering Jew"],
       "lat": "tradescantia flumeninsis"
     },
-    "query": "tradescantia",
+    "queryImage": "tradescantia",
     "isSafe": false
   },
   {
@@ -177,7 +177,7 @@
       "en": ["caladium", "elephant's ears", "heart of Jesus", "angel wings"],
       "lat": "caladium hortulanum"
     },
-    "query": "caladium",
+    "queryImage": "caladium",
     "isSafe": false
   },
   {
@@ -194,7 +194,7 @@
       "en": ["cibora", "nutsedges"],
       "lat": "cyperus"
     },
-    "query": "nutsedges",
+    "queryImage": "nutsedges",
     "isSafe": false
   },
   {
