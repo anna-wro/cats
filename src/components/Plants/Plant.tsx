@@ -1,6 +1,7 @@
 import usePlantPics from './usePlantPics';
 import Image from 'next/image';
 import { getPhotosUrls } from 'utils/flickr';
+import SafetyBadge from 'components/SafetyBadge';
 
 export type PlantType = {
   name: {
@@ -26,12 +27,8 @@ export default function Plant({ plant }: PlantProps) {
 
   return (
     <div className="pb-3">
-      {plant.name.pl[0]}{' '}
-      {plant.isSafe ? (
-        <Image src="/smile.svg" width={30} height={30} />
-      ) : (
-        <Image src="/frown.svg" width={30} height={30} />
-      )}
+      <div className="mr-3 inline-block">{plant.name.pl[0]}</div>
+      <SafetyBadge isSafe={plant.isSafe} />
       <div className="flex pt-2 pb-3">
         {urls.map((url) => (
           <img

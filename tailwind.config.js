@@ -10,11 +10,14 @@ module.exports = {
   theme: {
     colors: {
       blue: '#25CCF7',
+      blueLight: '#D9F4FC',
       orange: '#F08F35',
+      orangeLight: '#FBE8CF',
       red: '#FF4747',
+      redLight: '#FFEDED',
       gray: '#ABB5C4',
       dark: '#2E293B',
-      white: '#ffffff',
+      white: '#FFFFFF',
     },
   },
   variants: {},
