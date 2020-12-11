@@ -9,12 +9,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      blue: '#25CCF7',
-      blueLight: '#D9F4FC',
-      orange: '#F08F35',
-      orangeLight: '#FBE8CF',
-      red: '#FF4747',
-      redLight: '#FFEDED',
+      blue: { DEFAULT: '#25CCF7', light: '#D9F4FC' },
+      orange: { DEFAULT: '#F08F35', light: '#FBE8CF' },
+      red: { DEFAULT: '#FF4747', light: '#FFEDED' },
       gray: '#ABB5C4',
       dark: '#2E293B',
       white: '#FFFFFF',

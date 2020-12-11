@@ -8,7 +8,7 @@ export default function SafetyBadge({ isSafe }: SafetyBadgeProps) {
   return (
     <div
       className={`inline-flex ${
-        isSafe ? 'bg-blueLight' : 'bg-orangeLight'
+        isSafe ? 'bg-blue-light' : 'bg-orange-light'
       } p-2.5 rounded-2xl`}
     >
       <Image
