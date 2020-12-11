@@ -1,4 +1,5 @@
 import usePlantPics from './usePlantPics';
+import Image from 'next/image';
 import { getPhotosUrls } from 'utils/flickr';
 
 export type PlantType = {
@@ -7,10 +8,10 @@ export type PlantType = {
     en: string[];
     lat: string;
   };
-  slug: string,
+  slug: string;
   queryImage?: string;
   isSafe: boolean;
-  note?: string,
+  note?: string;
 };
 
 type PlantProps = Readonly<{
@@ -25,7 +26,12 @@ export default function Plant({ plant }: PlantProps) {
 
   return (
     <div className="pb-3">
-      {plant.name.pl[0]} {plant.isSafe ? '✅' : '🍄'}
+      {plant.name.pl[0]}{' '}
+      {plant.isSafe ? (
+        <Image src="/smile.svg" width={30} height={30} />
+      ) : (
+        <Image src="/frown.svg" width={30} height={30} />
+      )}
       <div className="flex pt-2 pb-3">
         {urls.map((url) => (
           <img

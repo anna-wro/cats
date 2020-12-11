@@ -6,7 +6,11 @@ describe('<Plant>', () => {
   test('renders correctly', () => {
     render(
       <Plant
-        plant={{ isSafe: false, name: { pl: ['Fiołek'], en: [], lat: '' } }}
+        plant={{
+          isSafe: false,
+          slug: 'fiolek',
+          name: { pl: ['Fiołek'], en: [], lat: '' },
+        }}
       />,
     );
 
