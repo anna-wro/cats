@@ -5,6 +5,7 @@
       "en": ["pelargonium", "geranium", "storksbill"],
       "lat": "pelargonium"
     },
+    "slug": "pelargonia",
     "isSafe": false
   },
   {
@@ -20,6 +21,7 @@
       "lat": "dracaena"
     },
     "queryImage": "dracaena fragrans",
+    "slug": "dracena",
     "isSafe": false
   },
   {
@@ -28,6 +30,7 @@
       "en": ["begonia"],
       "lat": "begonia"
     },
+    "slug": "begonia",
     "isSafe": false
   },
   {
@@ -37,6 +40,7 @@
       "lat": "viola alpina"
     },
     "queryImage": "cyclamen",
+    "slug": "fiolek-alpejski",
     "isSafe": false
   },
   {
@@ -46,6 +50,7 @@
       "lat": "ficus lyrata"
     },
     "queryImage": "fiddle-leaf fig",
+    "slug": "fikus-lirolistny",
     "isSafe": false
   },
   {
@@ -55,6 +60,7 @@
       "lat": "ficus benjamina"
     },
     "queryImage": "benjamin ficus",
+    "slug": "fikus-benjamina",
     "isSafe": false
   },
   {
@@ -64,6 +70,7 @@
       "lat": "ficus elastica"
     },
     "queryImage": "ficus elastica -tree",
+    "slug": "fikus-sprezysty",
     "isSafe": false
   },
   {
@@ -80,6 +87,7 @@
       "lat": "monstera deliciosa"
     },
     "queryImage": "mexican breadfruit",
+    "slug": "monstera",
     "isSafe": false
   },
   {
@@ -88,6 +96,7 @@
       "en": ["philodendron", "cordatum", "saddle leaf"],
       "lat": "philodendron"
     },
+    "slug": "filodendron",
     "isSafe": false
   },
   {
@@ -96,6 +105,7 @@
       "en": ["bird of paradise flower", "crane flower", "bird's tongue flower"],
       "lat": "strelitzia reginae"
     },
+    "slug": "strelicja",
     "isSafe": false
   },
   {
@@ -105,6 +115,7 @@
       "lat": "aloe vera"
     },
     "queryImage": "aloe vera leaves",
+    "slug": "aloes",
     "isSafe": false
   },
   {
@@ -121,6 +132,7 @@
       ],
       "lat": "anthurium"
     },
+    "slug": "anturium",
     "isSafe": false
   },
   {
@@ -130,6 +142,7 @@
       "lat": "euphorbia pulcherrima"
     },
     "queryImage": "poinsettia",
+    "slug": "gwiazda-betlejemska",
     "isSafe": false
   },
   {
@@ -138,6 +151,7 @@
       "en": ["rhododendron", "rosebay", "azalea"],
       "lat": "rhododendron"
     },
+    "slug": "azalia",
     "isSafe": false
   },
   {
@@ -147,6 +161,7 @@
       "lat": "tradescantia flumeninsis"
     },
     "queryImage": "tradescantia",
+    "slug": "trzykrotka",
     "isSafe": false
   },
   {
@@ -161,6 +176,7 @@
       ],
       "lat": "kalanchoe"
     },
+    "slug": "kalanchoe",
     "isSafe": false
   },
   {
@@ -169,6 +185,7 @@
       "en": ["peace lily", "mauna loa peace lily"],
       "lat": "spathiphyllum"
     },
+    "slug": "skrzydlokwiat",
     "isSafe": false
   },
   {
@@ -178,6 +195,7 @@
       "lat": "caladium hortulanum"
     },
     "queryImage": "caladium",
+    "slug": "kaladium",
     "isSafe": false
   },
   {
@@ -186,6 +204,7 @@
       "en": ["alocasia", "elephant's ear"],
       "lat": "alocasia"
     },
+    "slug": "alokazja",
     "isSafe": false
   },
   {
@@ -195,6 +214,7 @@
       "lat": "cyperus"
     },
     "queryImage": "nutsedges",
+    "slug": "cibora",
     "isSafe": false
   },
   {
@@ -203,6 +223,7 @@
       "en": ["ti plant"],
       "lat": "cordyline terminalis"
     },
+    "slug": "kordylina-krzewiasta",
     "isSafe": false
   },
   {
@@ -211,6 +232,7 @@
       "en": ["cabbage tree", "cabbage palm"],
       "lat": "cordyline australis"
     },
+    "slug": "kordylina-australijska",
     "isSafe": false
   },
   {
@@ -219,6 +241,7 @@
       "en": ["croton"],
       "lat": "codiaeum"
     },
+    "slug": "kroton",
     "isSafe": false
   },
   {
@@ -227,6 +250,7 @@
       "en": ["hellebore", "Christmas rose", "lenten rose", "Easter rose"],
       "lat": "helleborus"
     },
+    "slug": "ciemiernik",
     "isSafe": false
   },
   {
@@ -235,6 +259,7 @@
       "en": ["common ivy"],
       "lat": "hedera helix"
     },
+    "slug": "bluszcz-pospolity",
     "isSafe": false
   },
   {
@@ -243,6 +268,7 @@
       "en": ["Canary Island ivy", "Canarian ivy", "Algerian ivy"],
       "lat": "hedera canariensis"
     },
+    "slug": "bluszcz-kanaryjski",
     "isSafe": false
   },
   {
@@ -251,6 +277,7 @@
       "en": ["American holly"],
       "lat": "ilex opaca"
     },
+    "slug": "ostrokrzew-amerykanski",
     "isSafe": false
   },
   {
@@ -259,6 +286,7 @@
       "en": ["common holly"],
       "lat": "ilex aquifolium"
     },
+    "slug": "ostrokrzew-kolczasty",
     "isSafe": false
   },
   {
@@ -267,6 +295,7 @@
       "en": ["Japanese holly"],
       "lat": "ilex crenata"
     },
+    "slug": "ostrokrzew-bukszpanowy",
     "isSafe": false
   },
   {
@@ -275,6 +304,7 @@
       "en": ["mistletoe"],
       "lat": "viscum"
     },
+    "slug": "jemiola",
     "isSafe": false
   },
   {
@@ -283,6 +313,7 @@
       "en": ["oleander", "nerium"],
       "lat": "nerium oleander"
     },
+    "slug": "oleander",
     "isSafe": false
   },
   {
@@ -291,6 +322,8 @@
       "en": ["scots pine"],
       "lat": "pinus sylvestris"
     },
+    "slug": "sosna",
+    "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "isSafe": false
   },
   {
@@ -299,6 +332,9 @@
       "en": ["English Yew"],
       "lat": "taxus baccata"
     },
+    "slug": "cis",
+    "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
+
     "isSafe": false
   },
   {
@@ -307,6 +343,17 @@
       "en": ["silver fir"],
       "lat": "abies alba"
     },
+    "slug": "jodla",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["świerk"],
+      "en": ["spruce"],
+      "lat": "picea"
+    },
+    "slug": "swierk",
+    "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "isSafe": false
   }
 ]

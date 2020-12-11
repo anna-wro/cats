@@ -7,8 +7,10 @@ export type PlantType = {
     en: string[];
     lat: string;
   };
+  slug: string,
   queryImage?: string;
   isSafe: boolean;
+  note?: string,
 };
 
 type PlantProps = Readonly<{
