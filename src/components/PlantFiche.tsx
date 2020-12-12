@@ -1,5 +1,5 @@
-import usePlantPics from './Plants/usePlantPics';
-import { getPhotosUrls } from 'utils/flickr';
+import useThumbnail from './useThumbnail';
+import { getPhotoUrl } from 'utils/flickr';
 import SafetyBadge from 'components/SafetyBadge';
 
 export type PlantType = {
@@ -9,6 +9,7 @@ export type PlantType = {
     lat: string;
   };
   slug: string;
+  thumbnailID: string;
   queryImage?: string;
   isSafe: boolean;
   note?: string;
@@ -21,14 +22,14 @@ type PlantFicheProps = Readonly<{
 const PHOTOS_TO_DISPLAY = 1;
 
 export default function Plant({ plant }: PlantFicheProps) {
-  const photos = usePlantPics(plant.queryImage ?? plant.name.lat);
-  const urls = getPhotosUrls(photos.slice(0, PHOTOS_TO_DISPLAY));
+  const thumbnail = plant.thumbnailID ?  useThumbnail(plant.thumbnailID) : null;
+  const url = thumbnail ? getPhotoUrl(thumbnail) : null;
 
   return (
     <div className="flex h-32 w-80 shadow-lg rounded-lg">
       <div
-        className="w-1/2 rounded-l-lg bg-gray-light bg-cover"
-        style={{ backgroundImage: `url(${urls?.[0]?.thumbnail})` }}
+        className="w-1/2 rounded-l-lg bg-gray-light bg-cover bg-center"
+        style={{ backgroundImage: `url(${url?.thumbnail})` }}
       ></div>
       <div className="w-1/2 rounded-r-lg p-5">
         <div className="flex flex-col items-center justify-center">

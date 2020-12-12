@@ -11,6 +11,7 @@
       "lat": "chamaedorea elegans"
     },
     "slug": "chamedora-wytworna",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -20,6 +21,7 @@
       "lat": "saintpaulia ionantha"
     },
     "slug": "fiolek-afrykanski",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -29,6 +31,7 @@
       "lat": "dimorphotheca pluvialis"
     },
     "slug": "dimorfoteka",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -38,6 +41,7 @@
       "lat": "guzmania lingulata"
     },
     "slug": "guzmania",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -47,6 +51,7 @@
       "lat": "maranta leuconeura"
     },
     "slug": "maranta",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -62,6 +67,7 @@
     },
     "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -76,6 +82,7 @@
       "lat": "beaucarnea recurvata"
     },
     "slug": "nolina-wygieta",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -85,6 +92,7 @@
       "lat": "phalaenopsis sp."
     },
     "slug": "storczyk-falenopsis",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -99,6 +107,7 @@
       "lat": "schlumbergera bridgesii"
     },
     "slug": "szlumbergera",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -108,6 +117,7 @@
       "lat": "chlorophytum comosum"
     },
     "slug": "zielistka",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -117,6 +127,7 @@
       "lat": "aspidistra elatior"
     },
     "slug": "aspidistra",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -132,6 +143,7 @@
       "lat": "asplenium bulbiferum"
     },
     "slug": "asplenium",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -141,6 +153,7 @@
       "lat": "dypsis lutescens"
     },
     "slug": "palma-areka",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -155,6 +168,7 @@
       "lat": "stephanotis floribunda"
     },
     "slug": "stefanotis",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -164,6 +178,7 @@
       "lat": "cymbidium"
     },
     "slug": "cymbidium",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -173,6 +188,7 @@
       "lat": "dendrobium"
     },
     "slug": "dendrobium",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -182,6 +198,7 @@
       "lat": "oncidium"
     },
     "slug": "oncidium",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -191,6 +208,7 @@
       "lat": "peperomia"
     },
     "slug": "peperomia",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -200,6 +218,7 @@
       "lat": "bromelia"
     },
     "slug": "bromelia",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -217,6 +236,7 @@
       "lat": "neoregelia"
     },
     "slug": "neoregelia",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -233,6 +253,7 @@
       "lat": "calathea"
     },
     "slug": "kalatea",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -243,6 +264,7 @@
     },
     "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -252,6 +274,7 @@
       "lat": "platycerium"
     },
     "slug": "plaskla",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -261,6 +284,7 @@
       "lat": "pellaea rotundifolia"
     },
     "slug": "ciemnotka",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -276,6 +300,7 @@
       "lat": "gerbera jamesonii"
     },
     "slug": "gerbera",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -285,6 +310,7 @@
       "lat": "helianthus annuus"
     },
     "slug": "slonecznik",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -295,6 +321,7 @@
     },
     "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -305,6 +332,7 @@
     },
     "queryImage": "freesia",
     "slug": "frezja",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -315,6 +343,7 @@
     },
     "queryImage": "marsh-rosemary",
     "slug": "limonium",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -324,6 +353,7 @@
       "lat": "eleagnus"
     },
     "slug": "oliwnik",
+    "thumbnailID": "",
     "isSafe": true
   },
   {
@@ -333,6 +363,7 @@
       "lat": "salvia rosmarinus"
     },
     "slug": "rozmaryn",
+    "thumbnailID": "",
     "isSafe": true
   }
 ]

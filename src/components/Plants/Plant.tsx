@@ -13,6 +13,7 @@ export type PlantType = {
   queryImage?: string;
   isSafe: boolean;
   note?: string;
+  thumbnailId: string;
 };
 
 type PlantProps = Readonly<{
