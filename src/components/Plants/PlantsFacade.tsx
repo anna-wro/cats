@@ -7,5 +7,6 @@ export default function PlantsFacade() {
   const plants = [...safe, ...toxic];
   const sortedPlants = plants.sort(sortByName('pl'));
 
+  // FIXME: typescript
   return <PlantList plants={sortedPlants} />;
 }
