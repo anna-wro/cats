@@ -162,7 +162,7 @@
       "lat": "asplenium bulbiferum"
     },
     "slug": "asplenium",
-    "thumbnailID": "",
+    "thumbnailID": "26075547582",
     "isSafe": true
   },
   {
@@ -172,7 +172,7 @@
       "lat": "dypsis lutescens"
     },
     "slug": "palma-areka",
-    "thumbnailID": "",
+    "thumbnailID": "49161193377",
     "isSafe": true
   },
   {
@@ -187,7 +187,7 @@
       "lat": "stephanotis floribunda"
     },
     "slug": "stefanotis",
-    "thumbnailID": "",
+    "thumbnailID": "333118035",
     "isSafe": true
   },
   {
@@ -197,7 +197,7 @@
       "lat": "cymbidium"
     },
     "slug": "cymbidium",
-    "thumbnailID": "",
+    "thumbnailID": "3109226573",
     "isSafe": true
   },
   {
@@ -207,7 +207,7 @@
       "lat": "dendrobium"
     },
     "slug": "dendrobium",
-    "thumbnailID": "",
+    "thumbnailID": "8241816362",
     "isSafe": true
   },
   {
@@ -217,17 +217,17 @@
       "lat": "oncidium"
     },
     "slug": "oncidium",
-    "thumbnailID": "",
+    "thumbnailID": "2198693810",
     "isSafe": true
   },
   {
     "name": {
       "pl": ["peperomia"],
-      "en": ["radiator plants", "peperomia"],
+      "en": ["radiator plant", "peperomia"],
       "lat": "peperomia"
     },
     "slug": "peperomia",
-    "thumbnailID": "",
+    "thumbnailID": "15242960660",
     "isSafe": true
   },
   {
@@ -237,7 +237,7 @@
       "lat": "bromelia"
     },
     "slug": "bromelia",
-    "thumbnailID": "",
+    "thumbnailID": "3301860588",
     "isSafe": true
   },
   {
@@ -255,7 +255,7 @@
       "lat": "neoregelia"
     },
     "slug": "neoregelia",
-    "thumbnailID": "",
+    "thumbnailID": "3784389402",
     "isSafe": true
   },
   {
@@ -272,7 +272,7 @@
       "lat": "calathea"
     },
     "slug": "kalatea",
-    "thumbnailID": "",
+    "thumbnailID": "6303393081",
     "isSafe": true
   },
   {
@@ -283,7 +283,7 @@
     },
     "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
-    "thumbnailID": "",
+    "thumbnailID": "17169921156",
     "isSafe": true
   },
   {
@@ -293,7 +293,7 @@
       "lat": "platycerium"
     },
     "slug": "plaskla",
-    "thumbnailID": "",
+    "thumbnailID": "31217908164",
     "isSafe": true
   },
   {
@@ -303,7 +303,7 @@
       "lat": "pellaea rotundifolia"
     },
     "slug": "ciemnotka",
-    "thumbnailID": "",
+    "thumbnailID": "23867255328",
     "isSafe": true
   },
   {
@@ -313,13 +313,12 @@
         "gerber daisy",
         "barberton daisy",
         "transvaal daisy",
-        "African daisy",
         "veldt daisy"
       ],
       "lat": "gerbera jamesonii"
     },
     "slug": "gerbera",
-    "thumbnailID": "",
+    "thumbnailID": "14078423634",
     "isSafe": true
   },
   {
@@ -329,7 +328,7 @@
       "lat": "helianthus annuus"
     },
     "slug": "slonecznik",
-    "thumbnailID": "",
+    "thumbnailID": "49680380248",
     "isSafe": true
   },
   {
@@ -340,7 +339,7 @@
     },
     "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
-    "thumbnailID": "",
+    "thumbnailID": "29412208433",
     "isSafe": true
   },
   {
@@ -351,7 +350,7 @@
     },
     "queryImage": "freesia",
     "slug": "frezja",
-    "thumbnailID": "",
+    "thumbnailID": "4951850752",
     "isSafe": true
   },
   {
@@ -362,7 +361,7 @@
     },
     "queryImage": "marsh-rosemary",
     "slug": "limonium",
-    "thumbnailID": "",
+    "thumbnailID": "9657492794",
     "isSafe": true
   },
   {
@@ -372,7 +371,7 @@
       "lat": "eleagnus"
     },
     "slug": "oliwnik",
-    "thumbnailID": "",
+    "thumbnailID": "2586117614",
     "isSafe": true
   },
   {
@@ -382,7 +381,7 @@
       "lat": "salvia rosmarinus"
     },
     "slug": "rozmaryn",
-    "thumbnailID": "",
+    "thumbnailID": "109623018",
     "isSafe": true
   }
 ]
