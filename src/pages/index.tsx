@@ -6,7 +6,7 @@ export default function Home({ plants }) {
   return (
     <div>
       <Head>
-        <title>Hello cats</title>
+        <title>Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />

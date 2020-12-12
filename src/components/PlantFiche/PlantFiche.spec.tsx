@@ -1,15 +1,16 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Plant from './Plant';
+import PlantFiche from './PlantFiche';
 
-describe('<Plant>', () => {
+describe('<PlantFiche>', () => {
   test('renders correctly', () => {
     render(
-      <Plant
+      <PlantFiche
         plant={{
           isSafe: false,
           slug: 'fiolek',
           name: { pl: ['Fiołek'], en: [], lat: '' },
+          thumbnailID: '256'
         }}
       />,
     );

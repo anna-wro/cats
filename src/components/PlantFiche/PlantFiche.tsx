@@ -1,6 +1,6 @@
 import useThumbnail from './useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
-import SafetyBadge from 'components/SafetyBadge';
+import SafetyBadge from './SafetyBadge';
 
 export type PlantType = {
   name: {

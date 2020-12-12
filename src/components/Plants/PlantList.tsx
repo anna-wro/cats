@@ -1,5 +1,5 @@
-import PlantFiche from '../PlantFiche';
-import type { PlantType } from './Plant';
+import PlantFiche from 'components/PlantFiche/PlantFiche';
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantGroupType = {
   plants: PlantType[];
