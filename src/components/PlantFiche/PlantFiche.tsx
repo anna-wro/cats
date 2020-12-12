@@ -32,7 +32,7 @@ export default function Plant({ plant }: PlantFicheProps) {
       <div className="w-1/2 rounded-r-lg p-5">
         <div className="flex flex-col items-center justify-center">
           <SafetyBadge isSafe={plant.isSafe} />
-          <div className="text-gray text-sm text-center leading-4 pt-2">
+          <div className="text-dark text-sm text-center leading-4 pt-2">
             {plant.name.pl[0]}
           </div>
         </div>
