@@ -19,10 +19,8 @@ type PlantFicheProps = Readonly<{
   plant: PlantType;
 }>;
 
-const PHOTOS_TO_DISPLAY = 1;
-
 export default function Plant({ plant }: PlantFicheProps) {
-  const thumbnail = plant.thumbnailID ?  useThumbnail(plant.thumbnailID) : null;
+  const thumbnail = useThumbnail(plant.thumbnailID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
 
   return (
