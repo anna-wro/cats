@@ -10,8 +10,7 @@ export default function Home({ plants }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <div className="max-w-4xl mx-auto">
-        <p className="text-xl text-green-500 mb-4">Hello cats</p>
+      <div className="max-w-7xl mx-auto px-20">
         <PlantsFacade />
       </div>
     </div>

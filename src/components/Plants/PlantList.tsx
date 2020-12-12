@@ -1,16 +1,16 @@
-import Plant from './Plant';
-import type {PlantType} from './Plant';
+import PlantFiche from '../PlantFiche';
+import type { PlantType } from './Plant';
 
 type PlantGroupType = {
-  plants: PlantType[]
+  plants: PlantType[];
 };
 
 export default function PlantList({ plants }: PlantGroupType) {
   return (
-    <>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10 mt-20 gap-x-5">
       {plants.map((plant, index) => (
-        <Plant key={index} plant={plant} />
+        <PlantFiche key={index} plant={plant} />
       ))}
-    </>
+    </div>
   );
 }

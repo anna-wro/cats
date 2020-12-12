@@ -7,9 +7,9 @@ type SafetyBadgeProps = Readonly<{
 export default function SafetyBadge({ isSafe }: SafetyBadgeProps) {
   return (
     <div
-      className={`inline-flex ${
+      className={` ${
         isSafe ? 'bg-blue-light' : 'bg-orange-light'
-      } p-2.5 rounded-2xl`}
+      } w-12 h-12 p-2.5 rounded-2xl`}
     >
       <Image
         src={isSafe ? '/smile.svg' : '/frown.svg'}
