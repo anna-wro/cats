@@ -29,7 +29,7 @@ export default function PlantsFacade() {
         type="search"
         placeholder="Fiołek"
         value={query}
-        className="text-lg block mt-20 h-20 w-full p-6 focus:shadow-lg rounded-lg border-2 border-gray-light 
+        className="text-lg block mt-20 h-20 w-full p-6 shadow-lg rounded-lg border-2 border-gray-light 
         focus:ring-4 focus:ring-blue focus:ring-opacity-30 focus:border-blue focus:outline-none"
         onChange={(event) => handleInputChange(event)}
       />

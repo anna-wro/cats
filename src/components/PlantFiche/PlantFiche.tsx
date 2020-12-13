@@ -24,7 +24,7 @@ export default function Plant({ plant }: PlantFicheProps) {
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
 
   return (
-    <div className="flex h-32 w-100 max-w-xs shadow-lg rounded-lg">
+    <div className="flex h-32 w-100 max-w-xs shadow rounded-lg">
       <div
         className="w-1/2 rounded-l-lg bg-gray-light bg-opacity-50 bg-cover bg-center"
         style={{ backgroundImage: `url(${url?.thumbnail})` }}
