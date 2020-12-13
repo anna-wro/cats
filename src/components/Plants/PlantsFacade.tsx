@@ -8,5 +8,15 @@ export default function PlantsFacade() {
   const sortedPlants = plants.sort(sortByName('pl'));
 
   // FIXME: typescript
-  return <PlantList plants={sortedPlants} />;
+  return (
+    <>
+      <input
+        type="search"
+        placeholder="Fiołek"
+        className="block mt-20 h-20 w-full p-6 focus:shadow-lg rounded-lg border border-gray-light 
+        focus:ring-4 focus:ring-blue focus:ring-opacity-20 focus:border-blue focus:outline-none"
+      />
+      <PlantList plants={sortedPlants} />
+    </>
+  );
 }
