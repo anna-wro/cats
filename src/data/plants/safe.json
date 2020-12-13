@@ -11,6 +11,7 @@
       "lat": "chamaedorea elegans"
     },
     "slug": "chamedora-wytworna",
+    "thumbnailID": "16404871208",
     "isSafe": true
   },
   {
@@ -20,6 +21,7 @@
       "lat": "saintpaulia ionantha"
     },
     "slug": "fiolek-afrykanski",
+    "thumbnailID": "11903413204",
     "isSafe": true
   },
   {
@@ -29,6 +31,27 @@
       "lat": "dimorphotheca pluvialis"
     },
     "slug": "dimorfoteka",
+    "thumbnailID": "3056745969",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["stokrotka afrykańska"],
+      "en": ["African daisy"],
+      "lat": "osteospermum"
+    },
+    "slug": "stokrotka-afrykanska",
+    "thumbnailID": "2580843467",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["aster chiński"],
+      "en": ["China aster", "annual aster"],
+      "lat": "callistephus chinensis"
+    },
+    "slug": "aster-chinski",
+    "thumbnailID": "12965386484",
     "isSafe": true
   },
   {
@@ -38,6 +61,7 @@
       "lat": "guzmania lingulata"
     },
     "slug": "guzmania",
+    "thumbnailID": "1183196942",
     "isSafe": true
   },
   {
@@ -47,6 +71,7 @@
       "lat": "maranta leuconeura"
     },
     "slug": "maranta",
+    "thumbnailID": "5867908152",
     "isSafe": true
   },
   {
@@ -62,6 +87,7 @@
     },
     "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
+    "thumbnailID": "50202240336",
     "isSafe": true
   },
   {
@@ -76,38 +102,37 @@
       "lat": "beaucarnea recurvata"
     },
     "slug": "nolina-wygieta",
+    "thumbnailID": "7983397342",
     "isSafe": true
   },
   {
     "name": {
       "pl": ["storczyk phalaenopsis", "falenopsis"],
       "en": ["phalaenopsis orchid", "moth orchid", "moon orchid"],
-      "lat": "phalaenopsis sp."
+      "lat": "phalaenopsis"
     },
     "slug": "storczyk-falenopsis",
+    "thumbnailID": "5472932072",
     "isSafe": true
   },
   {
     "name": {
-      "pl": [
-        "szlumbergera",
-        "zygokaktus",
-        "kaktus bożonarodzeniowy",
-        "grudnik"
-      ],
+      "pl": ["szlumbergera", "kaktus bożonarodzeniowy", "grudnik"],
       "en": ["Christmas cactus"],
       "lat": "schlumbergera bridgesii"
     },
     "slug": "szlumbergera",
+    "thumbnailID": "32114044051",
     "isSafe": true
   },
   {
     "name": {
       "pl": ["zielistka Sternberga", "zielistka czubiasta"],
-      "en": ["anthericum", "walking anthericum", "spider ivy", "spider plant"],
+      "en": ["spider ivy", "spider plant"],
       "lat": "chlorophytum comosum"
     },
     "slug": "zielistka",
+    "thumbnailID": "10314214735",
     "isSafe": true
   },
   {
@@ -117,6 +142,7 @@
       "lat": "aspidistra elatior"
     },
     "slug": "aspidistra",
+    "thumbnailID": "50290644831",
     "isSafe": true
   },
   {
@@ -132,6 +158,7 @@
       "lat": "asplenium bulbiferum"
     },
     "slug": "asplenium",
+    "thumbnailID": "26075547582",
     "isSafe": true
   },
   {
@@ -141,6 +168,7 @@
       "lat": "dypsis lutescens"
     },
     "slug": "palma-areka",
+    "thumbnailID": "49161193377",
     "isSafe": true
   },
   {
@@ -155,6 +183,7 @@
       "lat": "stephanotis floribunda"
     },
     "slug": "stefanotis",
+    "thumbnailID": "333118035",
     "isSafe": true
   },
   {
@@ -164,6 +193,7 @@
       "lat": "cymbidium"
     },
     "slug": "cymbidium",
+    "thumbnailID": "3109226573",
     "isSafe": true
   },
   {
@@ -173,6 +203,7 @@
       "lat": "dendrobium"
     },
     "slug": "dendrobium",
+    "thumbnailID": "8241816362",
     "isSafe": true
   },
   {
@@ -182,15 +213,17 @@
       "lat": "oncidium"
     },
     "slug": "oncidium",
+    "thumbnailID": "2198693810",
     "isSafe": true
   },
   {
     "name": {
       "pl": ["peperomia"],
-      "en": ["radiator plants", "peperomia"],
+      "en": ["radiator plant", "peperomia"],
       "lat": "peperomia"
     },
     "slug": "peperomia",
+    "thumbnailID": "15242960660",
     "isSafe": true
   },
   {
@@ -200,6 +233,7 @@
       "lat": "bromelia"
     },
     "slug": "bromelia",
+    "thumbnailID": "3301860588",
     "isSafe": true
   },
   {
@@ -217,6 +251,7 @@
       "lat": "neoregelia"
     },
     "slug": "neoregelia",
+    "thumbnailID": "3784389402",
     "isSafe": true
   },
   {
@@ -233,6 +268,7 @@
       "lat": "calathea"
     },
     "slug": "kalatea",
+    "thumbnailID": "6303393081",
     "isSafe": true
   },
   {
@@ -243,6 +279,7 @@
     },
     "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
+    "thumbnailID": "17169921156",
     "isSafe": true
   },
   {
@@ -252,6 +289,7 @@
       "lat": "platycerium"
     },
     "slug": "plaskla",
+    "thumbnailID": "31217908164",
     "isSafe": true
   },
   {
@@ -261,6 +299,7 @@
       "lat": "pellaea rotundifolia"
     },
     "slug": "ciemnotka",
+    "thumbnailID": "23867255328",
     "isSafe": true
   },
   {
@@ -270,12 +309,12 @@
         "gerber daisy",
         "barberton daisy",
         "transvaal daisy",
-        "African daisy",
         "veldt daisy"
       ],
       "lat": "gerbera jamesonii"
     },
     "slug": "gerbera",
+    "thumbnailID": "14078423634",
     "isSafe": true
   },
   {
@@ -285,6 +324,7 @@
       "lat": "helianthus annuus"
     },
     "slug": "slonecznik",
+    "thumbnailID": "49680380248",
     "isSafe": true
   },
   {
@@ -295,6 +335,7 @@
     },
     "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
+    "thumbnailID": "29412208433",
     "isSafe": true
   },
   {
@@ -305,6 +346,7 @@
     },
     "queryImage": "freesia",
     "slug": "frezja",
+    "thumbnailID": "4951850752",
     "isSafe": true
   },
   {
@@ -315,6 +357,7 @@
     },
     "queryImage": "marsh-rosemary",
     "slug": "limonium",
+    "thumbnailID": "9657492794",
     "isSafe": true
   },
   {
@@ -324,6 +367,7 @@
       "lat": "eleagnus"
     },
     "slug": "oliwnik",
+    "thumbnailID": "2586117614",
     "isSafe": true
   },
   {
@@ -333,6 +377,7 @@
       "lat": "salvia rosmarinus"
     },
     "slug": "rozmaryn",
+    "thumbnailID": "109623018",
     "isSafe": true
   }
 ]

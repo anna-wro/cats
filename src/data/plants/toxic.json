@@ -6,6 +6,7 @@
       "lat": "pelargonium"
     },
     "slug": "pelargonia",
+    "thumbnailID": "14952425524",
     "isSafe": false
   },
   {
@@ -22,6 +23,7 @@
     },
     "queryImage": "dracaena fragrans",
     "slug": "dracena",
+    "thumbnailID": "33445378203",
     "isSafe": false
   },
   {
@@ -31,6 +33,7 @@
       "lat": "begonia"
     },
     "slug": "begonia",
+    "thumbnailID": "8884235929",
     "isSafe": false
   },
   {
@@ -41,36 +44,18 @@
     },
     "queryImage": "cyclamen",
     "slug": "fiolek-alpejski",
+    "thumbnailID": "49295902377",
     "isSafe": false
   },
   {
     "name": {
-      "pl": ["fikus lirolistny", "figowiec dębolistny"],
-      "en": ["fiddle-leaf fig"],
-      "lat": "ficus lyrata"
+      "pl": ["fikus", "figowiec"],
+      "en": ["fig", "ficus tree"],
+      "lat": "ficus"
     },
     "queryImage": "fiddle-leaf fig",
-    "slug": "fikus-lirolistny",
-    "isSafe": false
-  },
-  {
-    "name": {
-      "pl": ["fikus benjamina", "figowiec benjamina"],
-      "en": ["weeping fig", "benjamin fig", "ficus tree"],
-      "lat": "ficus benjamina"
-    },
-    "queryImage": "benjamin ficus",
-    "slug": "fikus-benjamina",
-    "isSafe": false
-  },
-  {
-    "name": {
-      "pl": ["fikus sprężysty", "figowiec sprężysty"],
-      "en": ["rubber fig", "rubber plant"],
-      "lat": "ficus elastica"
-    },
-    "queryImage": "ficus elastica -tree",
-    "slug": "fikus-sprezysty",
+    "slug": "fikus",
+    "thumbnailID": "39925281311",
     "isSafe": false
   },
   {
@@ -86,8 +71,8 @@
       ],
       "lat": "monstera deliciosa"
     },
-    "queryImage": "mexican breadfruit",
     "slug": "monstera",
+    "thumbnailID": "2077563132",
     "isSafe": false
   },
   {
@@ -97,6 +82,7 @@
       "lat": "philodendron"
     },
     "slug": "filodendron",
+    "thumbnailID": "5005679930",
     "isSafe": false
   },
   {
@@ -106,6 +92,7 @@
       "lat": "strelitzia reginae"
     },
     "slug": "strelicja",
+    "thumbnailID": "866733515",
     "isSafe": false
   },
   {
@@ -116,6 +103,7 @@
     },
     "queryImage": "aloe vera leaves",
     "slug": "aloes",
+    "thumbnailID": "50658583448",
     "isSafe": false
   },
   {
@@ -133,6 +121,7 @@
       "lat": "anthurium"
     },
     "slug": "anturium",
+    "thumbnailID": "4155228729",
     "isSafe": false
   },
   {
@@ -143,6 +132,7 @@
     },
     "queryImage": "poinsettia",
     "slug": "gwiazda-betlejemska",
+    "thumbnailID": "23852937865",
     "isSafe": false
   },
   {
@@ -152,16 +142,18 @@
       "lat": "rhododendron"
     },
     "slug": "azalia",
+    "thumbnailID": "3371973318",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["trzykrotka", "tradeskancja"],
-      "en": ["wandering Jew", "speedy Henry", "variegated wandering Jew"],
-      "lat": "tradescantia flumeninsis"
+      "en": ["wandering Jew", "small-leaf spiderwort"],
+      "lat": "tradescantia fluminensis"
     },
     "queryImage": "tradescantia",
     "slug": "trzykrotka",
+    "thumbnailID": "22013796720",
     "isSafe": false
   },
   {
@@ -177,15 +169,17 @@
       "lat": "kalanchoe"
     },
     "slug": "kalanchoe",
+    "thumbnailID": "3265230226",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["skrzydłokwiat", "skrzydłolist"],
-      "en": ["peace lily", "mauna loa peace lily"],
+      "en": ["peace lily"],
       "lat": "spathiphyllum"
     },
     "slug": "skrzydlokwiat",
+    "thumbnailID": "44722981004",
     "isSafe": false
   },
   {
@@ -196,6 +190,7 @@
     },
     "queryImage": "caladium",
     "slug": "kaladium",
+    "thumbnailID": "49606281023",
     "isSafe": false
   },
   {
@@ -205,6 +200,7 @@
       "lat": "alocasia"
     },
     "slug": "alokazja",
+    "thumbnailID": "48711540401",
     "isSafe": false
   },
   {
@@ -215,6 +211,7 @@
     },
     "queryImage": "nutsedges",
     "slug": "cibora",
+    "thumbnailID": "4449690173",
     "isSafe": false
   },
   {
@@ -224,6 +221,7 @@
       "lat": "cordyline terminalis"
     },
     "slug": "kordylina-krzewiasta",
+    "thumbnailID": "5023889525",
     "isSafe": false
   },
   {
@@ -233,6 +231,7 @@
       "lat": "cordyline australis"
     },
     "slug": "kordylina-australijska",
+    "thumbnailID": "24860880866",
     "isSafe": false
   },
   {
@@ -242,6 +241,7 @@
       "lat": "codiaeum"
     },
     "slug": "kroton",
+    "thumbnailID": "3374602055",
     "isSafe": false
   },
   {
@@ -251,15 +251,17 @@
       "lat": "helleborus"
     },
     "slug": "ciemiernik",
+    "thumbnailID": "25490864353",
     "isSafe": false
   },
   {
     "name": {
       "pl": ["bluszcz pospolity"],
-      "en": ["common ivy"],
+      "en": ["common ivy", "English ivy"],
       "lat": "hedera helix"
     },
     "slug": "bluszcz-pospolity",
+    "thumbnailID": "4595168087",
     "isSafe": false
   },
   {
@@ -269,6 +271,7 @@
       "lat": "hedera canariensis"
     },
     "slug": "bluszcz-kanaryjski",
+    "thumbnailID": "16730402177",
     "isSafe": false
   },
   {
@@ -278,6 +281,7 @@
       "lat": "ilex opaca"
     },
     "slug": "ostrokrzew-amerykanski",
+    "thumbnailID": "2502950122",
     "isSafe": false
   },
   {
@@ -287,6 +291,7 @@
       "lat": "ilex aquifolium"
     },
     "slug": "ostrokrzew-kolczasty",
+    "thumbnailID": "39656935103",
     "isSafe": false
   },
   {
@@ -296,6 +301,7 @@
       "lat": "ilex crenata"
     },
     "slug": "ostrokrzew-bukszpanowy",
+    "thumbnailID": "4850141809",
     "isSafe": false
   },
   {
@@ -305,6 +311,7 @@
       "lat": "viscum"
     },
     "slug": "jemiola",
+    "thumbnailID": "49496395203",
     "isSafe": false
   },
   {
@@ -314,6 +321,7 @@
       "lat": "nerium oleander"
     },
     "slug": "oleander",
+    "thumbnailID": "34319656701",
     "isSafe": false
   },
   {
@@ -324,6 +332,7 @@
     },
     "slug": "sosna",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
+    "thumbnailID": "34559508152",
     "isSafe": false
   },
   {
@@ -335,6 +344,7 @@
     "slug": "cis",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
 
+    "thumbnailID": "5021014358",
     "isSafe": false
   },
   {
@@ -344,6 +354,7 @@
       "lat": "abies alba"
     },
     "slug": "jodla",
+    "thumbnailID": "2484485190",
     "isSafe": false
   },
   {
@@ -354,6 +365,7 @@
     },
     "slug": "swierk",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
+    "thumbnailID": "21457742918",
     "isSafe": false
   }
 ]
