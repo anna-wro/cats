@@ -13,8 +13,8 @@ export default function PlantsFacade() {
       <input
         type="search"
         placeholder="Fiołek"
-        className="block mt-20 h-20 w-full p-6 focus:shadow-lg rounded-lg border border-gray-light 
-        focus:ring-4 focus:ring-blue focus:ring-opacity-20 focus:border-blue focus:outline-none"
+        className="text-lg block mt-20 h-20 w-full p-6 focus:shadow-lg rounded-lg border-2 border-gray-light 
+        focus:ring-4 focus:ring-blue focus:ring-opacity-30 focus:border-blue focus:outline-none"
       />
       <PlantList plants={sortedPlants} />
     </>
