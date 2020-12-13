@@ -57,7 +57,7 @@ export default function useThumbnail(ID: string): PlantPhotoInfoType {
         .then((response) => response.json())
         .then((data) => setThumbnail(data.photo));
     } catch {}
-  }, []);
+  }, [ID]);
 
   return thumbnail;
 }
