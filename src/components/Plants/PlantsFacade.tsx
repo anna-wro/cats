@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { matchSorter } from 'match-sorter';
 import PlantList from './PlantList';
+import Search from '../Search';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
@@ -12,27 +13,20 @@ export default function PlantsFacade() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(sortedPlants);
 
-  function handleInputChange(e) {
-    const queryResults = matchSorter(plants, e.target.value, {
+  function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const queryResults = matchSorter(plants, e.currentTarget.value, {
       threshold: matchSorter.rankings.WORD_STARTS_WITH,
       keys: ['name.pl', 'name.en', 'name.lat'],
     });
 
-    setQuery(e.target.value);
+    setQuery(e.currentTarget.value);
     setResults(queryResults);
   }
 
   // FIXME: typescript
   return (
     <>
-      <input
-        type="search"
-        placeholder="Fiołek"
-        value={query}
-        className="text-lg block mt-20 h-20 w-full p-6 shadow-lg rounded-lg border-2 border-gray-light 
-        focus:ring-4 focus:ring-blue focus:ring-opacity-30 focus:border-blue focus:outline-none"
-        onChange={(event) => handleInputChange(event)}
-      />
+      <Search query={query} onChange={(e) => handleInputChange(e)} />
       <PlantList plants={results} />
     </>
   );
