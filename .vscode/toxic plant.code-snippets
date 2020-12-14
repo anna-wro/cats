@@ -1,0 +1,19 @@
+{
+  "Toxic plant": {
+    "prefix": "toxic",
+    "body": [
+      "{",
+      "    \"name\": {",
+      "      \"pl\": [\"\"],",
+      "      \"en\": [\"\"],",
+      "      \"lat\": \"\"",
+      "    },",
+      "    \"slug\": \"\",",
+      "    \"thumbnailID\": \"\",",
+      "    \"isSafe\": false",
+      "  },",
+      ""
+    ],
+    "description": "Toxic plant"
+  }
+}

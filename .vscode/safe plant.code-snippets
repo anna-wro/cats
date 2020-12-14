@@ -1,0 +1,19 @@
+{
+  "Safe plant": {
+    "prefix": "safe",
+    "body": [
+      "{",
+      "    \"name\": {",
+      "      \"pl\": [\"\"],",
+      "      \"en\": [\"\"],",
+      "      \"lat\": \"\"",
+      "    },",
+      "    \"slug\": \"\",",
+      "    \"thumbnailID\": \"\",",
+      "    \"isSafe\": true",
+      "  },",
+      ""
+    ],
+    "description": "Safe plant"
+  }
+}
