@@ -489,5 +489,55 @@
     "slug": "szalwia",
     "thumbnailID": "44136771202",
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["róża"],
+      "en": ["rose"],
+      "lat": "rosa"
+    },
+    "slug": "roza",
+    "thumbnailID": "27340064060",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["fuksja"],
+      "en": ["honeysuckle fuchsia"],
+      "lat": "fuchsia triphylla"
+    },
+    "slug": "fuksja",
+    "thumbnailID": "5034045553",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["chaber bławatek"],
+      "en": ["cornflower", "bachelor's button", "bluebottle"],
+      "lat": "centaurea cyanus"
+    },
+    "slug": "chaber",
+    "thumbnailID": "50044268841",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["lilak pospolity", "bez lilak", "bez turecki"],
+      "en": ["common lilac"],
+      "lat": "syringa vulgaris"
+    },
+    "slug": "lilak-pospolity",
+    "thumbnailID": "8751425506",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["hibiskus", "ketmia", "róża chińska"],
+      "en": ["hibiscus", "rose of Sharon", "China rose"],
+      "lat": "hibiscus"
+    },
+    "slug": "hibiskus",
+    "thumbnailID": "28358706571",
+    "isSafe": true
   }
 ]
