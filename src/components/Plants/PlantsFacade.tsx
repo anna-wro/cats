@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { matchSorter } from 'match-sorter';
+import { polishPlurals } from 'polish-plurals';
 import PlantList from './PlantList';
 import Search from '../Search';
 import safe from 'data/plants/safe.json';
@@ -12,6 +13,13 @@ export default function PlantsFacade() {
 
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(sortedPlants);
+  const counter = results.length;
+  const plantDeclension = polishPlurals(
+    'roślinę',
+    'rośliny',
+    'roślin',
+    counter,
+  );
 
   function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
     const queryResults = matchSorter(plants, e.currentTarget.value, {
@@ -27,6 +35,10 @@ export default function PlantsFacade() {
   return (
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
+      <div className="mt-28">
+        Znaleziono <span className="font-bold">{counter}</span>{' '}
+        {plantDeclension}
+      </div>
       <PlantList plants={results} />
     </>
   );
