@@ -354,6 +354,7 @@
       "lat": "abies alba"
     },
     "slug": "jodla",
+    "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "thumbnailID": "2484485190",
     "isSafe": false
   },
@@ -366,6 +367,138 @@
     "slug": "swierk",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "thumbnailID": "21457742918",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["konopie", "marihuana"],
+      "en": ["marijuana", "Indian hemp", "hashish"],
+      "lat": "cannabis"
+    },
+    "slug": "marihuana",
+    "note": "Olejek CBD jest bezpieczny",
+    "thumbnailID": "50610377368",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["tytoń ozdobny", "tytoń oskrzydlony"],
+      "en": ["jasmine tobacco", "sweet tobacco", "winged tobacco", "tanbaku"],
+      "lat": "nicotiana alata"
+    },
+    "slug": "tyton-ozdobny",
+    "thumbnailID": "38061834352",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["hiacynt"],
+      "en": ["hyacinth"],
+      "lat": "hyacinthus"
+    },
+    "slug": "hiacynt",
+    "thumbnailID": "3415501830",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["tulipan"],
+      "en": ["tulip"],
+      "lat": "tulipa"
+    },
+    "slug": "tulipan",
+    "thumbnailID": "25297102607",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["irys", "kosaciec"],
+      "en": ["iris"],
+      "lat": "iris"
+    },
+    "slug": "irys",
+    "thumbnailID": "200418021",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["jaskier"],
+      "en": ["buttercup", "spearwort", "water crowfoot"],
+      "lat": "ranunculus"
+    },
+    "slug": "jaskier",
+    "thumbnailID": "3629373203",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["mięta"],
+      "en": ["mint"],
+      "lat": "mentha"
+    },
+    "slug": "mieta",
+    "thumbnailID": "49823824806",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["rumian rzymski"],
+      "en": ["Roman chamomile", "English chamomile", "garden chamomile"],
+      "lat": "anthemis nobilis"
+    },
+    "slug": "rumian-rzymski",
+    "thumbnailID": "17322962822",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["rumianek"],
+      "en": ["German chamomile"],
+      "lat": "matricaria chamomilla"
+    },
+    "slug": "rumianek",
+    "note": "Napar z rumianku jest bezpieczny, ale w niewielkiej ilości",
+    "thumbnailID": "48874614756",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["naparstnica purpurowa"],
+      "en": ["lady's glove", "foxglove"],
+      "lat": "digitalis purpurea"
+    },
+    "slug": "naparstnica",
+    "thumbnailID": "36904422750",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["lawenda wąskolistna", "lawenda lekarska", "czyszczecz"],
+      "en": ["common lavender", "English lavender"],
+      "lat": "lavendula angustifolia"
+    },
+    "slug": "lawenda",
+    "thumbnailID": "19008263098",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["oregano", "lebiodka pospolita"],
+      "en": ["oreganum", "Greek oregano"],
+      "lat": "origanum vulgare"
+    },
+    "slug": "oregano",
+    "thumbnailID": "27242078633",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["groszek pachnący"],
+      "en": ["sweet pea"],
+      "lat": "lathyrus odoratus"
+    },
+    "slug": "groszek-pachnacy",
+    "thumbnailID": "4385095162",
     "isSafe": false
   }
 ]

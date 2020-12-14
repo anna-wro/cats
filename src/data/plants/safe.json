@@ -379,5 +379,115 @@
     "slug": "rozmaryn",
     "thumbnailID": "109623018",
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["eszeweria"],
+      "en": ["Mexican snow ball", "Mexican gem", "white Mexican rose"],
+      "lat": "echeveria elegans"
+    },
+    "slug": "eszeweria",
+    "thumbnailID": "184354642",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["petunia"],
+      "en": ["petunia"],
+      "lat": "petunia"
+    },
+    "slug": "petunia",
+    "thumbnailID": "9198146741",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["nasturcja"],
+      "en": ["nasturtium", "nose-twister"],
+      "lat": "tropaeolum majus"
+    },
+    "slug": "nasturcja",
+    "thumbnailID": "3714161505",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["niecierpek"],
+      "en": ["touch-me-not", "impatiens"],
+      "lat": "impatiens"
+    },
+    "slug": "niecierpek",
+    "thumbnailID": "24524605519",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["niezapominajka"],
+      "en": ["forget-me-not", "scorpion grasses"],
+      "lat": "myosotis"
+    },
+    "slug": "niezapominajka",
+    "thumbnailID": "27829047498",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["malwa różowa"],
+      "en": ["hollyhock", "stockrose"],
+      "lat": "alcea rosea"
+    },
+    "slug": "malwa-rozowa",
+    "thumbnailID": "50003709817",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["melisa lekarska"],
+      "en": ["lemon balm", "balm mint"],
+      "lat": "melissa officinalis"
+    },
+    "slug": "melisa",
+    "thumbnailID": "9858528774",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["bazylia"],
+      "en": ["basil"],
+      "lat": "ocimum basilicum"
+    },
+    "slug": "bazylia",
+    "thumbnailID": "24886362",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["tymianek"],
+      "en": ["thyme"],
+      "lat": "thymus vulgaris"
+    },
+    "slug": "tymianek",
+    "thumbnailID": "5850714607",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["kolendra"],
+      "en": ["coriander", "cilantro", "Chinese parsley", "dhania"],
+      "lat": "coriandrum sativum"
+    },
+    "slug": "kolendra",
+    "thumbnailID": "50105461868",
+    "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["szałwia lekarska"],
+      "en": ["common sage"],
+      "lat": "salvia officinalis"
+    },
+    "slug": "szalwia",
+    "thumbnailID": "44136771202",
+    "isSafe": true
   }
 ]
