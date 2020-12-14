@@ -500,5 +500,159 @@
     "slug": "groszek-pachnacy",
     "thumbnailID": "4385095162",
     "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["bratek", "fiołek trójbarwny"],
+      "en": ["pansy", "viola", "violet"],
+      "lat": "viola tricolor var. hortensis"
+    },
+    "slug": "bratek",
+    "severity": 1,
+    "thumbnailID": "2143402163",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["narcyz", "żonkil"],
+      "en": ["daffodil", "jonquil"],
+      "lat": "narcissus"
+    },
+    "slug": "narcyz",
+    "thumbnailID": "47715070252",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["konwalia majowa"],
+      "en": ["lily of the valley"],
+      "lat": "convallaria majalis"
+    },
+    "slug": "konwalia",
+    "thumbnailID": "49814140448",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["lilia"],
+      "en": ["lily"],
+      "lat": "lilium"
+    },
+    "slug": "lilia",
+    "severity": 3,
+    "thumbnailID": "4735854897",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["mak"],
+      "en": ["poppy"],
+      "lat": "papaver"
+    },
+    "slug": "mak",
+    "severity": 2,
+    "thumbnailID": "14418515005",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["hortensja"],
+      "en": ["hydrangea", "hortensia"],
+      "lat": "hydrangea"
+    },
+    "slug": "hortensja",
+    "severity": 2,
+    "thumbnailID": "37388079464",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["piwonia"],
+      "en": ["peony"],
+      "lat": "paeonis officinalis"
+    },
+    "slug": "piwonia",
+    "thumbnailID": "18457287885",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["lilak perski", "lilak chiński"],
+      "en": ["Persian lilac", "Chinese lilac"],
+      "lat": "syringa x persica"
+    },
+    "slug": "lilak-perski",
+    "thumbnailID": "7257722076",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["bez czarny", "dziki bez"],
+      "en": ["elder", "elderberry"],
+      "lat": "sambucus nigra"
+    },
+    "slug": "bez-czarny",
+    "thumbnailID": "3861843057",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["mieczyk"],
+      "en": ["gladiola", "sword lily"],
+      "lat": "gladiolus"
+    },
+    "slug": "mieczyk",
+    "thumbnailID": "36326680061",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["stokrotka"],
+      "en": ["common daisy", "lawn daisy", "English daisy"],
+      "lat": "bellis perennis"
+    },
+    "slug": "stokrotka",
+    "thumbnailID": "48138659617",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["rumian psi"],
+      "en": ["stinking chamomile"],
+      "lat": "anthemis cotula"
+    },
+    "slug": "rumian-psi",
+    "thumbnailID": "18744849431",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["juka"],
+      "en": ["yucca"],
+      "lat": "yucca"
+    },
+    "slug": "juka",
+    "thumbnailID": "4467783813",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["rabarbar"],
+      "en": ["rhubarb", "pie plant"],
+      "lat": "rheum rhabarbarium"
+    },
+    "slug": "rabarbar",
+    "thumbnailID": "6030863269",
+    "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["tojad", "mordownik"],
+      "en": ["aconite", "wolf's bane", "monkshood"],
+      "lat": "aconitum firmum"
+    },
+    "slug": "tojad",
+    "thumbnailID": "45781406312",
+    "isSafe": false
   }
 ]
