@@ -14,7 +14,7 @@ export default function PlantsFacade() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState(sortedPlants);
   const counter = results.length;
-  const plantDeclension = polishPlurals(
+  const plantPluralForm = polishPlurals(
     'roślinę',
     'rośliny',
     'roślin',
@@ -37,7 +37,7 @@ export default function PlantsFacade() {
       <Search query={query} onChange={(e) => handleInputChange(e)} />
       <div className="mt-28">
         Znaleziono <span className="font-bold">{counter}</span>{' '}
-        {plantDeclension}
+        {plantPluralForm}
       </div>
       <PlantList plants={results} />
     </>
