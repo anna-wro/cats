@@ -539,5 +539,21 @@
     "slug": "hibiskus",
     "thumbnailID": "28358706571",
     "isSafe": true
+  },
+  {
+    "name": {
+      "pl": ["koperek ogrodowy"],
+      "en": ["dill"],
+      "lat": "Aaethum graveolens"
+    },
+    "slug": "koperek",
+    "note": "olejek eteryczny może powodować wysypkę", 
+    "thumbnailID": "4898823775",
+    "isSafe": true,
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
+      "https://allcatsecrets.com/can-cats-eat-dill/",
+      "https://petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill/"
+    ]
   }
 ]

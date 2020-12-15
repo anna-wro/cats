@@ -10,10 +10,13 @@
       "    },",
       "    \"slug\": \"\",",
       "    \"thumbnailID\": \"\",",
-      "    \"isSafe\": true",
-      "  },",
-      ""
+      "    \"isSafe\": true,",
+      "    \"note\": \"\",",
+      "    \"source\": [",
+      "      \"\"",
+      "    ]",
+      "  }"
     ],
-    "description": "Safe plant"
+    "description": "Toxic plant"
   }
 }

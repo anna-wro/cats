@@ -12,9 +12,10 @@ export type PlantType = {
   thumbnailID: string;
   queryImage?: string;
   isSafe: boolean;
-  severity?: number,
-  symptoms?: number,
+  danger?: number,
+  symptoms?: string[],
   note?: string;
+  source: string[],
 };
 
 type PlantFicheProps = Readonly<{
