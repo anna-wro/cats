@@ -16,6 +16,12 @@ module.exports = {
       dark: '#2E293B',
       white: '#FFFFFF',
     },
+    boxShadow: {
+      DEFAULT:
+        '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04)',
+      lg:
+        '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06)',
+    },
   },
   variants: {},
   plugins: [],
