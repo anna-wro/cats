@@ -12,6 +12,8 @@ export type PlantType = {
   thumbnailID: string;
   queryImage?: string;
   isSafe: boolean;
+  severity?: number,
+  symptoms?: number,
   note?: string;
 };
 
