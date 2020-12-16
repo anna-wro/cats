@@ -15,7 +15,7 @@ export type PlantType = {
   danger?: number,
   symptoms?: string[],
   note?: string;
-  source: string[],
+  source?: string[],
 };
 
 type PlantFicheProps = Readonly<{
