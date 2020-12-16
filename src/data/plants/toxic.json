@@ -185,7 +185,7 @@
   {
     "name": {
       "pl": ["kaladium", "obraźnica"],
-      "en": ["caladium", "elephant's ears", "heart of Jesus", "angel wings"],
+      "en": ["caladium", "elephant's ears", "heart of Jesus", "angel's wings"],
       "lat": "caladium hortulanum"
     },
     "queryImage": "caladium",
@@ -508,7 +508,7 @@
       "lat": "viola tricolor var. hortensis"
     },
     "slug": "bratek",
-    "severity": 1,
+    "danger": 1,
     "thumbnailID": "2143402163",
     "isSafe": false
   },
@@ -539,7 +539,7 @@
       "lat": "lilium"
     },
     "slug": "lilia",
-    "severity": 3,
+    "danger": 3,
     "thumbnailID": "4735854897",
     "isSafe": false
   },
@@ -550,7 +550,7 @@
       "lat": "papaver"
     },
     "slug": "mak",
-    "severity": 2,
+    "danger": 2,
     "thumbnailID": "14418515005",
     "isSafe": false
   },
@@ -561,7 +561,7 @@
       "lat": "hydrangea"
     },
     "slug": "hortensja",
-    "severity": 2,
+    "danger": 2,
     "thumbnailID": "37388079464",
     "isSafe": false
   },
@@ -654,5 +654,155 @@
     "slug": "tojad",
     "thumbnailID": "45781406312",
     "isSafe": false
+  },
+  {
+    "name": {
+      "pl": ["pietruszka"],
+      "en": ["parsley"],
+      "lat": "petroselinum crispum"
+    },
+    "slug": "pietruszka",
+    "danger": 1,
+    "note": "toksyczna tylko w dużych ilościach",
+    "symptoms": [
+      "nadwrażliwość na światło słoneczne",
+      "poparzenie",
+      "wysypka",
+      "świąd"
+    ],
+    "thumbnailID": "7559834742",
+    "isSafe": false,
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["aksamitka"],
+      "en": ["African marigold", "French marigold"],
+      "lat": "tagetes"
+    },
+    "slug": "aksamitka",
+    "thumbnailID": "3029821817",
+    "isSafe": false,
+    "danger": 1,
+    "symptoms": [
+      "podrażnienie sluzówki jamy ustnej",
+      "ślinienie się",
+      "biegunka"
+    ],
+    "note": "Sok z rośliny może podrażnić skórę",
+    "source": [
+      "https://www.petpoisonhelpline.com/poison/marigold/#:~:text=Toxicity%20to%20pets,skin%20if%20dermal%20exposure%20occurs.",
+      "https://pets.thenest.com/marigolds-toxic-cats-10178.html"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["zawilec"],
+      "en": ["anemone"],
+      "lat": "anemonastrum"
+    },
+    "slug": "zawilec",
+    "thumbnailID": "48075254322",
+    "isSafe": false,
+    "danger": 3,
+    "symptoms": [
+      "pęcherze na błonie śluzowej",
+      "drgawki",
+      "krwawa biegunka",
+      "omdlenia"
+    ],
+    "source": [
+      "https://ccah.vetmed.ucdavis.edu/cats/cat-health",
+      "https://www.cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["sasanka"],
+      "en": ["pasqueflower"],
+      "lat": "pulsatilla"
+    },
+    "slug": "sasanka",
+    "thumbnailID": "40637780205",
+    "isSafe": false,
+    "danger": 3,
+    "symptoms": [
+      "pęcherze na błonie śluzowej",
+      "drgawki",
+      "krwawa biegunka",
+      "omdlenia"
+    ],
+    "source": ["https://ccah.vetmed.ucdavis.edu/cats/cat-health"]
+  },
+  {
+    "name": {
+      "pl": ["zimowit jesienny"],
+      "en": ["autumn crocus"],
+      "lat": "colchicum autumnale"
+    },
+    "slug": "zimowit-jesienny",
+    "thumbnailID": "21058085964",
+    "isSafe": false,
+    "danger": 3,
+    "symptoms": [
+      "wymioty z kwią",
+      "krwawa biegunka",
+      "trudności z oddychaniem",
+      "gorączka",
+      "utrata apetytu",
+      "spowolnione bicie serca"
+    ],
+    "note": "Objawy mogą się pojawić z opóźnieniem",
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/autumn-crocus",
+      "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/",
+      "https://www.dogalize.com/2018/01/autumn-crocus-poisoning-dogs-cats/"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["krokus wiosenny", "szafran wiosenny"],
+      "en": ["spring crocus"],
+      "lat": "crocus vernus"
+    },
+    "slug": "krokus",
+    "thumbnailID": "48737153162",
+    "isSafe": false,
+    "danger": 1,
+    "symptoms": ["wymioty", "biegunka"],
+    "source": [
+      "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["gardenia"],
+      "en": ["cape jasmine", "gardenia"],
+      "lat": "gardenia"
+    },
+    "slug": "gardenia",
+    "thumbnailID": "176965936",
+    "isSafe": false,
+    "danger": 1,
+    "symptoms": ["wymioty", "biegunka", "pokrzywka"],
+    "note": "",
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["goździk"],
+      "en": ["carnation", "pinks"],
+      "lat": "dianthus caryophyllus"
+    },
+    "slug": "gozdzik",
+    "thumbnailID": "4353042011",
+    "isSafe": false,
+    "danger": 1,
+    "symptoms": ["problemy żołądkowo-jelitowe"],
+    "source": ["https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/carnation"]
   }
 ]

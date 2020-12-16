@@ -10,9 +10,14 @@
       "    },",
       "    \"slug\": \"\",",
       "    \"thumbnailID\": \"\",",
-      "    \"isSafe\": false",
-      "  },",
-      ""
+      "    \"isSafe\": false,",
+      "    \"danger\": 2,",
+      "    \"symptoms\": [\"\"],",
+      "    \"note\": \"\",",
+      "    \"source\": [",
+      "      \"\"",
+      "    ]",
+      "  }"
     ],
     "description": "Toxic plant"
   }
