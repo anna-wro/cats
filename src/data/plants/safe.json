@@ -555,5 +555,17 @@
       "https://allcatsecrets.com/can-cats-eat-dill/",
       "https://petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill/"
     ]
-  }
+  }, {
+      "name": {
+        "pl": ["nagietek lekarski"],
+        "en": ["pot marigold"],
+        "lat": "calendula officinalis"
+      },
+      "slug": "nagietek",
+      "thumbnailID": "9641729049",
+      "isSafe": true,
+      "source": [
+        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
+      ]
+    }
 ]
