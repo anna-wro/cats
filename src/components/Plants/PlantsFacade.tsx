@@ -28,7 +28,7 @@ function usePlantSearch(searchTerm, plants) {
         setResults(plants);
       }
     }
-  }, [throttled, searchTerm]);
+  }, [throttled, searchTerm, plants]);
 
   return results;
 }
