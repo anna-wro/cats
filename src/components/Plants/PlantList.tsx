@@ -8,8 +8,8 @@ type PlantGroupType = {
 export default function PlantList({ plants }: PlantGroupType) {
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-10 mt-20 gap-x-28">
-      {plants.map((plant, index) => (
-        <PlantFiche key={index} plant={plant} />
+      {plants.map((plant) => (
+        <PlantFiche key={plant.slug} plant={plant} />
       ))}
     </div>
   );
