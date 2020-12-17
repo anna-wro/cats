@@ -24,11 +24,11 @@ function usePlantSearch(searchTerm, plants) {
 
         setResults(queryResults);
         return () => (current = false);
+      } else {
+        setResults(plants);
       }
-    } else if (searchTerm === '') {
-      setResults(plants);
     }
-  }, [throttled]);
+  }, [throttled, searchTerm]);
 
   return results;
 }
