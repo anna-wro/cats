@@ -12,10 +12,10 @@ export type PlantType = {
   thumbnailID: string;
   queryImage?: string;
   isSafe: boolean;
-  danger?: number,
-  symptoms?: string[],
+  danger?: number;
+  symptoms?: string[];
   note?: string;
-  source?: string[],
+  source?: string[];
 };
 
 type PlantFicheProps = Readonly<{
@@ -28,10 +28,12 @@ export default function Plant({ plant }: PlantFicheProps) {
 
   return (
     <div className="flex h-32 w-100 max-w-xs shadow rounded-lg">
-      <div
-        className="w-1/2 rounded-l-lg bg-gray-light bg-opacity-50 bg-cover bg-center"
-        style={{ backgroundImage: `url(${url?.thumbnail})` }}
-      ></div>
+      <div className="w-1/2 overflow-hidden rounded-l-lg bg-gray-light ">
+        <img
+          className="h-full w-full object-cover object-center"
+          src={url?.thumbnail}
+        />
+      </div>
       <div className="w-1/2 rounded-r-lg p-5">
         <div className="flex flex-col items-center justify-center">
           <SafetyBadge isSafe={plant.isSafe} />
