@@ -10,7 +10,7 @@ describe('<PlantFiche>', () => {
           isSafe: false,
           slug: 'fiolek',
           name: { pl: ['Fiołek'], en: [], lat: '' },
-          thumbnailID: '256'
+          thumbnailID: '256',
         }}
       />,
     );

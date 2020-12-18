@@ -46,10 +46,7 @@ const SETTINGS = {
 
 export default function useThumbnail(ID: string): PlantPhotoInfoType {
   let [thumbnail, setThumbnail] = useState();
-  const url = setMultipleParams(
-    { ...SETTINGS, photo_id: ID },
-    API_URL,
-  );
+  const url = setMultipleParams({ ...SETTINGS, photo_id: ID }, API_URL);
 
   useEffect(() => {
     try {

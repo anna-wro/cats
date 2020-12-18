@@ -16,7 +16,12 @@ export function sortByName(lang: string) {
     lang = lang.substr(1);
   }
   return function (a, b) {
-    const result = a['name'][lang] < b['name'][lang] ? -1 : a['name'][lang] > b['name'][lang] ? 1 : 0;
+    const result =
+      a['name'][lang] < b['name'][lang]
+        ? -1
+        : a['name'][lang] > b['name'][lang]
+        ? 1
+        : 0;
     return result * sortOrder;
   };
 }

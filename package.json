@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest"
+    "test": "jest && npm run check-formatting",
+    "check-formatting": "prettier --check './src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.21",
@@ -34,6 +35,7 @@
     "jest-dom": "^4.0.0",
     "postcss": "^8.1.8",
     "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
     "tailwindcss": "^2.0.1",
     "typescript": "^4.0.5"
   },
