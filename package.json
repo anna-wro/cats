@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest && prettier --check './src/**/*.{ts,tsx}'"
+    "test": "jest && npm run check-formatting",
+    "check-formatting": "prettier --check './src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.21",
