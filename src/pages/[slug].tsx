@@ -28,7 +28,7 @@ const PlantPage = () => {
         <title>Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-20">
         <PlantDetails plant={plant} />
       </div>
     </div>
