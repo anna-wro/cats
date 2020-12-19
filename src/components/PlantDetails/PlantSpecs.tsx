@@ -1,11 +1,31 @@
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
+import SafetyBadge from 'components/PlantFiche/SafetyBadge';
 import { makeStartCase } from 'utils/text';
 
 type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
 export default function PlantSpecs({ plant }: PlantDetailsType) {
+  const accentColor =
+    plant.danger === 0 ? 'blue' : plant.danger === 3 ? 'red' : 'orange';
+
   return (
     <div>
+      <div className="flex align-center justify-between">
+        <div className={`mr-8 section-headline--${accentColor}`}>
+          <div className="text-dark text-2xl">
+            {makeStartCase(plant.name.pl[0])}
+          </div>
+          <div className={`text-sm text-${accentColor} font-bold`}>
+            Ta roślina jest {plant.danger === 0 ? 'bezpieczna' : 'trująca'}
+          </div>
+        </div>
+        <SafetyBadge danger={plant.danger} />
+      </div>
+      <div className="mb-4 mt-7">
+        <div className="section-name">Zagrożenie</div>
+        {/* TODO: display it nicer */}
+        <div className="section-content">{plant.danger}</div>
+      </div>
       {plant.symptoms && (
         <div className="mb-4">
           <div className="section-name">Objawy</div>
