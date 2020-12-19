@@ -12,7 +12,7 @@
     },
     "slug": "chamedora-wytworna",
     "thumbnailID": "16404871208",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -22,7 +22,7 @@
     },
     "slug": "fiolek-afrykanski",
     "thumbnailID": "11903413204",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -32,7 +32,7 @@
     },
     "slug": "dimorfoteka",
     "thumbnailID": "3056745969",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -42,7 +42,7 @@
     },
     "slug": "stokrotka-afrykanska",
     "thumbnailID": "2580843467",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -52,7 +52,7 @@
     },
     "slug": "aster-chinski",
     "thumbnailID": "12965386484",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -62,7 +62,7 @@
     },
     "slug": "guzmania",
     "thumbnailID": "1183196942",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -72,7 +72,7 @@
     },
     "slug": "maranta",
     "thumbnailID": "5867908152",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -88,7 +88,7 @@
     "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
     "thumbnailID": "50202240336",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -103,7 +103,7 @@
     },
     "slug": "nolina-wygieta",
     "thumbnailID": "7983397342",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -113,7 +113,7 @@
     },
     "slug": "storczyk-falenopsis",
     "thumbnailID": "5472932072",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -123,7 +123,7 @@
     },
     "slug": "szlumbergera",
     "thumbnailID": "32114044051",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -133,7 +133,7 @@
     },
     "slug": "zielistka",
     "thumbnailID": "10314214735",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -143,7 +143,7 @@
     },
     "slug": "aspidistra",
     "thumbnailID": "50290644831",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -159,7 +159,7 @@
     },
     "slug": "asplenium",
     "thumbnailID": "26075547582",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -169,7 +169,7 @@
     },
     "slug": "palma-areka",
     "thumbnailID": "49161193377",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -184,7 +184,7 @@
     },
     "slug": "stefanotis",
     "thumbnailID": "333118035",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -194,7 +194,7 @@
     },
     "slug": "cymbidium",
     "thumbnailID": "3109226573",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -204,7 +204,7 @@
     },
     "slug": "dendrobium",
     "thumbnailID": "8241816362",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -214,7 +214,7 @@
     },
     "slug": "oncidium",
     "thumbnailID": "2198693810",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -224,7 +224,7 @@
     },
     "slug": "peperomia",
     "thumbnailID": "15242960660",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -234,7 +234,7 @@
     },
     "slug": "bromelia",
     "thumbnailID": "3301860588",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -252,7 +252,7 @@
     },
     "slug": "neoregelia",
     "thumbnailID": "3784389402",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -269,7 +269,7 @@
     },
     "slug": "kalatea",
     "thumbnailID": "6303393081",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -280,7 +280,7 @@
     "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
     "thumbnailID": "17169921156",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -290,7 +290,7 @@
     },
     "slug": "plaskla",
     "thumbnailID": "31217908164",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -300,7 +300,7 @@
     },
     "slug": "ciemnotka",
     "thumbnailID": "23867255328",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -315,7 +315,7 @@
     },
     "slug": "gerbera",
     "thumbnailID": "14078423634",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -325,7 +325,7 @@
     },
     "slug": "slonecznik",
     "thumbnailID": "49680380248",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -336,7 +336,7 @@
     "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
     "thumbnailID": "29412208433",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -347,7 +347,7 @@
     "queryImage": "freesia",
     "slug": "frezja",
     "thumbnailID": "4951850752",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -358,7 +358,7 @@
     "queryImage": "marsh-rosemary",
     "slug": "limonium",
     "thumbnailID": "9657492794",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -368,7 +368,7 @@
     },
     "slug": "oliwnik",
     "thumbnailID": "2586117614",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -378,7 +378,7 @@
     },
     "slug": "rozmaryn",
     "thumbnailID": "109623018",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -388,7 +388,7 @@
     },
     "slug": "eszeweria",
     "thumbnailID": "184354642",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -398,7 +398,7 @@
     },
     "slug": "petunia",
     "thumbnailID": "9198146741",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -408,7 +408,7 @@
     },
     "slug": "nasturcja",
     "thumbnailID": "3714161505",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -418,7 +418,7 @@
     },
     "slug": "niecierpek",
     "thumbnailID": "24524605519",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -428,7 +428,7 @@
     },
     "slug": "niezapominajka",
     "thumbnailID": "27829047498",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -438,7 +438,7 @@
     },
     "slug": "malwa-rozowa",
     "thumbnailID": "50003709817",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -448,7 +448,7 @@
     },
     "slug": "melisa",
     "thumbnailID": "9858528774",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -458,7 +458,7 @@
     },
     "slug": "bazylia",
     "thumbnailID": "24886362",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -468,7 +468,7 @@
     },
     "slug": "tymianek",
     "thumbnailID": "5850714607",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -478,7 +478,7 @@
     },
     "slug": "kolendra",
     "thumbnailID": "50105461868",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -488,7 +488,7 @@
     },
     "slug": "szalwia",
     "thumbnailID": "44136771202",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -498,7 +498,7 @@
     },
     "slug": "roza",
     "thumbnailID": "27340064060",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -508,7 +508,7 @@
     },
     "slug": "fuksja",
     "thumbnailID": "5034045553",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -518,7 +518,7 @@
     },
     "slug": "chaber",
     "thumbnailID": "50044268841",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -528,7 +528,7 @@
     },
     "slug": "lilak-pospolity",
     "thumbnailID": "8751425506",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -538,7 +538,7 @@
     },
     "slug": "hibiskus",
     "thumbnailID": "28358706571",
-    "isSafe": true
+    "danger": 0
   },
   {
     "name": {
@@ -547,25 +547,26 @@
       "lat": "Aaethum graveolens"
     },
     "slug": "koperek",
-    "note": "olejek eteryczny może powodować wysypkę", 
+    "note": "olejek eteryczny może powodować wysypkę",
     "thumbnailID": "4898823775",
-    "isSafe": true,
+    "danger": 0,
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
       "https://allcatsecrets.com/can-cats-eat-dill/",
       "https://petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill/"
     ]
-  }, {
-      "name": {
-        "pl": ["nagietek lekarski"],
-        "en": ["pot marigold"],
-        "lat": "calendula officinalis"
-      },
-      "slug": "nagietek",
-      "thumbnailID": "9641729049",
-      "isSafe": true,
-      "source": [
-        "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
-      ]
-    }
+  },
+  {
+    "name": {
+      "pl": ["nagietek lekarski"],
+      "en": ["pot marigold"],
+      "lat": "calendula officinalis"
+    },
+    "slug": "nagietek",
+    "thumbnailID": "9641729049",
+    "danger": 0,
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
+    ]
+  }
 ]

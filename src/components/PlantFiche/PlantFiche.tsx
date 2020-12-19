@@ -12,8 +12,7 @@ export type PlantType = Readonly<{
   slug: string;
   thumbnailID: string;
   queryImage?: string;
-  isSafe: boolean;
-  danger?: number;
+  danger: number;
   symptoms?: string;
   note?: string;
   source?: string[];
@@ -38,7 +37,7 @@ export default function Plant({ plant }: PlantFicheProps) {
         </div>
         <div className="w-1/2 rounded-r-lg p-5">
           <div className="flex flex-col items-center justify-center">
-            <SafetyBadge isSafe={plant.isSafe} />
+            <SafetyBadge danger={plant.danger} />
             <div className="text-dark text-sm text-center leading-4 pt-2">
               {plant.name.pl[0]}
             </div>

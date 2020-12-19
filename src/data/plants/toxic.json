@@ -7,7 +7,7 @@
     },
     "slug": "pelargonia",
     "thumbnailID": "14952425524",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -24,7 +24,7 @@
     "queryImage": "dracaena fragrans",
     "slug": "dracena",
     "thumbnailID": "33445378203",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -34,7 +34,7 @@
     },
     "slug": "begonia",
     "thumbnailID": "8884235929",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -45,7 +45,7 @@
     "queryImage": "cyclamen",
     "slug": "fiolek-alpejski",
     "thumbnailID": "49295902377",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -56,7 +56,7 @@
     "queryImage": "fiddle-leaf fig",
     "slug": "fikus",
     "thumbnailID": "39925281311",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -73,7 +73,7 @@
     },
     "slug": "monstera",
     "thumbnailID": "2077563132",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -83,7 +83,7 @@
     },
     "slug": "filodendron",
     "thumbnailID": "5005679930",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -93,7 +93,7 @@
     },
     "slug": "strelicja",
     "thumbnailID": "866733515",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -104,7 +104,7 @@
     "queryImage": "aloe vera leaves",
     "slug": "aloes",
     "thumbnailID": "50658583448",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -122,7 +122,7 @@
     },
     "slug": "anturium",
     "thumbnailID": "4155228729",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -133,7 +133,7 @@
     "queryImage": "poinsettia",
     "slug": "gwiazda-betlejemska",
     "thumbnailID": "23852937865",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -143,7 +143,7 @@
     },
     "slug": "azalia",
     "thumbnailID": "3371973318",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -154,7 +154,7 @@
     "queryImage": "tradescantia",
     "slug": "trzykrotka",
     "thumbnailID": "22013796720",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -170,7 +170,7 @@
     },
     "slug": "kalanchoe",
     "thumbnailID": "3265230226",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -180,7 +180,7 @@
     },
     "slug": "skrzydlokwiat",
     "thumbnailID": "44722981004",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -191,7 +191,7 @@
     "queryImage": "caladium",
     "slug": "kaladium",
     "thumbnailID": "49606281023",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -201,7 +201,7 @@
     },
     "slug": "alokazja",
     "thumbnailID": "48711540401",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -212,7 +212,7 @@
     "queryImage": "nutsedges",
     "slug": "cibora",
     "thumbnailID": "4449690173",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -222,7 +222,7 @@
     },
     "slug": "kordylina-krzewiasta",
     "thumbnailID": "5023889525",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -232,7 +232,7 @@
     },
     "slug": "kordylina-australijska",
     "thumbnailID": "24860880866",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -242,7 +242,7 @@
     },
     "slug": "kroton",
     "thumbnailID": "3374602055",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -252,7 +252,7 @@
     },
     "slug": "ciemiernik",
     "thumbnailID": "25490864353",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -262,7 +262,7 @@
     },
     "slug": "bluszcz-pospolity",
     "thumbnailID": "4595168087",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -272,7 +272,7 @@
     },
     "slug": "bluszcz-kanaryjski",
     "thumbnailID": "16730402177",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -282,7 +282,7 @@
     },
     "slug": "ostrokrzew-amerykanski",
     "thumbnailID": "2502950122",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -292,7 +292,7 @@
     },
     "slug": "ostrokrzew-kolczasty",
     "thumbnailID": "39656935103",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -302,7 +302,7 @@
     },
     "slug": "ostrokrzew-bukszpanowy",
     "thumbnailID": "4850141809",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -312,7 +312,7 @@
     },
     "slug": "jemiola",
     "thumbnailID": "49496395203",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -322,7 +322,7 @@
     },
     "slug": "oleander",
     "thumbnailID": "34319656701",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -333,7 +333,7 @@
     "slug": "sosna",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "thumbnailID": "34559508152",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -345,7 +345,7 @@
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
 
     "thumbnailID": "5021014358",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -356,7 +356,7 @@
     "slug": "jodla",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "thumbnailID": "2484485190",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -367,7 +367,7 @@
     "slug": "swierk",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
     "thumbnailID": "21457742918",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -378,7 +378,7 @@
     "slug": "marihuana",
     "note": "Olejek CBD jest bezpieczny",
     "thumbnailID": "50610377368",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -388,7 +388,7 @@
     },
     "slug": "tyton-ozdobny",
     "thumbnailID": "38061834352",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -398,7 +398,7 @@
     },
     "slug": "hiacynt",
     "thumbnailID": "3415501830",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -408,7 +408,7 @@
     },
     "slug": "tulipan",
     "thumbnailID": "25297102607",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -418,7 +418,7 @@
     },
     "slug": "irys",
     "thumbnailID": "200418021",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -428,7 +428,7 @@
     },
     "slug": "jaskier",
     "thumbnailID": "3629373203",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -438,7 +438,7 @@
     },
     "slug": "mieta",
     "thumbnailID": "49823824806",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -448,7 +448,7 @@
     },
     "slug": "rumian-rzymski",
     "thumbnailID": "17322962822",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -459,7 +459,7 @@
     "slug": "rumianek",
     "note": "Napar z rumianku jest bezpieczny, ale w niewielkiej ilości",
     "thumbnailID": "48874614756",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -469,7 +469,7 @@
     },
     "slug": "naparstnica",
     "thumbnailID": "36904422750",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -479,7 +479,7 @@
     },
     "slug": "lawenda",
     "thumbnailID": "19008263098",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -489,7 +489,7 @@
     },
     "slug": "oregano",
     "thumbnailID": "27242078633",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -499,7 +499,7 @@
     },
     "slug": "groszek-pachnacy",
     "thumbnailID": "4385095162",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -509,8 +509,7 @@
     },
     "slug": "bratek",
     "danger": 1,
-    "thumbnailID": "2143402163",
-    "isSafe": false
+    "thumbnailID": "2143402163"
   },
   {
     "name": {
@@ -520,7 +519,7 @@
     },
     "slug": "narcyz",
     "thumbnailID": "47715070252",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -530,7 +529,7 @@
     },
     "slug": "konwalia",
     "thumbnailID": "49814140448",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -540,8 +539,7 @@
     },
     "slug": "lilia",
     "danger": 3,
-    "thumbnailID": "4735854897",
-    "isSafe": false
+    "thumbnailID": "4735854897"
   },
   {
     "name": {
@@ -551,8 +549,7 @@
     },
     "slug": "mak",
     "danger": 2,
-    "thumbnailID": "14418515005",
-    "isSafe": false
+    "thumbnailID": "14418515005"
   },
   {
     "name": {
@@ -562,8 +559,7 @@
     },
     "slug": "hortensja",
     "danger": 2,
-    "thumbnailID": "37388079464",
-    "isSafe": false
+    "thumbnailID": "37388079464"
   },
   {
     "name": {
@@ -573,7 +569,7 @@
     },
     "slug": "piwonia",
     "thumbnailID": "18457287885",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -583,7 +579,7 @@
     },
     "slug": "lilak-perski",
     "thumbnailID": "7257722076",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -593,7 +589,7 @@
     },
     "slug": "bez-czarny",
     "thumbnailID": "3861843057",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -603,7 +599,7 @@
     },
     "slug": "mieczyk",
     "thumbnailID": "36326680061",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -613,7 +609,7 @@
     },
     "slug": "stokrotka",
     "thumbnailID": "48138659617",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -623,7 +619,7 @@
     },
     "slug": "rumian-psi",
     "thumbnailID": "18744849431",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -633,7 +629,7 @@
     },
     "slug": "juka",
     "thumbnailID": "4467783813",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -643,7 +639,7 @@
     },
     "slug": "rabarbar",
     "thumbnailID": "6030863269",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -653,7 +649,7 @@
     },
     "slug": "tojad",
     "thumbnailID": "45781406312",
-    "isSafe": false
+    "danger": 4
   },
   {
     "name": {
@@ -666,7 +662,6 @@
     "note": "toksyczna tylko w dużych ilościach",
     "symptoms": "nadwrażliwość na światło słoneczne, poparzenie, wysypka, świąd",
     "thumbnailID": "7559834742",
-    "isSafe": false,
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley"
     ]
@@ -679,7 +674,6 @@
     },
     "slug": "aksamitka",
     "thumbnailID": "3029821817",
-    "isSafe": false,
     "danger": 1,
     "symptoms": "podrażnienie sluzówki jamy ustnej, ślinienie się, biegunka",
 
@@ -697,7 +691,6 @@
     },
     "slug": "zawilec",
     "thumbnailID": "48075254322",
-    "isSafe": false,
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
     "source": [
@@ -713,7 +706,6 @@
     },
     "slug": "sasanka",
     "thumbnailID": "40637780205",
-    "isSafe": false,
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
     "source": ["https://ccah.vetmed.ucdavis.edu/cats/cat-health"]
@@ -726,7 +718,6 @@
     },
     "slug": "zimowit-jesienny",
     "thumbnailID": "21058085964",
-    "isSafe": false,
     "danger": 3,
     "symptoms": "wymioty z kwią, krwawa biegunka, trudności z oddychaniem, gorączka, utrata apetytu, spowolnione bicie serca",
     "note": "Objawy mogą się pojawić z opóźnieniem",
@@ -744,7 +735,6 @@
     },
     "slug": "krokus",
     "thumbnailID": "48737153162",
-    "isSafe": false,
     "danger": 1,
     "symptoms": ["wymioty, biegunka"],
     "source": [
@@ -759,7 +749,6 @@
     },
     "slug": "gardenia",
     "thumbnailID": "176965936",
-    "isSafe": false,
     "danger": 1,
     "symptoms": ["wymioty, biegunka, pokrzywka"],
     "note": "",
@@ -775,7 +764,6 @@
     },
     "slug": "gozdzik",
     "thumbnailID": "4353042011",
-    "isSafe": false,
     "danger": 1,
     "symptoms": "problemy żołądkowo-jelitowe",
     "source": [
