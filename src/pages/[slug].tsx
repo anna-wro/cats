@@ -1,7 +1,9 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
+import Navigation from '../components/Navigation';
+import PlantDetails from 'components/PlantDetails/PlantDetails';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
-import PlantDetails from 'components/PlantDetails/PlantDetails';
 
 const plants = [...safe, ...toxic];
 
@@ -20,7 +22,18 @@ const PlantPage = () => {
     return <p>No plant found</p>;
   }
 
-  return <PlantDetails plant={plant} />;
+  return (
+    <div>
+      <Head>
+        <title>Rośliny dla kota</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Navigation />
+      <div className="max-w-7xl mx-auto px-20 pb-24">
+        <PlantDetails plant={plant} />
+      </div>
+    </div>
+  );
 };
 
 export default PlantPage;
