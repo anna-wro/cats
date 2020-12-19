@@ -14,7 +14,7 @@ export type PlantType = Readonly<{
   queryImage?: string;
   isSafe: boolean;
   danger?: number;
-  symptoms?: string[];
+  symptoms?: string;
   note?: string;
   source?: string[];
 }>;

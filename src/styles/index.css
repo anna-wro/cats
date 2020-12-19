@@ -11,3 +11,16 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+.section-name {
+  @apply text-xs;
+  @apply text-gray;
+  @apply font-semibold;
+  @apply leading-5;
+  @apply uppercase;
+}
+
+.section-content {
+  @apply text-sm;
+  @apply text-dark;
+  @apply font-light;
+}
