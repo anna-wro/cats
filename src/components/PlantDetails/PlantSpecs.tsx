@@ -23,8 +23,7 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
       </div>
       <div className="mb-4 mt-7">
         <div className="section-name">Zagrożenie</div>
-        {/* TODO: display it nicer */}
-        <div className="section-content">{plant.danger}</div>
+        <img src={`/chart-${plant.danger}.svg`} />
       </div>
       {plant.symptoms && (
         <div className="mb-4">
