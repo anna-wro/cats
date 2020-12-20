@@ -2,7 +2,21 @@ import { useRef, useState } from 'react';
 import useIntersectionObserver from './useIntersectionObserver';
 import Image from './Image';
 
-const ImageContainer = (props) => {
+type ImageContainerPropsType = Readonly<{
+  src: string;
+  thumbnail: string;
+  height: number;
+  width: number;
+  alt?: string;
+}>;
+
+const ImageContainer = ({
+  src,
+  thumbnail,
+  height,
+  width,
+  alt,
+}: ImageContainerPropsType) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
   useIntersectionObserver({
@@ -14,7 +28,7 @@ const ImageContainer = (props) => {
       }
     },
   });
-  const aspectRatio = (props.height / props.width) * 100;
+  const aspectRatio = (height / width) * 100;
 
   return (
     <div
@@ -22,7 +36,7 @@ const ImageContainer = (props) => {
       className="relative overflow-hidden"
       style={{ paddingBottom: `${aspectRatio}%` }}
     >
-      {isVisible && <Image {...props} />}
+      {isVisible && <Image src={src} thumbnail={thumbnail} alt={alt} />}
     </div>
   );
 };

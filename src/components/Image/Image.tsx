@@ -1,6 +1,12 @@
 import { useState } from 'react';
 
-const Image = (props) => {
+type ImagePropsType = Readonly<{
+  src: string;
+  thumbnail: string;
+  alt?: string;
+}>;
+
+const Image = ({ src, thumbnail, alt }: ImagePropsType) => {
   const [isLoaded, setIsLoaded] = useState(false);
   return (
     <>
@@ -8,8 +14,8 @@ const Image = (props) => {
         className={`absolute h-full w-full top-0 left-0 object-cover object-center image--thumbnail ${
           isLoaded ? 'invisible' : 'visible'
         }  `}
-        alt={props.alt}
-        src={props.thumbnail}
+        alt={alt ?? ''}
+        src={thumbnail}
       />
       <img
         onLoad={() => {
@@ -18,8 +24,8 @@ const Image = (props) => {
         className={`absolute h-full w-full top-0 left-0 object-cover object-center image--full ${
           isLoaded ? 'opacity-100' : 'opacity-0'
         }`}
-        alt={props.alt}
-        src={props.src}
+        alt={alt ?? ''}
+        src={src}
       />
     </>
   );
