@@ -31,13 +31,15 @@ export default function Plant({ plant }: PlantFicheProps) {
     <Link href={plant.slug}>
       <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
         <div className="w-1/2 overflow-hidden rounded-l-lg bg-gray-light ">
-          <ImageContainer
-            src={url?.bigger}
-            thumbnail={url?.thumbnail}
-            height={128}
-            width={150}
-            alt={plant.name.lat}
-          />
+          {url && (
+            <ImageContainer
+              src={url.bigger}
+              thumbnail={url.thumbnail}
+              height={128}
+              width={150}
+              alt={plant.name.lat}
+            />
+          )}
         </div>
         <div className="w-1/2 rounded-r-lg p-5">
           <div className="flex flex-col items-center justify-center">
