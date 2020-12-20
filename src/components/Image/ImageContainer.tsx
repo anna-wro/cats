@@ -17,7 +17,11 @@ const ImageContainer = (props) => {
   const aspectRatio = (props.height / props.width) * 100;
 
   return (
-    <div ref={ref} style={{ paddingBottom: `${aspectRatio}%` }}>
+    <div
+      ref={ref}
+      className="relative overflow-hidden"
+      style={{ paddingBottom: `${aspectRatio}%` }}
+    >
       {isVisible && <Image {...props} />}
     </div>
   );
