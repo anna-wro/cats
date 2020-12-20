@@ -7,7 +7,7 @@ const Image = (props) => {
       <img
         className={`image thumb ${
           isLoaded ? 'invisible' : 'visible'
-        }`}
+        } h-full w-full object-cover object-center `}
         alt={props.alt}
         src={props.thumbnail}
       />
@@ -15,7 +15,7 @@ const Image = (props) => {
         onLoad={() => {
           setIsLoaded(true);
         }}
-        className="image full"
+        className="image full h-full w-full object-cover object-center"
         style={{ opacity: isLoaded ? 1 : 0 }}
         alt={props.alt}
         src={props.src}
