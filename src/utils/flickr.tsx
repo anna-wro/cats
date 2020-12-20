@@ -3,6 +3,7 @@ import type { PlantPhotoInfoType } from 'components/PlantFiche/useThumbnail';
 
 type PlantUrlType = {
   thumbnail: string;
+  bigger: string;
   full: string;
 };
 
@@ -13,9 +14,10 @@ export function getPhotosUrls(photos: PlantPhotoInfoType[]): PlantUrlType[] {
 export function getPhotoUrl(photo: PlantPhotoInfoType): PlantUrlType {
   const { farm, server, id, secret } = photo;
 
-  const thumbnail = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
+  const bigger = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
+  const thumbnail = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_t.jpg`;
   const encodedId = base58.int_to_base58(id);
   const full = `https://flic.kr/p/${encodedId}`;
 
-  return { thumbnail, full };
+  return { thumbnail, bigger, full };
 }
