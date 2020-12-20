@@ -7,7 +7,7 @@ describe('<PlantFiche>', () => {
     render(
       <PlantFiche
         plant={{
-          isSafe: false,
+          danger: 0,
           slug: 'fiolek',
           name: { pl: ['Fiołek'], en: [], lat: '' },
           thumbnailID: '256',
