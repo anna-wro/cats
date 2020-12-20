@@ -2,6 +2,7 @@ import Link from 'next/link';
 import useThumbnail from './useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
 import SafetyBadge from './SafetyBadge';
+import ImageContainer from 'components/Image/ImageContainer';
 
 export type PlantType = Readonly<{
   name: {
@@ -30,9 +31,12 @@ export default function Plant({ plant }: PlantFicheProps) {
     <Link href={plant.slug}>
       <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
         <div className="w-1/2 overflow-hidden rounded-l-lg bg-gray-light ">
-          <img
-            className="h-full w-full object-cover object-center"
-            src={url?.thumbnail}
+          <ImageContainer
+            src={url?.bigger}
+            thumb={url?.thumbnail}
+            height={128}
+            width={150}
+            alt={plant.name.lat}
           />
         </div>
         <div className="w-1/2 rounded-r-lg p-5">
