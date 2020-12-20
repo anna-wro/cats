@@ -33,7 +33,7 @@ export default function Plant({ plant }: PlantFicheProps) {
         <div className="w-1/2 overflow-hidden rounded-l-lg bg-gray-light ">
           <ImageContainer
             src={url?.bigger}
-            thumb={url?.thumbnail}
+            thumbnail={url?.thumbnail}
             height={128}
             width={150}
             alt={plant.name.lat}
