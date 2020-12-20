@@ -15,6 +15,7 @@ module.exports = {
       gray: { DEFAULT: '#ABB5C4', light: '#D2DAE0' },
       dark: '#2E293B',
       white: '#FFFFFF',
+      transparent: 'transparent',
     },
     boxShadow: {
       DEFAULT:

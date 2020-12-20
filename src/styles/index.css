@@ -10,6 +10,10 @@
 @tailwind utilities;
 /* Stop purging. */
 
+html {
+  margin-left: calc(100vw - 100%);
+}
+
 .section-name {
   @apply text-xs;
   @apply text-gray;
@@ -48,4 +52,14 @@
 
 .section-headline--red::before {
   @apply bg-red;
+}
+
+.nav-link::after {
+  content: '•';
+  @apply mx-2;
+  @apply text-gray;
+}
+
+.nav-link:last-child::after {
+  content: '';
 }
