@@ -736,7 +736,7 @@
     "slug": "krokus",
     "thumbnailID": "48737153162",
     "danger": 1,
-    "symptoms": ["wymioty, biegunka"],
+    "symptoms": "wymioty, biegunka",
     "source": [
       "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/"
     ]
