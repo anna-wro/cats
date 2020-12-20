@@ -27,8 +27,8 @@ export default function Home() {
         <title>{plantTitle} Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
-      <div className="max-w-7xl mx-auto px-20 pb-24">
+      {!plant && <Navigation />}
+      <div className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}>
         {plant ? <PlantDetails plant={plant} /> : <PlantsFacade />}
       </div>
     </div>

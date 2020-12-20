@@ -1,28 +1,36 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const links = [
-  { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
-  { href: 'https://nextjs.org/docs', label: 'Docs' },
+  {
+    href: '/',
+    label: 'Rośliny',
+  },
+  {
+    href: '/blog',
+    label: 'Blog',
+  },
 ];
 
 export default function Nav() {
+  const { asPath } = useRouter();
+
   return (
     <nav>
-      <ul className="flex justify-between items-center p-8">
-        <li>
-          <Link href="/">
-            <a className="text-green-500 no-underline">Home</a>
-          </Link>
-        </li>
-        <ul className="flex justify-between items-center space-x-4">
-          {links.map(({ href, label }) => (
-            <li key={`${href}${label}`}>
-              <a href={href} className="no-underline">
-                {label}
+      <ul className="flex justify-center items-center pt-4">
+        {links.map((link) => (
+          <li key={link.href} className="nav-link">
+            <Link href={link.href}>
+              <a
+                className={`font-bold no-underline ${
+                  asPath === link.href ? 'text-dark' : 'text-gray'
+                }`}
+              >
+                {link.label}
               </a>
-            </li>
-          ))}
-        </ul>
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

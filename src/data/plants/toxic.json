@@ -736,7 +736,7 @@
     "slug": "krokus",
     "thumbnailID": "48737153162",
     "danger": 1,
-    "symptoms": ["wymioty, biegunka"],
+    "symptoms": "wymioty, biegunka",
     "source": [
       "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/"
     ]
@@ -750,7 +750,7 @@
     "slug": "gardenia",
     "thumbnailID": "176965936",
     "danger": 1,
-    "symptoms": ["wymioty, biegunka, pokrzywka"],
+    "symptoms": "wymioty, biegunka, pokrzywka",
     "note": "",
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia"
