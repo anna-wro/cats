@@ -33,7 +33,7 @@ const ImageContainer = ({
   return (
     <div
       ref={ref}
-      className="relative overflow-hidden"
+      className="relative overflow-hidden bg-gray-light bg-opacity-30"
       style={{ paddingBottom: `${aspectRatio}%` }}
     >
       {isVisible && <Image src={src} thumbnail={thumbnail} alt={alt} />}

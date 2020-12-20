@@ -30,7 +30,7 @@ export default function Plant({ plant }: PlantFicheProps) {
   return (
     <Link href={plant.slug}>
       <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
-        <div className="w-1/2 overflow-hidden rounded-l-lg bg-gray-light bg-opacity-30">
+        <div className="w-1/2 rounded-l-lg">
           {url && (
             <ImageContainer
               src={url.bigger}
