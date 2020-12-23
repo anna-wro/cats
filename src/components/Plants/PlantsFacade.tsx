@@ -43,15 +43,14 @@ export default function PlantsFacade() {
     setQuery(e.currentTarget.value);
   }
 
-  // FIXME: typescript
   return (
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
-      <div className="mt-28">
+      <div className="mt-28 mb-10">
         Znaleziono <span className="font-bold">{counter}</span>{' '}
         {plantPluralForm}
       </div>
-      <PlantList plants={results} />
+      <PlantList plants={results} query={query} />
     </>
   );
 }
