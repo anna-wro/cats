@@ -16,12 +16,10 @@ export function sortByName(lang: string) {
     lang = lang.substr(1);
   }
   return function (a, b) {
-    const result =
-      a['name'][lang] < b['name'][lang]
-        ? -1
-        : a['name'][lang] > b['name'][lang]
-        ? 1
-        : 0;
+    const result = a['name'][lang][0].localeCompare(b['name'][lang][0], {
+      ignorePunctuation: true,
+    });
+
     return result * sortOrder;
   };
 }
