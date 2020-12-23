@@ -1,4 +1,5 @@
 import PlantFiche from 'components/PlantFiche/PlantFiche';
+import PlantCard from 'components/PlantCard/PlantCard';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import useWindowSize from 'utils/useWindowSize';
 
@@ -20,9 +21,9 @@ export default function PlantList({ plants }: PlantGroupType) {
       ))}
     </div>
   ) : (
-    <div className="grid lg:grid-cols- md:grid-cols-2 gap-y-10 mt-20 gap-x-28">
+    <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-6">
       {plants.map((plant) => (
-        <PlantFiche key={plant.slug} plant={plant} />
+        <PlantCard key={plant.slug} plant={plant} />
       ))}
     </div>
   );

@@ -29,24 +29,19 @@ export default function PlantCard({ plant }: PlantFicheProps) {
 
   return (
     <Link href={plant.slug}>
-      <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
-        <div className="w-1/2 rounded-l-lg overflow-hidden bg-gray-light bg-opacity-30">
+      <div className="flex flex-col h-64 w-100 max-w-xs shadow rounded-lg cursor-pointer">
+        <div className="h-2/3 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {url && (
             <ImageContainer
               src={url.bigger}
               thumbnail={url.thumbnail}
-              height={128}
-              width={150}
               alt={plant.name.lat}
             />
           )}
         </div>
-        <div className="w-1/2 rounded-r-lg p-5">
-          <div className="flex flex-col items-center justify-center">
-            <SafetyBadge danger={plant.danger} />
-            <div className="text-dark text-sm text-center leading-4 pt-2">
-              {plant.name.pl[0]}
-            </div>
+        <div className="h-1/3 rounded-b-lg p-5">
+          <div className="text-dark text-sm text-center leading-4 pt-2">
+            {plant.name.pl[0]}
           </div>
         </div>
       </div>

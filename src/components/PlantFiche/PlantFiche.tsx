@@ -35,8 +35,6 @@ export default function Plant({ plant }: PlantFicheProps) {
             <ImageContainer
               src={url.bigger}
               thumbnail={url.thumbnail}
-              height={128}
-              width={150}
               alt={plant.name.lat}
             />
           )}

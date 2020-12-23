@@ -5,18 +5,10 @@ import Image from './Image';
 type ImageContainerPropsType = Readonly<{
   src: string;
   thumbnail: string;
-  height: number;
-  width: number;
   alt?: string;
 }>;
 
-const ImageContainer = ({
-  src,
-  thumbnail,
-  height,
-  width,
-  alt,
-}: ImageContainerPropsType) => {
+const ImageContainer = ({ src, thumbnail, alt }: ImageContainerPropsType) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
   useIntersectionObserver({
