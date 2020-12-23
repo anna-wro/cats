@@ -10,9 +10,8 @@ export default function SafetyBadge({ danger, withBorder }: SafetyBadgeProps) {
 
   return (
     <div
-      className={` ${scheme.bg} w-12 h-12 rounded-2xl ${
-        withBorder ? 'p-1.5 border-4 border-white' : 'p-2.5'
-      }`}
+      className={`w-12 h-12 rounded-2xl flex items-center justify-center 
+      ${scheme.bg} ${withBorder && 'border-4 border-white'}`}
     >
       <img src={scheme.icon} width={28} height={28} />
     </div>
