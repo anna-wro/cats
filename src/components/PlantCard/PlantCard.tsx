@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import useThumbnail from 'components/PlantFiche/useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
-import SafetyBadge from 'components/PlantFiche/SafetyBadge';
+import SafetyLabel from 'components/SafetyBadge/SafetyLabel';
 import ImageContainer from 'components/Image/ImageContainer';
+import { makeStartCase } from 'utils/text';
 
 export type PlantType = Readonly<{
   name: {
@@ -29,7 +30,10 @@ export default function PlantCard({ plant }: PlantFicheProps) {
 
   return (
     <Link href={plant.slug}>
-      <div className="flex flex-col h-64 w-100 max-w-xs shadow rounded-lg cursor-pointer">
+      <div
+        className="flex flex-col w-100 max-w-xs shadow rounded-lg cursor-pointer"
+        style={{ height: '300px' }} //FIXME: height
+      >
         <div className="h-2/3 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {url && (
             <ImageContainer
@@ -39,10 +43,14 @@ export default function PlantCard({ plant }: PlantFicheProps) {
             />
           )}
         </div>
-        <div className="h-1/3 rounded-b-lg p-5">
-          <div className="text-dark text-sm text-center leading-4 pt-2">
-            {plant.name.pl[0]}
+        <div className="h-1/3 rounded-b-lg p-4">
+          <div className="text-dark text-sm font-medium pt-4">
+            {makeStartCase(plant.name.pl[0])}
           </div>
+          <div className="text-gray text-xs font-light">
+            {makeStartCase(plant.name.lat)}
+          </div>
+          <SafetyLabel danger={plant.danger} />
         </div>
       </div>
     </Link>

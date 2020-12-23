@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import useThumbnail from './useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
-import SafetyBadge from './SafetyBadge';
+import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 
 export type PlantType = Readonly<{

@@ -1,5 +1,5 @@
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
-import SafetyBadge from 'components/PlantFiche/SafetyBadge';
+import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import { makeStartCase } from 'utils/text';
 
 type PlantDetailsType = Readonly<{ plant: PlantType }>;
