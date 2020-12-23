@@ -31,10 +31,7 @@ const ImageContainer = ({
   });
 
   return (
-    <div
-      ref={ref}
-      className="relative h-full overflow-hidden"
-    >
+    <div ref={ref} className="relative h-full overflow-hidden">
       {isVisible && <Image src={src} thumbnail={thumbnail} alt={alt} />}
     </div>
   );
