@@ -2,6 +2,7 @@ import Link from 'next/link';
 import useThumbnail from 'components/PlantFiche/useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyBadge/SafetyLabel';
+import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 import { makeStartCase } from 'utils/text';
 
@@ -40,7 +41,10 @@ export default function PlantCard({ plant }: PlantFicheProps) {
             />
           )}
         </div>
-        <div className="rounded-b-lg p-4">
+        <div className="rounded-b-lg p-4 relative">
+          <div className="absolute -top-6">
+            <SafetyBadge withBorder danger={plant.danger} />
+          </div>
           <div className="text-dark text-sm font-medium pt-4">
             {makeStartCase(plant.name.pl[0])}
           </div>
