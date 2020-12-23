@@ -22,7 +22,8 @@ const ImageContainer = ({
   useIntersectionObserver({
     target: ref,
     onIntersect: ([{ isIntersecting }], observerElement) => {
-      if (isIntersecting) {
+      const element = ref.current;
+      if (isIntersecting && element) {
         setIsVisible(true);
         observerElement.unobserve(ref.current);
       }
