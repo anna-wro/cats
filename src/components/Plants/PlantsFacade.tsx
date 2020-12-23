@@ -30,9 +30,8 @@ export default function PlantsFacade() {
   const [query, setQuery] = useState('');
   const [sortOrder, setSortOrder] = useState('+');
 
-  const sortedPlants = plants.sort(sortByName(`${sortOrder}pl`));
-
-  const results = usePlantSearch(query, sortedPlants);
+  const results = usePlantSearch(query, plants);
+  const sortedResults = results.sort(sortByName(`${sortOrder}pl`));
   const counter = results.length;
   const plantPluralForm = polishPlurals(
     'roślinę',
@@ -61,7 +60,7 @@ export default function PlantsFacade() {
         <Filters value={sortOrder} onChange={(e) => handleSelectChange(e)} />
       </div>
 
-      <PlantList plants={results} query={query} />
+      <PlantList plants={sortedResults} query={query} />
     </>
   );
 }
