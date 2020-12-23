@@ -29,7 +29,8 @@ export default function Home() {
       </Head>
       {!plant && <Navigation />}
       <div className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}>
-        {plant ? <PlantDetails plant={plant} /> : <PlantsFacade />}
+        {plant && <PlantDetails plant={plant} />}
+        <PlantsFacade />
       </div>
     </div>
   );
