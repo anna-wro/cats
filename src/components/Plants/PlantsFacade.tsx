@@ -2,7 +2,8 @@ import { useState, useMemo } from 'react';
 import { matchSorter } from 'match-sorter';
 import { polishPlurals } from 'polish-plurals';
 import PlantList from './PlantList';
-import Search from '../Search';
+import Search from 'components/Search';
+import Filters from 'components/Filters';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
@@ -26,9 +27,10 @@ function usePlantSearch(searchTerm, plants) {
 }
 
 export default function PlantsFacade() {
-  const sortedPlants = plants.sort(sortByName('pl'));
-
   const [query, setQuery] = useState('');
+  const [sortOrder, setSortOrder] = useState('+');
+
+  const sortedPlants = plants.sort(sortByName(`${sortOrder}pl`));
 
   const results = usePlantSearch(query, sortedPlants);
   const counter = results.length;
@@ -43,13 +45,22 @@ export default function PlantsFacade() {
     setQuery(e.currentTarget.value);
   }
 
+  function handleSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    setSortOrder(e.currentTarget.value);
+  }
+
   return (
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
-      <div className="mt-28 mb-10">
-        Znaleziono <span className="font-bold">{counter}</span>{' '}
-        {plantPluralForm}
+      <div className="flex items-center justify-between mt-28 mb-10 f">
+        <div>
+          Znaleziono <span className="font-bold">{counter}</span>{' '}
+          {plantPluralForm}
+        </div>
+        <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm" />
+        <Filters value={sortOrder} onChange={(e) => handleSelectChange(e)} />
       </div>
+
       <PlantList plants={results} query={query} />
     </>
   );
