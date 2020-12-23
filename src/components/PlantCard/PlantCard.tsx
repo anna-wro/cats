@@ -5,27 +5,13 @@ import SafetyLabel from 'components/SafetyBadge/SafetyLabel';
 import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 import { makeStartCase } from 'utils/text';
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
-export type PlantType = Readonly<{
-  name: {
-    pl: string[];
-    en: string[];
-    lat: string;
-  };
-  slug: string;
-  thumbnailID: string;
-  queryImage?: string;
-  danger: number;
-  symptoms?: string;
-  note?: string;
-  source?: string[];
-}>;
-
-type PlantFicheProps = Readonly<{
+type PlantCardProps = Readonly<{
   plant: PlantType;
 }>;
 
-export default function PlantCard({ plant }: PlantFicheProps) {
+export default function PlantCard({ plant }: PlantCardProps) {
   const thumbnail = useThumbnail(plant.thumbnailID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
 
