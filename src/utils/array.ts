@@ -13,8 +13,10 @@ export function sortByName(lang: string) {
   let sortOrder = 1;
   if (lang[0] === '-') {
     sortOrder = -1;
-    lang = lang.substr(1);
   }
+
+  lang = lang.substr(1);
+
   return function (a, b) {
     const result = a['name'][lang][0].localeCompare(b['name'][lang][0], {
       ignorePunctuation: true,
