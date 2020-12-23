@@ -9,11 +9,14 @@ import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantCardProps = Readonly<{
   plant: PlantType;
+  query: string;
 }>;
 
-export default function PlantCard({ plant }: PlantCardProps) {
+export default function PlantCard({ plant, query }: PlantCardProps) {
   const thumbnail = useThumbnail(plant.thumbnailID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
+  const mainName = makeStartCase(plant.name.pl[0]);
+  const latinName = makeStartCase(plant.name.lat);
 
   return (
     <Link href={plant.slug}>
@@ -31,12 +34,8 @@ export default function PlantCard({ plant }: PlantCardProps) {
           <div className="absolute -top-6">
             <SafetyBadge withBorder danger={plant.danger} />
           </div>
-          <div className="text-dark text-sm font-medium pt-4">
-            {makeStartCase(plant.name.pl[0])}
-          </div>
-          <div className="text-gray text-xs font-light">
-            {makeStartCase(plant.name.lat)}
-          </div>
+          <div className="text-dark text-sm font-medium pt-4">{mainName}</div>
+          <div className="text-gray text-xs font-light">{latinName}</div>
           <SafetyLabel danger={plant.danger} />
         </div>
       </div>

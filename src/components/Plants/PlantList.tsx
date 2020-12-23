@@ -3,13 +3,14 @@ import PlantCard from 'components/PlantCard/PlantCard';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import useWindowSize from 'utils/useWindowSize';
 
-type PlantGroupType = {
+type PlantListType = {
   plants: PlantType[];
+  query: string;
 };
 
 const MOBILE_WIDTH = 480;
 
-export default function PlantList({ plants }: PlantGroupType) {
+export default function PlantList({ plants, query }: PlantListType) {
   const { width } = useWindowSize();
 
   return width <= MOBILE_WIDTH ? (
@@ -23,7 +24,11 @@ export default function PlantList({ plants }: PlantGroupType) {
   ) : (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5   gap-6">
       {plants.map((plant) => (
-        <PlantCard key={plant.slug} plant={plant} />
+        <PlantCard
+          key={plant.slug}
+          plant={plant}
+          query={query}
+        />
       ))}
     </div>
   );

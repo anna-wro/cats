@@ -50,7 +50,7 @@ export default function PlantsFacade() {
         Znaleziono <span className="font-bold">{counter}</span>{' '}
         {plantPluralForm}
       </div>
-      <PlantList plants={results} />
+      <PlantList plants={results} query={query} />
     </>
   );
 }
