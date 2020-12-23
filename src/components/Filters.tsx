@@ -8,7 +8,7 @@ export default function Search({ value, onChange }: FiltersPropsType) {
     <select
       value={value}
       onChange={(e) => onChange(e)}
-      className="border border-gray rounded-lg p-1"
+      className="filters appearance-none border border-gray rounded-lg py-px pl-2 pr-5 text-xs text-dark font-bold"
     >
       <option value="+">Po nazwie rosnąco</option>
       <option value="-">Po nazwie malejąco</option>

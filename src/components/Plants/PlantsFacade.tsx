@@ -53,7 +53,7 @@ export default function PlantsFacade() {
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
       <div className="flex items-center justify-between mt-28 mb-10 f">
-        <div>
+        <div className="text-xs text-dark">
           Znaleziono <span className="font-bold">{counter}</span>{' '}
           {plantPluralForm}
         </div>

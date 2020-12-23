@@ -72,3 +72,10 @@ html {
   transform: scale(1.1);
   transition: visibility 0ms ease 400ms;
 }
+
+.filters {
+  background: url(/chevron-down.svg);
+  background-size: 12px;
+  background-position: calc(100% - 5px) 4px;
+  background-repeat: no-repeat;
+}
