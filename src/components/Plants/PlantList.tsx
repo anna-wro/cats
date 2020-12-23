@@ -17,18 +17,14 @@ export default function PlantList({ plants, query }: PlantListType) {
     <>
       {plants.map((plant) => (
         <div className="mb-6">
-          <PlantFiche key={plant.slug} plant={plant} />
+          <PlantFiche key={plant.slug} plant={plant} query={query} />
         </div>
       ))}
     </>
   ) : (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5   gap-6">
       {plants.map((plant) => (
-        <PlantCard
-          key={plant.slug}
-          plant={plant}
-          query={query}
-        />
+        <PlantCard key={plant.slug} plant={plant} query={query} />
       ))}
     </div>
   );

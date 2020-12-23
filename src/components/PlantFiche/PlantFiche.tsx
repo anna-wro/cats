@@ -3,6 +3,7 @@ import useThumbnail from './useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
 import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
+import { makeStartCase, highlightText } from 'utils/text';
 
 export type PlantType = Readonly<{
   name: {
@@ -21,11 +22,13 @@ export type PlantType = Readonly<{
 
 type PlantFicheProps = Readonly<{
   plant: PlantType;
+  query?: string;
 }>;
 
-export default function Plant({ plant }: PlantFicheProps) {
+export default function Plant({ plant, query }: PlantFicheProps) {
   const thumbnail = useThumbnail(plant.thumbnailID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
+  const mainName = makeStartCase(plant.name.pl[0]);
 
   return (
     <Link href={plant.slug}>
@@ -43,7 +46,7 @@ export default function Plant({ plant }: PlantFicheProps) {
           <div className="flex flex-col items-center justify-center">
             <SafetyBadge danger={plant.danger} />
             <div className="text-dark text-sm text-center leading-4 pt-2">
-              {plant.name.pl[0]}
+              {query ? highlightText(mainName, query) : mainName}
             </div>
           </div>
         </div>

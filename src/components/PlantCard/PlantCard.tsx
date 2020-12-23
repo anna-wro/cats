@@ -4,7 +4,7 @@ import { getPhotoUrl } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyBadge/SafetyLabel';
 import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
-import { makeStartCase } from 'utils/text';
+import { makeStartCase, highlightText } from 'utils/text';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantCardProps = Readonly<{
@@ -34,8 +34,12 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
           <div className="absolute -top-6">
             <SafetyBadge withBorder danger={plant.danger} />
           </div>
-          <div className="text-dark text-sm font-medium pt-4">{mainName}</div>
-          <div className="text-gray text-xs font-light">{latinName}</div>
+          <div className="text-dark text-sm font-medium pt-4">
+            {query ? highlightText(mainName, query) : mainName}
+          </div>
+          <div className="text-gray text-xs font-light">
+            {query ? highlightText(latinName, query) : latinName}
+          </div>
           <SafetyLabel danger={plant.danger} />
         </div>
       </div>
