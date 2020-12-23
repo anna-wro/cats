@@ -30,11 +30,8 @@ export default function PlantCard({ plant }: PlantFicheProps) {
 
   return (
     <Link href={plant.slug}>
-      <div
-        className="flex flex-col w-100 max-w-xs shadow rounded-lg cursor-pointer"
-        style={{ height: '300px' }} //FIXME: height
-      >
-        <div className="h-2/3 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
+      <div className="w-100 max-w-xs shadow rounded-lg cursor-pointer">
+        <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {url && (
             <ImageContainer
               src={url.bigger}
@@ -43,7 +40,7 @@ export default function PlantCard({ plant }: PlantFicheProps) {
             />
           )}
         </div>
-        <div className="h-1/3 rounded-b-lg p-4">
+        <div className="rounded-b-lg p-4">
           <div className="text-dark text-sm font-medium pt-4">
             {makeStartCase(plant.name.pl[0])}
           </div>

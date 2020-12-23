@@ -13,15 +13,15 @@ export default function PlantList({ plants }: PlantGroupType) {
   const { width } = useWindowSize();
 
   return width <= MOBILE_WIDTH ? (
-    <div className="mt-10">
+    <>
       {plants.map((plant) => (
         <div className="mb-6">
           <PlantFiche key={plant.slug} plant={plant} />
         </div>
       ))}
-    </div>
+    </>
   ) : (
-    <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 gap-6">
+    <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6">
       {plants.map((plant) => (
         <PlantCard key={plant.slug} plant={plant} />
       ))}
