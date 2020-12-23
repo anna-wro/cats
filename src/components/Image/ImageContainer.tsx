@@ -29,13 +29,11 @@ const ImageContainer = ({
       }
     },
   });
-  const aspectRatio = (height / width) * 100;
 
   return (
     <div
       ref={ref}
-      className="relative overflow-hidden bg-gray-light bg-opacity-30"
-      style={{ paddingBottom: `${aspectRatio}%` }}
+      className="relative h-full overflow-hidden bg-gray-light bg-opacity-30"
     >
       {isVisible && <Image src={src} thumbnail={thumbnail} alt={alt} />}
     </div>
