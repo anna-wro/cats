@@ -23,7 +23,7 @@ export default function Home() {
     : null;
 
   return (
-    <div className="flex flex-col min-h-screen font-main">
+    <div className="flex flex-col min-h-screen font-main text-dark">
       <Head>
         <title>{plantTitle} Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
