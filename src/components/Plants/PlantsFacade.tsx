@@ -81,7 +81,6 @@ export default function PlantsFacade() {
           onChange={(e) => handleSelectChange(e)}
         />
       </div>
-
       <PlantList plants={sortedResults} query={query} />
     </div>
   );

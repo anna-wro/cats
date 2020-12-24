@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Navigation from '../components/Navigation';
-import PlantsFacade from '../components/Plants/PlantsFacade';
+import Navigation from 'components/Navigation';
+import PlantsFacade from 'components/Plants/PlantsFacade';
 import PlantDetails from 'components/PlantDetails/PlantDetails';
+import Footer from 'components/Footer';
 import { makeStartCase } from 'utils/text';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
@@ -37,6 +38,7 @@ export default function Home() {
         {plant && <PlantDetails plant={plant} />}
         <PlantsFacade />
       </div>
+      <Footer />
     </div>
   );
 }
