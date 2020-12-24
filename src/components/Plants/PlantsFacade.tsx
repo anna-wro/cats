@@ -3,7 +3,7 @@ import { matchSorter } from 'match-sorter';
 import { polishPlurals } from 'polish-plurals';
 import PlantList from './PlantList';
 import Search from 'components/Search';
-import Filters from 'components/Filters';
+import SortingOrder from 'components/SortingOrder';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
@@ -57,7 +57,7 @@ export default function PlantsFacade() {
           {plantPluralForm}
         </div>
         <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm" />
-        <Filters value={sortOrder} onChange={(e) => handleSelectChange(e)} />
+        <SortingOrder value={sortOrder} onChange={(e) => handleSelectChange(e)} />
       </div>
 
       <PlantList plants={sortedResults} query={query} />
