@@ -9,8 +9,6 @@ import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
 import { useThrottle } from 'use-throttle';
 
-const plants = [...safe, ...toxic];
-
 function usePlantSearch(searchTerm, plants) {
   const throttled = useThrottle(searchTerm, 300);
 
@@ -22,13 +20,17 @@ function usePlantSearch(searchTerm, plants) {
             threshold: matchSorter.rankings.WORD_STARTS_WITH,
             keys: ['name.pl', 'name.en', 'name.lat'],
           }),
-    [throttled],
+    [throttled, plants],
   );
 }
 
 export default function PlantsFacade() {
   const [query, setQuery] = useState('');
   const [sortOrder, setSortOrder] = useState('+');
+  const [showToxic, setShowToxic] = useState(true);
+  const [showSafe, setShowSafe] = useState(true);
+
+  const plants = [...(showSafe ? safe : []), ...(showToxic ? toxic : [])];
 
   const results = usePlantSearch(query, plants);
   const sortedResults = results.sort(sortByName(`${sortOrder}pl`));
@@ -51,6 +53,18 @@ export default function PlantsFacade() {
   return (
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
+      <div
+        className={`${showToxic && 'text-red'} border cursor-pointer`}
+        onClick={() => setShowToxic(!showToxic)}
+      >
+        Trujące
+      </div>
+      <div
+        className={`${showSafe && 'text-blue'} border cursor-pointer`}
+        onClick={() => setShowSafe(!showSafe)}
+      >
+        Jadalne
+      </div>
       <div className="flex items-center justify-between mt-28 mb-10 f">
         <div className="text-xs text-dark">
           Znaleziono <span className="font-bold">{counter}</span>{' '}
