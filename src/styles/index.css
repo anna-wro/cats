@@ -117,4 +117,5 @@ html {
   @apply cursor-pointer;
   @apply text-xs;
   @apply font-semibold;
+  @apply bg-white;
 }
