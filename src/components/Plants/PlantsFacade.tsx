@@ -52,18 +52,24 @@ export default function PlantsFacade() {
 
   return (
     <>
-      <Search query={query} onChange={(e) => handleInputChange(e)} />
-      <div
-        className={`filter ${showToxic ? 'text-gray' : 'text-gray-light'}`}
-        onClick={() => setShowToxic(!showToxic)}
-      >
-        Trujące
-      </div>
-      <div
-        className={`filter ${showSafe ? 'text-gray' : 'text-gray-light'}`}
-        onClick={() => setShowSafe(!showSafe)}
-      >
-        Jadalne
+      <div className="relative mx-auto w-full max-w-screen-sm">
+        <Search query={query} onChange={(e) => handleInputChange(e)} />
+        <div className="absolute top-5 right-6">
+          <div
+            className={`filter mr-1 ${
+              showToxic ? 'text-gray' : 'text-gray-light'
+            }`}
+            onClick={() => setShowToxic(!showToxic)}
+          >
+            Trujące
+          </div>
+          <div
+            className={`filter ${showSafe ? 'text-gray' : 'text-gray-light'}`}
+            onClick={() => setShowSafe(!showSafe)}
+          >
+            Bezpieczne
+          </div>
+        </div>
       </div>
       <div className="flex items-center justify-between mt-28 mb-10 f">
         <div className="text-xs text-dark">

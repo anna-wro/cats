@@ -96,6 +96,6 @@ html {
   @apply border;
   @apply rounded-full;
   @apply cursor-pointer;
-  @apply text-sm;
+  @apply text-xs;
   @apply font-semibold;
 }
