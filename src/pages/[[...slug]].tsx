@@ -23,7 +23,7 @@ export default function Home() {
     : null;
 
   return (
-    <div className="font-main">
+    <div className="flex flex-col min-h-screen font-main">
       <Head>
         <title>{plantTitle} Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
@@ -33,10 +33,14 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      {!plant && <Navigation />}
-      <div className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}>
-        {plant && <PlantDetails plant={plant} />}
-        <PlantsFacade />
+      <div className="flex-1">
+        {!plant && <Navigation />}
+        <div
+          className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}
+        >
+          {plant && <PlantDetails plant={plant} />}
+          <PlantsFacade />
+        </div>
       </div>
       <Footer />
     </div>
