@@ -11,8 +11,8 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <div className={`mr-8 line--${accentColor}`}>
-          <div className="text-dark text-2xl">
+        <div className={`mr-8`}>
+          <div className="text-dark text-2xl font-semibold">
             {makeStartCase(plant.name.pl[0])}
           </div>
           <div className={`text-sm text-${accentColor} font-bold`}>

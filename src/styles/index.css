@@ -47,37 +47,17 @@ html {
   @apply font-light;
 }
 
-.line--blue::before,
-.line--orange::before,
-.line--red::before,
-.line--big::before {
+.line::before {
   content: '';
   transform: rotate(90deg);
   @apply block;
   @apply relative;
-  @apply top-8;
-  @apply -left-9;
-  @apply w-10;
   @apply rounded-full;
-}
-
-.line--blue::before {
-  @apply bg-blue;
-}
-
-.line--orange::before {
-  @apply bg-orange;
-}
-
-.line--red::before {
-  @apply bg-red;
-}
-
-.line--big::before {
   @apply top-20;
   @apply -left-12;
   @apply w-16;
   @apply h-2;
+  @apply bg-orange;
 }
 
 .nav-link::after {

@@ -36,7 +36,7 @@ export default function Home() {
       <div className="flex-1">
         {!plant && <Navigation />}
         <div
-          className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}
+          className={`px-20 ${plant ? undefined : 'max-w-7xl mx-auto pb-24'}`}
         >
           {plant && <PlantDetails plant={plant} />}
           <PlantsFacade />
