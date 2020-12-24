@@ -132,10 +132,4 @@ html {
 
 .search:focus-within::before {
   content: url(/search-dark.svg);
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
 }
