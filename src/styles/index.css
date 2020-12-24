@@ -47,11 +47,11 @@ html {
   @apply font-light;
 }
 
-.section-headline--blue::before,
-.section-headline--orange::before,
-.section-headline--red::before {
+.line--blue::before,
+.line--orange::before,
+.line--red::before,
+.line--big::before {
   content: '';
-  height: 6px;
   transform: rotate(90deg);
   @apply block;
   @apply relative;
@@ -61,24 +61,29 @@ html {
   @apply rounded-full;
 }
 
-.section-headline--blue::before {
+.line--blue::before {
   @apply bg-blue;
 }
 
-.section-headline--orange::before {
+.line--orange::before {
   @apply bg-orange;
 }
 
-.section-headline--red::before {
+.line--red::before {
   @apply bg-red;
+}
+
+.line--big::before {
+  @apply top-20;
+  @apply -left-12;
+  @apply w-16;
+  @apply h-2;
 }
 
 .nav-link::after {
   @apply bg-gray;
   @apply rounded-full;
   @apply absolute;
-  width: 6px;
-  height: 6px;
   top: 8px;
   left: -3px;
 }
@@ -136,4 +141,14 @@ html {
 
 .search:focus-within::before {
   content: url(/search-dark.svg);
+}
+
+.title::after {
+  @apply h-20;
+  @apply w-20;
+  @apply absolute;
+  content: url(/tulip.svg);
+  top: -42px;
+  left: -50px;
+  z-index: -1;
 }

@@ -4,6 +4,7 @@ import { polishPlurals } from 'polish-plurals';
 import PlantList from './PlantList';
 import Search from 'components/Search';
 import Filter from 'components/Filter';
+import Title from 'components/Title';
 import SortingOrder from 'components/SortingOrder';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
@@ -52,10 +53,8 @@ export default function PlantsFacade() {
   }
 
   return (
-    <>
-      {/* <div className="font-title font-semibold text-5xl">
-          Rośliny dla kota
-        </div> */}
+    <div className="relative">
+      <Title />
       <div className="relative mx-auto w-full max-w-screen-sm">
         <Search query={query} onChange={(e) => handleInputChange(e)} />
         <div className="absolute top-5 right-6 space-x-1">
@@ -84,6 +83,6 @@ export default function PlantsFacade() {
       </div>
 
       <PlantList plants={sortedResults} query={query} />
-    </>
+    </div>
   );
 }
