@@ -19,7 +19,7 @@ export default function Nav() {
     <nav>
       <ul className="flex justify-center items-center pt-4">
         {links.map((link) => (
-          <li key={link.href} className="nav-link">
+          <li key={link.href} className="nav-link px-3 relative">
             <Link href={link.href}>
               <a
                 className={`font-bold no-underline ${

@@ -74,10 +74,13 @@ html {
 }
 
 .nav-link::after {
-  content: '•';
-  @apply mx-2;
-  @apply text-gray;
-  @apply font-black;
+  @apply bg-gray;
+  @apply rounded-full;
+  @apply absolute;
+  width: 6px;
+  height: 6px;
+  top: 8px;
+  left: -3px;
 }
 
 .nav-link:last-child::after {
