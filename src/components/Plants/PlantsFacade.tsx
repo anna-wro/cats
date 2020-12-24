@@ -53,6 +53,9 @@ export default function PlantsFacade() {
 
   return (
     <>
+      {/* <div className="font-title font-semibold text-5xl">
+          Rośliny dla kota
+        </div> */}
       <div className="relative mx-auto w-full max-w-screen-sm">
         <Search query={query} onChange={(e) => handleInputChange(e)} />
         <div className="absolute top-5 right-6 space-x-1">
@@ -68,8 +71,8 @@ export default function PlantsFacade() {
           />
         </div>
       </div>
-      <div className="flex items-center justify-between mt-28 mb-10 f">
-        <div className="text-xs text-dark">
+      <div className="flex items-center justify-between mt-28 mb-10">
+        <div className="font-info text-xs text-dark">
           Znaleziono <span className="font-bold">{counter}</span>{' '}
           {plantPluralForm}
         </div>

@@ -22,10 +22,15 @@ export default function Home() {
     : null;
 
   return (
-    <div>
+    <div className="font-main">
       <Head>
         <title>{plantTitle} Rośliny dla kota</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       {!plant && <Navigation />}
       <div className={`max-w-7xl mx-auto px-20 ${plant ? undefined : 'pb-24'}`}>
