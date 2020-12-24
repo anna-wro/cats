@@ -74,11 +74,11 @@ export default function PlantsFacade() {
         </div>
       </div>
       <div className="flex items-center justify-between mt-28 mb-10">
-        <div className="font-info text-xs text-dark">
+        <div className="font-info text-xs text-dark w-40">
           Znaleziono <span className="font-bold">{counter}</span>{' '}
           {plantPluralForm}
         </div>
-        <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm" />
+        <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm mx-4" />
         <SortingOrder
           value={sortOrder}
           onChange={(e) => handleSelectChange(e)}
