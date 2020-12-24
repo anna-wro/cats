@@ -81,15 +81,18 @@ html {
 }
 
 .nav-link::after {
+  content: '';
   @apply bg-gray;
   @apply rounded-full;
   @apply absolute;
   top: 8px;
-  left: -3px;
+  right: -3px;
+  width: 6px;
+  height: 6px;
 }
 
 .nav-link:last-child::after {
-  content: '';
+  @apply bg-transparent;
 }
 
 .image {
