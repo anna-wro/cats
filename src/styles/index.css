@@ -64,6 +64,16 @@ html {
   content: '';
 }
 
+.image {
+  @apply absolute;
+  @apply h-full;
+  @apply w-full;
+  @apply top-0;
+  @apply left-0;
+  @apply object-cover;
+  @apply object-center;
+}
+
 .image--full {
   transition: opacity 400ms ease 0ms;
 }
@@ -73,9 +83,19 @@ html {
   transition: visibility 0ms ease 400ms;
 }
 
-.filters {
+.sorting-order {
   background: url(/chevron-down.svg);
   background-size: 12px;
   background-position: calc(100% - 5px) 4px;
   background-repeat: no-repeat;
+}
+
+.filter {
+  @apply inline-block;
+  @apply px-2;
+  @apply border;
+  @apply rounded-full;
+  @apply cursor-pointer;
+  @apply text-sm;
+  @apply font-semibold;
 }

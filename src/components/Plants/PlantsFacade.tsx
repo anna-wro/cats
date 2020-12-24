@@ -54,13 +54,13 @@ export default function PlantsFacade() {
     <>
       <Search query={query} onChange={(e) => handleInputChange(e)} />
       <div
-        className={`${showToxic && 'text-red'} border cursor-pointer`}
+        className={`filter ${showToxic ? 'text-gray' : 'text-gray-light'}`}
         onClick={() => setShowToxic(!showToxic)}
       >
         Trujące
       </div>
       <div
-        className={`${showSafe && 'text-blue'} border cursor-pointer`}
+        className={`filter ${showSafe ? 'text-gray' : 'text-gray-light'}`}
         onClick={() => setShowSafe(!showSafe)}
       >
         Jadalne
