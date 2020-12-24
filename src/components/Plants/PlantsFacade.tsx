@@ -57,7 +57,10 @@ export default function PlantsFacade() {
           {plantPluralForm}
         </div>
         <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm" />
-        <SortingOrder value={sortOrder} onChange={(e) => handleSelectChange(e)} />
+        <SortingOrder
+          value={sortOrder}
+          onChange={(e) => handleSelectChange(e)}
+        />
       </div>
 
       <PlantList plants={sortedResults} query={query} />
