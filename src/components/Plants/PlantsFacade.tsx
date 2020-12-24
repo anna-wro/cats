@@ -3,6 +3,7 @@ import { matchSorter } from 'match-sorter';
 import { polishPlurals } from 'polish-plurals';
 import PlantList from './PlantList';
 import Search from 'components/Search';
+import Filter from 'components/Filter';
 import SortingOrder from 'components/SortingOrder';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
@@ -54,21 +55,17 @@ export default function PlantsFacade() {
     <>
       <div className="relative mx-auto w-full max-w-screen-sm">
         <Search query={query} onChange={(e) => handleInputChange(e)} />
-        <div className="absolute top-5 right-6">
-          <div
-            className={`filter mr-1 ${
-              showToxic ? 'text-gray' : 'text-gray-light'
-            }`}
+        <div className="absolute top-5 right-6 space-x-1">
+          <Filter
+            text="Trujące"
+            active={showToxic}
             onClick={() => setShowToxic(!showToxic)}
-          >
-            Trujące
-          </div>
-          <div
-            className={`filter ${showSafe ? 'text-gray' : 'text-gray-light'}`}
+          />
+          <Filter
+            text="Bezpieczne"
+            active={showSafe}
             onClick={() => setShowSafe(!showSafe)}
-          >
-            Bezpieczne
-          </div>
+          />
         </div>
       </div>
       <div className="flex items-center justify-between mt-28 mb-10 f">
