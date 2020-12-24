@@ -7,7 +7,7 @@ type FilterPropsType = {
 export default function Filter({ text, active, onClick }: FilterPropsType) {
   return (
     <div
-      className={`filter ${active ? 'text-gray' : 'text-gray-light'}`}
+      className={`filter ${active ? 'text-dark' : 'text-gray'}`}
       onClick={onClick}
     >
       {text}
