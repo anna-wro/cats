@@ -7,7 +7,7 @@ type PlantDetailsType = Readonly<{ plant: PlantType }>;
 export default function PlantDetails({ plant }: PlantDetailsType) {
   return (
     <div className="flex divide-x divide-gray-light relative">
-      <div className="w-1/4 py-10 px-8 min-h-screen ">
+      <div className="w-1/3 lg:w-1/4 py-10 px-8 min-h-screen ">
         <PlantSpecs plant={plant} />
       </div>
       <div className="flex-grow py-10 px-8 min-h-screen">
