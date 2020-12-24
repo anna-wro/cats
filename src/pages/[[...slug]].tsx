@@ -33,7 +33,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex-1">
+      <div className={`flex-1 ${plant && 'fixed'}`}>
         {!plant && <Navigation />}
         <div
           className={`${plant ? undefined : 'max-w-7xl mx-auto pb-24 px-20 '}`}
