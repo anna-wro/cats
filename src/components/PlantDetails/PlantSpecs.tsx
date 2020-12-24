@@ -9,58 +9,21 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
     plant.danger === 0 ? 'blue' : plant.danger === 3 ? 'red' : 'orange';
 
   return (
-    <div>
-      <div className="flex items-center justify-between">
-        <div className={`mr-8`}>
-          <div className="text-dark text-2xl font-semibold">
-            {makeStartCase(plant.name.pl[0])}
+    <>
+      <div className="text-dark text-2xl font-semibold mb-6">
+        {makeStartCase(plant.name.pl[0])}
+      </div>
+      <div className="bg-red bg-opacity-20 rounded-2xl p-4 flex items-center">
+        <div className="bg-white flex items-center justify-center rounded-full h-12 w-12 mr-4 flex-shrink-0">
+          <img className="w-10 h-10" src="/pulse.svg" />
+        </div>
+        <div>
+          <div className="text-sm font-light">Twój kot to zjadł?</div>
+          <div className="text-sm font-light">
+            Dowiedz się, <span className="font-bold underline">co zrobić.</span>
           </div>
-          <div className={`text-sm text-${accentColor} font-bold`}>
-            Ta roślina jest {plant.danger === 0 ? 'bezpieczna' : 'trująca'}
-          </div>
         </div>
-        <SafetyBadge danger={plant.danger} />
       </div>
-      <div className="mb-4 mt-7">
-        <div className="section-name">Zagrożenie</div>
-        <img src={`/chart-${plant.danger}.svg`} />
-      </div>
-      {plant.symptoms && (
-        <div className="mb-4">
-          <div className="section-name">Objawy</div>
-          <div className="section-content">{makeStartCase(plant.symptoms)}</div>
-        </div>
-      )}
-      {plant.note && (
-        <div className="mb-4">
-          <div className="section-name">Info</div>
-          <div className="section-content">{makeStartCase(plant.note)}</div>
-        </div>
-      )}
-      <div className="mb-4">
-        <div className="section-name">PL</div>
-        {plant.name.pl.map((name) => {
-          return (
-            <div key={name} className="section-content">
-              {makeStartCase(name)}
-            </div>
-          );
-        })}
-      </div>
-      <div className="mb-4">
-        <div className="section-name">EN</div>
-        {plant.name.en.map((name) => {
-          return (
-            <div key={name} className="section-content">
-              {makeStartCase(name)}
-            </div>
-          );
-        })}
-      </div>
-      <div className="mb-4">
-        <div className="section-name">LAT</div>
-        <div className="section-content">{makeStartCase(plant.name.lat)}</div>
-      </div>
-    </div>
+    </>
   );
 }

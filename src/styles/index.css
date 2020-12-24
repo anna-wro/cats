@@ -33,20 +33,6 @@ html {
   margin-left: calc(100vw - 100%);
 }
 
-.section-name {
-  @apply text-xs;
-  @apply text-gray;
-  @apply font-semibold;
-  @apply leading-5;
-  @apply uppercase;
-}
-
-.section-content {
-  @apply text-sm;
-  @apply text-dark;
-  @apply font-light;
-}
-
 .line::before {
   content: '';
   transform: rotate(90deg);
