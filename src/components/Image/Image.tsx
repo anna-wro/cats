@@ -3,10 +3,11 @@ import { useState } from 'react';
 type ImageType = Readonly<{
   src: string;
   thumbnail: string;
+  fallback: string;
   alt?: string;
 }>;
 
-const Image = ({ src, thumbnail, alt }: ImageType) => {
+const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
   const [isLoaded, setIsLoaded] = useState(false);
   return (
     <>
@@ -20,6 +21,10 @@ const Image = ({ src, thumbnail, alt }: ImageType) => {
       <img
         onLoad={() => {
           setIsLoaded(true);
+        }}
+        onError={(e) => {
+          const element = e.currentTarget as HTMLImageElement;
+          element.src = fallback;
         }}
         className={`image image--full ${
           isLoaded ? 'opacity-100' : 'opacity-0'

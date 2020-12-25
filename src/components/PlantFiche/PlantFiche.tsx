@@ -37,6 +37,7 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
           {links && (
             <ImageContainer
               src={links.m}
+              fallback={links.s}
               thumbnail={links.xs}
               alt={plant.name.lat}
             />
