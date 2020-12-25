@@ -1,28 +1,42 @@
 import base58 from 'base58';
 import type { PlantPhotoInfoType } from 'utils/usePhoto';
 
-type PlantUrlType = Readonly<{
-  thumbnail: string;
-  bigger: string;
-  full: string;
+// https://www.flickr.com/services/api/misc.urls.html
+const SIZE_TO_SUFFIX = {
+  xxs: '_s', // cropped square 75px
+  xs: '_t', // longest edge 100px
+  s: '_m', // 240px
+  m: '', // 500px
+  l: '_c', // 800px
+  xl: '_b', // 1024
+};
+
+const AVAILABLE_SIZES = Object.keys(SIZE_TO_SUFFIX);
+
+type PhotoLinksType = Readonly<{
+  xxs: string;
+  xs: string;
+  s: string;
+  m: string;
+  l: string;
+  xl: string;
+  source: string;
 }>;
 
-type PhotoUrlType = Readonly<{
-  plant: PlantPhotoInfoType;
-  size: string;
-}>;
-
-export function getPhotosUrls(photos: PlantPhotoInfoType[]): PlantUrlType[] {
-  return photos.map((photo) => getPhotoUrl(photo));
-}
-
-export function getPhotoUrl(photo: PlantPhotoInfoType): PlantUrlType {
+export function getPhotoLinks(photo: PlantPhotoInfoType): PhotoLinksType {
   const { farm, server, id, secret } = photo;
 
-  const bigger = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}.jpg`;
-  const thumbnail = `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}_t.jpg`;
-  const encodedId = base58.int_to_base58(id);
-  const full = `https://flic.kr/p/${encodedId}`;
+  const sizes = AVAILABLE_SIZES.reduce(
+    (obj, size) => ({
+      ...obj,
+      [size]: `https://farm${farm}.staticflickr.com/${server}/${id}_${secret}${SIZE_TO_SUFFIX[size]}.jpg`,
+    }),
+    {},
+  );
 
-  return { thumbnail, bigger, full };
+  const encodedId = base58.int_to_base58(id);
+  const source = `https://flic.kr/p/${encodedId}`;
+
+  //FIXME: typescript
+  return { ...sizes, source };
 }

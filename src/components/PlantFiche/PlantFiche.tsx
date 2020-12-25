@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import usePhoto from 'utils/usePhoto';
-import { getPhotoUrl } from 'utils/flickr';
+import { getPhotoLinks } from 'utils/flickr';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 import { makeStartCase, highlightText } from 'utils/text';
@@ -27,17 +27,17 @@ type PlantFicheProps = Readonly<{
 
 export default function Plant({ plant, query }: PlantFicheProps) {
   const photo = usePhoto(plant.imageID);
-  const url = photo ? getPhotoUrl(photo) : null;
+  const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
 
   return (
     <Link href={plant.slug}>
       <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
         <div className="w-1/2 rounded-l-lg overflow-hidden bg-gray-light bg-opacity-30">
-          {url && (
+          {links && (
             <ImageContainer
-              src={url.bigger}
-              thumbnail={url.thumbnail}
+              src={links.m}
+              thumbnail={links.xs}
               alt={plant.name.lat}
             />
           )}
