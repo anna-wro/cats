@@ -20,7 +20,10 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
           // />
           <img
             src={links.xl}
-            onError={() => (this.img.src = links.l)}
+            onError={(e) => {
+              const element = e.currentTarget as HTMLImageElement;
+              element.src = links.l;
+            }}
             className="rounded-2xl"
           />
         )}
