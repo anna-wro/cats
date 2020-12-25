@@ -31,10 +31,7 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
         )}
         <VerifyInfo source={plant.source} />
       </div>
-      <div className="mb-2">
-        <OtherNames lang="pl" names={plant.name.pl} />
-      </div>
-      <OtherNames lang="en" names={plant.name.en} />
+      <OtherNames names={plant.name} />
     </div>
   );
 }
