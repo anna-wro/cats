@@ -21,7 +21,7 @@ describe('<PlantFiche>', () => {
           danger: 0,
           slug: 'fiolek',
           name: { pl: ['Fiołek'], en: [], lat: '' },
-          imageID: '256',
+          imageID: ['256'],
         }}
       />,
     );
