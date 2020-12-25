@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import useThumbnail from './useThumbnail';
+import usePhoto from 'utils/usePhoto';
 import { getPhotoUrl } from 'utils/flickr';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
@@ -26,8 +26,8 @@ type PlantFicheProps = Readonly<{
 }>;
 
 export default function Plant({ plant, query }: PlantFicheProps) {
-  const thumbnail = useThumbnail(plant.imageID);
-  const url = thumbnail ? getPhotoUrl(thumbnail) : null;
+  const photo = usePhoto(plant.imageID);
+  const url = photo ? getPhotoUrl(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
 
   return (

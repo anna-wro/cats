@@ -44,17 +44,17 @@ const SETTINGS = {
 
 // TODO: check if received license is ok
 
-export default function useThumbnail(ID: string): PlantPhotoInfoType {
-  let [thumbnail, setThumbnail] = useState();
+export default function usePhoto(ID: string): PlantPhotoInfoType {
+  let [photo, setPhoto] = useState();
   const url = setMultipleParams({ ...SETTINGS, photo_id: ID }, API_URL);
 
   useEffect(() => {
     try {
       fetch(url)
         .then((response) => response.json())
-        .then((data) => setThumbnail(data.photo));
+        .then((data) => setPhoto(data.photo));
     } catch {}
   }, [ID]);
 
-  return thumbnail;
+  return photo;
 }
