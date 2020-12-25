@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import useThumbnail from 'components/PlantFiche/useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
-import SafetyLabel from 'components/SafetyBadge/SafetyLabel';
-import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
+import SafetyLabel from 'components/SafetyScore/SafetyLabel';
+import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 import { makeStartCase, highlightText } from 'utils/text';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';

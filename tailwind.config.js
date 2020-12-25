@@ -23,6 +23,14 @@ module.exports = {
       lg:
         '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06)',
     },
+    fontFamily: {
+      main: ['Montserrat', 'sans-serif'],
+      info: ['Inter', 'sans-serif'],
+      title: ['Nunito', 'sans-serif'],
+    },
+    extend: {
+      fontSize: { xxs: ['8px', '10px'] },
+    },
   },
   variants: {},
   plugins: [],

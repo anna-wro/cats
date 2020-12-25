@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import useThumbnail from './useThumbnail';
 import { getPhotoUrl } from 'utils/flickr';
-import SafetyBadge from 'components/SafetyBadge/SafetyBadge';
+import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
 import { makeStartCase, highlightText } from 'utils/text';
 

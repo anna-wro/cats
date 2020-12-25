@@ -11,7 +11,7 @@ const Image = ({ src, thumbnail, alt }: ImagePropsType) => {
   return (
     <>
       <img
-        className={`absolute h-full w-full top-0 left-0 object-cover object-center image--thumbnail ${
+        className={`image image--thumbnail ${
           isLoaded ? 'invisible' : 'visible'
         }  `}
         alt={alt ?? ''}
@@ -21,7 +21,7 @@ const Image = ({ src, thumbnail, alt }: ImagePropsType) => {
         onLoad={() => {
           setIsLoaded(true);
         }}
-        className={`absolute h-full w-full top-0 left-0 object-cover object-center image--full ${
+        className={`image image--full ${
           isLoaded ? 'opacity-100' : 'opacity-0'
         }`}
         alt={alt ?? ''}
