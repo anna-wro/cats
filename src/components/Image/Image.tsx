@@ -9,8 +9,9 @@ type ImageType = Readonly<{
 
 const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [height, setHeight] = useState(0);
   return (
-    <>
+    <div style={{ height: height }}>
       <img
         className={`image image--thumbnail ${
           isLoaded ? 'invisible' : 'visible'
@@ -19,7 +20,7 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         src={thumbnail}
       />
       <img
-        onLoad={() => {
+        onLoad={(e) => {
           setIsLoaded(true);
         }}
         onError={(e) => {
@@ -32,7 +33,14 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         alt={alt ?? ''}
         src={src}
       />
-    </>
+      <img
+        className="opacity-0"
+        src={src}
+        onLoad={(e) => {
+          return setHeight(e.currentTarget.height);
+        }}
+      />
+    </div>
   );
 };
 export default Image;

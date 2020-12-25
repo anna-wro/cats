@@ -7,6 +7,7 @@ type ImageContainerType = Readonly<{
   thumbnail: string;
   fallback: string;
   alt?: string;
+  rounded?: boolean;
 }>;
 
 const ImageContainer = ({
@@ -14,6 +15,7 @@ const ImageContainer = ({
   thumbnail,
   fallback,
   alt,
+  rounded,
 }: ImageContainerType) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +31,10 @@ const ImageContainer = ({
   });
 
   return (
-    <div ref={ref} className="relative h-full overflow-hidden">
+    <div
+      ref={ref}
+      className={`relative h-full overflow-hidden ${rounded && 'rounded-2xl'}`}
+    >
       {isVisible && (
         <Image src={src} fallback={fallback} thumbnail={thumbnail} alt={alt} />
       )}
