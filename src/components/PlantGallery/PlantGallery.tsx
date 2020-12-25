@@ -31,7 +31,10 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
           className="block self-end text-gray text-xs hover:underline"
           href={links.source}
         >
-          Zdjęcie: {photo.owner.realname}
+          Zdjęcie:{' '}
+          {photo.owner.realname !== ''
+            ? photo.owner.realname
+            : photo.owner.username}
         </a>
       )}
     </div>
