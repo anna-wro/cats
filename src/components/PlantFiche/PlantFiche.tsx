@@ -25,8 +25,8 @@ type PlantFicheProps = Readonly<{
   query?: string;
 }>;
 
-export default function Plant({ plant, query }: PlantFicheProps) {
-  const photo = usePhoto(plant.imageID);
+export default function PlantFiche({ plant, query }: PlantFicheProps) {
+  const photo = usePhoto(plant.imageID[0]);
   const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
 
