@@ -29,7 +29,10 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
       )}
       <div className="mb-6">
         <div className="text-lg font-semibold mb-2">Zagrożenie</div>
-        <div className="text-xs">{plant.danger}</div>
+        <div className="text-xs mb-2">{plant.danger}</div>
+        {plant.note && (
+          <div className="text-xs">{makeStartCase(plant.note)}</div>
+        )}
       </div>
       {plant.symptoms && (
         <div className="mb-6">
