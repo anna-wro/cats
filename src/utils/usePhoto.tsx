@@ -42,7 +42,8 @@ const SETTINGS = {
   api_key: API_KEY,
 };
 
-// TODO: check if received license is ok
+// https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html
+const CC_LICENSES = ['1', '2', '3', '4', '5', '6', '9'];
 
 export default function usePhoto(ID: string): PlantPhotoInfoType {
   let [photo, setPhoto] = useState();
@@ -52,7 +53,11 @@ export default function usePhoto(ID: string): PlantPhotoInfoType {
     try {
       fetch(url)
         .then((response) => response.json())
-        .then((data) => setPhoto(data.photo));
+        .then((data) => {
+          if (CC_LICENSES.includes(data.photo.license)) {
+            setPhoto(data.photo);
+          }
+        });
     } catch {}
   }, [ID]);
 
