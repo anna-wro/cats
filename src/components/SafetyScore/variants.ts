@@ -32,7 +32,7 @@ export function getVariant(danger: number) {
 export function getProgress(danger: number) {
   switch (danger) {
     case 0:
-      return { label: 'Bezpieczna', value: 'full' };
+      return { label: 'Bezpieczna', value: '2' };
     case 1:
       return { label: 'Lekko trująca', value: '1/3' };
     case 2:
