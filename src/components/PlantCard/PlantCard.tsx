@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import useThumbnail from 'utils/usePhoto';
+import usePhoto from 'utils/usePhoto';
 import { getPhotoLinks } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyScore/SafetyLabel';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
@@ -13,8 +13,8 @@ type PlantCardProps = Readonly<{
 }>;
 
 export default function PlantCard({ plant, query }: PlantCardProps) {
-  const thumbnail = useThumbnail(plant.imageID[0]);
-  const links = thumbnail ? getPhotoLinks(thumbnail) : null;
+  const photo = usePhoto(plant.imageID[0]);
+  const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
   const latinName = makeStartCase(plant.name.lat);
 
