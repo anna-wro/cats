@@ -28,6 +28,9 @@ module.exports = {
       info: ['Inter', 'sans-serif'],
       title: ['Nunito', 'sans-serif'],
     },
+    extend: {
+      fontSize: { xxs: ['8px', '10px'] },
+    },
   },
   variants: {},
   plugins: [],
