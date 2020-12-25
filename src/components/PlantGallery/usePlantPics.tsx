@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from 'utils/url';
 
-export type PlantPhotosType = {
+export type PlantPhotosType = Readonly<{
   farm: number;
   id: string;
   isfamily: boolean;
@@ -11,7 +11,7 @@ export type PlantPhotosType = {
   secret: string;
   server: string;
   title: string;
-};
+}>;
 
 const API_URL = 'https://www.flickr.com/services/rest/';
 const API_KEY = process.env.NEXT_PUBLIC_FLICKR_API_KEY;

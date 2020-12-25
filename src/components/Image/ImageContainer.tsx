@@ -2,13 +2,13 @@ import { useRef, useState } from 'react';
 import useIntersectionObserver from './useIntersectionObserver';
 import Image from './Image';
 
-type ImageContainerPropsType = Readonly<{
+type ImageContainerType = Readonly<{
   src: string;
   thumbnail: string;
   alt?: string;
 }>;
 
-const ImageContainer = ({ src, thumbnail, alt }: ImageContainerPropsType) => {
+const ImageContainer = ({ src, thumbnail, alt }: ImageContainerType) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
   useIntersectionObserver({

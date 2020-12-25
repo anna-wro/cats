@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import useThumbnail from 'components/PlantFiche/useThumbnail';
+import useThumbnail from 'utils/usePhoto';
 import { getPhotoUrl } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyScore/SafetyLabel';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';

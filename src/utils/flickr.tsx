@@ -1,11 +1,16 @@
 import base58 from 'base58';
-import type { PlantPhotoInfoType } from 'components/PlantFiche/useThumbnail';
+import type { PlantPhotoInfoType } from 'utils/usePhoto';
 
-type PlantUrlType = {
+type PlantUrlType = Readonly<{
   thumbnail: string;
   bigger: string;
   full: string;
-};
+}>;
+
+type PhotoUrlType = Readonly<{
+  plant: PlantPhotoInfoType;
+  size: string;
+}>;
 
 export function getPhotosUrls(photos: PlantPhotoInfoType[]): PlantUrlType[] {
   return photos.map((photo) => getPhotoUrl(photo));

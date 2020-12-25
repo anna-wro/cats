@@ -1,11 +1,11 @@
 import { getProgress } from './variants';
 import SafetyBadge from './SafetyBadge';
 
-type SafetyScorePropsType = Readonly<{
+type SafetyScoreType = Readonly<{
   danger: number;
 }>;
 
-export default function Score({ danger }: SafetyScorePropsType) {
+export default function Score({ danger }: SafetyScoreType) {
   const { label, value, color } = getProgress(danger);
 
   return (

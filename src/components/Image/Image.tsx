@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-type ImagePropsType = Readonly<{
+type ImageType = Readonly<{
   src: string;
   thumbnail: string;
   alt?: string;
 }>;
 
-const Image = ({ src, thumbnail, alt }: ImagePropsType) => {
+const Image = ({ src, thumbnail, alt }: ImageType) => {
   const [isLoaded, setIsLoaded] = useState(false);
   return (
     <>
