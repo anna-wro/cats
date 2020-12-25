@@ -17,7 +17,7 @@ export type PlantPhotoInfoType = Readonly<{
   notes: Object;
   originalformat: string;
   originalsecret: string;
-  owner: Object;
+  owner: { realname: string; path_alias: string };
   people: Object;
   publiceditability: Object;
   rotation: boolean;

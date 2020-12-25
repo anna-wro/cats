@@ -34,7 +34,7 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         src={src}
       />
       <img
-        className="opacity-0"
+        className="invisible"
         src={src}
         onLoad={(e) => {
           return setHeight(e.currentTarget.height);
