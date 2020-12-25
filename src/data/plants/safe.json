@@ -346,8 +346,19 @@
     },
     "queryImage": "freesia",
     "slug": "frezja",
-    "imageID": ["4951850752"],
-    "danger": 0
+    "imageID": [
+      "4951850752",
+      "7733731118",
+      "3925929276",
+      "8483702458",
+      "5388044988"
+    ],
+    "danger": 0,
+    "source": [
+      "https://www.aspca.org/news/safe-bouquet-mothers-day",
+      "https://www.petmd.com/cat/care/safe-flowers-dogs-cats",
+      "https://www.bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -507,8 +518,20 @@
       "lat": "fuchsia triphylla"
     },
     "slug": "fuksja",
-    "imageID": ["5034045553"],
-    "danger": 0
+    "imageID": [
+      "5034045553",
+      "5797337222",
+      "3758044043",
+      "19997512784",
+      "34872707710",
+      "4606524177"
+    ],
+    "danger": 0,
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honeysuckle-fuchsia",
+      "https://whitehavenvet.com/safe-plants-for-your-pet.pml",
+      "https://www.ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat/"
+    ]
   },
   {
     "name": {

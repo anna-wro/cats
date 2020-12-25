@@ -72,8 +72,21 @@
       "lat": "monstera deliciosa"
     },
     "slug": "monstera",
-    "imageID": ["2077563132"],
-    "danger": 4
+    "imageID": [
+      "2077563132",
+      "24782465472",
+      "49254665343",
+      "7392216390",
+      "6629764665"
+    ],
+    "danger": 2,
+    "symptoms": "podrażnienie układu pokarmowego, nadmierne ślinienie, drżenie ciała, wymioty, problemy z przełykaniem",
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hurricane-plant",
+      "https://wagwalking.com/cat/condition/swiss-cheese-plant-poisoning",
+      "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "https://poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
+    ]
   },
   {
     "name": {
@@ -92,19 +105,48 @@
       "lat": "strelitzia reginae"
     },
     "slug": "strelicja",
-    "imageID": ["866733515"],
-    "danger": 4
+    "imageID": [
+      "866733515",
+      "4814038355",
+      "2524917491",
+      "17563691411",
+      "8160264472",
+      "5624276430"
+    ],
+    "danger": 1,
+    "symptoms": "łagodne mdłości, wymioty, ospałość",
+    "note": "głównie owoce i nasiona",
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+      "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+      "https://pets.thenest.com/birds-paradise-cats-11340.html"
+    ]
   },
   {
     "name": {
       "pl": ["aloes"],
-      "en": ["aloe vera"],
+      "en": ["aloe vera", "Barbados aloe", "the want of heaven"],
       "lat": "aloe vera"
     },
     "queryImage": "aloe vera leaves",
     "slug": "aloes",
-    "imageID": ["50658583448"],
-    "danger": 4
+    "imageID": [
+      "4626376701",
+      "8737144945",
+      "13834577",
+      "4626377063",
+      "8463896997",
+      "4743154534"
+    ],
+    "danger": 2,
+    "symptoms": "wymioty, ospałość, biegunka",
+    "note": "żel aloesowy jest bezpieczny",
+    "source": [
+      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "https://wagwalking.com/cat/condition/true-aloe-poisoning",
+      "https://poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
+    ]
   },
   {
     "name": {
