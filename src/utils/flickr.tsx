@@ -8,7 +8,7 @@ const SIZE_TO_SUFFIX = {
   s: '_m', // 240px
   m: '', // 500px
   l: '_c', // 800px
-  xl: '_b', // 1024
+  xl: '_b', // 1024px
 };
 
 const AVAILABLE_SIZES = Object.keys(SIZE_TO_SUFFIX);
