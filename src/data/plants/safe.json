@@ -11,7 +11,7 @@
       "lat": "chamaedorea elegans"
     },
     "slug": "chamedora-wytworna",
-    "thumbnailID": "16404871208",
+    "imageID": ["16404871208"],
     "danger": 0
   },
   {
@@ -21,7 +21,7 @@
       "lat": "saintpaulia ionantha"
     },
     "slug": "fiolek-afrykanski",
-    "thumbnailID": "11903413204",
+    "imageID": ["11903413204"],
     "danger": 0
   },
   {
@@ -31,7 +31,7 @@
       "lat": "dimorphotheca pluvialis"
     },
     "slug": "dimorfoteka",
-    "thumbnailID": "3056745969",
+    "imageID": ["3056745969"],
     "danger": 0
   },
   {
@@ -41,7 +41,7 @@
       "lat": "osteospermum"
     },
     "slug": "stokrotka-afrykanska",
-    "thumbnailID": "2580843467",
+    "imageID": ["2580843467"],
     "danger": 0
   },
   {
@@ -51,7 +51,7 @@
       "lat": "callistephus chinensis"
     },
     "slug": "aster-chinski",
-    "thumbnailID": "12965386484",
+    "imageID": ["12965386484"],
     "danger": 0
   },
   {
@@ -61,7 +61,7 @@
       "lat": "guzmania lingulata"
     },
     "slug": "guzmania",
-    "thumbnailID": "1183196942",
+    "imageID": ["1183196942"],
     "danger": 0
   },
   {
@@ -71,7 +71,7 @@
       "lat": "maranta leuconeura"
     },
     "slug": "maranta",
-    "thumbnailID": "5867908152",
+    "imageID": ["5867908152"],
     "danger": 0
   },
   {
@@ -87,7 +87,7 @@
     },
     "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
-    "thumbnailID": "50202240336",
+    "imageID": ["50202240336"],
     "danger": 0
   },
   {
@@ -102,7 +102,7 @@
       "lat": "beaucarnea recurvata"
     },
     "slug": "nolina-wygieta",
-    "thumbnailID": "7983397342",
+    "imageID": ["7983397342"],
     "danger": 0
   },
   {
@@ -112,7 +112,7 @@
       "lat": "phalaenopsis"
     },
     "slug": "storczyk-falenopsis",
-    "thumbnailID": "5472932072",
+    "imageID": ["5472932072"],
     "danger": 0
   },
   {
@@ -122,7 +122,7 @@
       "lat": "schlumbergera bridgesii"
     },
     "slug": "szlumbergera",
-    "thumbnailID": "32114044051",
+    "imageID": ["32114044051"],
     "danger": 0
   },
   {
@@ -132,7 +132,7 @@
       "lat": "chlorophytum comosum"
     },
     "slug": "zielistka",
-    "thumbnailID": "10314214735",
+    "imageID": ["10314214735"],
     "danger": 0
   },
   {
@@ -142,7 +142,7 @@
       "lat": "aspidistra elatior"
     },
     "slug": "aspidistra",
-    "thumbnailID": "50290644831",
+    "imageID": ["50290644831"],
     "danger": 0
   },
   {
@@ -158,7 +158,7 @@
       "lat": "asplenium bulbiferum"
     },
     "slug": "asplenium",
-    "thumbnailID": "26075547582",
+    "imageID": ["26075547582"],
     "danger": 0
   },
   {
@@ -168,7 +168,7 @@
       "lat": "dypsis lutescens"
     },
     "slug": "palma-areka",
-    "thumbnailID": "49161193377",
+    "imageID": ["49161193377"],
     "danger": 0
   },
   {
@@ -183,7 +183,7 @@
       "lat": "stephanotis floribunda"
     },
     "slug": "stefanotis",
-    "thumbnailID": "333118035",
+    "imageID": ["333118035"],
     "danger": 0
   },
   {
@@ -193,7 +193,7 @@
       "lat": "cymbidium"
     },
     "slug": "cymbidium",
-    "thumbnailID": "3109226573",
+    "imageID": ["3109226573"],
     "danger": 0
   },
   {
@@ -203,7 +203,7 @@
       "lat": "dendrobium"
     },
     "slug": "dendrobium",
-    "thumbnailID": "8241816362",
+    "imageID": ["8241816362"],
     "danger": 0
   },
   {
@@ -213,7 +213,7 @@
       "lat": "oncidium"
     },
     "slug": "oncidium",
-    "thumbnailID": "2198693810",
+    "imageID": ["2198693810"],
     "danger": 0
   },
   {
@@ -223,7 +223,7 @@
       "lat": "peperomia"
     },
     "slug": "peperomia",
-    "thumbnailID": "15242960660",
+    "imageID": ["15242960660"],
     "danger": 0
   },
   {
@@ -233,7 +233,7 @@
       "lat": "bromelia"
     },
     "slug": "bromelia",
-    "thumbnailID": "3301860588",
+    "imageID": ["3301860588"],
     "danger": 0
   },
   {
@@ -251,7 +251,7 @@
       "lat": "neoregelia"
     },
     "slug": "neoregelia",
-    "thumbnailID": "3784389402",
+    "imageID": ["3784389402"],
     "danger": 0
   },
   {
@@ -268,7 +268,7 @@
       "lat": "calathea"
     },
     "slug": "kalatea",
-    "thumbnailID": "6303393081",
+    "imageID": ["6303393081"],
     "danger": 0
   },
   {
@@ -279,7 +279,7 @@
     },
     "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
-    "thumbnailID": "17169921156",
+    "imageID": ["17169921156"],
     "danger": 0
   },
   {
@@ -289,7 +289,7 @@
       "lat": "platycerium"
     },
     "slug": "plaskla",
-    "thumbnailID": "31217908164",
+    "imageID": ["31217908164"],
     "danger": 0
   },
   {
@@ -299,7 +299,7 @@
       "lat": "pellaea rotundifolia"
     },
     "slug": "ciemnotka",
-    "thumbnailID": "23867255328",
+    "imageID": ["23867255328"],
     "danger": 0
   },
   {
@@ -314,7 +314,7 @@
       "lat": "gerbera jamesonii"
     },
     "slug": "gerbera",
-    "thumbnailID": "14078423634",
+    "imageID": ["14078423634"],
     "danger": 0
   },
   {
@@ -324,7 +324,7 @@
       "lat": "helianthus annuus"
     },
     "slug": "slonecznik",
-    "thumbnailID": "49680380248",
+    "imageID": ["49680380248"],
     "danger": 0
   },
   {
@@ -335,7 +335,7 @@
     },
     "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
-    "thumbnailID": "29412208433",
+    "imageID": ["29412208433"],
     "danger": 0
   },
   {
@@ -346,7 +346,7 @@
     },
     "queryImage": "freesia",
     "slug": "frezja",
-    "thumbnailID": "4951850752",
+    "imageID": ["4951850752"],
     "danger": 0
   },
   {
@@ -357,7 +357,7 @@
     },
     "queryImage": "marsh-rosemary",
     "slug": "limonium",
-    "thumbnailID": "9657492794",
+    "imageID": ["9657492794"],
     "danger": 0
   },
   {
@@ -367,7 +367,7 @@
       "lat": "eleagnus"
     },
     "slug": "oliwnik",
-    "thumbnailID": "2586117614",
+    "imageID": ["2586117614"],
     "danger": 0
   },
   {
@@ -377,7 +377,7 @@
       "lat": "salvia rosmarinus"
     },
     "slug": "rozmaryn",
-    "thumbnailID": "109623018",
+    "imageID": ["109623018"],
     "danger": 0
   },
   {
@@ -387,7 +387,7 @@
       "lat": "echeveria elegans"
     },
     "slug": "eszeweria",
-    "thumbnailID": "184354642",
+    "imageID": ["184354642"],
     "danger": 0
   },
   {
@@ -397,7 +397,7 @@
       "lat": "petunia"
     },
     "slug": "petunia",
-    "thumbnailID": "9198146741",
+    "imageID": ["9198146741"],
     "danger": 0
   },
   {
@@ -407,7 +407,7 @@
       "lat": "tropaeolum majus"
     },
     "slug": "nasturcja",
-    "thumbnailID": "3714161505",
+    "imageID": ["3714161505"],
     "danger": 0
   },
   {
@@ -417,7 +417,7 @@
       "lat": "impatiens"
     },
     "slug": "niecierpek",
-    "thumbnailID": "24524605519",
+    "imageID": ["24524605519"],
     "danger": 0
   },
   {
@@ -427,7 +427,7 @@
       "lat": "myosotis"
     },
     "slug": "niezapominajka",
-    "thumbnailID": "27829047498",
+    "imageID": ["27829047498"],
     "danger": 0
   },
   {
@@ -437,7 +437,7 @@
       "lat": "alcea rosea"
     },
     "slug": "malwa-rozowa",
-    "thumbnailID": "50003709817",
+    "imageID": ["50003709817"],
     "danger": 0
   },
   {
@@ -447,7 +447,7 @@
       "lat": "melissa officinalis"
     },
     "slug": "melisa",
-    "thumbnailID": "9858528774",
+    "imageID": ["9858528774"],
     "danger": 0
   },
   {
@@ -457,7 +457,7 @@
       "lat": "ocimum basilicum"
     },
     "slug": "bazylia",
-    "thumbnailID": "24886362",
+    "imageID": ["24886362"],
     "danger": 0
   },
   {
@@ -467,7 +467,7 @@
       "lat": "thymus vulgaris"
     },
     "slug": "tymianek",
-    "thumbnailID": "5850714607",
+    "imageID": ["5850714607"],
     "danger": 0
   },
   {
@@ -477,7 +477,7 @@
       "lat": "coriandrum sativum"
     },
     "slug": "kolendra",
-    "thumbnailID": "50105461868",
+    "imageID": ["50105461868"],
     "danger": 0
   },
   {
@@ -487,7 +487,7 @@
       "lat": "salvia officinalis"
     },
     "slug": "szalwia",
-    "thumbnailID": "44136771202",
+    "imageID": ["44136771202"],
     "danger": 0
   },
   {
@@ -497,7 +497,7 @@
       "lat": "rosa"
     },
     "slug": "roza",
-    "thumbnailID": "27340064060",
+    "imageID": ["27340064060"],
     "danger": 0
   },
   {
@@ -507,7 +507,7 @@
       "lat": "fuchsia triphylla"
     },
     "slug": "fuksja",
-    "thumbnailID": "5034045553",
+    "imageID": ["5034045553"],
     "danger": 0
   },
   {
@@ -517,7 +517,7 @@
       "lat": "centaurea cyanus"
     },
     "slug": "chaber",
-    "thumbnailID": "50044268841",
+    "imageID": ["50044268841"],
     "danger": 0
   },
   {
@@ -527,7 +527,7 @@
       "lat": "syringa vulgaris"
     },
     "slug": "lilak-pospolity",
-    "thumbnailID": "8751425506",
+    "imageID": ["8751425506"],
     "danger": 0
   },
   {
@@ -537,7 +537,7 @@
       "lat": "hibiscus"
     },
     "slug": "hibiskus",
-    "thumbnailID": "28358706571",
+    "imageID": ["28358706571"],
     "danger": 0
   },
   {
@@ -548,7 +548,7 @@
     },
     "slug": "koperek",
     "note": "olejek eteryczny może powodować wysypkę",
-    "thumbnailID": "4898823775",
+    "imageID": ["4898823775"],
     "danger": 0,
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
@@ -563,7 +563,7 @@
       "lat": "calendula officinalis"
     },
     "slug": "nagietek",
-    "thumbnailID": "9641729049",
+    "imageID": ["9641729049"],
     "danger": 0,
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"

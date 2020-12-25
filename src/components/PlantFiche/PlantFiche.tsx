@@ -12,7 +12,7 @@ export type PlantType = Readonly<{
     lat: string;
   };
   slug: string;
-  thumbnailID: string;
+  imageID: string;
   queryImage?: string;
   danger: number;
   symptoms?: string;
@@ -26,7 +26,7 @@ type PlantFicheProps = Readonly<{
 }>;
 
 export default function Plant({ plant, query }: PlantFicheProps) {
-  const thumbnail = useThumbnail(plant.thumbnailID);
+  const thumbnail = useThumbnail(plant.imageID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
 

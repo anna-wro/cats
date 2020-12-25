@@ -13,7 +13,7 @@ type PlantCardProps = Readonly<{
 }>;
 
 export default function PlantCard({ plant, query }: PlantCardProps) {
-  const thumbnail = useThumbnail(plant.thumbnailID);
+  const thumbnail = useThumbnail(plant.imageID);
   const url = thumbnail ? getPhotoUrl(thumbnail) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
   const latinName = makeStartCase(plant.name.lat);

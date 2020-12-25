@@ -6,7 +6,7 @@
       "lat": "pelargonium"
     },
     "slug": "pelargonia",
-    "thumbnailID": "14952425524",
+    "imageID": ["14952425524"],
     "danger": 4
   },
   {
@@ -23,7 +23,7 @@
     },
     "queryImage": "dracaena fragrans",
     "slug": "dracena",
-    "thumbnailID": "33445378203",
+    "imageID": ["33445378203"],
     "danger": 4
   },
   {
@@ -33,7 +33,7 @@
       "lat": "begonia"
     },
     "slug": "begonia",
-    "thumbnailID": "8884235929",
+    "imageID": ["8884235929"],
     "danger": 4
   },
   {
@@ -44,7 +44,7 @@
     },
     "queryImage": "cyclamen",
     "slug": "fiolek-alpejski",
-    "thumbnailID": "49295902377",
+    "imageID": ["49295902377"],
     "danger": 4
   },
   {
@@ -55,7 +55,7 @@
     },
     "queryImage": "fiddle-leaf fig",
     "slug": "fikus",
-    "thumbnailID": "39925281311",
+    "imageID": ["39925281311"],
     "danger": 4
   },
   {
@@ -72,7 +72,7 @@
       "lat": "monstera deliciosa"
     },
     "slug": "monstera",
-    "thumbnailID": "2077563132",
+    "imageID": ["2077563132"],
     "danger": 4
   },
   {
@@ -82,7 +82,7 @@
       "lat": "philodendron"
     },
     "slug": "filodendron",
-    "thumbnailID": "5005679930",
+    "imageID": ["5005679930"],
     "danger": 4
   },
   {
@@ -92,7 +92,7 @@
       "lat": "strelitzia reginae"
     },
     "slug": "strelicja",
-    "thumbnailID": "866733515",
+    "imageID": ["866733515"],
     "danger": 4
   },
   {
@@ -103,7 +103,7 @@
     },
     "queryImage": "aloe vera leaves",
     "slug": "aloes",
-    "thumbnailID": "50658583448",
+    "imageID": ["50658583448"],
     "danger": 4
   },
   {
@@ -121,7 +121,7 @@
       "lat": "anthurium"
     },
     "slug": "anturium",
-    "thumbnailID": "4155228729",
+    "imageID": ["4155228729"],
     "danger": 4
   },
   {
@@ -132,7 +132,7 @@
     },
     "queryImage": "poinsettia",
     "slug": "gwiazda-betlejemska",
-    "thumbnailID": "23852937865",
+    "imageID": ["23852937865"],
     "danger": 4
   },
   {
@@ -142,7 +142,7 @@
       "lat": "rhododendron"
     },
     "slug": "azalia",
-    "thumbnailID": "3371973318",
+    "imageID": ["3371973318"],
     "danger": 4
   },
   {
@@ -153,7 +153,7 @@
     },
     "queryImage": "tradescantia",
     "slug": "trzykrotka",
-    "thumbnailID": "22013796720",
+    "imageID": ["22013796720"],
     "danger": 4
   },
   {
@@ -169,7 +169,7 @@
       "lat": "kalanchoe"
     },
     "slug": "kalanchoe",
-    "thumbnailID": "3265230226",
+    "imageID": ["3265230226"],
     "danger": 4
   },
   {
@@ -179,7 +179,7 @@
       "lat": "spathiphyllum"
     },
     "slug": "skrzydlokwiat",
-    "thumbnailID": "44722981004",
+    "imageID": ["44722981004"],
     "danger": 4
   },
   {
@@ -190,7 +190,7 @@
     },
     "queryImage": "caladium",
     "slug": "kaladium",
-    "thumbnailID": "49606281023",
+    "imageID": ["49606281023"],
     "danger": 4
   },
   {
@@ -200,7 +200,7 @@
       "lat": "alocasia"
     },
     "slug": "alokazja",
-    "thumbnailID": "48711540401",
+    "imageID": ["48711540401"],
     "danger": 4
   },
   {
@@ -211,7 +211,7 @@
     },
     "queryImage": "nutsedges",
     "slug": "cibora",
-    "thumbnailID": "4449690173",
+    "imageID": ["4449690173"],
     "danger": 4
   },
   {
@@ -221,7 +221,7 @@
       "lat": "cordyline terminalis"
     },
     "slug": "kordylina-krzewiasta",
-    "thumbnailID": "5023889525",
+    "imageID": ["5023889525"],
     "danger": 4
   },
   {
@@ -231,7 +231,7 @@
       "lat": "cordyline australis"
     },
     "slug": "kordylina-australijska",
-    "thumbnailID": "24860880866",
+    "imageID": ["24860880866"],
     "danger": 4
   },
   {
@@ -241,7 +241,7 @@
       "lat": "codiaeum"
     },
     "slug": "kroton",
-    "thumbnailID": "3374602055",
+    "imageID": ["3374602055"],
     "danger": 4
   },
   {
@@ -251,7 +251,7 @@
       "lat": "helleborus"
     },
     "slug": "ciemiernik",
-    "thumbnailID": "25490864353",
+    "imageID": ["25490864353"],
     "danger": 4
   },
   {
@@ -261,7 +261,7 @@
       "lat": "hedera helix"
     },
     "slug": "bluszcz-pospolity",
-    "thumbnailID": "4595168087",
+    "imageID": ["4595168087"],
     "danger": 4
   },
   {
@@ -271,7 +271,7 @@
       "lat": "hedera canariensis"
     },
     "slug": "bluszcz-kanaryjski",
-    "thumbnailID": "16730402177",
+    "imageID": ["16730402177"],
     "danger": 4
   },
   {
@@ -281,7 +281,7 @@
       "lat": "ilex opaca"
     },
     "slug": "ostrokrzew-amerykanski",
-    "thumbnailID": "2502950122",
+    "imageID": ["2502950122"],
     "danger": 4
   },
   {
@@ -291,7 +291,7 @@
       "lat": "ilex aquifolium"
     },
     "slug": "ostrokrzew-kolczasty",
-    "thumbnailID": "39656935103",
+    "imageID": ["39656935103"],
     "danger": 4
   },
   {
@@ -301,7 +301,7 @@
       "lat": "ilex crenata"
     },
     "slug": "ostrokrzew-bukszpanowy",
-    "thumbnailID": "4850141809",
+    "imageID": ["4850141809"],
     "danger": 4
   },
   {
@@ -311,7 +311,7 @@
       "lat": "viscum"
     },
     "slug": "jemiola",
-    "thumbnailID": "49496395203",
+    "imageID": ["49496395203"],
     "danger": 4
   },
   {
@@ -321,7 +321,7 @@
       "lat": "nerium oleander"
     },
     "slug": "oleander",
-    "thumbnailID": "34319656701",
+    "imageID": ["34319656701"],
     "danger": 4
   },
   {
@@ -332,7 +332,7 @@
     },
     "slug": "sosna",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
-    "thumbnailID": "34559508152",
+    "imageID": ["34559508152"],
     "danger": 4
   },
   {
@@ -344,7 +344,7 @@
     "slug": "cis",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
 
-    "thumbnailID": "5021014358",
+    "imageID": ["5021014358"],
     "danger": 4
   },
   {
@@ -355,7 +355,7 @@
     },
     "slug": "jodla",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
-    "thumbnailID": "2484485190",
+    "imageID": ["2484485190"],
     "danger": 4
   },
   {
@@ -366,7 +366,7 @@
     },
     "slug": "swierk",
     "note": "Igły zjedzone przez kota mogą uszkodzić ściany jelit. Woda w podstawce może zawierać toksyczne substancje z nawożonej ziemi lub uszkadzającą nerki żywicę.",
-    "thumbnailID": "21457742918",
+    "imageID": ["21457742918"],
     "danger": 4
   },
   {
@@ -377,7 +377,7 @@
     },
     "slug": "marihuana",
     "note": "Olejek CBD jest bezpieczny",
-    "thumbnailID": "50610377368",
+    "imageID": ["50610377368"],
     "danger": 4
   },
   {
@@ -387,7 +387,7 @@
       "lat": "nicotiana alata"
     },
     "slug": "tyton-ozdobny",
-    "thumbnailID": "38061834352",
+    "imageID": ["38061834352"],
     "danger": 4
   },
   {
@@ -397,7 +397,7 @@
       "lat": "hyacinthus"
     },
     "slug": "hiacynt",
-    "thumbnailID": "3415501830",
+    "imageID": ["3415501830"],
     "danger": 4
   },
   {
@@ -407,7 +407,7 @@
       "lat": "tulipa"
     },
     "slug": "tulipan",
-    "thumbnailID": "25297102607",
+    "imageID": ["25297102607"],
     "danger": 4
   },
   {
@@ -417,7 +417,7 @@
       "lat": "iris"
     },
     "slug": "irys",
-    "thumbnailID": "200418021",
+    "imageID": ["200418021"],
     "danger": 4
   },
   {
@@ -427,7 +427,7 @@
       "lat": "ranunculus"
     },
     "slug": "jaskier",
-    "thumbnailID": "3629373203",
+    "imageID": ["3629373203"],
     "danger": 4
   },
   {
@@ -437,7 +437,7 @@
       "lat": "mentha"
     },
     "slug": "mieta",
-    "thumbnailID": "49823824806",
+    "imageID": ["49823824806"],
     "danger": 4
   },
   {
@@ -447,7 +447,7 @@
       "lat": "anthemis nobilis"
     },
     "slug": "rumian-rzymski",
-    "thumbnailID": "17322962822",
+    "imageID": ["17322962822"],
     "danger": 4
   },
   {
@@ -458,7 +458,7 @@
     },
     "slug": "rumianek",
     "note": "Napar z rumianku jest bezpieczny, ale w niewielkiej ilości",
-    "thumbnailID": "48874614756",
+    "imageID": ["48874614756"],
     "danger": 4
   },
   {
@@ -468,7 +468,7 @@
       "lat": "digitalis purpurea"
     },
     "slug": "naparstnica",
-    "thumbnailID": "36904422750",
+    "imageID": ["36904422750"],
     "danger": 4
   },
   {
@@ -478,7 +478,7 @@
       "lat": "lavendula angustifolia"
     },
     "slug": "lawenda",
-    "thumbnailID": "19008263098",
+    "imageID": ["19008263098"],
     "danger": 4
   },
   {
@@ -488,7 +488,7 @@
       "lat": "origanum vulgare"
     },
     "slug": "oregano",
-    "thumbnailID": "27242078633",
+    "imageID": ["27242078633"],
     "danger": 4
   },
   {
@@ -498,7 +498,7 @@
       "lat": "lathyrus odoratus"
     },
     "slug": "groszek-pachnacy",
-    "thumbnailID": "4385095162",
+    "imageID": ["4385095162"],
     "danger": 4
   },
   {
@@ -509,7 +509,7 @@
     },
     "slug": "bratek",
     "danger": 1,
-    "thumbnailID": "2143402163"
+    "imageID": ["2143402163"]
   },
   {
     "name": {
@@ -518,7 +518,7 @@
       "lat": "narcissus"
     },
     "slug": "narcyz",
-    "thumbnailID": "47715070252",
+    "imageID": ["47715070252"],
     "danger": 4
   },
   {
@@ -528,7 +528,7 @@
       "lat": "convallaria majalis"
     },
     "slug": "konwalia",
-    "thumbnailID": "49814140448",
+    "imageID": ["49814140448"],
     "danger": 4
   },
   {
@@ -539,7 +539,7 @@
     },
     "slug": "lilia",
     "danger": 3,
-    "thumbnailID": "4735854897"
+    "imageID": ["4735854897"]
   },
   {
     "name": {
@@ -549,7 +549,7 @@
     },
     "slug": "mak",
     "danger": 2,
-    "thumbnailID": "14418515005"
+    "imageID": ["14418515005"]
   },
   {
     "name": {
@@ -559,7 +559,7 @@
     },
     "slug": "hortensja",
     "danger": 2,
-    "thumbnailID": "37388079464"
+    "imageID": ["37388079464"]
   },
   {
     "name": {
@@ -568,7 +568,7 @@
       "lat": "paeonis officinalis"
     },
     "slug": "piwonia",
-    "thumbnailID": "18457287885",
+    "imageID": ["18457287885"],
     "danger": 4
   },
   {
@@ -578,7 +578,7 @@
       "lat": "syringa x persica"
     },
     "slug": "lilak-perski",
-    "thumbnailID": "7257722076",
+    "imageID": ["7257722076"],
     "danger": 4
   },
   {
@@ -588,7 +588,7 @@
       "lat": "sambucus nigra"
     },
     "slug": "bez-czarny",
-    "thumbnailID": "3861843057",
+    "imageID": ["3861843057"],
     "danger": 4
   },
   {
@@ -598,7 +598,7 @@
       "lat": "gladiolus"
     },
     "slug": "mieczyk",
-    "thumbnailID": "36326680061",
+    "imageID": ["36326680061"],
     "danger": 4
   },
   {
@@ -608,7 +608,7 @@
       "lat": "bellis perennis"
     },
     "slug": "stokrotka",
-    "thumbnailID": "48138659617",
+    "imageID": ["48138659617"],
     "danger": 4
   },
   {
@@ -618,7 +618,7 @@
       "lat": "anthemis cotula"
     },
     "slug": "rumian-psi",
-    "thumbnailID": "18744849431",
+    "imageID": ["18744849431"],
     "danger": 4
   },
   {
@@ -628,7 +628,7 @@
       "lat": "yucca"
     },
     "slug": "juka",
-    "thumbnailID": "4467783813",
+    "imageID": ["4467783813"],
     "danger": 4
   },
   {
@@ -638,7 +638,7 @@
       "lat": "rheum rhabarbarium"
     },
     "slug": "rabarbar",
-    "thumbnailID": "6030863269",
+    "imageID": ["6030863269"],
     "danger": 4
   },
   {
@@ -648,7 +648,7 @@
       "lat": "aconitum firmum"
     },
     "slug": "tojad",
-    "thumbnailID": "45781406312",
+    "imageID": ["45781406312"],
     "danger": 4
   },
   {
@@ -661,7 +661,7 @@
     "danger": 1,
     "note": "toksyczna tylko w dużych ilościach",
     "symptoms": "nadwrażliwość na światło słoneczne, poparzenie, wysypka, świąd",
-    "thumbnailID": "7559834742",
+    "imageID": ["7559834742"],
     "source": [
       "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley"
     ]
@@ -673,7 +673,7 @@
       "lat": "tagetes"
     },
     "slug": "aksamitka",
-    "thumbnailID": "3029821817",
+    "imageID": ["3029821817"],
     "danger": 1,
     "symptoms": "podrażnienie sluzówki jamy ustnej, ślinienie się, biegunka",
 
@@ -690,7 +690,7 @@
       "lat": "anemonastrum"
     },
     "slug": "zawilec",
-    "thumbnailID": "48075254322",
+    "imageID": ["48075254322"],
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
     "source": [
@@ -705,7 +705,7 @@
       "lat": "pulsatilla"
     },
     "slug": "sasanka",
-    "thumbnailID": "40637780205",
+    "imageID": ["40637780205"],
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
     "source": ["https://ccah.vetmed.ucdavis.edu/cats/cat-health"]
@@ -717,7 +717,7 @@
       "lat": "colchicum autumnale"
     },
     "slug": "zimowit-jesienny",
-    "thumbnailID": "21058085964",
+    "imageID": ["21058085964"],
     "danger": 3,
     "symptoms": "wymioty z kwią, krwawa biegunka, trudności z oddychaniem, gorączka, utrata apetytu, spowolnione bicie serca",
     "note": "Objawy mogą się pojawić z opóźnieniem",
@@ -734,7 +734,7 @@
       "lat": "crocus vernus"
     },
     "slug": "krokus",
-    "thumbnailID": "48737153162",
+    "imageID": ["48737153162"],
     "danger": 1,
     "symptoms": "wymioty, biegunka",
     "source": [
@@ -748,7 +748,7 @@
       "lat": "gardenia"
     },
     "slug": "gardenia",
-    "thumbnailID": "176965936",
+    "imageID": ["176965936"],
     "danger": 1,
     "symptoms": "wymioty, biegunka, pokrzywka",
     "note": "",
@@ -763,7 +763,7 @@
       "lat": "dianthus caryophyllus"
     },
     "slug": "gozdzik",
-    "thumbnailID": "4353042011",
+    "imageID": ["4353042011"],
     "danger": 1,
     "symptoms": "problemy żołądkowo-jelitowe",
     "source": [
