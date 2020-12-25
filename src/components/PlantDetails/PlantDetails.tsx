@@ -1,4 +1,4 @@
-import PlantSpecs from 'components/PlantDetails/PlantSpecs';
+import PlantSpecs from 'components/PlantSpecs/PlantSpecs';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import CloseButton from './CloseButton';
 
