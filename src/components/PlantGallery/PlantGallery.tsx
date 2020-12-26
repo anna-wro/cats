@@ -27,7 +27,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
           </div>
         </div>
       </div>
-      {photo?.owner && (
+      {photo && (
         <Credits
           source={links.source}
           owner={photo.owner}
