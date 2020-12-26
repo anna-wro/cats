@@ -6,7 +6,7 @@ type SafetyScoreType = Readonly<{
 }>;
 
 export default function Score({ danger }: SafetyScoreType) {
-  const { label, value, color } = getProgress(danger);
+  const { label, value, bg } = getProgress(danger);
 
   return (
     <div className="flex items-center">
@@ -14,7 +14,7 @@ export default function Score({ danger }: SafetyScoreType) {
       <div className="ml-4 flex-1">
         <div className="text-sm font-semibold"> {label}</div>
         <div className="h-2 w-full bg-gray bg-opacity-20 rounded-full mt-1">
-          <div className={`w-${value} h-2 rounded-full bg-${color}`}></div>
+          <div className={`${value} h-2 rounded-full ${bg}`}></div>
         </div>
       </div>
     </div>
