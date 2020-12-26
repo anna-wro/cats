@@ -38,7 +38,6 @@ export function getLicense(license: string): LicenseType {
         link: `${baseUrl}/licenses/by-nc-sa/2.0/`,
       };
     case '2':
-    default:
       return { name: 'CC BY-NC 2.0', link: `${baseUrl}/licenses/by-nc/2.0/` };
     case '3':
       return {
