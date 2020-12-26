@@ -175,8 +175,15 @@
       "en": ["Christmas cactus"],
       "lat": "schlumbergera bridgesii"
     },
-    "slug": "szlumbergera",
-    "imageID": ["32114044051"],
+    "slug": "kaktus-bozonarodzeniowy",
+    "imageID": [
+      "49196090417",
+      "4152122599",
+      "49477857236",
+      "14274441293",
+      "49462075886",
+      "4152123571"
+    ],
     "danger": 0,
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",

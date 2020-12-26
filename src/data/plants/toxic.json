@@ -811,5 +811,33 @@
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/carnation"
     ]
+  },
+  {
+    "name": {
+      "pl": [
+        "szlumbergera ucięta",
+        "zygokaktus ucięty",
+        "epifyllum ucięte",
+        "fałszywy kaktus bożonarodzeniowy"
+      ],
+      "en": ["false Christmas cactus"],
+      "lat": "schlumbergera truncata"
+    },
+    "slug": "szlumbergera-ucieta",
+    "imageID": [
+      "32114044051",
+      "24238072967",
+      "38952132402",
+      "38577446034",
+      "49224090341",
+      "28506729127"
+    ],
+    "danger": 2,
+    "symptoms": "",
+    "note": "",
+    "source": [
+      "todaysveterinarypractice.com/christmas-plants-hazards-history-holiday-dangers",
+      "aspcapro.org/resource/four-holiday-plants-cause-more-worry-warranted"
+    ]
   }
 ]
