@@ -1,6 +1,7 @@
 import usePhoto from 'utils/usePhoto';
 import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
+import Credits from './Credits';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
@@ -27,15 +28,11 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
         </div>
       </div>
       {photo?.owner && (
-        <a
-          className="block self-end text-gray text-xs hover:underline"
-          href={links.source}
-        >
-          Zdjęcie:{' '}
-          {photo.owner.realname !== ''
-            ? photo.owner.realname
-            : photo.owner.username}
-        </a>
+        <Credits
+          source={links.source}
+          owner={photo.owner}
+          license={photo.license}
+        />
       )}
     </div>
   );

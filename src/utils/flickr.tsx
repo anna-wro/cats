@@ -23,6 +23,36 @@ type PhotoLinksType = Readonly<{
   source: string;
 }>;
 
+type LicenseType = Readonly<{ name: string; link: string }>;
+
+export function getLicense(license: string): LicenseType {
+  const baseUrl = 'https://creativecommons.org/';
+
+  switch (license) {
+    case '1':
+      return {
+        name: 'CC BY-NC-SA 2.0',
+        link: `${baseUrl}/licenses/by-nc-sa/2.0/`,
+      };
+    case '2':
+    default:
+      return { name: 'CC BY-NC 2.0', link: `${baseUrl}/licenses/by-nc/2.0/` };
+    case '3':
+      return {
+        name: 'CC BY-NC-ND 2.0',
+        link: `${baseUrl}/licenses/by-nc-nd/2.0/`,
+      };
+    case '4':
+      return { name: 'CC BY 2.0', link: `${baseUrl}/licenses/by/2.0/` };
+    case '5':
+      return { name: 'CC BY-SA 2.0', link: `${baseUrl}/licenses/by-sa/2.0/` };
+    case '6':
+      return { name: 'CC BY-ND 2.0', link: `${baseUrl}/licenses/by-nd/2.0/` };
+    case '9':
+      return { name: 'CC0 1.0', link: `${baseUrl}/publicdomain/zero/1.0/` };
+  }
+}
+
 export function getPhotoLinks(photo: PlantPhotoInfoType): PhotoLinksType {
   const { farm, server, id, secret } = photo;
 

@@ -1,6 +1,13 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from 'utils/url';
 
+export type OwnerType = Readonly<{
+  username: string;
+  realname: string;
+  path_alias: string;
+  nsid: string;
+}>;
+
 export type PlantPhotoInfoType = Readonly<{
   comments: Object;
   dates: Object;
@@ -17,7 +24,7 @@ export type PlantPhotoInfoType = Readonly<{
   notes: Object;
   originalformat: string;
   originalsecret: string;
-  owner: { username: string; realname: string; path_alias: string };
+  owner: OwnerType;
   people: Object;
   publiceditability: Object;
   rotation: boolean;
