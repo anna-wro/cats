@@ -12,17 +12,31 @@
     },
     "slug": "chamedora-wytworna",
     "imageID": ["16404871208"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chamaedorea",
+      "plants.ces.ncsu.edu/plants/chamaedorea-elegans",
+      "petpoisonhelpline.com/pet-safety-tips/pet-safe-plants-flora-and-fauna-can-coexist",
+      "petcareadvisors.com/cats/is-chamaedorea-elegans-parlor-palms-toxic-to-cats-or-safe",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
-      "pl": ["fiołek afrykański", "sępolia", "saintpaulia"],
+      "pl": ["fiołek afrykański", "sępolia fiołkowa", "saintpaulia"],
       "en": ["African violet"],
       "lat": "saintpaulia ionantha"
     },
     "slug": "fiolek-afrykanski",
     "imageID": ["11903413204"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "africanvioletresourcecenter.com/the-411-on-african-violets-and-cats",
+      "plants.ces.ncsu.edu/plants/streptocarpus-ionanthus",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -32,7 +46,11 @@
     },
     "slug": "dimorfoteka",
     "imageID": ["3056745969"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cape-marigold",
+      "plants.ces.ncsu.edu/plants/dimorphotheca-pluvialis"
+    ]
   },
   {
     "name": {
@@ -42,7 +60,11 @@
     },
     "slug": "stokrotka-afrykanska",
     "imageID": ["2580843467"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-daisy",
+      "catanddogfirstaid.com/blog/pet-safe-and-pet-toxic-plants"
+    ]
   },
   {
     "name": {
@@ -52,7 +74,12 @@
     },
     "slug": "aster-chinski",
     "imageID": ["12965386484"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/china-aster",
+      "plants.ces.ncsu.edu/plants/callistephus-chinensis",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -62,7 +89,12 @@
     },
     "slug": "guzmania",
     "imageID": ["1183196942"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange-star",
+      "plants.ces.ncsu.edu/plants/guzmania-lingulata",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -72,7 +104,12 @@
     },
     "slug": "maranta",
     "imageID": ["5867908152"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/maranta",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -88,7 +125,13 @@
     "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
     "imageID": ["50202240336"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/feather-palm",
+      "plants.ces.ncsu.edu/plants/nephrolepis-exaltata",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -103,7 +146,13 @@
     },
     "slug": "nolina-wygieta",
     "imageID": ["7983397342"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bottle-palm",
+      "plants.ces.ncsu.edu/plants/beaucarnea-recurvata",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -113,7 +162,12 @@
     },
     "slug": "storczyk-falenopsis",
     "imageID": ["5472932072"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "plants.ces.ncsu.edu/plants/phalaenopsis",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -123,7 +177,12 @@
     },
     "slug": "szlumbergera",
     "imageID": ["32114044051"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+      "calpoison.org/topics/plant",
+      "plants.ces.ncsu.edu/plants/schlumbergera-russelliana"
+    ]
   },
   {
     "name": {
@@ -133,7 +192,13 @@
     },
     "slug": "zielistka",
     "imageID": ["10314214735"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "plants.ces.ncsu.edu/plants/chlorophytum-comosum",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
