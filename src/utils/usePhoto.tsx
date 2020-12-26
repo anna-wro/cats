@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from 'utils/url';
+import { CC_LICENSES } from 'utils/flickr';
 
 export type OwnerType = Readonly<{
   username: string;
@@ -48,9 +49,6 @@ const SETTINGS = {
   nojsoncallback: 1,
   api_key: API_KEY,
 };
-
-// https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html
-const CC_LICENSES = ['1', '2', '3', '4', '5', '6', '9'];
 
 export default function usePhoto(ID: string): PlantPhotoInfoType {
   let [photo, setPhoto] = useState();

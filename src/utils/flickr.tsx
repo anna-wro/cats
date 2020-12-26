@@ -25,6 +25,9 @@ type PhotoLinksType = Readonly<{
 
 type LicenseType = Readonly<{ name: string; link: string }>;
 
+// https://www.flickr.com/services/api/flickr.photos.licenses.getInfo.html
+export const CC_LICENSES = ['1', '2', '3', '4', '5', '6', '9'];
+
 export function getLicense(license: string): LicenseType {
   const baseUrl = 'https://creativecommons.org/';
 
