@@ -29,7 +29,7 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
             <div className="text-xs">{makeStartCase(plant.symptoms)}</div>
           </div>
         )}
-        <VerifyInfo source={plant.source} />
+        <VerifyInfo sources={plant.source} />
       </div>
       <OtherNames names={plant.name} />
     </div>

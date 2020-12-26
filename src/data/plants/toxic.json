@@ -82,10 +82,10 @@
     "danger": 2,
     "symptoms": "podrażnienie układu pokarmowego, nadmierne ślinienie, drżenie ciała, wymioty, problemy z przełykaniem",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hurricane-plant",
-      "https://wagwalking.com/cat/condition/swiss-cheese-plant-poisoning",
-      "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
-      "https://poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hurricane-plant",
+      "wagwalking.com/cat/condition/swiss-cheese-plant-poisoning",
+      "plants.ces.ncsu.edu/plants/monstera-deliciosa",
+      "poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
     ]
   },
   {
@@ -117,9 +117,9 @@
     "symptoms": "łagodne mdłości, wymioty, ospałość",
     "note": "głównie owoce i nasiona",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
-      "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
-      "https://pets.thenest.com/birds-paradise-cats-11340.html"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+      "plants.ces.ncsu.edu/plants/strelitzia-reginae",
+      "pets.thenest.com/birds-paradise-cats-11340.html"
     ]
   },
   {
@@ -142,10 +142,10 @@
     "symptoms": "wymioty, ospałość, biegunka",
     "note": "żel aloesowy jest bezpieczny",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
-      "https://plants.ces.ncsu.edu/plants/aloe-vera/",
-      "https://wagwalking.com/cat/condition/true-aloe-poisoning",
-      "https://poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "plants.ces.ncsu.edu/plants/aloe-vera",
+      "wagwalking.com/cat/condition/true-aloe-poisoning",
+      "poradnikogrodniczy.pl/rosliny-doniczkowe-trujace-dla-kota.php"
     ]
   },
   {
@@ -705,7 +705,7 @@
     "symptoms": "nadwrażliwość na światło słoneczne, poparzenie, wysypka, świąd",
     "imageID": ["7559834742"],
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley"
     ]
   },
   {
@@ -721,8 +721,8 @@
 
     "note": "Sok z rośliny może podrażnić skórę",
     "source": [
-      "https://www.petpoisonhelpline.com/poison/marigold/#:~:text=Toxicity%20to%20pets,skin%20if%20dermal%20exposure%20occurs.",
-      "https://pets.thenest.com/marigolds-toxic-cats-10178.html"
+      "petpoisonhelpline.com/poison/marigold/#:~:text=Toxicity%20to%20pets,skin%20if%20dermal%20exposure%20occurs.",
+      "pets.thenest.com/marigolds-toxic-cats-10178.html"
     ]
   },
   {
@@ -736,8 +736,8 @@
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
     "source": [
-      "https://ccah.vetmed.ucdavis.edu/cats/cat-health",
-      "https://www.cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+      "ccah.vetmed.ucdavis.edu/cats/cat-health",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
     ]
   },
   {
@@ -750,7 +750,7 @@
     "imageID": ["40637780205"],
     "danger": 3,
     "symptoms": "pęcherze na błonie śluzowej, drgawki, krwawa biegunka, omdlenia",
-    "source": ["https://ccah.vetmed.ucdavis.edu/cats/cat-health"]
+    "source": ["ccah.vetmed.ucdavis.edu/cats/cat-health"]
   },
   {
     "name": {
@@ -764,9 +764,9 @@
     "symptoms": "wymioty z kwią, krwawa biegunka, trudności z oddychaniem, gorączka, utrata apetytu, spowolnione bicie serca",
     "note": "Objawy mogą się pojawić z opóźnieniem",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/autumn-crocus",
-      "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/",
-      "https://www.dogalize.com/2018/01/autumn-crocus-poisoning-dogs-cats/"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/autumn-crocus",
+      "countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets",
+      "dogalize.com/2018/01/autumn-crocus-poisoning-dogs-cats"
     ]
   },
   {
@@ -780,7 +780,7 @@
     "danger": 1,
     "symptoms": "wymioty, biegunka",
     "source": [
-      "https://www.countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets/"
+      "countryliving.com/uk/homes-interiors/gardens/advice/g16/plants-flowers-poisonous-pets"
     ]
   },
   {
@@ -795,7 +795,7 @@
     "symptoms": "wymioty, biegunka, pokrzywka",
     "note": "",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia"
     ]
   },
   {
@@ -809,7 +809,7 @@
     "danger": 1,
     "symptoms": "problemy żołądkowo-jelitowe",
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/carnation"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/carnation"
     ]
   }
 ]

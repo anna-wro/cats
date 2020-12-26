@@ -355,9 +355,9 @@
     ],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/news/safe-bouquet-mothers-day",
-      "https://www.petmd.com/cat/care/safe-flowers-dogs-cats",
-      "https://www.bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "petmd.com/cat/care/safe-flowers-dogs-cats",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
     ]
   },
   {
@@ -528,9 +528,9 @@
     ],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honeysuckle-fuchsia",
-      "https://whitehavenvet.com/safe-plants-for-your-pet.pml",
-      "https://www.ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat/"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honeysuckle-fuchsia",
+      "whitehavenvet.com/safe-plants-for-your-pet.pml",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
     ]
   },
   {
@@ -574,9 +574,9 @@
     "imageID": ["4898823775"],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
-      "https://allcatsecrets.com/can-cats-eat-dill/",
-      "https://petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill/"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
+      "allcatsecrets.com/can-cats-eat-dill",
+      "petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill"
     ]
   },
   {
@@ -589,7 +589,7 @@
     "imageID": ["9641729049"],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
     ]
   }
 ]
