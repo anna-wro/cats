@@ -6,7 +6,7 @@ type CreditsType = { source: string; owner: OwnerType; license: string };
 export default function Credits({ source, owner, license }: CreditsType) {
   const licenseInfo = getLicense(license);
   return (
-    <div className="block self-end text-gray text-xs">
+    <div className="block self-end text-gray text-xs mt-4">
       <a href={source} className="hover:underline">
         Zdjęcie
       </a>
