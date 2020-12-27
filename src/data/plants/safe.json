@@ -423,7 +423,13 @@
     },
     "slug": "plaskla",
     "imageID": ["31217908164"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/platycerium-alcicorne",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -433,7 +439,13 @@
     },
     "slug": "ciemnotka",
     "imageID": ["23867255328"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cliff-brake",
+      "plants.ces.ncsu.edu/plants/hemionitis-rotundifolia",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -448,7 +460,13 @@
     },
     "slug": "gerbera",
     "imageID": ["14078423634"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gerber-daisy",
+      "plants.ces.ncsu.edu/plants/gerbera-jamesonii",
+      "calpoison.org/topics/plant",
+      "pets.thenest.com/ingesting-gerbera-daisies-harmful-cats-9889.html"
+    ]
   },
   {
     "name": {
@@ -458,7 +476,11 @@
     },
     "slug": "slonecznik",
     "imageID": ["49680380248"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sunflower",
+      "ogrod.krakow.pl/podgryzalne-rosliny"
+    ]
   },
   {
     "name": {
@@ -468,7 +490,13 @@
     },
     "slug": "lwia-paszcza",
     "imageID": ["29412208433"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-snapdragon",
+      "plants.ces.ncsu.edu/plants/antirrhinum-majus",
+      "calpoison.org/topics/plant",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -638,7 +666,8 @@
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon-balm",
       "calpoison.org/topics/plant",
-      "plants.ces.ncsu.edu/plants/melissa-officinalis"
+      "plants.ces.ncsu.edu/plants/melissa-officinalis",
+      "koty.pl/ziola-w-doniczce-dla-kota"
     ]
   },
   {
@@ -659,23 +688,34 @@
   },
   {
     "name": {
-      "pl": ["tymianek"],
+      "pl": ["tymianek", "macierzanka tymianek"],
       "en": ["thyme"],
       "lat": "thymus vulgaris"
     },
     "slug": "tymianek",
     "imageID": ["5850714607"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thyme",
+      "pets.thenest.com/thyme-plant-toxic-cats-10371.html",
+      "koty.pl/ziola-w-doniczce-dla-kota",
+      "zooart.com.pl/blog/ziola-dla-kota-czy-sa-potrzebne-i-bezpieczne#macierzanka-tymianek"
+    ]
   },
   {
     "name": {
       "pl": ["kolendra"],
-      "en": ["coriander", "cilantro", "Chinese parsley", "dhania"],
+      "en": ["cilantro", "coriander", "Chinese parsley", "dhania"],
       "lat": "coriandrum sativum"
     },
     "slug": "kolendra",
     "imageID": ["50105461868"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cilantro",
+      "petcareadvisors.com/cats/is-cilantro-safe-for-cats-to-eat",
+      "koty.pl/ziola-w-doniczce-dla-kota"
+    ]
   },
   {
     "name": {
@@ -685,7 +725,12 @@
     },
     "slug": "szalwia",
     "imageID": ["44136771202"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sage",
+      "calpoison.org/topics/plant",
+      "cat-world.com/herbs-non-toxic-to-cats"
+    ]
   },
   {
     "name": {
@@ -695,7 +740,16 @@
     },
     "slug": "roza",
     "imageID": ["27340064060"],
-    "danger": 0
+    "danger": 0,
+    "note": "zagrożenie stanowią jedynie kolce",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rose",
+      "petsoverload.com/roses-poisonous-toxic-cats",
+      "petmd.com/cat/care/safe-flowers-dogs-cats",
+      "pets.thenest.com/roses-harmful-cats-9574.html",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -727,7 +781,16 @@
     },
     "slug": "chaber",
     "imageID": ["50044268841"],
-    "danger": 0
+    "danger": 0,
+    "note": "większość źródeł, w tym ASPCA, uznaje tę roślinę za bezpieczną. Bywa jednak wymieniana jako toksyczna [5, 6]",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cornflower",
+      "ogrod.krakow.pl/podgryzalne-rosliny",
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/centaurea-cyanus",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "thehealthypetclub.co.uk/plant-poisoning-in-cats"
+    ]
   },
   {
     "name": {
@@ -737,7 +800,13 @@
     },
     "slug": "lilak-pospolity",
     "imageID": ["8751425506"],
-    "danger": 0
+    "danger": 0,
+    "note": "lilak perski (syringa persica) jest toksyczny",
+    "source": [
+      "greatpetcare.com/wellness/10-flowers-that-are-poisonous-to-cats",
+      "calpoison.org/topics/plant",
+      "allcatsecrets.com/are-lilacs-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -747,7 +816,12 @@
     },
     "slug": "hibiskus",
     "imageID": ["28358706571"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hibiscus",
+      "calpoison.org/topics/plant",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+    ]
   },
   {
     "name": {
@@ -762,7 +836,9 @@
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
       "allcatsecrets.com/can-cats-eat-dill",
-      "petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill"
+      "petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill",
+      "koty.pl/ziola-w-doniczce-dla-kota",
+      "zooart.com.pl/blog/ziola-dla-kota-czy-sa-potrzebne-i-bezpieczne#koper-ogrodowy"
     ]
   },
   {
@@ -775,7 +851,10 @@
     "imageID": ["9641729049"],
     "danger": 0,
     "source": [
-      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold",
+      "plants.ces.ncsu.edu/plants/calendula-officinalis",
+      "pets.thenest.com/marigolds-toxic-cats-10178.html",
+      "petpoisonhelpline.com/poison/marigold"
     ]
   }
 ]

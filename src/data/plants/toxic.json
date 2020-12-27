@@ -493,7 +493,10 @@
     "slug": "rumianek",
     "note": "Napar z rumianku jest bezpieczny, ale w niewielkiej ilości",
     "imageID": ["48874614756"],
-    "danger": 4
+    "danger": 4,
+    "source": [
+      "zooart.com.pl/blog/ziola-dla-kota-czy-sa-potrzebne-i-bezpieczne#rumianek"
+    ]
   },
   {
     "name": {
@@ -613,7 +616,11 @@
     },
     "slug": "lilak-perski",
     "imageID": ["7257722076"],
-    "danger": 4
+    "danger": 4,
+    "source": [
+      "greatpetcare.com/wellness/10-flowers-that-are-poisonous-to-cats",
+      "allcatsecrets.com/are-lilacs-poisonous-to-cats"
+    ]
   },
   {
     "name": {
