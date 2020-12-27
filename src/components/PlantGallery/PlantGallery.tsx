@@ -23,7 +23,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   return (
     <div className="flex flex-col items-center w-full h-full">
       <div className="flex-1 overflow-y-scroll">
-        <div className="flex h-full items-center justify-center">
+        <div className="flex items-center justify-center">
           <div className="w-full h-auto max-w-lg rounded-2xl bg-gray-light bg-opacity-30">
             {links.length > 0 &&
               links.map((link) => (
