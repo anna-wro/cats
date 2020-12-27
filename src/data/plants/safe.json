@@ -499,17 +499,27 @@
     },
     "slug": "limonium",
     "imageID": ["9657492794"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats",
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/limonium-sinuatum"
+    ]
   },
   {
     "name": {
       "pl": ["oliwnik"],
       "en": ["autumn olive", "silver berry"],
-      "lat": "eleagnus"
+      "lat": "elaeagnus"
     },
     "slug": "oliwnik",
     "imageID": ["2586117614"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/autumn-olive",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -519,7 +529,12 @@
     },
     "slug": "rozmaryn",
     "imageID": ["109623018"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary",
+      "plants.ces.ncsu.edu/plants/salvia-rosmarinus",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -529,7 +544,13 @@
     },
     "slug": "eszeweria",
     "imageID": ["184354642"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+      "plants.ces.ncsu.edu/plants/echeveria-elegans",
+      "calpoison.org/topics/plant",
+      "succulentplantcare.com/top-17-succulents-that-are-safe-for-cats-dogs-and-pets"
+    ]
   },
   {
     "name": {
@@ -539,7 +560,12 @@
     },
     "slug": "petunia",
     "imageID": ["9198146741"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/petunia",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -549,7 +575,12 @@
     },
     "slug": "nasturcja",
     "imageID": ["3714161505"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nasturtium",
+      "calpoison.org/topics/plant",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+    ]
   },
   {
     "name": {
@@ -559,7 +590,11 @@
     },
     "slug": "niecierpek",
     "imageID": ["24524605519"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/impatience-plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -569,7 +604,12 @@
     },
     "slug": "niezapominajka",
     "imageID": ["27829047498"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/myosotis-sylvatica",
+      "cat-world.com/flowers-non-toxic-cats"
+    ]
   },
   {
     "name": {
@@ -579,7 +619,12 @@
     },
     "slug": "malwa-rozowa",
     "imageID": ["50003709817"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hollyhock",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "plants.ces.ncsu.edu/plants/alcea-rosea"
+    ]
   },
   {
     "name": {
@@ -589,7 +634,12 @@
     },
     "slug": "melisa",
     "imageID": ["9858528774"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon-balm",
+      "calpoison.org/topics/plant",
+      "plants.ces.ncsu.edu/plants/melissa-officinalis"
+    ]
   },
   {
     "name": {
@@ -599,7 +649,13 @@
     },
     "slug": "bazylia",
     "imageID": ["24886362"],
-    "danger": 0
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+      "petcareadvisors.com/cats/can-cats-eat-basil-or-is-this-herb-poisonous",
+      "plants.ces.ncsu.edu/plants/ocimum-basilicum",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
