@@ -1,5 +1,13 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from 'utils/url';
+import { CC_LICENSES } from 'utils/flickr';
+
+export type OwnerType = Readonly<{
+  username: string;
+  realname: string;
+  path_alias: string;
+  nsid: string;
+}>;
 
 export type PlantPhotoInfoType = Readonly<{
   comments: Object;
@@ -17,7 +25,7 @@ export type PlantPhotoInfoType = Readonly<{
   notes: Object;
   originalformat: string;
   originalsecret: string;
-  owner: Object;
+  owner: OwnerType;
   people: Object;
   publiceditability: Object;
   rotation: boolean;
@@ -42,19 +50,21 @@ const SETTINGS = {
   api_key: API_KEY,
 };
 
-// TODO: check if received license is ok
-
-export default function useThumbnail(ID: string): PlantPhotoInfoType {
-  let [thumbnail, setThumbnail] = useState();
+export default function usePhoto(ID: string): PlantPhotoInfoType {
+  let [photo, setPhoto] = useState();
   const url = setMultipleParams({ ...SETTINGS, photo_id: ID }, API_URL);
 
   useEffect(() => {
     try {
       fetch(url)
         .then((response) => response.json())
-        .then((data) => setThumbnail(data.photo));
+        .then((data) => {
+          if (CC_LICENSES.includes(data.photo.license)) {
+            setPhoto(data.photo);
+          }
+        });
     } catch {}
   }, [ID]);
 
-  return thumbnail;
+  return photo;
 }

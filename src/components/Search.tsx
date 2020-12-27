@@ -1,9 +1,9 @@
-type SearchPropsType = {
+type SearchType = Readonly<{
   query: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-};
+}>;
 
-export default function Search({ query, onChange }: SearchPropsType) {
+export default function Search({ query, onChange }: SearchType) {
   return (
     <div className="search relative">
       <input

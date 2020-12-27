@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import useThumbnail from 'components/PlantFiche/useThumbnail';
-import { getPhotoUrl } from 'utils/flickr';
+import usePhoto from 'utils/usePhoto';
+import { getPhotoLinks } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyScore/SafetyLabel';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
@@ -13,8 +13,8 @@ type PlantCardProps = Readonly<{
 }>;
 
 export default function PlantCard({ plant, query }: PlantCardProps) {
-  const thumbnail = useThumbnail(plant.thumbnailID);
-  const url = thumbnail ? getPhotoUrl(thumbnail) : null;
+  const photo = usePhoto(plant.imageID[0]);
+  const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
   const latinName = makeStartCase(plant.name.lat);
 
@@ -22,10 +22,11 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
     <Link href={plant.slug}>
       <div className="w-100 max-w-xs shadow rounded-lg cursor-pointer">
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
-          {url && (
+          {links && (
             <ImageContainer
-              src={url.bigger}
-              thumbnail={url.thumbnail}
+              src={links.m}
+              fallback={links.s}
+              thumbnail={links.xs}
               alt={plant.name.lat}
             />
           )}

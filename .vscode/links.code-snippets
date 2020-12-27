@@ -1,0 +1,19 @@
+{
+  "Ogród Kraków": {
+    "prefix": "ogr",
+    "body": ["\"ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat\""],
+    "description": "Ogród Kraków"
+  },
+  "California poison control system": {
+    "prefix": "cal",
+    "body": ["\"calpoison.org/topics/plant\""],
+    "description": "California poison control system"
+  },
+  "ASPCA": {
+    "prefix": "aspca",
+    "body": [
+      "\"aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants\""
+    ],
+    "description": "ASPCA"
+  }
+}

@@ -2,13 +2,21 @@ import { useRef, useState } from 'react';
 import useIntersectionObserver from './useIntersectionObserver';
 import Image from './Image';
 
-type ImageContainerPropsType = Readonly<{
+type ImageContainerType = Readonly<{
   src: string;
   thumbnail: string;
+  fallback: string;
   alt?: string;
+  rounded?: boolean;
 }>;
 
-const ImageContainer = ({ src, thumbnail, alt }: ImageContainerPropsType) => {
+const ImageContainer = ({
+  src,
+  thumbnail,
+  fallback,
+  alt,
+  rounded,
+}: ImageContainerType) => {
   const ref = useRef();
   const [isVisible, setIsVisible] = useState(false);
   useIntersectionObserver({
@@ -23,8 +31,13 @@ const ImageContainer = ({ src, thumbnail, alt }: ImageContainerPropsType) => {
   });
 
   return (
-    <div ref={ref} className="relative h-full overflow-hidden">
-      {isVisible && <Image src={src} thumbnail={thumbnail} alt={alt} />}
+    <div
+      ref={ref}
+      className={`relative h-full overflow-hidden ${rounded && 'rounded-2xl'}`}
+    >
+      {isVisible && (
+        <Image src={src} fallback={fallback} thumbnail={thumbnail} alt={alt} />
+      )}
     </div>
   );
 };

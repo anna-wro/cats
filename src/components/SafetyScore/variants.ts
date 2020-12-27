@@ -29,13 +29,13 @@ export function getVariant(danger: number) {
 export function getProgress(danger: number) {
   switch (danger) {
     case 0:
-      return { label: 'Bezpieczna', value: '2', color: 'blue' };
+      return { label: 'Bezpieczna', value: 'w-2', bg: 'bg-blue' };
     case 1:
-      return { label: 'Lekko trująca', value: '1/3', color: 'orange' };
+      return { label: 'Lekko trująca', value: 'w-1/3', bg: 'bg-orange' };
     case 2:
     default:
-      return { label: 'Trująca', value: '2/3', color: 'orange' };
+      return { label: 'Trująca', value: 'w-2/3', bg: 'bg-orange' };
     case 3:
-      return { label: 'Silnie trująca', value: 'full', color: 'red' };
+      return { label: 'Silnie trująca', value: 'w-full', bg: 'bg-red' };
   }
 }

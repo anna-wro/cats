@@ -3,10 +3,10 @@ import PlantCard from 'components/PlantCard/PlantCard';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import useWindowSize from 'utils/useWindowSize';
 
-type PlantListType = {
+type PlantListType = Readonly<{
   plants: PlantType[];
   query: string;
-};
+}>;
 
 const MOBILE_WIDTH = 480;
 

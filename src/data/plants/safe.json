@@ -11,18 +11,32 @@
       "lat": "chamaedorea elegans"
     },
     "slug": "chamedora-wytworna",
-    "thumbnailID": "16404871208",
-    "danger": 0
+    "imageID": ["16404871208"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chamaedorea",
+      "plants.ces.ncsu.edu/plants/chamaedorea-elegans",
+      "petpoisonhelpline.com/pet-safety-tips/pet-safe-plants-flora-and-fauna-can-coexist",
+      "petcareadvisors.com/cats/is-chamaedorea-elegans-parlor-palms-toxic-to-cats-or-safe",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
-      "pl": ["fiołek afrykański", "sępolia", "saintpaulia"],
+      "pl": ["fiołek afrykański", "sępolia fiołkowa", "saintpaulia"],
       "en": ["African violet"],
       "lat": "saintpaulia ionantha"
     },
     "slug": "fiolek-afrykanski",
-    "thumbnailID": "11903413204",
-    "danger": 0
+    "imageID": ["11903413204"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "africanvioletresourcecenter.com/the-411-on-african-violets-and-cats",
+      "plants.ces.ncsu.edu/plants/streptocarpus-ionanthus",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -31,8 +45,12 @@
       "lat": "dimorphotheca pluvialis"
     },
     "slug": "dimorfoteka",
-    "thumbnailID": "3056745969",
-    "danger": 0
+    "imageID": ["3056745969"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cape-marigold",
+      "plants.ces.ncsu.edu/plants/dimorphotheca-pluvialis"
+    ]
   },
   {
     "name": {
@@ -41,8 +59,12 @@
       "lat": "osteospermum"
     },
     "slug": "stokrotka-afrykanska",
-    "thumbnailID": "2580843467",
-    "danger": 0
+    "imageID": ["2580843467"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-daisy",
+      "catanddogfirstaid.com/blog/pet-safe-and-pet-toxic-plants"
+    ]
   },
   {
     "name": {
@@ -51,8 +73,13 @@
       "lat": "callistephus chinensis"
     },
     "slug": "aster-chinski",
-    "thumbnailID": "12965386484",
-    "danger": 0
+    "imageID": ["12965386484"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/china-aster",
+      "plants.ces.ncsu.edu/plants/callistephus-chinensis",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -61,8 +88,13 @@
       "lat": "guzmania lingulata"
     },
     "slug": "guzmania",
-    "thumbnailID": "1183196942",
-    "danger": 0
+    "imageID": ["1183196942"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange-star",
+      "plants.ces.ncsu.edu/plants/guzmania-lingulata",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -71,8 +103,13 @@
       "lat": "maranta leuconeura"
     },
     "slug": "maranta",
-    "thumbnailID": "5867908152",
-    "danger": 0
+    "imageID": ["5867908152"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/maranta",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -85,10 +122,15 @@
       "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
     },
-    "queryImage": "nephrolepis",
     "slug": "nefrolepis-wyniosly",
-    "thumbnailID": "50202240336",
-    "danger": 0
+    "imageID": ["50202240336"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/feather-palm",
+      "plants.ces.ncsu.edu/plants/nephrolepis-exaltata",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -102,8 +144,14 @@
       "lat": "beaucarnea recurvata"
     },
     "slug": "nolina-wygieta",
-    "thumbnailID": "7983397342",
-    "danger": 0
+    "imageID": ["7983397342"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bottle-palm",
+      "plants.ces.ncsu.edu/plants/beaucarnea-recurvata",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -112,8 +160,13 @@
       "lat": "phalaenopsis"
     },
     "slug": "storczyk-falenopsis",
-    "thumbnailID": "5472932072",
-    "danger": 0
+    "imageID": ["5472932072"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "plants.ces.ncsu.edu/plants/phalaenopsis",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -122,8 +175,21 @@
       "lat": "schlumbergera bridgesii"
     },
     "slug": "szlumbergera",
-    "thumbnailID": "32114044051",
-    "danger": 0
+    "imageID": [
+      "32755541150",
+      "49196090417",
+      "4152122599",
+      "49477857236",
+      "31713512934",
+      "8480375808"
+    ],
+    "danger": 0,
+    "note": "szlumbergera ucięta (schlumbergera truncata) wygląda podobnie, ale jest lekko toksyczna",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+      "calpoison.org/topics/plant",
+      "plants.ces.ncsu.edu/plants/schlumbergera-russelliana"
+    ]
   },
   {
     "name": {
@@ -132,8 +198,14 @@
       "lat": "chlorophytum comosum"
     },
     "slug": "zielistka",
-    "thumbnailID": "10314214735",
-    "danger": 0
+    "imageID": ["10314214735"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "plants.ces.ncsu.edu/plants/chlorophytum-comosum",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -142,8 +214,13 @@
       "lat": "aspidistra elatior"
     },
     "slug": "aspidistra",
-    "thumbnailID": "50290644831",
-    "danger": 0
+    "imageID": ["50290644831"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cast-iron-plant",
+      "plants.ces.ncsu.edu/plants/aspidistra-elatior",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -158,8 +235,13 @@
       "lat": "asplenium bulbiferum"
     },
     "slug": "asplenium",
-    "thumbnailID": "26075547582",
-    "danger": 0
+    "imageID": ["26075547582"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-fern",
+      "plants.ces.ncsu.edu/plants/asplenium-bulbiferum",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -168,8 +250,14 @@
       "lat": "dypsis lutescens"
     },
     "slug": "palma-areka",
-    "thumbnailID": "49161193377",
-    "danger": 0
+    "imageID": ["49161193377"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+      "plants.ces.ncsu.edu/plants/dypsis-lutescens",
+      "houseplantsexpert.com/areca-palm.html",
+      "hunker.com/13426336/is-the-areca-palm-plant-toxic-to-cats"
+    ]
   },
   {
     "name": {
@@ -183,8 +271,15 @@
       "lat": "stephanotis floribunda"
     },
     "slug": "stefanotis",
-    "thumbnailID": "333118035",
-    "danger": 0
+    "imageID": ["333118035"],
+    "danger": 0,
+    "note": "większość źródeł, w tym ASPCA, uznaje ją za bezpieczną. Pojedyncze informacje o toksyczności strąków nasion (link 4)",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-jasmine",
+      "houseplantsexpert.com/madagascar-jasmine.html",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "vetsallnatural.com.au/plants-poisonous-toxic-dogs-cats"
+    ]
   },
   {
     "name": {
@@ -193,8 +288,13 @@
       "lat": "cymbidium"
     },
     "slug": "cymbidium",
-    "thumbnailID": "3109226573",
-    "danger": 0
+    "imageID": ["3109226573"],
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -203,8 +303,12 @@
       "lat": "dendrobium"
     },
     "slug": "dendrobium",
-    "thumbnailID": "8241816362",
-    "danger": 0
+    "imageID": ["8241816362"],
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -213,8 +317,13 @@
       "lat": "oncidium"
     },
     "slug": "oncidium",
-    "thumbnailID": "2198693810",
-    "danger": 0
+    "imageID": ["2198693810"],
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -223,8 +332,14 @@
       "lat": "peperomia"
     },
     "slug": "peperomia",
-    "thumbnailID": "15242960660",
-    "danger": 0
+    "imageID": ["15242960660"],
+    "danger": 0,
+    "source": [
+      "calpoison.org/topics/plant",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blunt-leaf-peperomia",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peperomia-hederifolia",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -233,8 +348,13 @@
       "lat": "bromelia"
     },
     "slug": "bromelia",
-    "thumbnailID": "3301860588",
-    "danger": 0
+    "imageID": ["3301860588"],
+    "danger": 0,
+    "source": [
+      "calpoison.org/topics/plant",
+      "petpoisonhelpline.com/pet-safety-tips/pet-safe-plants-flora-and-fauna-can-coexist",
+      "zillmerevet.com.au/pet-library/are-your-houseplants-pet-friendly"
+    ]
   },
   {
     "name": {
@@ -251,8 +371,12 @@
       "lat": "neoregelia"
     },
     "slug": "neoregelia",
-    "thumbnailID": "3784389402",
-    "danger": 0
+    "imageID": ["3784389402"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blushing-bromeliad",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -268,8 +392,13 @@
       "lat": "calathea"
     },
     "slug": "kalatea",
-    "thumbnailID": "6303393081",
-    "danger": 0
+    "imageID": ["6303393081"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+      "calpoison.org/topics/plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -277,10 +406,14 @@
       "en": ["sulphur flower", "sulphurflower buckwheat"],
       "lat": "eriogonium umbellatum"
     },
-    "queryImage": "sulphurflower buckwheat",
     "slug": "pokoslin",
-    "thumbnailID": "17169921156",
-    "danger": 0
+    "imageID": ["17169921156"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wild-buckwheat",
+      "plants.ces.ncsu.edu/plants/eriogonum-umbellatum",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -289,8 +422,14 @@
       "lat": "platycerium"
     },
     "slug": "plaskla",
-    "thumbnailID": "31217908164",
-    "danger": 0
+    "imageID": ["31217908164"],
+    "danger": 0,
+    "source": [
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/platycerium-alcicorne",
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -299,8 +438,14 @@
       "lat": "pellaea rotundifolia"
     },
     "slug": "ciemnotka",
-    "thumbnailID": "23867255328",
-    "danger": 0
+    "imageID": ["23867255328"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cliff-brake",
+      "plants.ces.ncsu.edu/plants/hemionitis-rotundifolia",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -314,8 +459,14 @@
       "lat": "gerbera jamesonii"
     },
     "slug": "gerbera",
-    "thumbnailID": "14078423634",
-    "danger": 0
+    "imageID": ["14078423634"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gerber-daisy",
+      "plants.ces.ncsu.edu/plants/gerbera-jamesonii",
+      "calpoison.org/topics/plant",
+      "pets.thenest.com/ingesting-gerbera-daisies-harmful-cats-9889.html"
+    ]
   },
   {
     "name": {
@@ -324,8 +475,12 @@
       "lat": "helianthus annuus"
     },
     "slug": "slonecznik",
-    "thumbnailID": "49680380248",
-    "danger": 0
+    "imageID": ["49680380248"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sunflower",
+      "ogrod.krakow.pl/podgryzalne-rosliny"
+    ]
   },
   {
     "name": {
@@ -333,10 +488,15 @@
       "en": ["snapdragon", "dragon flowers"],
       "lat": "antirrhinum majus"
     },
-    "queryImage": "snapdragon plant",
     "slug": "lwia-paszcza",
-    "thumbnailID": "29412208433",
-    "danger": 0
+    "imageID": ["29412208433"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-snapdragon",
+      "plants.ces.ncsu.edu/plants/antirrhinum-majus",
+      "calpoison.org/topics/plant",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -344,10 +504,20 @@
       "en": ["freesia"],
       "lat": "freesia corymbosa"
     },
-    "queryImage": "freesia",
     "slug": "frezja",
-    "thumbnailID": "4951850752",
-    "danger": 0
+    "imageID": [
+      "4951850752",
+      "7733731118",
+      "3925929276",
+      "8483702458",
+      "5388044988"
+    ],
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "petmd.com/cat/care/safe-flowers-dogs-cats",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -355,20 +525,29 @@
       "en": ["sea lavender", "statice", "caspia", "marsh-rosemary"],
       "lat": "limonium"
     },
-    "queryImage": "marsh-rosemary",
     "slug": "limonium",
-    "thumbnailID": "9657492794",
-    "danger": 0
+    "imageID": ["9657492794"],
+    "danger": 0,
+    "source": [
+      "aspca.org/news/safe-bouquet-mothers-day",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats",
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/limonium-sinuatum"
+    ]
   },
   {
     "name": {
       "pl": ["oliwnik"],
       "en": ["autumn olive", "silver berry"],
-      "lat": "eleagnus"
+      "lat": "elaeagnus"
     },
     "slug": "oliwnik",
-    "thumbnailID": "2586117614",
-    "danger": 0
+    "imageID": ["2586117614"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/autumn-olive",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -377,8 +556,13 @@
       "lat": "salvia rosmarinus"
     },
     "slug": "rozmaryn",
-    "thumbnailID": "109623018",
-    "danger": 0
+    "imageID": ["109623018"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary",
+      "plants.ces.ncsu.edu/plants/salvia-rosmarinus",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -387,8 +571,14 @@
       "lat": "echeveria elegans"
     },
     "slug": "eszeweria",
-    "thumbnailID": "184354642",
-    "danger": 0
+    "imageID": ["184354642"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+      "plants.ces.ncsu.edu/plants/echeveria-elegans",
+      "calpoison.org/topics/plant",
+      "succulentplantcare.com/top-17-succulents-that-are-safe-for-cats-dogs-and-pets"
+    ]
   },
   {
     "name": {
@@ -397,8 +587,13 @@
       "lat": "petunia"
     },
     "slug": "petunia",
-    "thumbnailID": "9198146741",
-    "danger": 0
+    "imageID": ["9198146741"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/petunia",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "calpoison.org/topics/plant"
+    ]
   },
   {
     "name": {
@@ -407,8 +602,13 @@
       "lat": "tropaeolum majus"
     },
     "slug": "nasturcja",
-    "thumbnailID": "3714161505",
-    "danger": 0
+    "imageID": ["3714161505"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nasturtium",
+      "calpoison.org/topics/plant",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+    ]
   },
   {
     "name": {
@@ -417,8 +617,12 @@
       "lat": "impatiens"
     },
     "slug": "niecierpek",
-    "thumbnailID": "24524605519",
-    "danger": 0
+    "imageID": ["24524605519"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/impatience-plant",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -427,8 +631,13 @@
       "lat": "myosotis"
     },
     "slug": "niezapominajka",
-    "thumbnailID": "27829047498",
-    "danger": 0
+    "imageID": ["27829047498"],
+    "danger": 0,
+    "source": [
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/myosotis-sylvatica",
+      "cat-world.com/flowers-non-toxic-cats"
+    ]
   },
   {
     "name": {
@@ -437,8 +646,13 @@
       "lat": "alcea rosea"
     },
     "slug": "malwa-rozowa",
-    "thumbnailID": "50003709817",
-    "danger": 0
+    "imageID": ["50003709817"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hollyhock",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "plants.ces.ncsu.edu/plants/alcea-rosea"
+    ]
   },
   {
     "name": {
@@ -447,8 +661,14 @@
       "lat": "melissa officinalis"
     },
     "slug": "melisa",
-    "thumbnailID": "9858528774",
-    "danger": 0
+    "imageID": ["9858528774"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon-balm",
+      "calpoison.org/topics/plant",
+      "plants.ces.ncsu.edu/plants/melissa-officinalis",
+      "koty.pl/ziola-w-doniczce-dla-kota"
+    ]
   },
   {
     "name": {
@@ -457,28 +677,45 @@
       "lat": "ocimum basilicum"
     },
     "slug": "bazylia",
-    "thumbnailID": "24886362",
-    "danger": 0
+    "imageID": ["24886362"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+      "petcareadvisors.com/cats/can-cats-eat-basil-or-is-this-herb-poisonous",
+      "plants.ces.ncsu.edu/plants/ocimum-basilicum",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
-      "pl": ["tymianek"],
+      "pl": ["tymianek", "macierzanka tymianek"],
       "en": ["thyme"],
       "lat": "thymus vulgaris"
     },
     "slug": "tymianek",
-    "thumbnailID": "5850714607",
-    "danger": 0
+    "imageID": ["5850714607"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thyme",
+      "pets.thenest.com/thyme-plant-toxic-cats-10371.html",
+      "koty.pl/ziola-w-doniczce-dla-kota",
+      "zooart.com.pl/blog/ziola-dla-kota-czy-sa-potrzebne-i-bezpieczne#macierzanka-tymianek"
+    ]
   },
   {
     "name": {
       "pl": ["kolendra"],
-      "en": ["coriander", "cilantro", "Chinese parsley", "dhania"],
+      "en": ["cilantro", "coriander", "Chinese parsley", "dhania"],
       "lat": "coriandrum sativum"
     },
     "slug": "kolendra",
-    "thumbnailID": "50105461868",
-    "danger": 0
+    "imageID": ["50105461868"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cilantro",
+      "petcareadvisors.com/cats/is-cilantro-safe-for-cats-to-eat",
+      "koty.pl/ziola-w-doniczce-dla-kota"
+    ]
   },
   {
     "name": {
@@ -487,8 +724,13 @@
       "lat": "salvia officinalis"
     },
     "slug": "szalwia",
-    "thumbnailID": "44136771202",
-    "danger": 0
+    "imageID": ["44136771202"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sage",
+      "calpoison.org/topics/plant",
+      "cat-world.com/herbs-non-toxic-to-cats"
+    ]
   },
   {
     "name": {
@@ -497,8 +739,17 @@
       "lat": "rosa"
     },
     "slug": "roza",
-    "thumbnailID": "27340064060",
-    "danger": 0
+    "imageID": ["27340064060"],
+    "danger": 0,
+    "note": "zagrożenie stanowią jedynie kolce",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rose",
+      "petsoverload.com/roses-poisonous-toxic-cats",
+      "petmd.com/cat/care/safe-flowers-dogs-cats",
+      "pets.thenest.com/roses-harmful-cats-9574.html",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "bluecross.org.uk/pet-advice/plants-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -507,8 +758,20 @@
       "lat": "fuchsia triphylla"
     },
     "slug": "fuksja",
-    "thumbnailID": "5034045553",
-    "danger": 0
+    "imageID": [
+      "5034045553",
+      "5797337222",
+      "3758044043",
+      "19997512784",
+      "4606524177",
+      "34872707710"
+    ],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honeysuckle-fuchsia",
+      "whitehavenvet.com/safe-plants-for-your-pet.pml",
+      "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat"
+    ]
   },
   {
     "name": {
@@ -517,8 +780,17 @@
       "lat": "centaurea cyanus"
     },
     "slug": "chaber",
-    "thumbnailID": "50044268841",
-    "danger": 0
+    "imageID": ["50044268841"],
+    "danger": 0,
+    "note": "większość źródeł, w tym ASPCA, uznaje tę roślinę za bezpieczną. Bywa jednak wymieniana jako toksyczna [5, 6]",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cornflower",
+      "ogrod.krakow.pl/podgryzalne-rosliny",
+      "calpoison.org/topics/plant",
+      "gardenersworld.com/plants/centaurea-cyanus",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants",
+      "thehealthypetclub.co.uk/plant-poisoning-in-cats"
+    ]
   },
   {
     "name": {
@@ -527,8 +799,14 @@
       "lat": "syringa vulgaris"
     },
     "slug": "lilak-pospolity",
-    "thumbnailID": "8751425506",
-    "danger": 0
+    "imageID": ["8751425506"],
+    "danger": 0,
+    "note": "lilak perski (syringa persica) jest toksyczny",
+    "source": [
+      "greatpetcare.com/wellness/10-flowers-that-are-poisonous-to-cats",
+      "calpoison.org/topics/plant",
+      "allcatsecrets.com/are-lilacs-poisonous-to-cats"
+    ]
   },
   {
     "name": {
@@ -537,8 +815,13 @@
       "lat": "hibiscus"
     },
     "slug": "hibiskus",
-    "thumbnailID": "28358706571",
-    "danger": 0
+    "imageID": ["28358706571"],
+    "danger": 0,
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hibiscus",
+      "calpoison.org/topics/plant",
+      "cats.org.uk/help-and-advice/home-and-environment/dangerous-plants"
+    ]
   },
   {
     "name": {
@@ -548,12 +831,14 @@
     },
     "slug": "koperek",
     "note": "olejek eteryczny może powodować wysypkę",
-    "thumbnailID": "4898823775",
+    "imageID": ["4898823775"],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
-      "https://allcatsecrets.com/can-cats-eat-dill/",
-      "https://petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill/"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dill",
+      "allcatsecrets.com/can-cats-eat-dill",
+      "petcareadvisors.com/cats/is-it-safe-for-cats-to-eat-dill",
+      "koty.pl/ziola-w-doniczce-dla-kota",
+      "zooart.com.pl/blog/ziola-dla-kota-czy-sa-potrzebne-i-bezpieczne#koper-ogrodowy"
     ]
   },
   {
@@ -563,10 +848,13 @@
       "lat": "calendula officinalis"
     },
     "slug": "nagietek",
-    "thumbnailID": "9641729049",
+    "imageID": ["9641729049"],
     "danger": 0,
     "source": [
-      "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold"
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/garden-marigold",
+      "plants.ces.ncsu.edu/plants/calendula-officinalis",
+      "pets.thenest.com/marigolds-toxic-cats-10178.html",
+      "petpoisonhelpline.com/poison/marigold"
     ]
   }
 ]

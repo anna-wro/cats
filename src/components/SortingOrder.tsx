@@ -1,9 +1,9 @@
-type FiltersPropsType = {
+type SortingOrderType = Readonly<{
   value: string;
   onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
-};
+}>;
 
-export default function SortingOrder({ value, onChange }: FiltersPropsType) {
+export default function SortingOrder({ value, onChange }: SortingOrderType) {
   return (
     <div className="w-40">
       <select
