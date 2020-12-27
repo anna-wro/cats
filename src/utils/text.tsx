@@ -1,7 +1,7 @@
 import React from 'react';
 
 export function makeStartCase(text: string) {
-  return text.substr(0, 1).toUpperCase() + text.substr(1).toLowerCase();
+  return text.substr(0, 1).toUpperCase() + text.substr(1);
 }
 
 export function highlightText(text: string, query: string) {

@@ -13,7 +13,6 @@ export type PlantType = Readonly<{
   };
   slug: string;
   imageID: string[];
-  queryImage?: string;
   danger: number;
   symptoms?: string;
   note?: string;

@@ -21,7 +21,6 @@
       ],
       "lat": "dracaena"
     },
-    "queryImage": "dracaena fragrans",
     "slug": "dracena",
     "imageID": ["33445378203"],
     "danger": 4
@@ -42,7 +41,6 @@
       "en": ["cyclamen", "viola alpina", "alpine violet"],
       "lat": "viola alpina"
     },
-    "queryImage": "cyclamen",
     "slug": "fiolek-alpejski",
     "imageID": ["49295902377"],
     "danger": 4
@@ -53,7 +51,6 @@
       "en": ["fig", "ficus tree"],
       "lat": "ficus"
     },
-    "queryImage": "fiddle-leaf fig",
     "slug": "fikus",
     "imageID": ["39925281311"],
     "danger": 4
@@ -128,7 +125,6 @@
       "en": ["aloe vera", "Barbados aloe", "the want of heaven"],
       "lat": "aloe vera"
     },
-    "queryImage": "aloe vera leaves",
     "slug": "aloes",
     "imageID": [
       "4626376701",
@@ -172,7 +168,6 @@
       "en": ["poinsettia"],
       "lat": "euphorbia pulcherrima"
     },
-    "queryImage": "poinsettia",
     "slug": "gwiazda-betlejemska",
     "imageID": ["23852937865"],
     "danger": 4
@@ -193,7 +188,6 @@
       "en": ["wandering Jew", "small-leaf spiderwort"],
       "lat": "tradescantia fluminensis"
     },
-    "queryImage": "tradescantia",
     "slug": "trzykrotka",
     "imageID": ["22013796720"],
     "danger": 4
@@ -230,7 +224,6 @@
       "en": ["caladium", "elephant's ears", "heart of Jesus", "angel's wings"],
       "lat": "caladium hortulanum"
     },
-    "queryImage": "caladium",
     "slug": "kaladium",
     "imageID": ["49606281023"],
     "danger": 4
@@ -251,7 +244,6 @@
       "en": ["cibora", "nutsedges"],
       "lat": "cyperus"
     },
-    "queryImage": "nutsedges",
     "slug": "cibora",
     "imageID": ["4449690173"],
     "danger": 4
@@ -826,11 +818,11 @@
     "slug": "szlumbergera-ucieta",
     "imageID": [
       "32114044051",
+      "23332558559",
       "24238072967",
       "38952132402",
       "38577446034",
-      "49224090341",
-      "28506729127"
+      "49224090341"
     ],
     "danger": 1,
     "symptoms": "wymioty, ospałość, brak apetytu, biegunka, nadmierne ślinienie, niezborność ruchów",
