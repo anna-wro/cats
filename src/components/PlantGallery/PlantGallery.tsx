@@ -22,20 +22,26 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
 
   return (
     <div className="flex flex-col items-center w-full h-full">
-      <div className="flex-1 overflow-y-scroll">
+      <div className="flex-1 overflow-y-scroll hide-scrollbar">
         <div className="flex items-center justify-center">
-          <div className="w-full h-auto max-w-lg rounded-2xl bg-gray-light bg-opacity-30">
-            {links.length > 0 &&
-              links.map((link) => (
-                <ImageContainer
-                  key={link?.source}
-                  src={link?.xl}
-                  fallback={link?.l}
-                  thumbnail={link?.xs}
-                  alt={plant.name.lat}
-                  rounded
-                />
-              ))}
+          <div className="w-full max-w-lg rounded-2xl">
+            {links.length > 0 && (
+              <>
+                {/* TODO infinite scroll? */}
+                {links.map((link) => (
+                  <div className="mt-6">
+                    <ImageContainer
+                      key={link?.source}
+                      src={link?.xl}
+                      fallback={link?.l}
+                      thumbnail={link?.xs}
+                      alt={plant.name.lat}
+                      rounded
+                    />
+                  </div>
+                ))}
+              </>
+            )}
           </div>
         </div>
       </div>

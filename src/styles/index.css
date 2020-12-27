@@ -121,3 +121,10 @@ html {
   left: -50px;
   z-index: -1;
 }
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
