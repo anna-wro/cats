@@ -7,31 +7,44 @@ import type { PlantType } from 'components/PlantFiche/PlantFiche';
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function PlantGallery({ plant }: PlantGalleryType) {
-  const photo = usePhoto(plant.imageID[0]);
-  const links = photo ? getPhotoLinks(photo) : null;
+  let photos = [];
+  let links = [];
+
+  plant.imageID.forEach((ID) => {
+    const photo = usePhoto(ID);
+    photos.push(photo);
+  });
+
+  photos.forEach((photo) => {
+    const link = photo ? getPhotoLinks(photo) : null;
+    links.push(link);
+  });
 
   return (
     <div className="flex flex-col items-center w-full h-full">
-      <div className="flex-1">
+      <div className="flex-1 overflow-y-scroll">
         <div className="flex h-full items-center justify-center">
           <div className="w-full h-auto max-w-lg rounded-2xl bg-gray-light bg-opacity-30">
-            {links && (
-              <ImageContainer
-                src={links.xl}
-                fallback={links.l}
-                thumbnail={links.xs}
-                alt={plant.name.lat}
-                rounded
-              />
-            )}
+            {links.length > 0 &&
+              links.map((link) => (
+                <ImageContainer
+                  key={link?.source}
+                  src={link?.xl}
+                  fallback={link?.l}
+                  thumbnail={link?.xs}
+                  alt={plant.name.lat}
+                  rounded
+                />
+              ))}
           </div>
         </div>
       </div>
-      {photo && (
+      {/* TODO: display credits of current photo */}
+      {photos[0] && (
         <Credits
-          source={links.source}
-          owner={photo.owner}
-          license={photo.license}
+          source={photos[0].source}
+          owner={photos[0].owner}
+          license={photos[0].license}
         />
       )}
     </div>
