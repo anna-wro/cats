@@ -117,7 +117,7 @@
         "nefrolepis wyniosły",
         "nefrolepis wysoki",
         "nerczyłusk wyniosły",
-        "paprotka"
+        "paprotka, paproć"
       ],
       "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
@@ -138,7 +138,8 @@
         "nolina wygięta",
         "beukarnea wygięta",
         "bokarnea odgięta",
-        "noga słonia"
+        "noga słonia",
+        "kucykowa palma"
       ],
       "en": ["bottle palm", "elephant's foot", "ponytail palm"],
       "lat": "beaucarnea recurvata"
@@ -327,7 +328,7 @@
   },
   {
     "name": {
-      "pl": ["peperomia"],
+      "pl": ["peperomia", "sukulent"],
       "en": ["radiator plant", "peperomia"],
       "lat": "peperomia"
     },
@@ -417,7 +418,7 @@
   },
   {
     "name": {
-      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
+      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga", "paproć, paprotka"],
       "en": ["staghorn fern", "elkhorn fern"],
       "lat": "platycerium"
     },
@@ -433,7 +434,7 @@
   },
   {
     "name": {
-      "pl": ["ciemnotka okrągłolistna"],
+      "pl": ["ciemnotka okrągłolistna", "paprotka, paproć"],
       "en": ["button fern"],
       "lat": "pellaea rotundifolia"
     },
@@ -566,7 +567,7 @@
   },
   {
     "name": {
-      "pl": ["eszeweria"],
+      "pl": ["eszeweria", "sukulent"],
       "en": ["Mexican snow ball", "Mexican gem", "white Mexican rose"],
       "lat": "echeveria elegans"
     },
