@@ -126,13 +126,7 @@
       "lat": "aloe vera"
     },
     "slug": "aloes",
-    "imageID": [
-      "4626376701",
-      "13834577",
-      "4626377063",
-      "8463896997",
-      "4743154534"
-    ],
+    "imageID": ["4743154534", "37045458002", "13834577", "2393119377"],
     "danger": 2,
     "symptoms": "wymioty, ospałość, biegunka",
     "note": "żel aloesowy jest bezpieczny",
@@ -234,8 +228,21 @@
       "lat": "alocasia"
     },
     "slug": "alokazja",
-    "imageID": ["48711540401"],
-    "danger": 4
+    "imageID": [
+      "48711540401",
+      "2414408305",
+      "3493056482",
+      "24517090903",
+      "6808850323"
+    ],
+    "danger": 2,
+    "symptoms": "problemy z przełykaniem, duszności, ślinienie, podrażnienie jamy ustnej, wymioty, zmniejszyny apetyt, częste dotykanie łapką pyszczka",
+    "source": [
+      "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "petpoisonhelpline.com/poison/alocasia",
+      "animalpath.org/is-alocasia-poisonous",
+      "plants.ces.ncsu.edu/plants/alocasia"
+    ]
   },
   {
     "name": {
@@ -713,7 +720,13 @@
       "lat": "tagetes"
     },
     "slug": "aksamitka",
-    "imageID": ["3029821817"],
+    "imageID": [
+      "41743238860",
+      "5991593142",
+      "6040985433",
+      "6788367743",
+      "28776016"
+    ],
     "danger": 1,
     "symptoms": "podrażnienie sluzówki jamy ustnej, ślinienie się, biegunka",
 
