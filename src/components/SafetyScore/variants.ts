@@ -14,14 +14,14 @@ export function getVariant(danger: number) {
         text: 'text-orange',
         bg: 'bg-orange-light',
         icon: '/frown.svg',
-        label: 'Uważaj',
+        label: 'Trująca',
       };
     case 3:
       return {
         text: 'text-red',
         bg: 'bg-red-light',
         icon: '/very-frowned.svg',
-        label: 'Trująca',
+        label: 'Silnie trująca',
       };
   }
 }

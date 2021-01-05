@@ -117,13 +117,13 @@
         "nefrolepis wyniosły",
         "nefrolepis wysoki",
         "nerczyłusk wyniosły",
-        "paprotka"
+        "paprotka, paproć"
       ],
       "en": ["feather palm"],
       "lat": "nephrolepis exaltata"
     },
     "slug": "nefrolepis-wyniosly",
-    "imageID": ["50202240336"],
+    "imageID": ["50202240336", "5942091826"],
     "danger": 0,
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/feather-palm",
@@ -138,7 +138,8 @@
         "nolina wygięta",
         "beukarnea wygięta",
         "bokarnea odgięta",
-        "noga słonia"
+        "noga słonia",
+        "kucykowa palma"
       ],
       "en": ["bottle palm", "elephant's foot", "ponytail palm"],
       "lat": "beaucarnea recurvata"
@@ -224,7 +225,7 @@
   },
   {
     "name": {
-      "pl": ["asplenium", "zanokcica"],
+      "pl": ["asplenium", "zanokcica bulwkowata", "paproć, paprotka"],
       "en": [
         "mother fern",
         "spleenwort",
@@ -234,13 +235,41 @@
       ],
       "lat": "asplenium bulbiferum"
     },
-    "slug": "asplenium",
-    "imageID": ["26075547582"],
+    "slug": "zanokcica-bulwkowata",
+    "imageID": [
+      "26075547582",
+      "24691619752",
+      "24715999391",
+      "25077863516",
+      "24513936510"
+    ],
     "danger": 0,
     "source": [
       "aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-fern",
       "plants.ces.ncsu.edu/plants/asplenium-bulbiferum",
+      "plants.ces.ncsu.edu/plants/asplenium-bulbiferum",
       "calpoison.org/topics/plant"
+    ]
+  },
+  {
+    "name": {
+      "pl": ["asplenium gniazdowe", "zanokcica", "paproć, paprotka"],
+      "en": ["bird's-nest fern", "birds nest", "nest fern"],
+      "lat": "asplenium nidus"
+    },
+    "slug": "asplenium-nidus",
+    "imageID": [
+      "25723667235",
+      "43214516854",
+      "24804860297",
+      "24500802809",
+      "24627141382"
+    ],
+    "danger": 0,
+    "source": [
+      "calpoison.org/topics/plant",
+      "ladybug.uconn.edu/FactSheets/houseplants--safe-or-poisonous.php",
+      "aerifyplants.com/post/houseplants-that-are-safe-for-cats-and-dogs"
     ]
   },
   {
@@ -327,7 +356,7 @@
   },
   {
     "name": {
-      "pl": ["peperomia"],
+      "pl": ["peperomia", "sukulent"],
       "en": ["radiator plant", "peperomia"],
       "lat": "peperomia"
     },
@@ -417,12 +446,12 @@
   },
   {
     "name": {
-      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga"],
+      "pl": ["płaskla", "łosie rogi", "płaskla łosioroga", "paproć, paprotka"],
       "en": ["staghorn fern", "elkhorn fern"],
       "lat": "platycerium"
     },
     "slug": "plaskla",
-    "imageID": ["31217908164"],
+    "imageID": ["31217908164", "25723667235"],
     "danger": 0,
     "source": [
       "ogrod.krakow.pl/rosliny-doniczkowe-bezpieczne-dla-zwierzat",
@@ -433,7 +462,7 @@
   },
   {
     "name": {
-      "pl": ["ciemnotka okrągłolistna"],
+      "pl": ["ciemnotka okrągłolistna", "paprotka, paproć"],
       "en": ["button fern"],
       "lat": "pellaea rotundifolia"
     },
@@ -566,7 +595,7 @@
   },
   {
     "name": {
-      "pl": ["eszeweria"],
+      "pl": ["eszeweria", "sukulent"],
       "en": ["Mexican snow ball", "Mexican gem", "white Mexican rose"],
       "lat": "echeveria elegans"
     },
