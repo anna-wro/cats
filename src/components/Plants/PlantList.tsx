@@ -1,7 +1,7 @@
 import PlantFiche from 'components/PlantFiche/PlantFiche';
 import PlantCard from 'components/PlantCard/PlantCard';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
-import {useWindowSize} from 'utils/useWindowSize';
+import { useWindowSize } from 'utils/useWindowSize';
 
 type PlantListType = Readonly<{
   plants: PlantType[];
