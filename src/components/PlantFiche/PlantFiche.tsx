@@ -28,10 +28,11 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
   const photo = usePhoto(plant.imageID[0]);
   const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
+  const latinName = makeStartCase(plant.name.lat);
 
   return (
     <Link href={plant.slug}>
-      <div className="flex h-32 w-100 max-w-xs shadow rounded-lg cursor-pointer">
+      <div className="flex h-40 w-100 max-w-sm shadow rounded-lg cursor-pointer">
         <div className="w-1/2 rounded-l-lg overflow-hidden bg-gray-light bg-opacity-30">
           {links && (
             <ImageContainer
@@ -43,10 +44,13 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
           )}
         </div>
         <div className="w-1/2 rounded-r-lg p-5">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col h-full items-center justify-center">
             <SafetyBadge danger={plant.danger} />
             <div className="text-dark text-sm text-center leading-4 pt-2">
               {query ? highlightText(mainName, query) : mainName}
+            </div>
+            <div className="text-gray text-xs text-center font-light pt-2">
+              {query ? highlightText(latinName, query) : latinName}
             </div>
           </div>
         </div>
