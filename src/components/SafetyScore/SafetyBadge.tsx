@@ -15,7 +15,7 @@ export default function SafetyBadge({
 
   return (
     <div
-      className={`flex items-center justify-center 
+      className={`flex items-center justify-center flex-shrink-0
       ${bg} ${
         withBorder ? 'border-4 border-white rounded-full' : 'rounded-2xl'
       } ${large ? 'w-14 h-14' : 'w-12 h-12'}`}
