@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
 
-function useWindowSize() {
+const MOBILE_BREAKPOINT = 600;
+
+export function useWindowSize() {
   const [windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined,
+    isMobile: undefined,
   });
 
   useEffect(() => {
@@ -11,6 +14,7 @@ function useWindowSize() {
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
+        isMobile: window.innerWidth <= MOBILE_BREAKPOINT,
       });
     }
 
@@ -23,5 +27,3 @@ function useWindowSize() {
 
   return windowSize;
 }
-
-export default useWindowSize;

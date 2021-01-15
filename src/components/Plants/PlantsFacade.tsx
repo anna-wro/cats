@@ -10,6 +10,7 @@ import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
 import { useThrottle } from 'use-throttle';
+import { useWindowSize } from 'utils/useWindowSize';
 
 function usePlantSearch(searchTerm, plants) {
   const throttled = useThrottle(searchTerm, 300);
@@ -31,6 +32,7 @@ export default function PlantsFacade() {
   const [sortOrder, setSortOrder] = useState('+');
   const [showToxic, setShowToxic] = useState(false);
   const [showSafe, setShowSafe] = useState(false);
+  const { isMobile } = useWindowSize();
 
   const plants =
     !showSafe && !showToxic
@@ -57,7 +59,7 @@ export default function PlantsFacade() {
 
   return (
     <div className="relative">
-      <Title />
+      {!isMobile && <Title />}
       <div className="relative mx-auto w-full max-w-screen-sm">
         <Search query={query} onChange={(e) => handleInputChange(e)} />
         <div className="absolute top-5 right-6 space-x-1">

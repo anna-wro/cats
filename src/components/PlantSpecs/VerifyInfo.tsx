@@ -24,12 +24,11 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
       showSource && 'transform rotate-90'
     }`}
         >
-          {' '}
           <img className="h-2" src="/chevron-right.svg" />
         </div>
       </div>
       {showSource && (
-        <ul className="list-decimal pl-4 mt-4">
+        <ul className="list-decimal pl-4 mt-4 space-y-1.5">
           {sources.map((source) => (
             <li className="text-xs break-all" key={source}>
               <a href={`https://${source}`} className="hover:underline">
