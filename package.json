@@ -12,6 +12,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.21",
     "@next/mdx": "^10.0.2",
+    "airtable": "^0.10.1",
     "base58": "^2.0.1",
     "match-sorter": "^6.0.2",
     "next": "10.0.1",
