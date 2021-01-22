@@ -13,6 +13,8 @@ import Airtable from 'airtable';
 //const plants = [];
 
 export default function Home(props) {
+  //console.log('props -> plants', JSON.stringify(plants, null, 2));
+  const plants = [];
   const router = useRouter();
   const { slug } = router.query;
   let plant;
@@ -52,6 +54,23 @@ export default function Home(props) {
   );
 }
 
+function mapRecordToPlant(record) {
+  return {
+    name: {
+      pl: record['name.pl'].split(','),
+      en: record['name.en'].split(','),
+      lat: record['name.lat'],
+    },
+    slug: record.slug,
+    imageID: record.imageID.split(','),
+    danger: record.danger,
+    source: record.source.split(','),
+    ID: record.ID,
+    symptoms: record.symptoms,
+    note: record.note,
+  };
+}
+
 export async function getServerSideProps(context) {
   const base = Airtable.base('app0awhBu3GphBQkq');
   console.log(base.table);
@@ -69,7 +88,7 @@ export async function getServerSideProps(context) {
             // This function (`page`) will get called for each page of records.
 
             records.forEach(function (record) {
-              res.push(record.fields);
+              res.push(mapRecordToPlant(record));
             });
 
             // To fetch the next page of records, call `fetchNextPage`.
