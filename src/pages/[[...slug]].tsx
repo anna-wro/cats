@@ -7,9 +7,12 @@ import Footer from 'components/Footer';
 import { makeStartCase } from 'utils/text';
 import safe from 'data/plants/safe.json';
 import toxic from 'data/plants/toxic.json';
-const plants = [...safe, ...toxic];
+import Airtable from 'airtable';
 
-export default function Home() {
+//const plants = [...safe, ...toxic];
+//const plants = [];
+
+export default function Home(props) {
   const router = useRouter();
   const { slug } = router.query;
   let plant;
@@ -47,4 +50,48 @@ export default function Home() {
       <Footer />
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  const base = Airtable.base('app0awhBu3GphBQkq');
+  console.log(base.table);
+
+  const result = await new Promise((resolve, reject) => {
+    const res = [];
+    ['Safe', 'Toxic'].forEach((type) => {
+      base(type)
+        .select({
+          // Selecting the first 3 records in Grid view:
+          view: 'Grid view',
+        })
+        .eachPage(
+          function page(records, fetchNextPage) {
+            // This function (`page`) will get called for each page of records.
+
+            records.forEach(function (record) {
+              res.push(record.fields);
+            });
+
+            // To fetch the next page of records, call `fetchNextPage`.
+            // If there are more records, `page` will get called again.
+            // If there are no more records, `done` will get called.
+            fetchNextPage();
+          },
+          function done(err) {
+            if (err) {
+              console.error(err);
+              reject([]);
+              return;
+            }
+            resolve(res);
+          },
+        );
+    });
+  });
+
+  console.log('result', JSON.stringify(result, null, 2));
+
+  return {
+    props: { plants: result },
+  };
 }
