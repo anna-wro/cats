@@ -25,10 +25,9 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
       <div className="flex-1 overflow-y-scroll hide-scrollbar">
         <div className="flex items-center justify-center">
           <div className="w-full max-w-lg rounded-2xl">
-            {links.length > 0 && (
+            {links.length > 0 && photos[0] && (
               <>
-                {/* TODO infinite scroll? */}
-                {links.map((link) => (
+                {links.map((link, index) => (
                   <div className="mt-6">
                     <ImageContainer
                       key={link?.source}
@@ -38,6 +37,13 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
                       alt={plant.name.lat}
                       rounded
                     />
+                    {photos[index] && (
+                      <Credits
+                        source={link.source}
+                        owner={photos[index].owner}
+                        license={photos[index].license}
+                      />
+                    )}
                   </div>
                 ))}
               </>
@@ -45,14 +51,6 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
           </div>
         </div>
       </div>
-      {/* TODO: display credits of current photo */}
-      {photos[0] && (
-        <Credits
-          source={photos[0].source}
-          owner={photos[0].owner}
-          license={photos[0].license}
-        />
-      )}
     </div>
   );
 }
