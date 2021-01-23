@@ -32,7 +32,7 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
 
   return (
     <Link href={plant.slug}>
-      <div className="flex min-h-32 max-h-40 w-100 max-w-sm shadow rounded-lg cursor-pointer">
+      <div className="flex min-h-32 max-h-40 w-100 shadow rounded-lg cursor-pointer">
         <div className="w-1/2 rounded-l-lg overflow-hidden bg-gray-light bg-opacity-30">
           {links && (
             <ImageContainer
