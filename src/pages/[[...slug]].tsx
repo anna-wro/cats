@@ -66,8 +66,8 @@ function mapRecordToPlant(record) {
     danger: record.danger,
     source: record.source.split(','),
     ID: record.ID,
-    symptoms: record.symptoms,
-    note: record.note,
+    symptoms: record.symptoms ?? null,
+    note: record.note ?? null,
   };
 }
 
@@ -88,7 +88,7 @@ export async function getServerSideProps(context) {
             // This function (`page`) will get called for each page of records.
 
             records.forEach(function (record) {
-              res.push(mapRecordToPlant(record));
+              res.push(mapRecordToPlant(record.fields));
             });
 
             // To fetch the next page of records, call `fetchNextPage`.
