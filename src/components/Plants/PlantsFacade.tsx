@@ -33,9 +33,9 @@ export default function PlantsFacade() {
   const [showSafe, setShowSafe] = useState(false);
 
   const plants = [];
-    // !showSafe && !showToxic
-    //   ? [...safe, ...toxic]
-    //   : [...(showSafe ? safe : []), ...(showToxic ? toxic : [])];
+  // !showSafe && !showToxic
+  //   ? [...safe, ...toxic]
+  //   : [...(showSafe ? safe : []), ...(showToxic ? toxic : [])];
 
   const results = usePlantSearch(query, plants);
   const sortedResults = results.sort(sortByName(`${sortOrder}pl`));
