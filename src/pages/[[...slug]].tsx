@@ -5,16 +5,11 @@ import PlantsFacade from 'components/Plants/PlantsFacade';
 import PlantDetails from 'components/PlantDetails/PlantDetails';
 import Footer from 'components/Footer';
 import { makeStartCase } from 'utils/text';
-import safe from 'data/plants/safe.json';
-import toxic from 'data/plants/toxic.json';
 import Airtable from 'airtable';
 
-//const plants = [...safe, ...toxic];
-//const plants = [];
-
-export default function Home(props) {
+export default function Home({ plants }) {
   //console.log('props -> plants', JSON.stringify(plants, null, 2));
-  const plants = [];
+
   const router = useRouter();
   const { slug } = router.query;
   let plant;
@@ -73,27 +68,22 @@ function mapRecordToPlant(record) {
 
 export async function getServerSideProps(context) {
   const base = Airtable.base('app0awhBu3GphBQkq');
-  console.log(base.table);
 
   const result = await new Promise((resolve, reject) => {
     const res = [];
     ['Safe', 'Toxic'].forEach((type) => {
       base(type)
         .select({
-          // Selecting the first 3 records in Grid view:
           view: 'Grid view',
+          // BUG: If max records 100+ there is an error thrown
+          // https://community.airtable.com/t/cannot-read-property-offset-of-undefined/34847
+          maxRecords: 1000,
         })
         .eachPage(
           function page(records, fetchNextPage) {
-            // This function (`page`) will get called for each page of records.
-
             records.forEach(function (record) {
               res.push(mapRecordToPlant(record.fields));
             });
-
-            // To fetch the next page of records, call `fetchNextPage`.
-            // If there are more records, `page` will get called again.
-            // If there are no more records, `done` will get called.
             fetchNextPage();
           },
           function done(err) {
@@ -107,8 +97,6 @@ export async function getServerSideProps(context) {
         );
     });
   });
-
-  console.log('result', JSON.stringify(result, null, 2));
 
   return {
     props: { plants: result },
