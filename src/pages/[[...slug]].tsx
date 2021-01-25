@@ -15,7 +15,7 @@ export default function Home({ plants }) {
   let plant;
 
   if (slug) {
-    plant = plants.find((plant) => plant.slug === slug[0]);
+    plant = plants.all.find((plant) => plant.slug === slug[0]);
   }
 
   const plantTitle = plant?.name?.pl[0]
@@ -41,7 +41,7 @@ export default function Home({ plants }) {
           }`}
         >
           {plant && <PlantDetails plant={plant} />}
-          <PlantsFacade />
+          <PlantsFacade items={plants} />
         </div>
       </div>
       <Footer />
@@ -66,30 +66,40 @@ function mapRecordToPlant(record) {
   };
 }
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   const base = Airtable.base('app0awhBu3GphBQkq');
 
-  const result = await new Promise((resolve, reject) => {
-    const res = [];
+  const result: {
+    safe: Array<Object>;
+    toxic: Array<Object>;
+  } = await new Promise((resolve, reject) => {
+    const res = {
+      safe: [],
+      toxic: [],
+      all: [],
+    };
+
     ['Safe', 'Toxic'].forEach((type) => {
       base(type)
         .select({
           view: 'Grid view',
-          // BUG: If max records 100+ there is an error thrown
+          // BUG: Airtable throws error when max records value is equal or greater than 100
           // https://community.airtable.com/t/cannot-read-property-offset-of-undefined/34847
           maxRecords: 1000,
         })
         .eachPage(
           function page(records, fetchNextPage) {
             records.forEach(function (record) {
-              res.push(mapRecordToPlant(record.fields));
+              const plant = mapRecordToPlant(record.fields);
+              res[type.toLowerCase()].push(plant);
+              res.all.push(plant);
             });
             fetchNextPage();
           },
           function done(err) {
             if (err) {
               console.error(err);
-              reject([]);
+              reject(res);
               return;
             }
             resolve(res);
@@ -98,7 +108,9 @@ export async function getServerSideProps(context) {
     });
   });
 
+  const a = { ...result };
+
   return {
-    props: { plants: result },
+    props: { plants: { ...result } },
   };
 }
