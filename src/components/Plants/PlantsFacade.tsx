@@ -34,7 +34,7 @@ export default function PlantsFacade({ items }) {
 
   const plants =
     !showSafe && !showToxic
-      ? items.all
+      ? [...items.safe, ...items.toxic]
       : [...(showSafe ? safe : []), ...(showToxic ? toxic : [])];
 
   const results = usePlantSearch(query, plants);

@@ -5,17 +5,17 @@ import PlantsFacade from 'components/Plants/PlantsFacade';
 import PlantDetails from 'components/PlantDetails/PlantDetails';
 import Footer from 'components/Footer';
 import { makeStartCase } from 'utils/text';
-import Airtable from 'airtable';
+import { getAllPlants } from 'lib/api';
 
 export default function Home({ plants }) {
-  //console.log('props -> plants', JSON.stringify(plants, null, 2));
-
   const router = useRouter();
   const { slug } = router.query;
   let plant;
 
   if (slug) {
-    plant = plants.all.find((plant) => plant.slug === slug[0]);
+    plant = [...plants.safe, ...plants.toxic].find(
+      (plant) => plant.slug === slug[0],
+    );
   }
 
   const plantTitle = plant?.name?.pl[0]
@@ -49,68 +49,10 @@ export default function Home({ plants }) {
   );
 }
 
-function mapRecordToPlant(record) {
-  return {
-    name: {
-      pl: record['name.pl'].split(','),
-      en: record['name.en'].split(','),
-      lat: record['name.lat'],
-    },
-    slug: record.slug,
-    imageID: record.imageID.split(','),
-    danger: record.danger,
-    source: record.source.split(','),
-    ID: record.ID,
-    symptoms: record.symptoms ?? null,
-    note: record.note ?? null,
-  };
-}
-
 export async function getServerSideProps() {
-  const base = Airtable.base('app0awhBu3GphBQkq');
-
-  const result: {
-    safe: Array<Object>;
-    toxic: Array<Object>;
-  } = await new Promise((resolve, reject) => {
-    const res = {
-      safe: [],
-      toxic: [],
-      all: [],
-    };
-
-    ['Safe', 'Toxic'].forEach((type) => {
-      base(type)
-        .select({
-          view: 'Grid view',
-          // BUG: Airtable throws error when max records value is equal or greater than 100
-          // https://community.airtable.com/t/cannot-read-property-offset-of-undefined/34847
-          maxRecords: 1000,
-        })
-        .eachPage(
-          function page(records, fetchNextPage) {
-            records.forEach(function (record) {
-              const plant = mapRecordToPlant(record.fields);
-              res[type.toLowerCase()].push(plant);
-              res.all.push(plant);
-            });
-            fetchNextPage();
-          },
-          function done(err) {
-            if (err) {
-              console.error(err);
-              reject(res);
-              return;
-            }
-            resolve(res);
-          },
-        );
-    });
-  });
-
-  const a = { ...result };
+  const plants = await getAllPlants();
 
   return {
-    props: { plants: { ...result } },
+    props: { plants },
   };
 }
