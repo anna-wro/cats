@@ -3,14 +3,14 @@ import Airtable from 'airtable';
 function mapRecordToPlant(record) {
   return {
     name: {
-      pl: record['name.pl'].split(','),
-      en: record['name.en'].split(','),
+      pl: record['name.pl'].split(',').map((value) => value.trim()),
+      en: record['name.en'].split(',').map((value) => value.trim()),
       lat: record['name.lat'],
     },
     slug: record.slug,
-    imageID: record.imageID.split(','),
+    imageID: record.imageID.split(',').map((value) => value.trim()),
     danger: record.danger,
-    source: record.source.split(','),
+    source: record.source.split(',').map((value) => value.trim()),
     ID: record.ID,
     symptoms: record.symptoms ?? null,
     note: record.note ?? null,
