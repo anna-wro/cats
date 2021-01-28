@@ -6,8 +6,8 @@ import Search from 'components/Search';
 import Filter from 'components/Filter';
 import Title from 'components/Title';
 import SortingOrder from 'components/SortingOrder';
-import safe from 'data/plants/safe.json';
-import toxic from 'data/plants/toxic.json';
+// import safe from 'data/plants/safe.json';
+// import toxic from 'data/plants/toxic.json';
 import { sortByName } from 'utils/array';
 import { useThrottle } from 'use-throttle';
 
@@ -26,7 +26,7 @@ function usePlantSearch(searchTerm, plants) {
   );
 }
 
-export default function PlantsFacade() {
+export default function PlantsFacade({ items: { safe, toxic } }) {
   const [query, setQuery] = useState('');
   const [sortOrder, setSortOrder] = useState('+');
   const [showToxic, setShowToxic] = useState(false);

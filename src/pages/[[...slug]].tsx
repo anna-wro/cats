@@ -5,17 +5,17 @@ import PlantsFacade from 'components/Plants/PlantsFacade';
 import PlantDetails from 'components/PlantDetails/PlantDetails';
 import Footer from 'components/Footer';
 import { makeStartCase } from 'utils/text';
-import safe from 'data/plants/safe.json';
-import toxic from 'data/plants/toxic.json';
-const plants = [...safe, ...toxic];
+import { getAllPlants } from 'lib/api';
 
-export default function Home() {
+export default function Home({ plants }) {
   const router = useRouter();
   const { slug } = router.query;
   let plant;
 
   if (slug) {
-    plant = plants.find((plant) => plant.slug === slug[0]);
+    plant = [...plants.safe, ...plants.toxic].find(
+      (plant) => plant.slug === slug[0],
+    );
   }
 
   const plantTitle = plant?.name?.pl[0]
@@ -41,10 +41,18 @@ export default function Home() {
           }`}
         >
           {plant && <PlantDetails plant={plant} />}
-          <PlantsFacade />
+          <PlantsFacade items={plants} />
         </div>
       </div>
       <Footer />
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  const plants = await getAllPlants();
+
+  return {
+    props: { plants },
+  };
 }
