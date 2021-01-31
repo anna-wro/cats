@@ -32,7 +32,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
               <>
                 {links.map((link, index) => (
                   <ParallaxBox scrollRef={scrollRef}>
-                    <div className="mt-6">
+                    <div className="mt-6 h-full">
                       <ImageContainer
                         key={link?.source}
                         src={link?.xl}
@@ -120,7 +120,12 @@ const ParallaxBox = ({
   console.log('scrollY', scrollY);
 
   return (
-    <motion.div ref={ref} initial={{ y: 0 }} style={{ y, opacity }} {...rest}>
+    <motion.div
+      ref={ref}
+      initial={{ y: 0 }}
+      style={{ height: '70vh' }}
+      {...rest}
+    >
       {children}
     </motion.div>
   );
