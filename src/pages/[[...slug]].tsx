@@ -28,7 +28,7 @@ export default function Home({ plants }) {
         {!plant && <Navigation />}
         <div
           className={`${
-            plant ? undefined : 'max-w-7xl mx-auto pb-24 px-10 md:px-20 '
+            plant ? '' : 'max-w-7xl mx-auto pb-24 px-10 md:px-20 '
           }`}
         >
           {plant && <PlantDetails plant={plant} />}
