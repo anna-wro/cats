@@ -59,7 +59,7 @@ export async function getStaticPaths() {
         params: { slug: [plant.slug] },
       })),
     ],
-    fallback: true,
+    fallback: 'blocking',
   };
 }
 
