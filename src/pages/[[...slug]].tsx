@@ -55,11 +55,11 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { slug: [] } },
-      ...[...plants.safe, ...plants.toxic].map((plant) => ({
+      ...[...(plants.safe as any), ...(plants.toxic as any)].map((plant) => ({
         params: { slug: [plant.slug] },
       })),
     ],
-    fallback: false,
+    fallback: true,
   };
 }
 
@@ -68,5 +68,6 @@ export async function getStaticProps() {
 
   return {
     props: { plants },
+    revalidate: 1,
   };
 }
