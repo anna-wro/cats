@@ -51,11 +51,10 @@ export default function Home({ plants }) {
 
 export async function getStaticPaths() {
   const plants = await getAllPlants();
-  console.log({ plants });
   return {
     paths: [
       { params: { slug: [] } },
-      ...[...(plants.safe as any), ...(plants.toxic as any)].map((plant) => ({
+      ...[...plants.safe, ...plants.toxic].map((plant) => ({
         params: { slug: [plant.slug] },
       })),
     ],

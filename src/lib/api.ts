@@ -1,6 +1,21 @@
 import Airtable from 'airtable';
 
-function mapRecordToPlant(record) {
+type Record = {
+  name: {
+    pl: string[];
+    en: string[];
+    lat: string;
+  };
+  slug: string;
+  imageID: number;
+  danger: number;
+  source: string[];
+  ID: string;
+  symptoms: string;
+  note: string;
+};
+
+function mapRecordToPlant(record): Record {
   return {
     name: {
       pl: record['name.pl']?.split(',').map((value) => value.trim()),
@@ -17,7 +32,9 @@ function mapRecordToPlant(record) {
   };
 }
 
-async function getPlantsByType(type) {
+type Plants = Record[];
+
+async function getPlantsByType(type: string): Promise<Plants> {
   return new Promise((resolve, reject) => {
     const base = Airtable.base('app0awhBu3GphBQkq');
     const res = [];
@@ -50,7 +67,9 @@ async function getPlantsByType(type) {
   });
 }
 
-export async function getAllPlants() {
+type AllPlants = { toxic: Plants; safe: Plants };
+
+export async function getAllPlants(): Promise<AllPlants> {
   try {
     const [Toxic, Safe] = await Promise.all([
       getPlantsByType('Safe'),
