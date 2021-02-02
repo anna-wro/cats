@@ -49,10 +49,24 @@ export default function Home({ plants }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticPaths() {
+  const plants = await getAllPlants();
+  return {
+    paths: [
+      { params: { slug: [] } },
+      ...[...plants.safe, ...plants.toxic].map((plant) => ({
+        params: { slug: [plant.slug] },
+      })),
+    ],
+    fallback: 'blocking',
+  };
+}
+
+export async function getStaticProps() {
   const plants = await getAllPlants();
 
   return {
     props: { plants },
+    revalidate: 1,
   };
 }
