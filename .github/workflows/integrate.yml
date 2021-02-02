@@ -15,4 +15,6 @@ jobs:
           node-version: 14
       - run: yarn
       - run: yarn build
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
       - run: yarn test
