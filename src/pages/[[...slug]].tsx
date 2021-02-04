@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import Navigation from 'components/Navigation';
 import PlantsFacade from 'components/Plants/PlantsFacade';
 import PlantDetails from 'components/PlantDetails/PlantDetails';
-import Footer from 'components/Footer';
+import Layout from 'components/Layout';
 import { makeStartCase } from 'utils/text';
 import { getAllPlants } from 'lib/api';
 
@@ -20,19 +20,10 @@ export default function Home({ plants }) {
 
   const plantTitle = plant?.name?.pl[0]
     ? `${makeStartCase(plant.name.pl[0])} - `
-    : null;
+    : '';
 
   return (
-    <div className="flex flex-col min-h-screen font-main text-dark">
-      <Head>
-        <title>{plantTitle} Rośliny dla kota</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@900&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+    <Layout title={`${plantTitle}Rośliny dla kota`}>
       <div className={`flex-1 ${plant ? 'fixed' : ''}`}>
         {!plant && <Navigation />}
         <div
@@ -44,8 +35,7 @@ export default function Home({ plants }) {
           <PlantsFacade items={plants} />
         </div>
       </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 
