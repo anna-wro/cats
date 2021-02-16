@@ -25,7 +25,10 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
 
   return (
     <div className="flex flex-col items-center w-full h-full">
-      <div className="flex-1 overflow-y-scroll py-10 px-8" ref={scrollRef}>
+      <div
+        className="flex-1 overflow-y-scroll w-full py-10 px-32"
+        ref={scrollRef}
+      >
         <div className="flex items-center justify-center">
           <div className="w-full max-w-5xl rounded-2xl">
             {links.length > 0 && photos[0] && (
