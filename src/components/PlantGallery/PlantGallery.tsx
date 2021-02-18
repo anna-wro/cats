@@ -73,7 +73,7 @@ const ParallaxBox = ({
   ...rest
 }) => {
   const { scrollY } = useElementScroll(scrollRef);
-  const ref = useRef();
+  const ref = useRef<HTMLElement>();
   const [elementTop, setElementTop] = useState(null);
   const [elementBottom, setElementBottom] = useState(0);
   const [clientHeight, setClientHeight] = useState(0);
@@ -91,10 +91,8 @@ const ParallaxBox = ({
     if (!ref.current) return;
 
     const setValues = () => {
-      setElementTop((ref.current as any).offsetTop);
-      setElementBottom(
-        (ref.current as any).offsetTop + (ref.current as any).offsetHeight,
-      );
+      setElementTop(ref.current.offsetTop);
+      setElementBottom(ref.current.offsetTop + ref.current.offsetHeight);
       setClientHeight(window.innerHeight);
     };
 
