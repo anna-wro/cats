@@ -12,7 +12,7 @@ export default function PlantDetails({ plant }: PlantDetailsType) {
         <div className="w-full max-w-sm py-10 px-8">
           <PlantSpecs plant={plant} />
         </div>
-        <div className="flex-grow py-10 px-8">
+        <div className="flex-grow">
           <PlantGallery plant={plant} />
           <CloseButton />
         </div>
