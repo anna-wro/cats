@@ -73,7 +73,7 @@ const ParallaxBox = ({
   ...rest
 }) => {
   const { scrollY } = useElementScroll(scrollRef);
-  const ref = useRef<HTMLElement>();
+  const ref = useRef<HTMLDivElement>();
   const [elementTop, setElementTop] = useState(null);
   const [elementBottom, setElementBottom] = useState(0);
   const [clientHeight, setClientHeight] = useState(0);
@@ -113,12 +113,7 @@ const ParallaxBox = ({
   ]);
 
   const yOpacityRange = [elementBottom, transformFinalValue - yOffset];
-  const opacity = useTransform(
-    scrollY,
-    yOpacityRange,
-    opacityRange,
-    'anticipate',
-  );
+  const opacity = useTransform(scrollY, yOpacityRange, opacityRange);
 
   console.log('scrollY', scrollY);
 
