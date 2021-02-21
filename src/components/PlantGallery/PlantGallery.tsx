@@ -90,7 +90,7 @@ const ScrollBox = ({ children, scrollRef, ...rest }) => {
   }, [ref]);
 
   const opacityRange = [0, 1, 1, 0];
-  const scaleRange = [0.7, 1, 1, 0.7];
+  const scaleRange = [0.8, 1, 1, 0.8];
   const viewportRange = [
     elementBottom,
     elementTop,
