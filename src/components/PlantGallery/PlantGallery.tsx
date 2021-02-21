@@ -63,15 +63,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   );
 }
 
-const ParallaxBox = ({
-  children,
-  yOffset = 1000,
-  easing = [0.42, 0, 0.58, 1],
-  scrollRef,
-  triggerPoint = 0.2,
-  fadeOut = true,
-  ...rest
-}) => {
+const ParallaxBox = ({ children, scrollRef, ...rest }) => {
   const { scrollY } = useElementScroll(scrollRef);
   const ref = useRef<HTMLDivElement>();
   const [elementTop, setElementTop] = useState(null);
@@ -104,15 +96,10 @@ const ParallaxBox = ({
       document.removeEventListener('load', setValues);
       window.removeEventListener('resize', setValues);
     };
-  }, [ref, yOffset]);
+  }, [ref]);
 
-  const transformFinalValue = elementTop + yOffset;
-  const opacityInitialValue = fadeOut ? 0 : 1;
-  const opacityRange = useMemo(() => [opacityInitialValue, 1], [
-    opacityInitialValue,
-  ]);
-
-  const yOpacityRange = [elementBottom, transformFinalValue - yOffset];
+  const opacityRange = [0, 1];
+  const yOpacityRange = [elementBottom, elementTop];
   const opacity = useTransform(scrollY, yOpacityRange, opacityRange);
 
   console.log('scrollY', scrollY);
