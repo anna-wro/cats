@@ -30,12 +30,12 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
         ref={scrollRef}
       >
         <div className="flex items-center justify-center">
-          <div className="w-full max-w-5xl rounded-2xl">
+          <div className="w-full max-w-xl rounded-2xl">
             {links.length > 0 && photos[0] && (
               <>
                 {links.map((link, index) => (
-                  <ParallaxBox scrollRef={scrollRef}>
-                    <div className="mt-6 h-full">
+                  <ScrollBox scrollRef={scrollRef}>
+                    <div className="h-full my-14">
                       <ImageContainer
                         key={link?.source}
                         src={link?.xl}
@@ -52,7 +52,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
                         />
                       )}
                     </div>
-                  </ParallaxBox>
+                  </ScrollBox>
                 ))}
               </>
             )}
@@ -63,37 +63,20 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   );
 }
 
-const ParallaxBox = ({
-  children,
-  yOffset = 1000,
-  easing = [0.42, 0, 0.58, 1],
-  scrollRef,
-  triggerPoint = 0.2,
-  fadeOut = true,
-  ...rest
-}) => {
+const ScrollBox = ({ children, scrollRef, ...rest }) => {
   const { scrollY } = useElementScroll(scrollRef);
   const ref = useRef<HTMLDivElement>();
   const [elementTop, setElementTop] = useState(null);
   const [elementBottom, setElementBottom] = useState(0);
-  const [clientHeight, setClientHeight] = useState(0);
+  const [scrollableHeight, setScrollableHeight] = useState(0);
 
-  useEffect(
-    () =>
-      scrollY.onChange((latest) => {
-        console.log({ scrollY: latest });
-      }),
-    [],
-  );
-
-  console.log();
   useEffect(() => {
     if (!ref.current) return;
 
     const setValues = () => {
       setElementTop(ref.current.offsetTop);
       setElementBottom(ref.current.offsetTop + ref.current.offsetHeight);
-      setClientHeight(window.innerHeight);
+      setScrollableHeight(scrollRef.current.offsetHeight);
     };
 
     setValues();
@@ -104,24 +87,25 @@ const ParallaxBox = ({
       document.removeEventListener('load', setValues);
       window.removeEventListener('resize', setValues);
     };
-  }, [ref, yOffset]);
+  }, [ref]);
 
-  const transformFinalValue = elementTop + yOffset;
-  const opacityInitialValue = fadeOut ? 0 : 1;
-  const opacityRange = useMemo(() => [opacityInitialValue, 1], [
-    opacityInitialValue,
-  ]);
+  const opacityRange = [0, 1, 1, 0];
+  const scaleRange = [0.8, 1, 1, 0.8];
+  const viewportRange = [
+    elementBottom,
+    elementTop,
+    elementBottom - scrollableHeight,
+    elementTop - scrollableHeight,
+  ];
 
-  const yOpacityRange = [elementBottom, transformFinalValue - yOffset];
-  const opacity = useTransform(scrollY, yOpacityRange, opacityRange);
-
-  console.log('scrollY', scrollY);
+  const opacity = useTransform(scrollY, viewportRange, opacityRange);
+  const scale = useTransform(scrollY, viewportRange, scaleRange);
 
   return (
     <motion.div
       ref={ref}
       initial={{ y: 0 }}
-      style={{ height: '70vh', opacity }}
+      style={{ height: '40vh', opacity, scale }}
       {...rest}
     >
       {children}
