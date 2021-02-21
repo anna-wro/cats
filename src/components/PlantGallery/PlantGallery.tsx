@@ -68,7 +68,7 @@ const ScrollBox = ({ children, scrollRef, ...rest }) => {
   const ref = useRef<HTMLDivElement>();
   const [elementTop, setElementTop] = useState(null);
   const [elementBottom, setElementBottom] = useState(0);
-  const [clientHeight, setClientHeight] = useState(0);
+  const [scrollableHeight, setScrollableHeight] = useState(0);
 
   useEffect(() => {
     if (!ref.current) return;
@@ -76,7 +76,7 @@ const ScrollBox = ({ children, scrollRef, ...rest }) => {
     const setValues = () => {
       setElementTop(ref.current.offsetTop);
       setElementBottom(ref.current.offsetTop + ref.current.offsetHeight);
-      setClientHeight(window.innerHeight);
+      setScrollableHeight(scrollRef.current.offsetHeight);
     };
 
     setValues();
@@ -94,8 +94,8 @@ const ScrollBox = ({ children, scrollRef, ...rest }) => {
   const viewportRange = [
     elementBottom,
     elementTop,
-    elementBottom - clientHeight,
-    elementTop - clientHeight,
+    elementBottom - scrollableHeight,
+    elementTop - scrollableHeight,
   ];
 
   const opacity = useTransform(scrollY, viewportRange, opacityRange);
