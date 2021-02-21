@@ -35,7 +35,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
               <>
                 {links.map((link, index) => (
                   <ScrollBox scrollRef={scrollRef}>
-                    <div className="h-full my-10">
+                    <div className="h-full my-14">
                       <ImageContainer
                         key={link?.source}
                         src={link?.xl}
