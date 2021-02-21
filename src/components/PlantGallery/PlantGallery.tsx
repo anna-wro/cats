@@ -34,7 +34,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
             {links.length > 0 && photos[0] && (
               <>
                 {links.map((link, index) => (
-                  <ParallaxBox scrollRef={scrollRef}>
+                  <ScrollBox scrollRef={scrollRef}>
                     <div className="h-full my-10">
                       <ImageContainer
                         key={link?.source}
@@ -52,7 +52,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
                         />
                       )}
                     </div>
-                  </ParallaxBox>
+                  </ScrollBox>
                 ))}
               </>
             )}
@@ -63,7 +63,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   );
 }
 
-const ParallaxBox = ({ children, scrollRef, ...rest }) => {
+const ScrollBox = ({ children, scrollRef, ...rest }) => {
   const { scrollY } = useElementScroll(scrollRef);
   const ref = useRef<HTMLDivElement>();
   const [elementTop, setElementTop] = useState(null);
@@ -90,7 +90,7 @@ const ParallaxBox = ({ children, scrollRef, ...rest }) => {
   }, [ref]);
 
   const opacityRange = [0, 1, 1, 0];
-  const scaleRange = [0.8, 1, 1, 0.8];
+  const scaleRange = [0.7, 1, 1, 0.7];
   const viewportRange = [
     elementBottom,
     elementTop,
