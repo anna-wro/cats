@@ -30,12 +30,12 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
         ref={scrollRef}
       >
         <div className="flex items-center justify-center">
-          <div className="w-full max-w-5xl rounded-2xl">
+          <div className="w-full max-w-xl rounded-2xl">
             {links.length > 0 && photos[0] && (
               <>
                 {links.map((link, index) => (
                   <ParallaxBox scrollRef={scrollRef}>
-                    <div className="mt-6 h-full">
+                    <div className="h-full my-10">
                       <ImageContainer
                         key={link?.source}
                         src={link?.xl}
@@ -70,15 +70,6 @@ const ParallaxBox = ({ children, scrollRef, ...rest }) => {
   const [elementBottom, setElementBottom] = useState(0);
   const [clientHeight, setClientHeight] = useState(0);
 
-  useEffect(
-    () =>
-      scrollY.onChange((latest) => {
-        console.log({ scrollY: latest });
-      }),
-    [],
-  );
-
-  console.log();
   useEffect(() => {
     if (!ref.current) return;
 
@@ -98,17 +89,23 @@ const ParallaxBox = ({ children, scrollRef, ...rest }) => {
     };
   }, [ref]);
 
-  const opacityRange = [0, 1];
-  const yOpacityRange = [elementBottom, elementTop];
-  const opacity = useTransform(scrollY, yOpacityRange, opacityRange);
+  const opacityRange = [0, 1, 1, 0];
+  const scaleRange = [0.8, 1, 1, 0.8];
+  const viewportRange = [
+    elementBottom,
+    elementTop,
+    elementBottom - clientHeight,
+    elementTop - clientHeight,
+  ];
 
-  console.log('scrollY', scrollY);
+  const opacity = useTransform(scrollY, viewportRange, opacityRange);
+  const scale = useTransform(scrollY, viewportRange, scaleRange);
 
   return (
     <motion.div
       ref={ref}
       initial={{ y: 0 }}
-      style={{ height: '70vh', opacity }}
+      style={{ height: '40vh', opacity, scale }}
       {...rest}
     >
       {children}
