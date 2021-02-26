@@ -72,8 +72,8 @@ type AllPlants = { toxic: Plants; safe: Plants };
 export async function getAllPlants(): Promise<AllPlants> {
   try {
     const [Toxic, Safe] = await Promise.all([
-      getPlantsByType('Safe'),
       getPlantsByType('Toxic'),
+      getPlantsByType('Safe'),
     ]);
 
     return {
