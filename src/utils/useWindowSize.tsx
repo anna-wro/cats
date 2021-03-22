@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const MOBILE_BREAKPOINT = 600;
+const MOBILE_BREAKPOINT = 640;
 
 export function useWindowSize() {
   const [windowSize, setWindowSize] = useState({
