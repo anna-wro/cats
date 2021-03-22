@@ -2,7 +2,7 @@ import PlantSpecs from 'components/PlantSpecs/PlantSpecs';
 import PlantGallery from 'components/PlantGallery/PlantGallery';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import CloseButton from './CloseButton';
-import type {PlantDetailsType} from './PlantDetailsFacade';
+import type { PlantDetailsType } from './PlantDetailsFacade';
 
 export default function DesktopDetails({ plant }: PlantDetailsType) {
   return (
