@@ -34,10 +34,9 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
             {links.length > 0 && photos[0] && (
               <>
                 {links.map((link, index) => (
-                  <ScrollBox scrollRef={scrollRef}>
+                  <ScrollBox scrollRef={scrollRef} key={index}>
                     <div className="h-full my-14">
                       <ImageContainer
-                        key={link?.source}
                         src={link?.xl}
                         fallback={link?.l}
                         thumbnail={link?.xs}
