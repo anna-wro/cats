@@ -24,18 +24,26 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
   });
 
   return (
-    <div className="scroll-snap-x">
+    <div
+      className="flex overflow-x-scroll"
+      style={{ scrollSnapType: 'x mandatory', scrollPadding: '50%' }}
+    >
       {links.length > 0 &&
         photos[0] &&
         links.map((link, index) => (
-          <div key={index} style={{ scrollSnapAlign: 'start' }}>
-            <ImageContainer
+          <div
+            key={index}
+            style={{ scrollSnapAlign: 'center' }}
+            className="flex-shrink-0 inline-block mr-4"
+          >
+            <img src={link?.xl} className="h-52" />
+            {/* <ImageContainer
               src={link?.xl}
               fallback={link?.l}
               thumbnail={link?.xs}
               alt={plant.name.lat}
               rounded
-            />
+            /> */}
             {/* {photos[index] && (
               <Credits
                 source={link.source}
