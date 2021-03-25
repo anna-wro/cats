@@ -21,7 +21,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
           <div className="text-lg font-semibold mb-2">Zagrożenie</div>
           <SafetyScore danger={plant.danger} />
         </div>
-        <div className="mb-8 text-right">Icons</div>
+        {/* <div className="mb-8 text-right">Icons</div> */}
       </div>
       <div className="mb-4">
         <MobileGallery plant={plant} />
