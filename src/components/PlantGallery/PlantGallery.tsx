@@ -26,7 +26,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   return (
     <div className="flex flex-col items-center w-full h-full">
       <div
-        className="flex-1 overflow-y-scroll w-full py-10 px-10 md:px-20 lg:px-32"
+        className="flex-1 overflow-y-scroll w-full py-10 px-4 md:px-20 lg:px-32"
         ref={scrollRef}
       >
         <div className="flex items-center justify-center">

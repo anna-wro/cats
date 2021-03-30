@@ -1,3 +1,4 @@
+import cx from 'classnames';
 import usePhoto from 'utils/usePhoto';
 import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
@@ -27,14 +28,18 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
     >
       {links.length > 0 &&
         photos[0] &&
-        [...links, ...links].map((link, index) => (
+        links.map((link, index, array) => (
           <div
             key={index}
             style={{ scrollSnapAlign: 'center' }}
             className="flex-shrink-0 inline-block mr-4 w-5/6 h-60"
           >
-            {/* FIXME: Image ratio */}
-            <div className="h-52 max-w-full">
+            <div
+              className={cx('h-52 max-w-full', {
+                'ml-4': index === 0,
+                'mr-4': index === array.length - 1,
+              })}
+            >
               <ImageContainer
                 src={link?.xl}
                 fallback={link?.l}
@@ -50,7 +55,6 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
                 />
               )}
             </div>
-            {/* <img src={link?.xl} className="h-52" /> */}
           </div>
         ))}
     </div>
