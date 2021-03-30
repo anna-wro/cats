@@ -23,11 +23,11 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
   return (
     <div
       className="flex overflow-x-scroll"
-      style={{ scrollSnapType: 'x mandatory', scrollPadding: '50px' }}
+      style={{ scrollSnapType: 'x mandatory' }}
     >
       {links.length > 0 &&
         photos[0] &&
-        links.map((link, index) => (
+        [...links, ...links].map((link, index) => (
           <div
             key={index}
             style={{ scrollSnapAlign: 'center' }}
