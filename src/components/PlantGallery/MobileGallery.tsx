@@ -23,8 +23,7 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
   return (
     <div
       className="flex overflow-x-scroll"
-      // FIXME: Scroll snapping
-      style={{ scrollSnapType: 'x mandatory', scrollPadding: '50%' }}
+      style={{ scrollSnapType: 'x mandatory', scrollPadding: '50px' }}
     >
       {links.length > 0 &&
         photos[0] &&
