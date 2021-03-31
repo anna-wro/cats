@@ -7,7 +7,6 @@ export type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
 export default function PlantDetailsFacade({ plant }: PlantDetailsType) {
   const { isMobile } = useWindowSize();
-  // FIXME longer copy line height
 
   return (
     <div className="bg-white fixed top-0 left-0 w-full h-screen z-10">

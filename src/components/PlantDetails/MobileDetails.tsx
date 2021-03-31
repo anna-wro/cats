@@ -28,7 +28,9 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
         {plant.symptoms && (
           <div className="mb-6">
             <div className="text-lg font-semibold mb-2">Objawy</div>
-            <div className="text-xs">{makeStartCase(plant.symptoms)}</div>
+            <div className="text-xs leading-5">
+              {makeStartCase(plant.symptoms)}
+            </div>
           </div>
         )}
         {plant.source && (

@@ -4,7 +4,11 @@ export default function CloseButton({ small }: { small?: boolean }) {
   return (
     <Link href="/">
       {small ? (
-        <div className="flex items-center content-center cursor-pointer absolute top-2 right-2 px-2 py-2">
+        <div
+          className="flex items-center content-center cursor-pointer 
+        bg-white hover:bg-gray-light rounded-full
+        absolute top-2 right-2 px-2 py-2 z-10 "
+        >
           <img src="/close.svg" />
         </div>
       ) : (
