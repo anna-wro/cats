@@ -3,7 +3,7 @@ import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
 import Credits from './Credits';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
-import { useRef, useState, useEffect, useMemo } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { useElementScroll, useTransform, motion } from 'framer-motion';
 
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
@@ -26,7 +26,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   return (
     <div className="flex flex-col items-center w-full h-full">
       <div
-        className="flex-1 overflow-y-scroll w-full py-10 px-32"
+        className="flex-1 overflow-y-scroll w-full py-10 px-4 md:px-20 lg:px-32"
         ref={scrollRef}
       >
         <div className="flex items-center justify-center">
@@ -34,10 +34,9 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
             {links.length > 0 && photos[0] && (
               <>
                 {links.map((link, index) => (
-                  <ScrollBox scrollRef={scrollRef}>
+                  <ScrollBox scrollRef={scrollRef} key={index}>
                     <div className="h-full my-14">
                       <ImageContainer
-                        key={link?.source}
                         src={link?.xl}
                         fallback={link?.l}
                         thumbnail={link?.xs}

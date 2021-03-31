@@ -14,8 +14,8 @@ export default function PlantList({ plants, query }: PlantListType) {
   return isMobile ? (
     <>
       {plants.map((plant) => (
-        <div className="mb-6">
-          <PlantFiche key={plant.slug} plant={plant} query={query} />
+        <div className="mb-6" key={plant.slug}>
+          <PlantFiche plant={plant} query={query} />
         </div>
       ))}
     </>

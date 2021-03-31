@@ -20,13 +20,17 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
           <div className="text-lg font-semibold mb-2">Zagrożenie</div>
           <SafetyScore danger={plant.danger} />
           {plant.note && (
-            <div className="text-xs mt-3">{makeStartCase(plant.note)}</div>
+            <div className="text-xs leading-5 mt-3">
+              {makeStartCase(plant.note)}
+            </div>
           )}
         </div>
         {plant.symptoms && (
           <div className="mb-6">
             <div className="text-lg font-semibold mb-2">Objawy</div>
-            <div className="text-xs">{makeStartCase(plant.symptoms)}</div>
+            <div className="text-xs leading-5">
+              {makeStartCase(plant.symptoms)}
+            </div>
           </div>
         )}
         {plant.source && <VerifyInfo sources={plant.source} />}

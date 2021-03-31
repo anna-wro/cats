@@ -5,6 +5,7 @@ type VerifyInfoType = {
 };
 
 export default function VerifyInfo({ sources }: VerifyInfoType) {
+  // TODO: links: name and href in database, name optional, if none display href
   const [showSource, setShowSource] = useState(false);
   return (
     <div className="border border-gray-light rounded-2xl p-4 mb-8">

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Navigation from 'components/Navigation';
 import PlantsFacade from 'components/Plants/PlantsFacade';
-import PlantDetails from 'components/PlantDetails/PlantDetails';
+import PlantDetailsFacade from 'components/PlantDetails/PlantDetailsFacade';
 import Layout from 'components/Layout';
 import { makeStartCase } from 'utils/text';
 import { getAllPlants } from 'lib/api';
@@ -27,11 +27,9 @@ export default function Home({ plants }) {
       <div className={`flex-1 ${plant ? 'fixed' : ''}`}>
         {!plant && <Navigation />}
         <div
-          className={`${
-            plant ? '' : 'max-w-7xl mx-auto pb-24 px-10 md:px-20 '
-          }`}
+          className={`${plant ? '' : 'max-w-7xl mx-auto pb-24 px-4 md:px-20 '}`}
         >
-          {plant && <PlantDetails plant={plant} />}
+          {plant && <PlantDetailsFacade plant={plant} />}
           <PlantsFacade items={plants} />
         </div>
       </div>
