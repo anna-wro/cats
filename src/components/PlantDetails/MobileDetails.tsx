@@ -1,17 +1,17 @@
 import type { PlantDetailsType } from './PlantDetailsFacade';
-import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import SafetyScore from 'components/SafetyScore/SafetyScore';
 import OtherNames from 'components/PlantSpecs/OtherNames';
 import MobileGallery from 'components/PlantGallery/MobileGallery';
 import { makeStartCase } from 'utils/text';
+import CloseButton from 'components/PlantDetails/CloseButton';
 
 // TODO: WhatNow section
 // TODO: Tooltip with detailed note
-// TODO: Close button
 
 export default function MobileDetails({ plant }: PlantDetailsType) {
   return (
     <div className="flex flex-col h-full bg-white overflow-y-scroll">
+      <CloseButton small />
       <div className="px-4 pt-8">
         <div className="text-2xl font-semibold mb-2">
           {makeStartCase(plant.name.pl[0])}
@@ -23,9 +23,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
         </div>
         {/* <div className="mb-8 text-right">Icons</div> */}
       </div>
-      <div className="mb-4">
-        <MobileGallery plant={plant} />
-      </div>
+      <MobileGallery plant={plant} />
       <div className="px-4 pb-8">
         {plant.symptoms && (
           <div className="mb-6">
