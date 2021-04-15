@@ -10,10 +10,10 @@ export default function PlantDetailsFacade({ plant }: PlantDetailsType) {
 
   return (
     <div className="bg-white fixed top-0 left-0 w-full h-screen z-10">
-      {isMobile ? (
-        <MobileDetails plant={plant} />
-      ) : (
+      {isMobile === false ? (
         <DesktopDetails plant={plant} />
+      ) : (
+        <MobileDetails plant={plant} />
       )}
     </div>
   );
