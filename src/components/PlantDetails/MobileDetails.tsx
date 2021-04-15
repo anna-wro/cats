@@ -10,7 +10,7 @@ import CloseButton from 'components/PlantDetails/CloseButton';
 
 export default function MobileDetails({ plant }: PlantDetailsType) {
   return (
-    <div className="flex flex-col h-full bg-white overflow-y-scroll">
+    <div className="flex flex-col h-full bg-white overflow-y-scroll md:hidden">
       <CloseButton small />
       <div className="px-4 pt-8">
         <div className="text-2xl font-semibold mb-2">
