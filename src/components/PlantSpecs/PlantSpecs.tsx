@@ -1,6 +1,6 @@
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import SafetyScore from 'components/SafetyScore/SafetyScore';
-import WhatNow from './WhatNow';
+// import WhatNow from './WhatNow';
 import VerifyInfo from './VerifyInfo';
 import OtherNames from './OtherNames';
 import { makeStartCase } from 'utils/text';
@@ -15,7 +15,7 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
           {makeStartCase(plant.name.pl[0])}
         </div>
         <div className="text-sm mb-6">{makeStartCase(plant.name.lat)}</div>
-        {plant.danger !== 0 && <WhatNow />}
+        {/* {plant.danger !== 0 && <WhatNow />} */}
         <div className="mb-6">
           <div className="text-lg font-semibold mb-2">Zagrożenie</div>
           <SafetyScore danger={plant.danger} />
