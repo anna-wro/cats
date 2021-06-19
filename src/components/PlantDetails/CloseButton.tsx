@@ -10,7 +10,7 @@ export default function CloseButton({ small }: { small?: boolean }) {
           href="/"
           className="flex items-center content-center cursor-pointer 
         bg-white hover:bg-gray-light rounded-full
-        absolute top-2 right-2 px-2 py-2 z-10 "
+        absolute top-2 right-2 px-2 py-2 z-10 outline-rounded"
         >
           <Image
             width={16}
@@ -24,7 +24,7 @@ export default function CloseButton({ small }: { small?: boolean }) {
           href="/"
           className="flex items-center content-center cursor-pointer
        bg-gray-light bg-opacity-30 hover:bg-opacity-40 rounded-lg  
-       absolute top-10 right-8 px-3 py-2"
+       absolute top-10 right-8 px-3 py-2 outline-rounded"
         >
           <Image
             width={16}
