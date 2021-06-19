@@ -12,7 +12,8 @@ export default function WhatNow() {
       <div>
         <div className="text-sm font-light">{copy.whatNowHeadline}</div>
         <div className="text-sm font-light">
-          {firstPart}<span className="font-bold underline">{secondPart}</span>
+          {firstPart}
+          <span className="font-bold underline">{secondPart}</span>
         </div>
       </div>
     </div>
