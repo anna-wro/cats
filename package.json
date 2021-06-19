@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest && npm run check-formatting",
+    "test": "jest && npm run check-formatting && npm run lint",
     "check-formatting": "prettier --check './src/**/*.{ts,tsx}'",
+    "fix-formatting": "prettier --write './src/**/*.{ts,tsx}'",
     "lint": "next lint"
   },
   "dependencies": {
@@ -39,6 +40,7 @@
     "husky": "^4.3.6",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
+    "lint-staged": "^11.0.0",
     "postcss": "^8.2.10",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.3.1",
@@ -50,8 +52,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run check-formatting",
-      "pre-push": "npm run test && npm run lint"
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "npm run fix-formatting"
+    ]
   }
 }

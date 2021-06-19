@@ -5,7 +5,7 @@ import PlantDetailsFacade from 'components/PlantDetails/PlantDetailsFacade';
 import Layout from 'components/Layout';
 import { makeStartCase } from 'utils/text';
 import { getAllPlants } from 'lib/api';
-import copy from '../consts/copy';
+import copy from 'consts/copy';
 
 export default function Home({ plants }) {
   const router = useRouter();
