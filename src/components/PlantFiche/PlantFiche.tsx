@@ -33,7 +33,7 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
   return (
     <Link href={plant.slug} passHref>
       <a
-        className="flex min-h-32 max-h-40 w-100 shadow rounded-lg cursor-pointer"
+        className="flex min-h-32 max-h-40 w-100 shadow rounded-lg cursor-pointer outline-blue"
         href={plant.slug}
       >
         <div className="w-1/2 rounded-l-lg overflow-hidden bg-gray-light bg-opacity-30">

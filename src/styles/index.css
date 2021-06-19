@@ -124,3 +124,7 @@ input[type='search']::-webkit-search-results-decoration {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.outline-blue {
+  outline-color: #25ccf7;
+}

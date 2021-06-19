@@ -21,7 +21,7 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
   return (
     <Link href={plant.slug} passHref>
       <a
-        className="w-100 max-w-xs shadow rounded-lg cursor-pointer"
+        className="w-100 max-w-xs shadow rounded-lg cursor-pointer outline-blue"
         href={plant.slug}
       >
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
