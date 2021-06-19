@@ -16,6 +16,7 @@
     "@next/mdx": "^10.0.2",
     "airtable": "^0.10.1",
     "base58": "^2.0.1",
+    "focus-trap-react": "^8.6.0",
     "framer-motion": "^3.2.2-rc.1",
     "match-sorter": "^6.0.2",
     "next": "^11.0.1-canary.5",

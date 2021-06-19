@@ -1,3 +1,4 @@
+import FocusTrap from 'focus-trap-react';
 import PlantSpecs from 'components/PlantSpecs/PlantSpecs';
 import PlantGallery from 'components/PlantGallery/PlantGallery';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
@@ -6,14 +7,16 @@ import type { PlantDetailsType } from './PlantDetailsFacade';
 
 export default function DesktopDetails({ plant }: PlantDetailsType) {
   return (
-    <div className="h-full divide-x divide-gray-light hidden md:flex">
-      <div className="w-full max-w-sm py-10 px-8">
-        <PlantSpecs plant={plant} />
+    <FocusTrap>
+      <div className="h-full divide-x divide-gray-light hidden md:flex">
+        <div className="w-full max-w-sm py-10 px-8">
+          <PlantSpecs plant={plant} />
+        </div>
+        <div className="flex-grow">
+          <PlantGallery plant={plant} />
+          <CloseButton />
+        </div>
       </div>
-      <div className="flex-grow">
-        <PlantGallery plant={plant} />
-        <CloseButton />
-      </div>
-    </div>
+    </FocusTrap>
   );
 }
