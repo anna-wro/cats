@@ -8,7 +8,7 @@ export default function SortingOrder({ value, onChange }: SortingOrderType) {
     <div className="w-40">
       <select
         value={value}
-        onChange={e => onChange(e)}
+        onBlur={e => onChange(e)}
         className="sorting-order appearance-none border border-gray rounded-lg py-px pl-2 pr-5 
       text-xs text-dark font-bold focus:border-blue focus:outline-none"
       >

@@ -22,6 +22,7 @@ export default function Nav() {
           <li key={link.href} className="nav-link px-3 relative">
             <Link href={link.href}>
               <a
+                href={link.href}
                 className={`font-bold no-underline ${
                   asPath === link.href ? 'text-dark' : 'text-gray'
                 }`}
