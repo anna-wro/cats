@@ -20,7 +20,7 @@ function usePlantSearch(searchTerm, plants) {
             threshold: matchSorter.rankings.WORD_STARTS_WITH,
             keys: ['name.pl', 'name.en', 'name.lat'],
           }),
-    [throttled, plants],
+    [throttled, plants, searchTerm],
   );
 }
 
