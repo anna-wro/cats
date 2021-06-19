@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import copy from '../../consts/copy';
 
 export default function CloseButton({ small }: { small?: boolean }) {
   return (
@@ -11,7 +12,12 @@ export default function CloseButton({ small }: { small?: boolean }) {
         bg-white hover:bg-gray-light rounded-full
         absolute top-2 right-2 px-2 py-2 z-10 "
         >
-          <Image width={16} height={16} src="/close.svg" alt="Zamknij" />
+          <Image
+            width={16}
+            height={16}
+            src="/close.svg"
+            alt={copy.closeButtonAlt}
+          />
         </a>
       ) : (
         <a
@@ -25,7 +31,7 @@ export default function CloseButton({ small }: { small?: boolean }) {
             height={16}
             className="inline"
             src="/close.svg"
-            alt="Zamknij"
+            alt={copy.closeButtonAlt}
           />
           <div className="ml-1 text-sm text-dark">Zamknij</div>
         </a>

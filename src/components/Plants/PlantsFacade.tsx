@@ -8,6 +8,7 @@ import Title from 'components/Title';
 import SortingOrder from 'components/SortingOrder';
 import { sortByName } from 'utils/array';
 import { useThrottle } from 'use-throttle';
+import copy from '../../consts/copy';
 
 function usePlantSearch(searchTerm, plants) {
   const throttled = useThrottle(searchTerm, 300);
@@ -39,9 +40,9 @@ export default function PlantsFacade({ items: { safe, toxic } }) {
   const sortedResults = results.sort(sortByName(`${sortOrder}pl`));
   const counter = results.length;
   const plantPluralForm = polishPlurals(
-    'roślinę',
-    'rośliny',
-    'roślin',
+    copy.plantSingularNominative,
+    copy.plantPluralNominative,
+    copy.plantPluralGenitive,
     counter,
   );
 
@@ -60,12 +61,12 @@ export default function PlantsFacade({ items: { safe, toxic } }) {
         <Search query={query} onChange={e => handleInputChange(e)} />
         <div className="absolute top-5 right-6 space-x-1">
           <Filter
-            text="Trujące"
+            text={copy.toxicFilterLabel}
             active={showToxic}
             onClick={() => setShowToxic(!showToxic)}
           />
           <Filter
-            text="Bezpieczne"
+            text={copy.safeFilterLabel}
             active={showSafe}
             onClick={() => setShowSafe(!showSafe)}
           />

@@ -64,7 +64,7 @@ export default function usePhoto(ID: string): PlantPhotoInfoType {
           }
         });
     } catch {}
-  }, [ID]);
+  }, [ID, url]);
 
   return photo;
 }
