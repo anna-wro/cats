@@ -11,12 +11,13 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
   let photos = [];
   let links = [];
 
-  plant.imageID.forEach((ID) => {
+  plant.imageID.forEach(ID => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const photo = usePhoto(ID);
     photos.push(photo);
   });
 
-  photos.forEach((photo) => {
+  photos.forEach(photo => {
     const link = photo ? getPhotoLinks(photo) : null;
     links.push(link);
   });

@@ -19,7 +19,7 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
   const latinName = makeStartCase(plant.name.lat);
 
   return (
-    <Link href={plant.slug}>
+    <Link href={plant.slug} passHref>
       <div className="w-100 max-w-xs shadow rounded-lg cursor-pointer">
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {links && (

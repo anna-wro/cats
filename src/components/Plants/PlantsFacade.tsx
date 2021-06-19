@@ -20,7 +20,7 @@ function usePlantSearch(searchTerm, plants) {
             threshold: matchSorter.rankings.WORD_STARTS_WITH,
             keys: ['name.pl', 'name.en', 'name.lat'],
           }),
-    [throttled, plants],
+    [throttled, plants, searchTerm],
   );
 }
 
@@ -57,7 +57,7 @@ export default function PlantsFacade({ items: { safe, toxic } }) {
     <div className="relative">
       <Title />
       <div className="relative md:w-2/3 sm:ml-auto mlg:mx-auto w-full max-w-screen-sm">
-        <Search query={query} onChange={(e) => handleInputChange(e)} />
+        <Search query={query} onChange={e => handleInputChange(e)} />
         <div className="absolute top-5 right-6 space-x-1">
           <Filter
             text="Trujące"
@@ -77,10 +77,7 @@ export default function PlantsFacade({ items: { safe, toxic } }) {
           {plantPluralForm}
         </div>
         <div className="h-px w-full bg-gray-light bg-opacity-30 max-w-screen-sm mx-4" />
-        <SortingOrder
-          value={sortOrder}
-          onChange={(e) => handleSelectChange(e)}
-        />
+        <SortingOrder value={sortOrder} onChange={e => handleSelectChange(e)} />
       </div>
       <PlantList plants={sortedResults} query={query} />
     </div>

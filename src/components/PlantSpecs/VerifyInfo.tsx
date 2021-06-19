@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import Image from 'next/image';
+import checkCircle from '../../../public/check-circle.svg';
+import chevronRight from '../../../public/chevron-right.svg';
 
 type VerifyInfoType = {
   sources: string[];
@@ -15,7 +18,13 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
       >
         <div className="flex items-center justify-center">
           <div className="bg-dark bg-opacity-60 flex items-center justify-center rounded-full h-12 w-12 mr-4 flex-shrink-0">
-            <img className="w-6 h-6" src="/check-circle.svg" />
+            <Image
+              className="w-6 h-6"
+              src={checkCircle}
+              width={24}
+              height={24}
+              alt="check circle"
+            />
           </div>
           <div className="text-sm font-light">Zweryfikuj informacje</div>
         </div>
@@ -25,12 +34,18 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
       showSource && 'transform rotate-90'
     }`}
         >
-          <img className="h-2" src="/chevron-right.svg" />
+          <Image
+            className="h-2"
+            src={chevronRight}
+            width={5}
+            height={8}
+            alt="chevron right"
+          />
         </div>
       </div>
       {showSource && (
         <ul className="list-decimal pl-4 mt-4 space-y-1.5">
-          {sources.map((source) => (
+          {sources.map(source => (
             <li className="text-xs break-all" key={source}>
               <a href={`https://${source}`} className="hover:underline">
                 {source}

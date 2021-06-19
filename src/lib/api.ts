@@ -18,14 +18,14 @@ type Record = {
 function mapRecordToPlant(record): Record {
   return {
     name: {
-      pl: record['name.pl']?.split(',').map((value) => value.trim()),
-      en: record['name.en']?.split(',').map((value) => value.trim()),
+      pl: record['name.pl']?.split(',').map(value => value.trim()),
+      en: record['name.en']?.split(',').map(value => value.trim()),
       lat: record['name.lat'] ?? null,
     },
     slug: record.slug ?? null,
-    imageID: record.imageID?.split(',').map((value) => value.trim()),
+    imageID: record.imageID?.split(',').map(value => value.trim()),
     danger: Number(record.danger ?? -1),
-    source: record.source?.split(',').map((value) => value.trim()),
+    source: record.source?.split(',').map(value => value.trim()),
     ID: record.ID ?? null,
     symptoms: record.symptoms ?? null,
     note: record.note ?? null,

@@ -39,7 +39,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
               Zweryfikuj informacje
             </div>
             <ul className="list-decimal pl-4 mt-4 space-y-1.5">
-              {plant.source.map((source) => (
+              {plant.source.map(source => (
                 <li className="text-xs break-all" key={source}>
                   <a href={`https://${source}`} className="hover:underline">
                     {source}
