@@ -1,4 +1,4 @@
-import copy from '../consts/copy';
+import copy from 'consts/copy';
 import Head from 'next/head';
 import React from 'react';
 import Footer from './Footer';

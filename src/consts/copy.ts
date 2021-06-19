@@ -20,6 +20,9 @@ export const copy = {
   blogPageNav: 'Blog',
   sortAscending: 'Po nazwie rosnąco',
   sortDescending: 'Po nazwie malejąco',
+  footer: 'Anna Wróbel 🌱',
+  whatNowHeadline: 'Twój kot to zjadł?',
+  whatNowDesc: 'Dowiedz się, [html]co zrobić.[html]',
 };
 
 export default copy;

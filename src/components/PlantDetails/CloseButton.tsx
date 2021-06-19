@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import copy from '../../consts/copy';
+import copy from 'consts/copy';
 
 export default function CloseButton({ small }: { small?: boolean }) {
   return (

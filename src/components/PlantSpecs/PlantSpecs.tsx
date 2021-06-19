@@ -4,7 +4,7 @@ import SafetyScore from 'components/SafetyScore/SafetyScore';
 import VerifyInfo from './VerifyInfo';
 import OtherNames from './OtherNames';
 import { makeStartCase } from 'utils/text';
-import copy from '../../consts/copy';
+import copy from 'consts/copy';
 
 type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
