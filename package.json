@@ -8,7 +8,7 @@
     "start": "next start",
     "test": "jest && npm run check-formatting",
     "check-formatting": "prettier --check './src/**/*.{ts,tsx}'",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "next lint"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.21",
@@ -34,11 +34,7 @@
     "autoprefixer": "^10.0.2",
     "babel-jest": "^26.6.3",
     "eslint": "^7.29.0",
-    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "^11.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
     "husky": "^4.3.6",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
