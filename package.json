@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest && npm run check-formatting",
+    "test": "jest && npm run check-formatting && npm run lint",
+    "check-formatting": "prettier --check './src/**/*.{ts,tsx}'",
     "fix-formatting": "prettier --write './src/**/*.{ts,tsx}'",
     "lint": "next lint"
   },
@@ -52,7 +53,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run test && npm run lint"
+      "pre-push": "npm run test"
     }
   },
   "lint-staged": {
