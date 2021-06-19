@@ -53,6 +53,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "npm run check-formatting",
       "pre-push": "npm run test"
     }
   }
