@@ -14,6 +14,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   let links = [];
 
   plant.imageID.forEach(ID => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const photo = usePhoto(ID);
     photos.push(photo);
   });
@@ -86,7 +87,7 @@ const ScrollBox = ({ children, scrollRef, ...rest }) => {
       document.removeEventListener('load', setValues);
       window.removeEventListener('resize', setValues);
     };
-  }, [ref]);
+  }, [ref, scrollRef]);
 
   const opacityRange = [0, 1, 1, 0];
   const scaleRange = [0.8, 1, 1, 0.8];

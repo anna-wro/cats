@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 
 type ImageType = Readonly<{
@@ -39,6 +40,7 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         onLoad={e => {
           return setHeight(e.currentTarget.height);
         }}
+        alt=""
       />
     </div>
   );
