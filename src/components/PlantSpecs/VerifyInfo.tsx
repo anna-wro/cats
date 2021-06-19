@@ -45,7 +45,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
       </div>
       {showSource && (
         <ul className="list-decimal pl-4 mt-4 space-y-1.5">
-          {sources.map((source) => (
+          {sources.map(source => (
             <li className="text-xs break-all" key={source}>
               <a href={`https://${source}`} className="hover:underline">
                 {source}

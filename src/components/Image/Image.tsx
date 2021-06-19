@@ -20,10 +20,10 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         src={thumbnail}
       />
       <img
-        onLoad={(e) => {
+        onLoad={e => {
           setIsLoaded(true);
         }}
-        onError={(e) => {
+        onError={e => {
           const element = e.currentTarget as HTMLImageElement;
           element.src = fallback;
         }}
@@ -36,7 +36,7 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
       <img
         className="invisible"
         src={src}
-        onLoad={(e) => {
+        onLoad={e => {
           return setHeight(e.currentTarget.height);
         }}
       />

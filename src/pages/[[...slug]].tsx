@@ -13,7 +13,7 @@ export default function Home({ plants }) {
 
   if (slug) {
     plant = [...plants.safe, ...plants.toxic].find(
-      (plant) => plant.slug === slug[0],
+      plant => plant.slug === slug[0],
     );
   }
 
@@ -43,7 +43,7 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { slug: [] } },
-      ...[...plants.safe, ...plants.toxic].map((plant) => ({
+      ...[...plants.safe, ...plants.toxic].map(plant => ({
         params: { slug: [plant.slug] },
       })),
     ],

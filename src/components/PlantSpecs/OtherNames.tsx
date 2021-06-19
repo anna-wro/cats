@@ -3,7 +3,7 @@ import { makeStartCase } from 'utils/text';
 export default function OtherNames({ names }) {
   return (
     <div>
-      {['en', 'pl'].map((lang) => {
+      {['en', 'pl'].map(lang => {
         const plantNames = Object.entries(names[lang]);
 
         return (

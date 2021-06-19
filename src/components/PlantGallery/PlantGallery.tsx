@@ -13,12 +13,12 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   let photos = [];
   let links = [];
 
-  plant.imageID.forEach((ID) => {
+  plant.imageID.forEach(ID => {
     const photo = usePhoto(ID);
     photos.push(photo);
   });
 
-  photos.forEach((photo) => {
+  photos.forEach(photo => {
     const link = photo ? getPhotoLinks(photo) : null;
     links.push(link);
   });

@@ -51,14 +51,14 @@ const SETTINGS = {
 };
 
 export default function usePhoto(ID: string): PlantPhotoInfoType {
-  let [photo, setPhoto] = useState();
+  const [photo, setPhoto] = useState();
   const url = setMultipleParams({ ...SETTINGS, photo_id: ID }, API_URL);
 
   useEffect(() => {
     try {
       fetch(url)
-        .then((response) => response.json())
-        .then((data) => {
+        .then(response => response.json())
+        .then(data => {
           if (CC_LICENSES.includes(data.photo.license)) {
             setPhoto(data.photo);
           }
