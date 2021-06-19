@@ -4,6 +4,7 @@ import SafetyScore from 'components/SafetyScore/SafetyScore';
 import VerifyInfo from './VerifyInfo';
 import OtherNames from './OtherNames';
 import { makeStartCase } from 'utils/text';
+import copy from '../../consts/copy';
 
 type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
@@ -17,7 +18,9 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
         <div className="text-sm mb-6">{makeStartCase(plant.name.lat)}</div>
         {/* {plant.danger !== 0 && <WhatNow />} */}
         <div className="mb-6">
-          <div className="text-lg font-semibold mb-2">Zagrożenie</div>
+          <div className="text-lg font-semibold mb-2">
+            {copy.dangerHeadline}
+          </div>
           <SafetyScore danger={plant.danger} />
           {plant.note && (
             <div className="text-xs leading-5 mt-3">
@@ -27,7 +30,9 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
         </div>
         {plant.symptoms && (
           <div className="mb-6">
-            <div className="text-lg font-semibold mb-2">Objawy</div>
+            <div className="text-lg font-semibold mb-2">
+              {copy.symptomsHeadline}
+            </div>
             <div className="text-xs leading-5">
               {makeStartCase(plant.symptoms)}
             </div>

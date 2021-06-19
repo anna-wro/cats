@@ -1,5 +1,6 @@
 import type { OwnerType } from 'utils/usePhoto';
 import { getLicense } from 'utils/flickr';
+import copy from '../../consts/copy';
 
 type CreditsType = { source: string; owner: OwnerType; license: string };
 
@@ -8,7 +9,7 @@ export default function Credits({ source, owner, license }: CreditsType) {
   return (
     <div className="text-right text-gray text-xs mt-4">
       <a href={source} className="hover:underline">
-        Zdjęcie
+        {copy.copyrightsHeadline}
       </a>
       :{' '}
       <a

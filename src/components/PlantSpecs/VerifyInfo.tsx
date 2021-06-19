@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import checkCircle from '../../../public/check-circle.svg';
 import chevronRight from '../../../public/chevron-right.svg';
+import copy from 'consts/copy';
 
 type VerifyInfoType = {
   sources: string[];
@@ -39,7 +40,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
               alt="check circle"
             />
           </div>
-          <div className="text-sm font-light">Zweryfikuj informacje</div>
+          <div className="text-sm font-light">{copy.sourcesHeadline}</div>
         </div>
         <div
           className={`bg-gray bg-opacity-40 hover:bg-opacity-50 rounded-full 

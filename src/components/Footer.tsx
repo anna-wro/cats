@@ -1,3 +1,4 @@
+// TODO move to copy
 export default function Footer() {
   return (
     <div className="bg-dark w-full py-16">

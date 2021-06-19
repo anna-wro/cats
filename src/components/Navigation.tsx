@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import copy from '../consts/copy';
 
 const links = [
   {
     href: '/',
-    label: 'Rośliny',
+    label: copy.mainPageNav,
   },
   {
     href: '/blog',
-    label: 'Blog',
+    label: copy.blogPageNav,
   },
 ];
 

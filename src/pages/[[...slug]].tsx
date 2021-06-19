@@ -5,6 +5,7 @@ import PlantDetailsFacade from 'components/PlantDetails/PlantDetailsFacade';
 import Layout from 'components/Layout';
 import { makeStartCase } from 'utils/text';
 import { getAllPlants } from 'lib/api';
+import copy from '../consts/copy';
 
 export default function Home({ plants }) {
   const router = useRouter();
@@ -22,7 +23,7 @@ export default function Home({ plants }) {
     : '';
 
   return (
-    <Layout title={`${plantTitle}Rośliny dla kota`}>
+    <Layout title={`${plantTitle} ${copy.title}`}>
       <div className={`flex-1 ${plant ? 'fixed' : ''}`}>
         {/* {!plant && <Navigation />} */}
         <div
