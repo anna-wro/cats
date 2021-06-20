@@ -19,7 +19,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
     }
   }
 
-  // TODO: links: name and href in database, name optional, if none display href
+  // IDEA: links: name and href in database, name optional, if none display href
   const [showSource, setShowSource] = useState(false);
   return (
     <div
