@@ -10,34 +10,34 @@ export type OwnerType = Readonly<{
 }>;
 
 export type PlantPhotoInfoType = Readonly<{
-  comments: Object;
-  dates: Object;
+  comments: Record<string, unknown>;
+  dates: Record<string, unknown>;
   dateuploaded: string;
-  description: Object;
-  editability: Object;
+  description: Record<string, unknown>;
+  editability: Record<string, unknown>;
   farm: number;
-  geoperms: Object;
+  geoperms: Record<string, unknown>;
   id: string;
   isfavorite: boolean;
   license: string;
-  location: Object;
+  location: Record<string, unknown>;
   media: string;
-  notes: Object;
+  notes: Record<string, unknown>;
   originalformat: string;
   originalsecret: string;
   owner: OwnerType;
-  people: Object;
-  publiceditability: Object;
+  people: Record<string, unknown>;
+  publiceditability: Record<string, unknown>;
   rotation: boolean;
   safety_level: string;
   secret: string;
   server: string;
-  tags: Object;
-  title: Object;
-  urls: Object;
-  usage: Object;
+  tags: Record<string, unknown>;
+  title: Record<string, unknown>;
+  urls: Record<string, unknown>;
+  usage: Record<string, unknown>;
   views: string;
-  visibility: Object;
+  visibility: Record<string, unknown>;
 }>;
 
 const API_URL = 'https://www.flickr.com/services/rest/';
