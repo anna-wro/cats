@@ -1,4 +1,4 @@
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 export default function Title() {
   return (

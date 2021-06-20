@@ -1,10 +1,10 @@
-import type { PlantType } from 'components/PlantFiche/PlantFiche';
-import SafetyScore from 'components/SafetyScore/SafetyScore';
-// import WhatNow from './WhatNow';
 import VerifyInfo from './VerifyInfo';
 import OtherNames from './OtherNames';
 import { makeStartCase } from 'utils/text';
-import copy from 'consts/copy';
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
+import SafetyScore from 'components/SafetyScore/SafetyScore';
+// import WhatNow from './WhatNow';
+import { copy } from 'consts/copy';
 
 type PlantDetailsType = Readonly<{ plant: PlantType }>;
 

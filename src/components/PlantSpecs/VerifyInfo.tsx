@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import checkCircle from '../../../public/check-circle.svg';
 import chevronRight from '../../../public/chevron-right.svg';
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 type VerifyInfoType = {
   sources: string[];

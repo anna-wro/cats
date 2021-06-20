@@ -22,7 +22,7 @@ const Image = ({ src, thumbnail, fallback, alt }: ImageType) => {
         src={thumbnail}
       />
       <img
-        onLoad={e => {
+        onLoad={() => {
           setIsLoaded(true);
         }}
         onError={e => {

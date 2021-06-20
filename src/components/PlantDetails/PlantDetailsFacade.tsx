@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import FocusTrap from 'focus-trap-react';
-import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import DesktopDetails from './DesktopDetails';
 import MobileDetails from './MobileDetails';
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
 import { useWindowSize } from 'utils/useWindowSize';
 
 export type PlantDetailsType = Readonly<{
