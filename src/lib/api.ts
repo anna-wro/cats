@@ -16,6 +16,8 @@ type Record = {
 };
 
 function mapRecordToPlant(record): Record {
+  const sources = record.source?.split(',').map(value => value.trim());
+
   return {
     name: {
       pl: record['name.pl']?.split(',').map(value => value.trim()),
@@ -25,7 +27,7 @@ function mapRecordToPlant(record): Record {
     slug: record.slug ?? null,
     imageID: record.imageID?.split(',').map(value => value.trim()),
     danger: Number(record.danger ?? -1),
-    source: record.source?.split(',').map(value => value.trim()),
+    source: sources[0] !== '' ? sources : null,
     ID: record.ID ?? null,
     symptoms: record.symptoms ?? null,
     note: record.note ?? null,
