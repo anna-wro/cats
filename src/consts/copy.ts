@@ -23,6 +23,9 @@ export const copy = {
   footer: 'Anna Wróbel 🌱',
   whatNowHeadline: 'Twój kot to zjadł?',
   whatNowDesc: 'Dowiedz się, [html]co zrobić.[html]',
+  symptomsIconAlt: 'Przewiń do sekcji: Objawy',
+  whatNowIconAlt: 'Przewiń do sekcji: Co zrobić',
+  sourcesIconAlt: 'Przewiń do sekcji: Zweryfikuj informacje',
 };
 
 export default copy;

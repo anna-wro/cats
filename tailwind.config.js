@@ -20,8 +20,7 @@ module.exports = {
     boxShadow: {
       DEFAULT:
         '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 8px 0px rgba(0, 0, 0, 0.04)',
-      lg:
-        '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06)',
+      lg: '0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06)',
     },
     fontFamily: {
       main: ['Montserrat', 'sans-serif'],
@@ -30,6 +29,7 @@ module.exports = {
     },
     extend: {
       fontSize: { xxs: ['8px', '10px'] },
+      borderWidth: { 1: '1px' },
     },
   },
   variants: {},

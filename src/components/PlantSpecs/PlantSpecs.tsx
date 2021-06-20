@@ -16,6 +16,7 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
           {makeStartCase(plant.name.pl[0])}
         </div>
         <div className="text-sm mb-6">{makeStartCase(plant.name.lat)}</div>
+        {/* TODO: WhatNow section */}
         {/* {plant.danger !== 0 && <WhatNow />} */}
         <div className="mb-6">
           <div className="text-lg font-semibold mb-2">
