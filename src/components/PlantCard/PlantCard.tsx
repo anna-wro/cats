@@ -20,7 +20,10 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
 
   return (
     <Link href={plant.slug} passHref>
-      <div className="w-100 max-w-xs shadow rounded-lg cursor-pointer">
+      <a
+        className="w-100 max-w-xs shadow rounded-lg cursor-pointer outline-rounded outline-bold"
+        href={plant.slug}
+      >
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {links && (
             <ImageContainer
@@ -43,7 +46,7 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
           </div>
           <SafetyLabel danger={plant.danger} />
         </div>
-      </div>
+      </a>
     </Link>
   );
 }

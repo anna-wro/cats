@@ -13,7 +13,9 @@ export default function Filter({ text, active, onClick }: FilterType) {
 
   return (
     <div
-      className={`filter ${active ? 'text-dark' : 'text-gray'} select-none`}
+      className={`filter ${
+        active ? 'text-dark' : 'text-gray'
+      } select-none focus:border-blue focus:outline-none`}
       role="button"
       tabIndex={0}
       onClick={onClick}

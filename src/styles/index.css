@@ -124,3 +124,17 @@ input[type='search']::-webkit-search-results-decoration {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.outline-blue {
+  outline-color: #25ccf7;
+}
+
+.outline-rounded:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #25ccf7;
+}
+
+.outline-spaced {
+  outline-offset: 0.25em;
+}

@@ -29,7 +29,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
       <MobileGallery plant={plant} />
       <div className="px-4 pb-8">
         {plant.symptoms && (
-          <div className="mb-6">
+          <div className="mb-6" id="symptoms">
             <div className="text-lg font-semibold mb-2">
               {copy.symptomsHeadline}
             </div>
