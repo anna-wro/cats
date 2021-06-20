@@ -52,6 +52,7 @@ const SETTINGS = {
 
 export default function usePhoto(ID: string): PlantPhotoInfoType {
   const [photo, setPhoto] = useState();
+  const [mounted, setMounted] = useState(true);
   const url = setMultipleParams({ ...SETTINGS, photo_id: ID }, API_URL);
 
   useEffect(() => {
@@ -59,12 +60,14 @@ export default function usePhoto(ID: string): PlantPhotoInfoType {
       fetch(url)
         .then(response => response.json())
         .then(data => {
-          if (CC_LICENSES.includes(data.photo.license)) {
+          if (mounted && CC_LICENSES.includes(data.photo.license)) {
             setPhoto(data.photo);
           }
         });
     } catch {}
-  }, [ID, url]);
+
+    return () => setMounted(false);
+  }, [ID, url, mounted]);
 
   return photo;
 }
