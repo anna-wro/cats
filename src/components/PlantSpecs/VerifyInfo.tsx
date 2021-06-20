@@ -48,7 +48,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
         >
           <Image
             className="h-2"
-            src="/chevron-right.svg'"
+            src="/chevron-right.svg"
             width={5}
             height={8}
             alt="chevron right"
