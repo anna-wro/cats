@@ -5,6 +5,7 @@ import type { PlantDetailsType } from './PlantDetailsFacade';
 
 export default function DesktopDetails({ plant, onKeyDown }: PlantDetailsType) {
   return (
+    // NOTE: closing the modal on click in handled in CloseButton
     // eslint-disable-next-line jsx-a11y/no-static-element-interactions
     <div
       className="h-full divide-x divide-gray-light hidden md:flex"

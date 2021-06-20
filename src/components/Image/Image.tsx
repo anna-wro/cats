@@ -1,3 +1,4 @@
+// NOTE: Next.js <Image /> can't be used there
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 

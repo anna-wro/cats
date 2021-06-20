@@ -14,6 +14,7 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   let links = [];
 
   plant.imageID.forEach(ID => {
+    // REFACTOR: fix eslint warning
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const photo = usePhoto(ID);
     photos.push(photo);
