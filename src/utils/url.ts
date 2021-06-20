@@ -1,5 +1,5 @@
 function setQueryParam(key: string, value: string, url: string) {
-  let parsedUrl = new URL(url);
+  const parsedUrl = new URL(url);
   parsedUrl.searchParams.set(key, value);
 
   return parsedUrl.toString();
