@@ -1,4 +1,5 @@
 import type { PlantDetailsType } from './PlantDetailsFacade';
+import MobileMenuIcon from './MobileMenuIcon';
 import SafetyScore from 'components/SafetyScore/SafetyScore';
 import OtherNames from 'components/PlantSpecs/OtherNames';
 import MobileGallery from 'components/PlantGallery/MobileGallery';
@@ -6,12 +7,12 @@ import { makeStartCase } from 'utils/text';
 import CloseButton from 'components/PlantDetails/CloseButton';
 import { copy } from 'consts/copy';
 
-// TODO: WhatNow section
+// TODO: Logo
 // TODO: Tooltip with detailed note
 
 export default function MobileDetails({ plant }: PlantDetailsType) {
   return (
-    <div className="flex flex-col h-full bg-white overflow-y-scroll md:hidden">
+    <div className="flex flex-col h-full bg-white overflow-y-scroll smooth-scroll md:hidden">
       <CloseButton small />
       <div className="px-4 pt-8">
         <div className="text-2xl font-semibold mb-2">
@@ -24,7 +25,24 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
           </div>
           <SafetyScore danger={plant.danger} />
         </div>
-        {/* <div className="mb-8 text-right">Icons</div> */}
+        <div className="mb-8 text-right space-x-2">
+          <MobileMenuIcon
+            href="#symptoms"
+            src="/info.svg"
+            alt={copy.symptomsIconAlt}
+          />
+          {/* TODO: Enable when WhatNowSection is ready */}
+          {/* <MobileMenuIcon
+            href="#what-now"
+            src="/pulse.svg"
+            alt={copy.whatNowIconAlt}
+          /> */}
+          <MobileMenuIcon
+            href="#sources"
+            src="/check-circle.svg"
+            alt={copy.sourcesIconAlt}
+          />
+        </div>
       </div>
       <MobileGallery plant={plant} />
       <div className="px-4 pb-8">
@@ -38,8 +56,16 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
             </div>
           </div>
         )}
+        {/* {plant.danger !== 0 && (
+          <div className="mb-6" id="what-now">
+            <div className="text-lg font-semibold mb-2">
+              {copy.whatNowHeadline}
+            </div>
+            <div className="text-xs"> {copy.whatNowDesc}</div>
+          </div>
+        )} */}
         {plant.source && (
-          <div className="mb-6">
+          <div className="mb-6" id="sources">
             <div className="text-lg font-semibold mb-2">
               {copy.sourcesHeadline}
             </div>

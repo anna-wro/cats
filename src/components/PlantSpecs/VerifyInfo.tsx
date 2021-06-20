@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import checkCircle from '../../../public/check-circle.svg';
-import chevronRight from '../../../public/chevron-right.svg';
 import { copy } from 'consts/copy';
 
 type VerifyInfoType = {
@@ -34,7 +32,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
           <div className="bg-dark bg-opacity-60 flex items-center justify-center rounded-full h-12 w-12 mr-4 flex-shrink-0">
             <Image
               className="w-6 h-6"
-              src={checkCircle}
+              src="/check-circle-light.svg"
               width={24}
               height={24}
               alt="check circle"
@@ -50,7 +48,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
         >
           <Image
             className="h-2"
-            src={chevronRight}
+            src="/chevron-right.svg'"
             width={5}
             height={8}
             alt="chevron right"
