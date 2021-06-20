@@ -31,7 +31,7 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
   const latinName = makeStartCase(plant.name.lat);
 
   return (
-    <Link href={plant.slug} passHref>
+    <Link href={plant.slug}>
       <a
         className="flex min-h-32 max-h-40 w-100 shadow rounded-lg cursor-pointer outline-rounded outline-bold"
         href={plant.slug}
