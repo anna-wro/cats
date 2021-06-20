@@ -1,6 +1,6 @@
 import type { OwnerType } from 'utils/usePhoto';
 import { getLicense } from 'utils/flickr';
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 type CreditsType = { source: string; owner: OwnerType; license: string };
 

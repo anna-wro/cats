@@ -1,14 +1,14 @@
 import { useState, useMemo } from 'react';
 import { matchSorter } from 'match-sorter';
 import { polishPlurals } from 'polish-plurals';
+import { useThrottle } from 'use-throttle';
 import PlantList from './PlantList';
 import Search from 'components/Search';
 import Filter from 'components/Filter';
 import Title from 'components/Title';
 import SortingOrder from 'components/SortingOrder';
 import { sortByName } from 'utils/array';
-import { useThrottle } from 'use-throttle';
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 function usePlantSearch(searchTerm, plants) {
   const throttled = useThrottle(searchTerm, 300);

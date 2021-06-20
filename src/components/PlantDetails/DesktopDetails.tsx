@@ -1,7 +1,7 @@
+import type { PlantDetailsType } from './PlantDetailsFacade';
+import CloseButton from './CloseButton';
 import PlantSpecs from 'components/PlantSpecs/PlantSpecs';
 import PlantGallery from 'components/PlantGallery/PlantGallery';
-import CloseButton from './CloseButton';
-import type { PlantDetailsType } from './PlantDetailsFacade';
 
 export default function DesktopDetails({ plant, onKeyDown }: PlantDetailsType) {
   return (

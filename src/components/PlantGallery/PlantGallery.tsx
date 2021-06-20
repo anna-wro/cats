@@ -1,17 +1,17 @@
+import { useRef, useState, useEffect } from 'react';
+import { useElementScroll, useTransform, motion } from 'framer-motion';
+import Credits from './Credits';
 import usePhoto from 'utils/usePhoto';
 import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
-import Credits from './Credits';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
-import { useRef, useState, useEffect } from 'react';
-import { useElementScroll, useTransform, motion } from 'framer-motion';
 
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function PlantGallery({ plant }: PlantGalleryType) {
   const scrollRef = useRef();
-  let photos = [];
-  let links = [];
+  const photos = [];
+  const links = [];
 
   plant.imageID.forEach(ID => {
     // REFACTOR: fix eslint warning

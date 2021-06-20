@@ -1,15 +1,15 @@
 import cx from 'classnames';
+import Credits from './Credits';
 import usePhoto from 'utils/usePhoto';
 import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
-import Credits from './Credits';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function MobileGallery({ plant }: PlantGalleryType) {
-  let photos = [];
-  let links = [];
+  const photos = [];
+  const links = [];
 
   plant.imageID.forEach(ID => {
     // REFACTOR: fix eslint warning

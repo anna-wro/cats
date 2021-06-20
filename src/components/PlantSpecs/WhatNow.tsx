@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 export default function WhatNow() {
   const [firstPart, secondPart] = copy.whatNowDesc.split('[html]');

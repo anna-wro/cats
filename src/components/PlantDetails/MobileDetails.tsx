@@ -4,7 +4,7 @@ import OtherNames from 'components/PlantSpecs/OtherNames';
 import MobileGallery from 'components/PlantGallery/MobileGallery';
 import { makeStartCase } from 'utils/text';
 import CloseButton from 'components/PlantDetails/CloseButton';
-import copy from 'consts/copy';
+import { copy } from 'consts/copy';
 
 // TODO: WhatNow section
 // TODO: Tooltip with detailed note
