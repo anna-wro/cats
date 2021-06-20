@@ -1,4 +1,10 @@
-export function shuffleArray(array: any[]) {
+type ArrayLanguagesPropsType = Array<{
+  pl: string[];
+  en: string[];
+  lat: string;
+}>;
+
+export function shuffleArray(array: ArrayLanguagesPropsType) {
   const shuffledArray = [...array];
 
   for (let i = shuffledArray.length - 1; i > 0; i--) {
