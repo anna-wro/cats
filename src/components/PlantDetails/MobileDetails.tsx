@@ -26,22 +26,26 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
           <SafetyScore danger={plant.danger} />
         </div>
         <div className="mb-8 text-right space-x-2">
-          <MobileMenuIcon
-            href="#symptoms"
-            src="/info.svg"
-            alt={copy.symptomsIconAlt}
-          />
-          {/* TODO: Enable when WhatNowSection is ready */}
-          {/* <MobileMenuIcon
+          {plant.symptoms && (
+            <>
+              <MobileMenuIcon
+                href="#symptoms"
+                src="/info.svg"
+                alt={copy.symptomsIconAlt}
+              />
+              {/* <MobileMenuIcon
             href="#what-now"
             src="/pulse.svg"
             alt={copy.whatNowIconAlt}
           /> */}
-          <MobileMenuIcon
-            href="#sources"
-            src="/check-circle.svg"
-            alt={copy.sourcesIconAlt}
-          />
+              <MobileMenuIcon
+                href="#sources"
+                src="/check-circle.svg"
+                alt={copy.sourcesIconAlt}
+              />
+            </>
+          )}
+          {/* TODO: Enable when WhatNowSection is ready */}
         </div>
       </div>
       <MobileGallery plant={plant} />
