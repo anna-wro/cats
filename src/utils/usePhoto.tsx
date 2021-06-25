@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { setMultipleParams } from 'utils/url';
-import { CC_LICENSES } from 'utils/flickr';
+import { CC_LICENSES, getPhotoLinks } from 'utils/flickr';
+import type { PhotoLinksType } from 'utils/flickr';
 
 export type OwnerType = Readonly<{
   username: string;
@@ -38,6 +39,7 @@ export type PlantPhotoInfoType = Readonly<{
   usage: Record<string, unknown>;
   views: string;
   visibility: Record<string, unknown>;
+  links: PhotoLinksType;
 }>;
 
 const API_URL = 'https://www.flickr.com/services/rest/';
@@ -61,7 +63,7 @@ export default function usePhoto(ID: string): PlantPhotoInfoType {
         .then(response => response.json())
         .then(data => {
           if (mounted && CC_LICENSES.includes(data.photo.license)) {
-            setPhoto(data.photo);
+            setPhoto({ ...data.photo, links: getPhotoLinks(data.photo) });
           }
         });
     } catch {}

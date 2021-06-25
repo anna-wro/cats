@@ -30,23 +30,14 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .line::before {
+  @apply block relative rounded-full top-20 -left-12 w-16 h-2 bg-orange;
   content: '';
   transform: rotate(90deg);
-  @apply block;
-  @apply relative;
-  @apply rounded-full;
-  @apply top-20;
-  @apply -left-12;
-  @apply w-16;
-  @apply h-2;
-  @apply bg-orange;
 }
 
 .nav-link::after {
+  @apply bg-gray rounded-full absolute;
   content: '';
-  @apply bg-gray;
-  @apply rounded-full;
-  @apply absolute;
   top: 8px;
   right: -3px;
   width: 6px;
@@ -58,13 +49,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .image {
-  @apply absolute;
-  @apply h-full;
-  @apply w-full;
-  @apply top-0;
-  @apply left-0;
-  @apply object-cover;
-  @apply object-center;
+  @apply absolute h-full w-full top-0 left-0 object-cover object-center;
 }
 
 .image--full {
@@ -84,14 +69,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .filter {
-  @apply inline-block;
-  @apply px-2;
-  @apply border;
-  @apply rounded-full;
-  @apply cursor-pointer;
-  @apply text-xs;
-  @apply font-semibold;
-  @apply bg-white;
+  @apply inline-block px-2 border rounded-full cursor-pointer text-xs font-semibold bg-white;
 }
 
 .search::before {
@@ -109,9 +87,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .title::after {
-  @apply h-20;
-  @apply w-20;
-  @apply absolute;
+  @apply h-20 w-20 absolute;
   content: url(/tulip.svg);
   top: -42px;
   left: -50px;

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import usePhoto from 'utils/usePhoto';
-import { getPhotoLinks } from 'utils/flickr';
 import SafetyLabel from 'components/SafetyScore/SafetyLabel';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
 import ImageContainer from 'components/Image/ImageContainer';
@@ -14,7 +13,6 @@ type PlantCardProps = Readonly<{
 
 export default function PlantCard({ plant, query }: PlantCardProps) {
   const photo = usePhoto(plant.imageID[0]);
-  const links = photo ? getPhotoLinks(photo) : null;
   const mainName = makeStartCase(plant.name.pl[0]);
   const latinName = makeStartCase(plant.name.lat);
 
@@ -25,11 +23,11 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
         href={plant.slug}
       >
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
-          {links && (
+          {photo && (
             <ImageContainer
-              src={links.m}
-              fallback={links.s}
-              thumbnail={links.xs}
+              src={photo.links.m}
+              fallback={photo.links.s}
+              thumbnail={photo.links.xs}
               alt={plant.name.lat}
             />
           )}
