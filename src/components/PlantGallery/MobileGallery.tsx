@@ -1,7 +1,6 @@
 import cx from 'classnames';
 import Credits from './Credits';
 import usePhoto from 'utils/usePhoto';
-import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
@@ -9,18 +8,12 @@ type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function MobileGallery({ plant }: PlantGalleryType) {
   const photos = [];
-  const links = [];
 
   plant.imageID.forEach(ID => {
-    // REFACTOR: fix eslint warning and use links from photo.links
+    // REFACTOR: fix eslint warning
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const photo = usePhoto(ID);
     photos.push(photo);
-  });
-
-  photos.forEach(photo => {
-    const link = photo ? getPhotoLinks(photo) : null;
-    links.push(link);
   });
 
   return (
@@ -29,9 +22,8 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
         className="flex overflow-x-scroll"
         style={{ scrollSnapType: 'x mandatory' }}
       >
-        {links.length > 0 &&
-          photos[0] &&
-          links.map((link, index, array) => (
+        {photos &&
+          photos.map((photo, index, array) => (
             <div
               key={index}
               style={{ scrollSnapAlign: 'center' }}
@@ -44,17 +36,17 @@ export default function MobileGallery({ plant }: PlantGalleryType) {
                 })}
               >
                 <ImageContainer
-                  src={link?.xl}
-                  fallback={link?.l}
-                  thumbnail={link?.xs}
+                  src={photo?.links?.xl}
+                  fallback={photo?.links?.l}
+                  thumbnail={photo?.links?.xs}
                   alt={plant.name.lat}
                   rounded
                 />
-                {photos[index] && (
+                {photo && (
                   <Credits
-                    source={link.source}
-                    owner={photos[index].owner}
-                    license={photos[index].license}
+                    source={photo?.links?.source}
+                    owner={photo.owner}
+                    license={photo.license}
                   />
                 )}
               </div>
