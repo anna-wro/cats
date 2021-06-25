@@ -13,7 +13,7 @@ const SIZE_TO_SUFFIX = {
 
 const AVAILABLE_SIZES = Object.keys(SIZE_TO_SUFFIX);
 
-type PhotoLinksType = Readonly<{
+export type PhotoLinksType = Readonly<{
   xxs?: string;
   xs?: string;
   s?: string;
