@@ -2,27 +2,25 @@ import { useRef, useState, useEffect } from 'react';
 import { useElementScroll, useTransform, motion } from 'framer-motion';
 import Credits from './Credits';
 import usePhoto from 'utils/usePhoto';
-import { getPhotoLinks } from 'utils/flickr';
 import ImageContainer from 'components/Image/ImageContainer';
 
 export default function PlantGalleryItem({ imgAlt, ID, scrollRef }) {
   const photo = usePhoto(ID);
-  const link = photo ? getPhotoLinks(photo) : null;
 
   return (
     <ScrollBox scrollRef={scrollRef}>
       <div className="h-full my-14">
-        {photo && link && (
+        {photo && (
           <>
             <ImageContainer
-              src={link?.xl}
-              fallback={link?.l}
-              thumbnail={link?.xs}
+              src={photo.links.xl}
+              fallback={photo.links.l}
+              thumbnail={photo.links.xs}
               alt={imgAlt}
               rounded
             />
             <Credits
-              source={link.source}
+              source={photo.links.source}
               owner={photo.owner}
               license={photo.license}
             />
