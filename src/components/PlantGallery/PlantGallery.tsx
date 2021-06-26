@@ -15,9 +15,9 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
       >
         <div className="flex items-center justify-center">
           <div className="w-full max-w-xl rounded-2xl">
-            {plant.imageID.map(ID => (
+            {plant.imageID.map((ID, index) => (
               <PlantGalleryItem
-                key={ID}
+                key={index}
                 ID={ID}
                 imgAlt={plant.name.lat}
                 scrollRef={scrollRef}
