@@ -1,11 +1,29 @@
-import { useRef } from 'react';
-import PlantGalleryItem from './PlantGalleryItem';
+import { useRef, useState, useEffect } from 'react';
+import { useElementScroll, useTransform, motion } from 'framer-motion';
+import Credits from './Credits';
+import usePhoto from 'utils/usePhoto';
+import { getPhotoLinks } from 'utils/flickr';
+import ImageContainer from 'components/Image/ImageContainer';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
 type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function PlantGallery({ plant }: PlantGalleryType) {
   const scrollRef = useRef();
+  const photos = [];
+  const links = [];
+
+  plant.imageID.forEach(ID => {
+    // REFACTOR: fix eslint warning and use links from photo.links
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const photo = usePhoto(ID);
+    photos.push(photo);
+  });
+
+  photos.forEach(photo => {
+    const link = photo ? getPhotoLinks(photo) : null;
+    links.push(link);
+  });
 
   return (
     <div className="flex flex-col items-center w-full h-full">
@@ -15,17 +33,83 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
       >
         <div className="flex items-center justify-center">
           <div className="w-full max-w-xl rounded-2xl">
-            {plant.imageID.map(ID => (
-              <PlantGalleryItem
-                key={ID}
-                ID={ID}
-                imgAlt={plant.name.lat}
-                scrollRef={scrollRef}
-              />
-            ))}
+            {links.length > 0 && photos[0] && (
+              <>
+                {links.map((link, index) => (
+                  <ScrollBox scrollRef={scrollRef} key={index}>
+                    <div className="h-full my-14">
+                      <ImageContainer
+                        src={link?.xl}
+                        fallback={link?.l}
+                        thumbnail={link?.xs}
+                        alt={plant.name.lat}
+                        rounded
+                      />
+                      {photos[index] && (
+                        <Credits
+                          source={link.source}
+                          owner={photos[index].owner}
+                          license={photos[index].license}
+                        />
+                      )}
+                    </div>
+                  </ScrollBox>
+                ))}
+              </>
+            )}
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+const ScrollBox = ({ children, scrollRef, ...rest }) => {
+  const { scrollY } = useElementScroll(scrollRef);
+  const ref = useRef<HTMLDivElement>();
+  const [elementTop, setElementTop] = useState(null);
+  const [elementBottom, setElementBottom] = useState(0);
+  const [scrollableHeight, setScrollableHeight] = useState(0);
+
+  useEffect(() => {
+    if (!ref.current) return;
+
+    const setValues = () => {
+      setElementTop(ref.current.offsetTop);
+      setElementBottom(ref.current.offsetTop + ref.current.offsetHeight);
+      setScrollableHeight(scrollRef.current.offsetHeight);
+    };
+
+    setValues();
+    document.addEventListener('load', setValues);
+    window.addEventListener('resize', setValues);
+
+    return () => {
+      document.removeEventListener('load', setValues);
+      window.removeEventListener('resize', setValues);
+    };
+  }, [ref, scrollRef]);
+
+  const opacityRange = [0, 1, 1, 0];
+  const scaleRange = [0.8, 1, 1, 0.8];
+  const viewportRange = [
+    elementBottom,
+    elementTop,
+    elementBottom - scrollableHeight,
+    elementTop - scrollableHeight,
+  ];
+
+  const opacity = useTransform(scrollY, viewportRange, opacityRange);
+  const scale = useTransform(scrollY, viewportRange, scaleRange);
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ y: 0 }}
+      style={{ height: '40vh', opacity, scale }}
+      {...rest}
+    >
+      {children}
+    </motion.div>
+  );
+};
