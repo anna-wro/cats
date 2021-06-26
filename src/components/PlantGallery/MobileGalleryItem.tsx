@@ -22,19 +22,22 @@ export default function MobileGalleryItem({
       className="flex-shrink-0 inline-block mr-4 w-5/6 h-72"
     >
       <div className={cx('h-60 max-w-full', containerClassNames)}>
-        <ImageContainer
-          src={photo?.links?.xl}
-          fallback={photo?.links?.l}
-          thumbnail={photo?.links?.xs}
-          alt={imgAlt}
-          rounded
-        />
         {photo && (
-          <Credits
-            source={photo?.links?.source}
-            owner={photo.owner}
-            license={photo.license}
-          />
+          <>
+            <ImageContainer
+              src={photo.links.xl}
+              fallback={photo.links.l}
+              thumbnail={photo.links.xs}
+              alt={imgAlt}
+              rounded
+            />
+
+            <Credits
+              source={photo.links.source}
+              owner={photo.owner}
+              license={photo.license}
+            />
+          </>
         )}
       </div>
     </div>
