@@ -26,6 +26,7 @@ export const copy = {
   symptomsIconAlt: 'Przewiń do sekcji: Objawy',
   whatNowIconAlt: 'Przewiń do sekcji: Co zrobić',
   sourcesIconAlt: 'Przewiń do sekcji: Zweryfikuj informacje',
+  sortLabel: 'Sortuj wyniki',
 };
 
 export default copy;

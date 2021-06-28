@@ -5,7 +5,7 @@ type SearchType = Readonly<{
 
 export default function Search({ query, onChange }: SearchType) {
   return (
-    <div className="search relative">
+    <div className="search relative" role="search">
       <input
         type="search"
         placeholder="Fiołek"

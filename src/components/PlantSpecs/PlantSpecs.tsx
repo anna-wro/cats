@@ -10,7 +10,7 @@ type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
 export default function PlantSpecs({ plant }: PlantDetailsType) {
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full" role="main">
       <div className="flex-1">
         <div className="text-2xl font-semibold mb-2">
           {makeStartCase(plant.name.pl[0])}
