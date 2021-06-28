@@ -12,18 +12,21 @@ export default function PlantList({ plants, query }: PlantListType) {
   const { isMobile } = useWindowSize();
 
   return isMobile ? (
-    <>
+    <main id="main" className="scroll-margin">
       {plants.map(plant => (
         <div className="mb-6" key={plant.slug}>
           <PlantFiche plant={plant} query={query} />
         </div>
       ))}
-    </>
+    </main>
   ) : (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+    <main
+      id="main"
+      className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 scroll-margin"
+    >
       {plants.map(plant => (
         <PlantCard key={plant.slug} plant={plant} query={query} />
       ))}
-    </div>
+    </main>
   );
 }

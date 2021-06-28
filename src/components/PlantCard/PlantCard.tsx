@@ -36,9 +36,9 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
           <div className="absolute -top-6">
             <SafetyBadge withBorder danger={plant.danger} />
           </div>
-          <div className="text-dark text-sm font-medium pt-4">
+          <h2 className="text-dark text-sm font-medium pt-4">
             {query ? highlightText(mainName, query) : mainName}
-          </div>
+          </h2>
           <div className="text-gray text-xs font-light">
             {query ? highlightText(latinName, query) : latinName}
           </div>
