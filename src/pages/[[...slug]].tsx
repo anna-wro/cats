@@ -22,6 +22,7 @@ export default function Home({ plants }) {
     ? `${makeStartCase(plant.name.pl[0])} - `
     : '';
 
+  // IDEA: message if wrong url
   return (
     <Layout title={`${plantTitle} ${copy.title}`}>
       <div className={`flex-1 ${plant ? 'fixed' : ''}`}>
