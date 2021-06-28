@@ -38,7 +38,7 @@ export default function VerifyInfo({ sources }: VerifyInfoType) {
               alt="check circle"
             />
           </div>
-          <div className="text-sm font-light">{copy.sourcesHeadline}</div>
+          <h3 className="text-sm font-light">{copy.sourcesHeadline}</h3>
         </div>
         <div
           className={`bg-gray bg-opacity-40 hover:bg-opacity-50 rounded-full 

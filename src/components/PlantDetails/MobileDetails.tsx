@@ -52,9 +52,9 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
       <main className="px-4 pb-8">
         {plant.symptoms && (
           <div className="mb-6" id="symptoms">
-            <div className="text-lg font-semibold mb-2">
+            <h3 className="text-lg font-semibold mb-2">
               {copy.symptomsHeadline}
-            </div>
+            </h3>
             <div className="text-xs leading-5">
               {makeStartCase(plant.symptoms)}
             </div>
@@ -70,9 +70,9 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
         )} */}
         {plant.source && (
           <div className="mb-6" id="sources">
-            <div className="text-lg font-semibold mb-2">
+            <h3 className="text-lg font-semibold mb-2">
               {copy.sourcesHeadline}
-            </div>
+            </h3>
             <ul className="list-decimal pl-4 mt-4 space-y-1.5">
               {plant.source.map(source => (
                 <li className="text-xs break-all" key={source}>
@@ -85,9 +85,9 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
           </div>
         )}
         <div className="mb-6">
-          <div className="text-lg font-semibold mb-2">
+          <h3 className="text-lg font-semibold mb-2">
             {copy.otherNamesHeadline}
-          </div>
+          </h3>
           <OtherNames names={plant.name} />
         </div>
       </main>
