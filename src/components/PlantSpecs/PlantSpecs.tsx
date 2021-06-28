@@ -10,11 +10,11 @@ type PlantDetailsType = Readonly<{ plant: PlantType }>;
 
 export default function PlantSpecs({ plant }: PlantDetailsType) {
   return (
-    <div className="flex flex-col h-full" role="main">
+    <main className="flex flex-col h-full">
       <div className="flex-1">
-        <div className="text-2xl font-semibold mb-2">
+        <h1 className="text-2xl font-semibold mb-2">
           {makeStartCase(plant.name.pl[0])}
-        </div>
+        </h1>
         <div className="text-sm mb-6">{makeStartCase(plant.name.lat)}</div>
         {/* TODO: WhatNow section */}
         {/* {plant.danger !== 0 && <WhatNow />} */}
@@ -42,6 +42,6 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
         {plant.source && <VerifyInfo sources={plant.source} />}
       </div>
       <OtherNames names={plant.name} />
-    </div>
+    </main>
   );
 }

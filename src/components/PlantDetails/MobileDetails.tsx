@@ -49,7 +49,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
         </div>
       </div>
       <MobileGallery plant={plant} />
-      <div className="px-4 pb-8" role="main">
+      <main className="px-4 pb-8">
         {plant.symptoms && (
           <div className="mb-6" id="symptoms">
             <div className="text-lg font-semibold mb-2">
@@ -90,7 +90,7 @@ export default function MobileDetails({ plant }: PlantDetailsType) {
           </div>
           <OtherNames names={plant.name} />
         </div>
-      </div>
+      </main>
     </div>
   );
 }

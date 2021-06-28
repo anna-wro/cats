@@ -47,9 +47,9 @@ export default function PlantFiche({ plant, query }: PlantFicheProps) {
         <div className="w-1/2 rounded-r-lg p-5">
           <div className="flex flex-col h-full items-center justify-center">
             <SafetyBadge danger={plant.danger} />
-            <div className="text-dark text-sm text-center leading-4 pt-2">
+            <h2 className="text-dark text-sm text-center leading-4 pt-2">
               {query ? highlightText(mainName, query) : mainName}
-            </div>
+            </h2>
             <div className="text-gray text-xs text-center font-light pt-2">
               {query ? highlightText(latinName, query) : latinName}
             </div>
