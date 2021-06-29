@@ -36,6 +36,8 @@ export const copy = {
   skipToMain: 'Przejdź do listy roślin',
   plantAriaLabel:
     'Roślina [NamePl] ([NameLat]) jest [Summary] - kliknij aby dowiedzieć się więcej',
+  metaDescription:
+    'Atlas roślin z informacjami o skutkach ich spożycia przez kota.', // TODO rewrite it
 };
 
 export function getPlantAriaLabel(plant: PlantType) {
