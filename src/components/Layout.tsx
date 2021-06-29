@@ -23,7 +23,7 @@ export default function Layout({
           name="google-site-verification"
           content="zvDdSyW4U7kvunGhvL_U2pq0tjfLcz8m9QW079aSubk"
         />
-        <meta name="description">{copy.metaDescription}</meta>
+        <meta name="description" content={copy.metaDescription} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
