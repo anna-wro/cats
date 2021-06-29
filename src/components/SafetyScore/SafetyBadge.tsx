@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { getVariant } from './variants';
-import { copy } from 'consts/copy';
 
 type SafetyBadgeProps = Readonly<{
   danger: number;
@@ -13,7 +12,7 @@ export default function SafetyBadge({
   withBorder,
   large,
 }: SafetyBadgeProps) {
-  const { bg, icon } = getVariant(danger);
+  const { bg, icon, emojiAlt } = getVariant(danger);
 
   return (
     <div
@@ -26,7 +25,7 @@ export default function SafetyBadge({
         src={icon}
         width={large ? 34 : 28}
         height={large ? 34 : 28}
-        alt={`${copy.safetyBadgeAlt} - ${danger}`}
+        alt={emojiAlt}
       />
     </div>
   );
