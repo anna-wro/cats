@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { getVariant } from './variants';
-import { copy } from 'consts/copy';
 
 type SafetyBadgeProps = Readonly<{
   danger: number;
