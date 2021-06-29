@@ -1,3 +1,6 @@
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
+import { getVariant } from 'components/SafetyScore/variants';
+
 export const copy = {
   title: 'Rośliny dla kota',
   closeButtonAlt: 'zamknij',
@@ -28,6 +31,17 @@ export const copy = {
   sourcesIconAlt: 'Przewiń do sekcji: Zweryfikuj informacje',
   sortLabel: 'Sortuj wyniki',
   skipToMain: 'Przejdź do listy roślin',
+  plantAriaLabel:
+    'Roślina o nazwie [NamePl] ([NameLat]) jest [Summary] - kliknij aby dowiedzieć się więcej',
 };
+
+export function getPlantAriaLabel(plant: PlantType) {
+  const { label } = getVariant(plant.danger);
+
+  return copy.plantAriaLabel
+    .replace('[NamePl]', plant.name.pl[0])
+    .replace('[NameLat]', plant.name.lat)
+    .replace('[Summary]', label);
+}
 
 export default copy;
