@@ -32,7 +32,7 @@ export const copy = {
   sortLabel: 'Sortuj wyniki',
   skipToMain: 'Przejdź do listy roślin',
   plantAriaLabel:
-    'Roślina o nazwie [NamePl] ([NameLat]) jest [Summary] - kliknij aby dowiedzieć się więcej',
+    'Roślina [NamePl] ([NameLat]) jest [Summary] - kliknij aby dowiedzieć się więcej',
 };
 
 export function getPlantAriaLabel(plant: PlantType) {
