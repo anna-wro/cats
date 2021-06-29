@@ -54,7 +54,6 @@ export default function PlantsFacade({ items: { safe, toxic } }) {
     setSortOrder(e.currentTarget.value);
   }
 
-  // TODO: Add <header>, <article>, <summary> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
   return (
     <div className="relative">
       <Title />
