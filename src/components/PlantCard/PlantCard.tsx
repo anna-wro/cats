@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getPlantAriaLabel } from 'consts/copy';
 import usePhoto from 'utils/usePhoto';
 import SafetyLabel from 'components/SafetyScore/SafetyLabel';
 import SafetyBadge from 'components/SafetyScore/SafetyBadge';
@@ -15,12 +16,14 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
   const photo = usePhoto(plant.imageID[0]);
   const mainName = makeStartCase(plant.name.pl[0]);
   const latinName = makeStartCase(plant.name.lat);
+  const ariaLabel = getPlantAriaLabel(plant);
 
   return (
     <Link href={plant.slug}>
       <a
         className="w-100 max-w-xs shadow rounded-lg cursor-pointer outline-rounded outline-bold"
         href={plant.slug}
+        aria-label={ariaLabel}
       >
         <div className="h-48 rounded-t-lg overflow-hidden bg-gray-light bg-opacity-30">
           {photo && (
@@ -36,9 +39,9 @@ export default function PlantCard({ plant, query }: PlantCardProps) {
           <div className="absolute -top-6">
             <SafetyBadge withBorder danger={plant.danger} />
           </div>
-          <div className="text-dark text-sm font-medium pt-4">
+          <h2 className="text-dark text-sm font-medium pt-4">
             {query ? highlightText(mainName, query) : mainName}
-          </div>
+          </h2>
           <div className="text-gray text-xs font-light">
             {query ? highlightText(latinName, query) : latinName}
           </div>

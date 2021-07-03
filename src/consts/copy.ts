@@ -1,3 +1,6 @@
+import type { PlantType } from 'components/PlantFiche/PlantFiche';
+import { getVariant } from 'components/SafetyScore/variants';
+
 export const copy = {
   title: 'Rośliny dla kota',
   closeButtonAlt: 'zamknij',
@@ -16,6 +19,9 @@ export const copy = {
   slightlyToxicPlantLabel: 'Lekko trująca',
   toxicPlantLabel: 'Trująca',
   highlyToxicPlantLabel: 'Silnie trująca',
+  safePlantEmojiAlt: 'uśmiechnięta twarz',
+  toxicPlantEmojiAlt: 'smutna twarz',
+  highlyToxicPlantEmojiAlt: 'bardza smutna twarz',
   mainPageNav: 'Rośliny',
   blogPageNav: 'Blog',
   sortAscending: 'Po nazwie rosnąco',
@@ -26,6 +32,21 @@ export const copy = {
   symptomsIconAlt: 'Przewiń do sekcji: Objawy',
   whatNowIconAlt: 'Przewiń do sekcji: Co zrobić',
   sourcesIconAlt: 'Przewiń do sekcji: Zweryfikuj informacje',
+  sortLabel: 'Sortuj wyniki',
+  skipToMain: 'Przejdź do listy roślin',
+  plantAriaLabel:
+    'Roślina [NamePl] ([NameLat]) jest [Summary] - kliknij aby dowiedzieć się więcej',
+  metaDescription:
+    'Atlas roślin z informacjami o skutkach ich spożycia przez kota.', // TODO rewrite it
 };
+
+export function getPlantAriaLabel(plant: PlantType) {
+  const { label } = getVariant(plant.danger);
+
+  return copy.plantAriaLabel
+    .replace('[NamePl]', plant.name.pl[0])
+    .replace('[NameLat]', plant.name.lat)
+    .replace('[Summary]', label);
+}
 
 export default copy;

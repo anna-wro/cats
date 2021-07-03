@@ -11,6 +11,7 @@ export default function SortingOrder({ value, onChange }: SortingOrderType) {
       <select
         defaultValue={value}
         onBlur={e => onChange(e)}
+        aria-label={copy.sortLabel}
         className="sorting-order appearance-none border border-gray rounded-lg py-px pl-2 pr-5 
       text-xs text-dark font-bold focus:border-blue focus:outline-none"
       >

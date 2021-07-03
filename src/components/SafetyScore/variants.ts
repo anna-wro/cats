@@ -8,6 +8,7 @@ export function getVariant(danger: number) {
         bg: 'bg-blue-light',
         icon: '/smile.svg',
         label: copy.safePlantLabel,
+        emojiAlt: copy.safePlantEmojiAlt,
       };
     case 1:
     case 2:
@@ -17,6 +18,7 @@ export function getVariant(danger: number) {
         bg: 'bg-orange-light',
         icon: '/frown.svg',
         label: copy.toxicPlantLabel,
+        emojiAlt: copy.toxicPlantEmojiAlt,
       };
     case 3:
       return {
@@ -24,6 +26,7 @@ export function getVariant(danger: number) {
         bg: 'bg-red-light',
         icon: '/very-frowned.svg',
         label: copy.highlyToxicPlantLabel,
+        emojiAlt: copy.highlyToxicPlantEmojiAlt,
       };
   }
 }

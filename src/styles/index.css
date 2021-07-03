@@ -118,3 +118,18 @@ input[type='search']::-webkit-search-results-decoration {
 .outline-spaced {
   outline-offset: 0.25em;
 }
+
+.scroll-margin {
+  scroll-margin-top: 20px;
+}
+
+.skip-to-content-link {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}

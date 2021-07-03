@@ -8,7 +8,10 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
   const scrollRef = useRef();
 
   return (
-    <div className="flex flex-col items-center w-full h-full">
+    <div
+      className="flex flex-col items-center w-full h-full"
+      role="complementary"
+    >
       <div
         className="flex-1 overflow-y-scroll w-full py-10 px-4 md:px-20 lg:px-32"
         ref={scrollRef}
