@@ -13,12 +13,11 @@ export default function PlantGalleryItem({
 }) {
   const photo = usePhoto(ID);
 
-  // REFACTOR: React Hook useEffect has a missing dependency: 'onDataFetched'.ń
   useEffect(() => {
     if (photo) {
       onDataFetched();
     }
-  }, [photo]);
+  }, [photo, onDataFetched]);
 
   return scrollBoxEnabled && photo ? (
     <ScrollBox scrollRef={scrollRef}>
