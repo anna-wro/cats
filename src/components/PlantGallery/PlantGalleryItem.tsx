@@ -1,16 +1,25 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import Credits from './Credits';
 import usePhoto from 'utils/usePhoto';
 import ImageContainer from 'components/Image/ImageContainer';
 import ScrollBox from 'components/PlantGallery/ScrollBox';
 
-export default function PlantGalleryItem({ imgAlt, ID, scrollRef }) {
+export default function PlantGalleryItem({
+  imgAlt,
+  ID,
+  scrollRef,
+  onDataFetched,
+  scrollBoxEnabled,
+}) {
   const photo = usePhoto(ID);
-  const [showItem, setShowItem] = useState(false);
 
-  setTimeout(() => setShowItem(true), 2000);
+  useEffect(() => {
+    if (photo) {
+      onDataFetched();
+    }
+  }, [photo]);
 
-  return showItem && photo ? (
+  return scrollBoxEnabled && photo ? (
     <ScrollBox scrollRef={scrollRef}>
       <div className="h-full my-14">
         <ImageContainer

@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import PlantGalleryItem from './PlantGalleryItem';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
@@ -6,6 +6,19 @@ type PlantGalleryType = Readonly<{ plant: PlantType }>;
 
 export default function PlantGallery({ plant }: PlantGalleryType) {
   const scrollRef = useRef();
+  const [loadedPhotoData, setLoadedPhotoData] = useState(0);
+  const [scrollBoxEnabled, setScrollBoxEnabled] = useState(false);
+  const requiredImagesCount = plant.imageID.length;
+
+  const handlePhotoDataFetched = () => {
+    setLoadedPhotoData(loadedPhotoData + 1);
+  };
+
+  useEffect(() => {
+    if (loadedPhotoData >= requiredImagesCount) {
+      setScrollBoxEnabled(true);
+    }
+  }, [loadedPhotoData, requiredImagesCount]);
 
   return (
     <div
@@ -24,6 +37,8 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
                 ID={ID}
                 imgAlt={plant.name.lat}
                 scrollRef={scrollRef}
+                scrollBoxEnabled={scrollBoxEnabled}
+                onDataFetched={handlePhotoDataFetched}
               />
             ))}
           </div>
