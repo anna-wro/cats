@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, useCallback } from 'react';
+import { useRef, useState, useCallback } from 'react';
 import PlantGalleryItem from './PlantGalleryItem';
 import type { PlantType } from 'components/PlantFiche/PlantFiche';
 
@@ -15,11 +15,9 @@ export default function PlantGallery({ plant }: PlantGalleryType) {
     [],
   );
 
-  useEffect(() => {
-    if (loadedPhotoData >= requiredImagesCount) {
-      setScrollBoxEnabled(true);
-    }
-  }, [loadedPhotoData, requiredImagesCount]);
+  if (loadedPhotoData >= requiredImagesCount && !scrollBoxEnabled) {
+    setScrollBoxEnabled(true);
+  }
 
   return (
     <div
