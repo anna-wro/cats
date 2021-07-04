@@ -19,19 +19,19 @@ export default function PlantSpecs({ plant }: PlantDetailsType) {
         {/* TODO: WhatNow section */}
         {/* {plant.danger !== 0 && <WhatNow />} */}
         <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-2">{copy.dangerHeadline}</h3>
+          <h2 className="text-lg font-semibold mb-2">{copy.dangerHeadline}</h2>
           <SafetyScore danger={plant.danger} />
           {plant.note && (
-            <h3 className="text-xs leading-5 mt-3">
+            <h2 className="text-xs leading-5 mt-3">
               {makeStartCase(plant.note)}
-            </h3>
+            </h2>
           )}
         </div>
         {plant.symptoms && (
           <div className="mb-6">
-            <h3 className="text-lg font-semibold mb-2">
+            <h2 className="text-lg font-semibold mb-2">
               {copy.symptomsHeadline}
-            </h3>
+            </h2>
             <div className="text-xs leading-5">
               {makeStartCase(plant.symptoms)}
             </div>
