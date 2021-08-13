@@ -18,7 +18,7 @@
     "focus-trap-react": "^8.6.0",
     "framer-motion": "^3.2.2-rc.1",
     "match-sorter": "^6.0.2",
-    "next": "^11.0.1-canary.5",
+    "next": "^11.1.0",
     "next-images": "^1.6.2",
     "polish-plurals": "^1.1.0",
     "react": "^17.0.2",
