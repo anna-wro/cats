@@ -62,7 +62,7 @@ export default function usePhoto(ID: string): PlantPhotoInfoType {
       fetch(url)
         .then(response => response.json())
         .then(data => {
-          if (mounted && CC_LICENSES.includes(data.photo.license)) {
+          if (mounted && CC_LICENSES.includes(data?.photo?.license)) {
             setPhoto({ ...data.photo, links: getPhotoLinks(data.photo) });
           }
         });

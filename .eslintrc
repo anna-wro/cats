@@ -11,8 +11,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
-    "next",
-    "next/core-web-vitals"
+    "next"
   ],
   "plugins": ["prettier", "@typescript-eslint", "jsx-a11y"],
   "rules": {
