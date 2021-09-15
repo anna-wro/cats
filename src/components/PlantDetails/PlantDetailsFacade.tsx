@@ -23,11 +23,10 @@ export default function PlantDetailsFacade({ plant }: PlantDetailsType) {
   return (
     <FocusTrap active={isMobile !== undefined}>
       <div className="bg-white fixed top-0 left-0 w-full h-screen z-10">
-        {isMobile === false ? (
+        <>
           <DesktopDetails plant={plant} onKeyDown={handleKeyDown} />
-        ) : (
           <MobileDetails plant={plant} />
-        )}
+        </>
       </div>
     </FocusTrap>
   );
