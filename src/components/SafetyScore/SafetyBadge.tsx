@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { getVariant } from './variants';
 
@@ -21,7 +22,7 @@ export default function SafetyBadge({
         withBorder ? 'border-4 border-white rounded-full' : 'rounded-2xl'
       } ${large ? 'w-14 h-14' : 'w-12 h-12'}`}
     >
-      <Image
+      <img
         src={icon}
         width={large ? 34 : 28}
         height={large ? 34 : 28}
