@@ -8,7 +8,7 @@ export default function DesktopDetails({ plant, onKeyDown }: PlantDetailsType) {
     // NOTE: closing the modal on click in handled in CloseButton
     // eslint-disable-next-line jsx-a11y/no-static-element-interactions
     <div
-      className="h-full divide-x divide-gray-light hidden md:flex"
+      className="h-full divide-x divide-gray-light sm:hidden md:flex"
       onKeyDown={onKeyDown}
     >
       <div className="w-full max-w-sm py-10 px-8">
