@@ -1,10 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit',
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: [
+  content: [
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
   ],
@@ -33,6 +29,12 @@ module.exports = {
       borderWidth: { 1: '1px' },
     },
   },
-  variants: {},
   plugins: [],
+  purge: {
+    enabled: true,
+    content: [
+      './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+      './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+  },
 };
