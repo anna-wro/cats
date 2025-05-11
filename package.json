@@ -62,7 +62,9 @@
     "typescript": "^4.3.4"
   },
   "resolutions": {
-    "postcss-focus-within": "^4.0.0"
+    "postcss-focus-within": "^4.0.0",
+    "unrs-resolver": "^1.7.2",
+    "napi-postinstall": "^1.0.0"
   },
   "husky": {
     "hooks": {
