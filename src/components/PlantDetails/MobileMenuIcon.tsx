@@ -11,14 +11,12 @@ export default function MobileMenuIcon({
   alt: string;
 }) {
   return (
-    <Link href={href}>
-      <a
-        href={href}
-        className="inline-flex flex-row items-center content-center cursor-pointer 
-        bg-white hover:bg-gray-light rounded-lg px-2 py-2 outline-rounded border-1 border-gray-light"
-      >
-        <Image width={20} height={20} src={src} alt={alt} />
-      </a>
+    <Link
+      href={href}
+      className="inline-flex flex-row items-center content-center cursor-pointer 
+      bg-white hover:bg-gray-light rounded-lg px-2 py-2 outline-rounded border-1 border-gray-light"
+    >
+      <Image width={20} height={20} src={src} alt={alt} />
     </Link>
   );
 }
